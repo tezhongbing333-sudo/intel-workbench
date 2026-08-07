@@ -1,30 +1,6 @@
-// AI 情报工作台 · 每日简报数据层（v3 滚动累积池）
-// cat 分类 / time 时间 / title 标题 / summary 摘要 / impact 重要性(high|mid|low)
-// related 是否与我相关 / decision 决策提示 / source 来源 / url 原文链接 / overseas 海外源
-// 本文件由 tools/merge_pool.js 自动生成，勿手改
-window.BRIEFING = {
- "date": "2026-08-07",
- "edition": "每日双版 · 早览 + 详报（滚动累积池）",
- "generatedAt": "2026-08-07 10:40",
- "scope": "中国优先 + 全球要闻（金融 · AI行业 · 母婴 · 政治 · 军事 · 经济 · 科技 · 社会 · 娱乐），海外条目标注「海外」",
- "poolMode": true,
- "kpi": {
-  "total": 241,
-  "high": 78,
-  "related": 143,
-  "todayNew": 63
- },
- "catCounts": {
-  "金融": 8,
-  "AI行业": 11,
-  "母婴": 8,
-  "政治/政策": 63,
-  "军事/地缘": 7,
-  "经济": 8,
-  "科技": 67,
-  "社会/生活": 68,
-  "娱乐/文娱": 1
- },
+{
+ "updatedAt": "2026-08-07 10:40",
+ "count": 241,
  "items": [
   {
    "cat": "金融",
@@ -3401,4 +3377,4 @@ window.BRIEFING = {
    "id": 241
   }
  ]
-};
+}
