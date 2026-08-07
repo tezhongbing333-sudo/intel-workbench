@@ -1,5 +1,5 @@
 // AI 情报工作台 - Service Worker（v2 缓存策略：文档/数据网络优先，保证每日更新即时生效）
-const VERSION = 'intel-v2';
+const VERSION = 'intel-v3-pool';
 const CACHE = 'intel-cache-' + VERSION;
 const ASSETS = ['./', './index.html', './data.js', './manifest.webmanifest', './icon.svg'];
 

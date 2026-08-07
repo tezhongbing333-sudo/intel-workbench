@@ -42,8 +42,10 @@
   .search::placeholder{color:var(--sub)}
   .chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:12px;scrollbar-width:none}
   .chips::-webkit-scrollbar{display:none}
-  .chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--sub);border-radius:999px;padding:6px 13px;font-size:13px;cursor:pointer;white-space:nowrap}
+  .chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--sub);border-radius:999px;padding:6px 13px;font-size:13px;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:6px}
   .chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+  .chip .cnt{font-size:11px;background:var(--line);color:var(--sub);border-radius:999px;padding:0 6px;min-width:20px;text-align:center;font-variant-numeric:tabular-nums}
+  .chip.on .cnt{background:var(--accent);color:#fff}
   .item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 15px;margin-bottom:11px;position:relative}
   .item .top{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
   .tag{font-size:12px;padding:2px 9px;border-radius:999px;color:#fff}
@@ -58,7 +60,9 @@
   .src{display:flex;align-items:center;justify-content:space-between;margin-top:10px;font-size:12px;color:var(--sub)}
   .src a{color:var(--accent);text-decoration:none}
   .empty{text-align:center;color:var(--sub);padding:40px 0}
-  .more{display:block;width:100%;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:12px;padding:12px;font-size:14px;cursor:pointer;margin-bottom:11px}
+  .morebar{display:flex;gap:9px;margin-bottom:11px}
+  .more{flex:1;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:12px;padding:12px 8px;font-size:14px;cursor:pointer}
+  .more.alt{flex:0 0 42%;background:var(--card);border-color:var(--line);color:var(--sub)}
   .more:active{transform:scale(.98)}
   footer{font-size:12px;color:var(--sub);margin-top:18px;text-align:center;line-height:1.8}
   .banner{background:var(--accent-soft);border:1px solid var(--accent);color:var(--text);border-radius:12px;padding:11px 13px;font-size:13px;margin-bottom:14px;display:none}
@@ -132,9 +136,14 @@
   var high = items.filter(function(it){return it.impact==="high";}).length;
   var related = items.filter(function(it){return it.related;}).length;
   document.getElementById("kpis").innerHTML =
-    '<div class="kpi"><div class="n">'+total+'</div><div class="l">今日头条</div></div>'+
+    '<div class="kpi"><div class="n">'+total+'</div><div class="l">情报池总量</div></div>'+
     '<div class="kpi hot"><div class="n">'+high+'</div><div class="l">高影响事件</div></div>'+
     '<div class="kpi rel"><div class="n">'+related+'</div><div class="l">与你相关</div></div>';
+
+  // 各类目条数（供 chip 角标显示）
+  var catCount = {};
+  items.forEach(function(it){ catCount[it.cat] = (catCount[it.cat]||0) + 1; });
+  catCount["全部"] = total;
 
   // 分类筛选
   var chips = document.getElementById("chips");
@@ -142,7 +151,8 @@
   all.forEach(function(c){
     var el = document.createElement("div");
     el.className = "chip"+(c===filter?" on":"");
-    el.textContent = c;
+    var n = catCount[c] || 0;
+    el.innerHTML = c + '<span class="cnt">' + n + '</span>';
     el.onclick = function(){ filter=c; document.querySelectorAll(".chip").forEach(function(x){x.classList.remove("on")}); el.classList.add("on"); render(); };
     chips.appendChild(el);
   });
@@ -180,15 +190,23 @@
     var limit = getVisible(filter);
     var shown = matched.slice(0, limit);
     var htmlStr = shown.map(card).join("");
-    if(matched.length > limit){
-      htmlStr += '<button class="more" id="more">查看更多（+10）▼ 还剩 '+(matched.length-limit)+' 条</button>';
+    var rest = matched.length - limit;
+    if(rest > 0){
+      htmlStr += '<div class="morebar">'+
+        '<button class="more" id="more">查看更多（+10）▼ 还剩 '+rest+' 条</button>'+
+        '<button class="more alt" id="moreAll">展开全部 '+matched.length+' 条</button>'+
+      '</div>';
     }
     list.innerHTML = htmlStr;
-    if(matched.length > limit){
+    if(rest > 0){
       document.getElementById("more").onclick = function(){
         visible[filter] = getVisible(filter) + 10;
         render();
         window.scrollBy({top: 380, behavior:"smooth"});
+      };
+      document.getElementById("moreAll").onclick = function(){
+        visible[filter] = matched.length;
+        render();
       };
     }
   }
