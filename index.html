@@ -12,13 +12,13 @@
     --bg:#f6f7f9; --card:#ffffff; --text:#1b1d22; --sub:#5f6369; --line:#e6e8ec;
     --accent:#0f8f73; --accent-soft:#e3f3ee;
     --c-pol:#e24b4a; --c-mil:#d85a30; --c-eco:#5a9e2f; --c-tec:#2f7fd6; --c-soc:#c08a1e; --c-ent:#cf4f86;
-    --c-fin:#7c5cff; --c-ai:#0fb5c9;
+    --c-fin:#7c5cff; --c-ai:#0fb5c9; --c-baby:#e84393;
   }
   html[data-theme="dark"]{
     --bg:#0f1115; --card:#171a21; --text:#e8eaed; --sub:#9aa0a8; --line:#262b33;
     --accent:#39c2a0; --accent-soft:#10302a;
     --c-pol:#f06a68; --c-mil:#ef8a5a; --c-eco:#86c95a; --c-tec:#5fa8f0; --c-soc:#e0ad4a; --c-ent:#ec7aa8;
-    --c-fin:#9b7bff; --c-ai:#3fd0e0;
+    --c-fin:#9b7bff; --c-ai:#3fd0e0; --c-baby:#f56fae;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
@@ -101,10 +101,10 @@
 <script src="data.js"></script>
 <script>
 (function(){
-  var CATS = ["政治/政策","军事/地缘","经济","科技","社会/生活","娱乐/文娱","金融","AI行业"];
+  var CATS = ["金融","AI行业","母婴","政治/政策","军事/地缘","经济","科技","社会/生活","娱乐/文娱"];
   var COLORS = {
     "政治/政策":"--c-pol","军事/地缘":"--c-mil","经济":"--c-eco","科技":"--c-tec",
-    "社会/生活":"--c-soc","娱乐/文娱":"--c-ent","金融":"--c-fin","AI行业":"--c-ai"
+    "社会/生活":"--c-soc","娱乐/文娱":"--c-ent","金融":"--c-fin","AI行业":"--c-ai","母婴":"--c-baby"
   };
   var B = window.BRIEFING || {date:"",items:[]};
   var filter = "全部";
