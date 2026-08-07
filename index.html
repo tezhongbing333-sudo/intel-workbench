@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#0f1115" />
+<title>AI 情报工作台</title>
+<link rel="manifest" href="manifest.webmanifest" />
+<link rel="icon" href="icon.svg" type="image/svg+xml" />
+<style>
+  :root{
+    --bg:#f6f7f9; --card:#ffffff; --text:#1b1d22; --sub:#5f6369; --line:#e6e8ec;
+    --accent:#0f8f73; --accent-soft:#e3f3ee;
+    --c-pol:#e24b4a; --c-mil:#d85a30; --c-eco:#5a9e2f; --c-tec:#2f7fd6; --c-soc:#c08a1e; --c-ent:#cf4f86;
+    --c-fin:#7c5cff; --c-ai:#0fb5c9;
+  }
+  html[data-theme="dark"]{
+    --bg:#0f1115; --card:#171a21; --text:#e8eaed; --sub:#9aa0a8; --line:#262b33;
+    --accent:#39c2a0; --accent-soft:#10302a;
+    --c-pol:#f06a68; --c-mil:#ef8a5a; --c-eco:#86c95a; --c-tec:#5fa8f0; --c-soc:#e0ad4a; --c-ent:#ec7aa8;
+    --c-fin:#9b7bff; --c-ai:#3fd0e0;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  body{margin:0;background:var(--bg);color:var(--text);font:15px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+  .wrap{max-width:760px;margin:0 auto;padding:16px 14px 40px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:4px}
+  .brand{display:flex;align-items:center;gap:10px}
+  .logo{width:34px;height:34px;border-radius:9px;background:var(--accent-soft);display:flex;align-items:center;justify-content:center}
+  .logo svg{width:22px;height:22px}
+  h1{font-size:18px;margin:0;font-weight:600}
+  .sub{font-size:12px;color:var(--sub);margin-top:1px}
+  .tools{display:flex;gap:8px}
+  .btn{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:10px;padding:7px 10px;font-size:13px;cursor:pointer}
+  .btn:active{transform:scale(.97)}
+  .meta{font-size:12px;color:var(--sub);margin:10px 0 14px;display:flex;flex-wrap:wrap;gap:6px 14px}
+  .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+  .kpi .n{font-size:26px;font-weight:600;line-height:1}
+  .kpi .l{font-size:12px;color:var(--sub);margin-top:6px}
+  .kpi.hot .n{color:var(--c-pol)} .kpi.rel .n{color:var(--accent)}
+  .search{width:100%;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:12px;padding:11px 13px;font-size:14px;margin-bottom:12px}
+  .search::placeholder{color:var(--sub)}
+  .chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:12px;scrollbar-width:none}
+  .chips::-webkit-scrollbar{display:none}
+  .chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--sub);border-radius:999px;padding:6px 13px;font-size:13px;cursor:pointer;white-space:nowrap}
+  .chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 15px;margin-bottom:11px;position:relative}
+  .item .top{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+  .tag{font-size:12px;padding:2px 9px;border-radius:999px;color:#fff}
+  .time{font-size:12px;color:var(--sub)}
+  .rel{font-size:11px;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:1px 8px;margin-left:auto}
+  .imp{font-size:11px;color:var(--sub);border:1px solid var(--line);border-radius:999px;padding:1px 8px}
+  .ovs{font-size:11px;color:#fff;background:#d97706;border-radius:999px;padding:1px 8px}
+  .item h3{font-size:15.5px;margin:0 0 6px;font-weight:600;line-height:1.45}
+  .item p{margin:0 0 9px;color:var(--sub);font-size:13.5px}
+  .decision{background:var(--accent-soft);border-left:3px solid var(--accent);border-radius:0 10px 10px 0;padding:9px 11px;font-size:13px;color:var(--text)}
+  .decision b{color:var(--accent)}
+  .src{display:flex;align-items:center;justify-content:space-between;margin-top:10px;font-size:12px;color:var(--sub)}
+  .src a{color:var(--accent);text-decoration:none}
+  .empty{text-align:center;color:var(--sub);padding:40px 0}
+  .more{display:block;width:100%;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);border-radius:12px;padding:12px;font-size:14px;cursor:pointer;margin-bottom:11px}
+  .more:active{transform:scale(.98)}
+  footer{font-size:12px;color:var(--sub);margin-top:18px;text-align:center;line-height:1.8}
+  .banner{background:var(--accent-soft);border:1px solid var(--accent);color:var(--text);border-radius:12px;padding:11px 13px;font-size:13px;margin-bottom:14px;display:none}
+  .banner.show{display:block}
+  .banner b{color:var(--accent)}
+  .legend{font-size:11px;color:var(--sub);margin:-4px 0 12px;display:flex;gap:10px;align-items:center}
+  .legend .ovs{position:static}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo"><svg viewBox="0 0 512 512"><circle cx="256" cy="256" r="150" fill="none" stroke="currentColor" stroke-width="22"/><path d="M176 256 L236 316 L352 196" fill="none" stroke="currentColor" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+      <div><h1>AI 情报工作台</h1><div class="sub">每日全球要闻 · 你的决策情报</div></div>
+    </div>
+    <div class="tools">
+      <button class="btn" id="bell">提醒</button>
+      <button class="btn" id="theme">🌙</button>
+    </div>
+  </header>
+
+  <div class="banner" id="banner"></div>
+
+  <div class="meta" id="meta"></div>
+
+  <div class="kpis" id="kpis"></div>
+
+  <input class="search" id="search" placeholder="搜索关键词，如：联通 / 育儿 / 汇率 / 消金" />
+
+  <div class="chips" id="chips"></div>
+
+  <div class="legend"><span class="ovs">海外</span><span>标记为「海外」的条目来自国际媒体信源</span></div>
+
+  <div id="list"></div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function(){
+  var CATS = ["政治/政策","军事/地缘","经济","科技","社会/生活","娱乐/文娱","金融","AI行业"];
+  var COLORS = {
+    "政治/政策":"--c-pol","军事/地缘":"--c-mil","经济":"--c-eco","科技":"--c-tec",
+    "社会/生活":"--c-soc","娱乐/文娱":"--c-ent","金融":"--c-fin","AI行业":"--c-ai"
+  };
+  var B = window.BRIEFING || {date:"",items:[]};
+  var filter = "全部";
+  var query = "";
+  var visible = {}; // 每类目已展示条数（默认 10）
+
+  function getVisible(cat){ return visible[cat] || 10; }
+
+  // 主题
+  var html = document.documentElement;
+  var saved = localStorage.getItem("intel-theme");
+  if(saved){ html.setAttribute("data-theme", saved); document.getElementById("theme").textContent = saved==="dark"?"☀️":"🌙"; }
+  document.getElementById("theme").onclick = function(){
+    var d = html.getAttribute("data-theme")==="dark" ? "light":"dark";
+    html.setAttribute("data-theme", d); localStorage.setItem("intel-theme", d);
+    this.textContent = d==="dark"?"☀️":"🌙";
+  };
+
+  // 元信息 + KPI（KPI 由数据动态计算，避免与条数不一致）
+  var meta = document.getElementById("meta");
+  meta.innerHTML = "<span>📅 "+B.date+"</span><span>📰 "+B.edition+"</span><span>🌐 "+(B.scope||"")+"</span><span>🕒 生成 "+B.generatedAt+"</span>";
+
+  var items = B.items || [];
+  var total = items.length;
+  var high = items.filter(function(it){return it.impact==="high";}).length;
+  var related = items.filter(function(it){return it.related;}).length;
+  document.getElementById("kpis").innerHTML =
+    '<div class="kpi"><div class="n">'+total+'</div><div class="l">今日头条</div></div>'+
+    '<div class="kpi hot"><div class="n">'+high+'</div><div class="l">高影响事件</div></div>'+
+    '<div class="kpi rel"><div class="n">'+related+'</div><div class="l">与你相关</div></div>';
+
+  // 分类筛选
+  var chips = document.getElementById("chips");
+  var all = ["全部"].concat(CATS);
+  all.forEach(function(c){
+    var el = document.createElement("div");
+    el.className = "chip"+(c===filter?" on":"");
+    el.textContent = c;
+    el.onclick = function(){ filter=c; document.querySelectorAll(".chip").forEach(function(x){x.classList.remove("on")}); el.classList.add("on"); render(); };
+    chips.appendChild(el);
+  });
+
+  document.getElementById("search").addEventListener("input", function(e){ query = e.target.value.trim(); render(); });
+
+  function colorVar(cat){ return getComputedStyle(html).getPropertyValue(COLORS[cat]||"--accent").trim(); }
+
+  function card(it){
+    var col = colorVar(it.cat);
+    var imp = it.impact==="high"?"高影响":(it.impact==="mid"?"中":"低");
+    return '<div class="item">'+
+      '<div class="top">'+
+        '<span class="tag" style="background:'+col+'">'+it.cat+'</span>'+
+        (it.overseas?'<span class="ovs">海外</span>':'')+
+        '<span class="time">'+it.time+'</span>'+
+        '<span class="imp">'+imp+'</span>'+
+        (it.related?'<span class="rel">★ 与你相关</span>':'')+
+      '</div>'+
+      '<h3>'+it.title+'</h3>'+
+      '<p>'+it.summary+'</p>'+
+      '<div class="decision"><b>决策提示：</b>'+it.decision+'</div>'+
+      '<div class="src"><span>来源：'+it.source+'</span><a href="'+it.url+'" target="_blank" rel="noopener">查看原文 ↗</a></div>'+
+    '</div>';
+  }
+
+  function render(){
+    var list = document.getElementById("list");
+    var matched = items.filter(function(it){
+      if(filter!=="全部" && it.cat!==filter) return false;
+      if(query && (it.title+it.summary+it.decision+it.source).indexOf(query)===-1) return false;
+      return true;
+    });
+    if(!matched.length){ list.innerHTML = '<div class="empty">没有匹配的内容</div>'; return; }
+    var limit = getVisible(filter);
+    var shown = matched.slice(0, limit);
+    var htmlStr = shown.map(card).join("");
+    if(matched.length > limit){
+      htmlStr += '<button class="more" id="more">查看更多（+10）▼ 还剩 '+(matched.length-limit)+' 条</button>';
+    }
+    list.innerHTML = htmlStr;
+    if(matched.length > limit){
+      document.getElementById("more").onclick = function(){
+        visible[filter] = getVisible(filter) + 10;
+        render();
+        window.scrollBy({top: 380, behavior:"smooth"});
+      };
+    }
+  }
+  render();
+
+  document.getElementById("footer").innerHTML = "AI 情报工作台 · 自动每日更新（早 07:00 / 晚 19:00）<br>可“添加到主屏幕”当作 App 使用 · 内容由公开网络检索聚合，仅供参考";
+
+  // 安装提示
+  var deferred = null;
+  var banner = document.getElementById("banner");
+  window.addEventListener("beforeinstallprompt", function(e){ e.preventDefault(); deferred = e;
+    banner.className = "banner show";
+    banner.innerHTML = '📲 可把这页<b>“添加到主屏幕”</b>当 App 用：手机浏览器菜单 → 添加到主屏幕。点此也可安装。<button class="btn" id="install" style="margin-left:8px">立即安装</button>';
+    document.getElementById("install").onclick = function(){ deferred && deferred.prompt(); };
+  });
+  if(window.navigator && navigator.standalone){ /* iOS 已安装 */ }
+  else if(!window.matchMedia("(display-mode: standalone)").matches && !deferred){
+    banner.className = "banner show";
+    banner.innerHTML = '📲 手机上使用：浏览器打开后，点菜单 → <b>“添加到主屏幕”</b>，即可像 App 一样随时打开。';
+  }
+
+  // 提醒（本地通知；真实后台推送为第二阶段）
+  var bell = document.getElementById("bell");
+  bell.onclick = function(){
+    if(!("Notification" in window)){ alert("当前浏览器不支持通知，请每天自行打开工作台查看。"); return; }
+    if(Notification.permission === "granted"){
+      new Notification("AI 情报工作台", {body:"已开启提醒 · 今日简报 "+B.date+" 已就绪", icon:"icon.svg"});
+    } else if(Notification.permission !== "denied"){
+      Notification.requestPermission().then(function(p){
+        if(p==="granted") new Notification("AI 情报工作台", {body:"提醒已开启，每日简报更新时可收到通知", icon:"icon.svg"});
+        else alert("未授权通知。每天自动运行后，打开本页即可看到最新简报。");
+      });
+    } else { alert("通知已被拒绝，请在浏览器设置中开启，或每天自行打开工作台。"); }
+  };
+
+  // 注册 Service Worker（离线 + 安装）
+  if("serviceWorker" in navigator){
+    var hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener("controllerchange", function(){
+      if(!hadController){ hadController = true; return; } // 跳过首次安装，仅在新版本接管时自动刷新
+      location.reload();
+    });
+    navigator.serviceWorker.register("sw.js").catch(function(){});
+  }
+})();
+</script>
+</body>
+</html>

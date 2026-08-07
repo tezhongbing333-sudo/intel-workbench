@@ -1,0 +1,15 @@
+{
+  "name": "AI 情报工作台",
+  "short_name": "情报台",
+  "description": "每日全球要闻 + 个性化决策提示",
+  "lang": "zh-CN",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1115",
+  "theme_color": "#0f1115",
+  "icons": [
+    { "src": "icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" }
+  ]
+}
