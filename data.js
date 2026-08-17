@@ -5,24 +5,24 @@
 window.BRIEFING = {
  "date": "2026-08-17",
  "edition": "每日双版 · 早览 + 详报（滚动累积池）",
- "generatedAt": "2026-08-17 08:14",
+ "generatedAt": "2026-08-17 08:27",
  "scope": "中国优先 + 全球要闻（金融 · AI行业 · 母婴 · 政治 · 军事 · 经济 · 科技 · 社会 · 娱乐），海外条目标注「海外」",
  "poolMode": true,
  "kpi": {
-  "total": 780,
-  "high": 253,
-  "related": 393,
-  "todayNew": 0
+  "total": 1053,
+  "high": 307,
+  "related": 662,
+  "todayNew": 273
  },
  "catCounts": {
   "金融": 117,
-  "AI行业": 98,
-  "母婴": 73,
-  "政治/政策": 63,
+  "AI行业": 120,
+  "母婴": 123,
+  "政治/政策": 113,
   "军事/地缘": 116,
-  "经济": 69,
-  "科技": 67,
-  "社会/生活": 68,
+  "经济": 117,
+  "科技": 121,
+  "社会/生活": 117,
   "娱乐/文娱": 109
  },
  "items": [
@@ -1694,6 +1694,20 @@ window.BRIEFING = {
   },
   {
    "cat": "AI行业",
+   "time": "18:52",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国内首个全国产10万卡AI超集群正式投用，接入国家超算互联网",
+   "summary": "8月9日，位于郑州的国内首个全国产10万卡AI超集群正式投入使用，一期即达10万张国产AI加速卡规模，峰值算力等效全人类不间断计算200年，已对接新材料、创新药、大模型训练等26个领域超300项任务。粤港澳大湾区枢纽同步上线国产化万卡超节点集群。",
+   "decision": "国产十万卡集群的公共算力供给，为招联训练自有风控与营销大模型提供低成本国产算力选项，可纳入算力采购备选。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/article/7671889205047345707",
+   "firstSeen": "2026-08-17",
+   "id": 120
+  },
+  {
+   "cat": "AI行业",
    "time": "18:50",
    "impact": "high",
    "related": true,
@@ -1704,7 +1718,7 @@ window.BRIEFING = {
    "source": "楚天快报/网易",
    "url": "https://www.163.com/dy/article/L3BLQSOJ0556LCB6.html",
    "firstSeen": "2026-08-07",
-   "id": 120
+   "id": 121
   },
   {
    "cat": "AI行业",
@@ -1718,7 +1732,7 @@ window.BRIEFING = {
    "source": "央视财经/今日头条",
    "url": "https://www.toutiao.com/article/7669375758539686452/",
    "firstSeen": "2026-08-07",
-   "id": 121
+   "id": 122
   },
   {
    "cat": "AI行业",
@@ -1732,7 +1746,7 @@ window.BRIEFING = {
    "source": "大洋网/同花顺",
    "url": "https://field.10jqka.com.cn/20260806/c678729669.shtml",
    "firstSeen": "2026-08-07",
-   "id": 122
+   "id": 123
   },
   {
    "cat": "AI行业",
@@ -1746,7 +1760,21 @@ window.BRIEFING = {
    "source": "钛媒体/今日头条",
    "url": "https://www.toutiao.com/article/7670463815875641891",
    "firstSeen": "2026-08-07",
-   "id": 123
+   "id": 124
+  },
+  {
+   "cat": "AI行业",
+   "time": "16:27",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "黄仁勋宣布H20芯片获准销往中国，并将发布RTX Pro GPU",
+   "summary": "8月14日黄仁勋接受央视记者采访时表示，美国政府已批准H20芯片出口许可，英伟达将开始向中国市场销售H20；同时宣布发布面向图形、数字孪生与AI的RTX Pro GPU。H20基于Hopper架构、拥有CoWoS先进封装，整体性能略高于910B。",
+   "decision": "H20恢复供货缓解国产算力紧约束，招联在规划推理集群时可重新评估“国产昇腾+进口H20”混合算力配比与交付节奏。",
+   "source": "大众网（央视新闻）",
+   "url": "http://gzylhyzx.com/detail.html?cpid=T17&newsId=20925",
+   "firstSeen": "2026-08-17",
+   "id": 125
   },
   {
    "cat": "AI行业",
@@ -1760,7 +1788,7 @@ window.BRIEFING = {
    "source": "新智元/今日头条",
    "url": "https://www.toutiao.com/article/7670458228018446882/",
    "firstSeen": "2026-08-07",
-   "id": 124
+   "id": 126
   },
   {
    "cat": "AI行业",
@@ -1774,7 +1802,7 @@ window.BRIEFING = {
    "source": "凤凰网科技/网易",
    "url": "https://www.163.com/dy/article/L3GH54180556I485.html",
    "firstSeen": "2026-08-07",
-   "id": 125
+   "id": 127
   },
   {
    "cat": "AI行业",
@@ -1788,7 +1816,7 @@ window.BRIEFING = {
    "source": "山西晚报/网易",
    "url": "https://www.163.com/dy/article/L3O5VO8Q0512808N.html",
    "firstSeen": "2026-08-07",
-   "id": 126
+   "id": 128
   },
   {
    "cat": "AI行业",
@@ -1802,7 +1830,7 @@ window.BRIEFING = {
    "source": "北京日报/今日头条",
    "url": "https://www.toutiao.com/article/7669684856149819930/",
    "firstSeen": "2026-08-07",
-   "id": 127
+   "id": 129
   },
   {
    "cat": "AI行业",
@@ -1816,7 +1844,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://big5.cctv.com/gate/big5/news.cctv.com/2026/08/02/ARTI6RnsxvJ5IArL2JxUJViG260802.shtml",
    "firstSeen": "2026-08-07",
-   "id": 128
+   "id": 130
   },
   {
    "cat": "AI行业",
@@ -1830,7 +1858,7 @@ window.BRIEFING = {
    "source": "CNMO科技/网易",
    "url": "https://www.163.com/dy/article/L3IRU9DC051191D6.html",
    "firstSeen": "2026-08-07",
-   "id": 129
+   "id": 131
   },
   {
    "cat": "AI行业",
@@ -1844,7 +1872,7 @@ window.BRIEFING = {
    "source": "尧图网站建设",
    "url": "http://www.xxmr.cn/news/20519",
    "firstSeen": "2026-08-07",
-   "id": 130
+   "id": 132
   },
   {
    "cat": "AI行业",
@@ -1858,7 +1886,7 @@ window.BRIEFING = {
    "source": "凤凰网科技/网易",
    "url": "https://www.163.com/dy/article/L3INDEBI0556I485.html",
    "firstSeen": "2026-08-07",
-   "id": 131
+   "id": 133
   },
   {
    "cat": "AI行业",
@@ -1872,7 +1900,7 @@ window.BRIEFING = {
    "source": "阿里云开发者社区",
    "url": "https://developer.aliyun.com/article/1753965",
    "firstSeen": "2026-08-07",
-   "id": 132
+   "id": 134
   },
   {
    "cat": "AI行业",
@@ -1886,7 +1914,7 @@ window.BRIEFING = {
    "source": "蓝鲸新闻/今日头条",
    "url": "https://www.toutiao.com/article/7669646951205372457",
    "firstSeen": "2026-08-07",
-   "id": 133
+   "id": 135
   },
   {
    "cat": "AI行业",
@@ -1900,7 +1928,7 @@ window.BRIEFING = {
    "source": "PConline/今日头条",
    "url": "https://www.toutiao.com/article/7669648253889102378/",
    "firstSeen": "2026-08-07",
-   "id": 134
+   "id": 136
   },
   {
    "cat": "AI行业",
@@ -1914,7 +1942,7 @@ window.BRIEFING = {
    "source": "时局笔记/今日头条",
    "url": "https://www.toutiao.com/article/7671120754327339562/",
    "firstSeen": "2026-08-07",
-   "id": 135
+   "id": 137
   },
   {
    "cat": "AI行业",
@@ -1928,7 +1956,7 @@ window.BRIEFING = {
    "source": "中国电信/今日头条",
    "url": "https://www.toutiao.com/article/7669639592659714606",
    "firstSeen": "2026-08-07",
-   "id": 136
+   "id": 138
   },
   {
    "cat": "AI行业",
@@ -1942,7 +1970,7 @@ window.BRIEFING = {
    "source": "InfoQ/今日头条",
    "url": "https://www.toutiao.com/article/7670370613704409606/",
    "firstSeen": "2026-08-07",
-   "id": 137
+   "id": 139
   },
   {
    "cat": "AI行业",
@@ -1956,7 +1984,7 @@ window.BRIEFING = {
    "source": "未来图灵/网易",
    "url": "https://www.163.com/dy/article/L3L12R5T0511KIFE.html",
    "firstSeen": "2026-08-07",
-   "id": 138
+   "id": 140
   },
   {
    "cat": "AI行业",
@@ -1970,7 +1998,7 @@ window.BRIEFING = {
    "source": "钛媒体/网易",
    "url": "https://www.163.com/dy/article/L3NISTK205118O92.html",
    "firstSeen": "2026-08-07",
-   "id": 139
+   "id": 141
   },
   {
    "cat": "AI行业",
@@ -1984,7 +2012,7 @@ window.BRIEFING = {
    "source": "深圳晚报/今日头条",
    "url": "https://www.toutiao.com/article/7668868929017201186",
    "firstSeen": "2026-08-07",
-   "id": 140
+   "id": 142
   },
   {
    "cat": "AI行业",
@@ -1998,7 +2026,7 @@ window.BRIEFING = {
    "source": "阿里云开发者社区",
    "url": "https://developer.aliyun.com/article/1753092",
    "firstSeen": "2026-08-07",
-   "id": 141
+   "id": 143
   },
   {
    "cat": "AI行业",
@@ -2012,7 +2040,7 @@ window.BRIEFING = {
    "source": "微博",
    "url": "https://weibo.com/6649534562/5329230926714101",
    "firstSeen": "2026-08-07",
-   "id": 142
+   "id": 144
   },
   {
    "cat": "AI行业",
@@ -2026,7 +2054,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260803A02PF400?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 143
+   "id": 145
   },
   {
    "cat": "AI行业",
@@ -2040,7 +2068,7 @@ window.BRIEFING = {
    "source": "腾讯财经/国金证券",
    "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=res837870720288",
    "firstSeen": "2026-08-07",
-   "id": 144
+   "id": 146
   },
   {
    "cat": "AI行业",
@@ -2054,7 +2082,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3G375DD0553TENB.html",
    "firstSeen": "2026-08-07",
-   "id": 145
+   "id": 147
   },
   {
    "cat": "AI行业",
@@ -2068,7 +2096,7 @@ window.BRIEFING = {
    "source": "AI Conference London",
    "url": "https://aiconference.london/ai-agents-and-the-future-of-work-august-2026-20260802-12",
    "firstSeen": "2026-08-07",
-   "id": 146
+   "id": 148
   },
   {
    "cat": "AI行业",
@@ -2082,7 +2110,7 @@ window.BRIEFING = {
    "source": "台州金融",
    "url": "http://www.tzjp.cn/news/23126",
    "firstSeen": "2026-08-07",
-   "id": 147
+   "id": 149
   },
   {
    "cat": "AI行业",
@@ -2096,7 +2124,21 @@ window.BRIEFING = {
    "source": "无矩AI",
    "url": "https://iaipie.com/ai%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%9C%80%E6%96%B0%E8%BF%9B%E5%B1%95%E6%B7%B1%E5%BA%A6%E7%9B%98%E7%82%B9%EF%BC%882026%E5%B9%B48%E6%9C%88%E7%AF%87%EF%BC%89",
    "firstSeen": "2026-08-07",
-   "id": 148
+   "id": 150
+  },
+  {
+   "cat": "AI行业",
+   "time": "08:36",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "中央网信办部署“清朗·整治AI应用乱象”专项行动，为期4个月",
+   "summary": "中央网信办近日印发通知，在全国部署开展为期4个月的“清朗·整治AI应用乱象”专项行动，分两阶段整治AI应用服务违规与AI信息内容乱象。第一阶段重点整治7类问题：大模型未备案、安全审核不足、训练语料安全、AI数据投毒、生成合成内容标识落实不到位等。",
+   "decision": "招联作为持牌消金机构，须立即自查大模型备案、训练语料授权与AI生成内容标识合规，避免在营销素材与客服话术中触发监管红线。",
+   "source": "大众网（中央网信办）",
+   "url": "http://gzylhyzx.com/detail.html?newsId=37695312",
+   "firstSeen": "2026-08-17",
+   "id": 151
   },
   {
    "cat": "AI行业",
@@ -2110,7 +2152,7 @@ window.BRIEFING = {
    "source": "新浪科技",
    "url": "https://k.sina.com.cn/article_5404223525_1421de82500104ths4.html?subch=otech",
    "firstSeen": "2026-08-07",
-   "id": 149
+   "id": 152
   },
   {
    "cat": "AI行业",
@@ -2124,7 +2166,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3O0CE03055616YL.html",
    "firstSeen": "2026-08-07",
-   "id": 150
+   "id": 153
   },
   {
    "cat": "AI行业",
@@ -2138,7 +2180,7 @@ window.BRIEFING = {
    "source": "Gether",
    "url": "http://www.gether.net/news/show-303.html",
    "firstSeen": "2026-08-07",
-   "id": 151
+   "id": 154
   },
   {
    "cat": "AI行业",
@@ -2152,7 +2194,7 @@ window.BRIEFING = {
    "source": "南方都市报/今日头条",
    "url": "https://www.toutiao.com/article/7668724806841287168",
    "firstSeen": "2026-08-07",
-   "id": 152
+   "id": 155
   },
   {
    "cat": "AI行业",
@@ -2166,7 +2208,7 @@ window.BRIEFING = {
    "source": "新浪财经/网易",
    "url": "https://dy.163.com/article/L3I7I3UB05568W0A.html",
    "firstSeen": "2026-08-07",
-   "id": 153
+   "id": 156
   },
   {
    "cat": "AI行业",
@@ -2180,7 +2222,7 @@ window.BRIEFING = {
    "source": "36氪",
    "url": "https://36kr.com/p/3923895999068550",
    "firstSeen": "2026-08-07",
-   "id": 154
+   "id": 157
   },
   {
    "cat": "AI行业",
@@ -2194,7 +2236,35 @@ window.BRIEFING = {
    "source": "中关村在线",
    "url": "https://m.zol.com.cn/article/12278663.html",
    "firstSeen": "2026-08-07",
-   "id": 155
+   "id": 158
+  },
+  {
+   "cat": "AI行业",
+   "time": "07:07",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "支付巨头Stripe以超70亿美元收购大模型聚合平台OpenRouter",
+   "summary": "据彭博社报道，支付公司Stripe已敲定以超70亿美元收购AI模型聚合网关OpenRouter，有望创下AI模型路由平台并购金额纪录。OpenRouter托管数百种模型、服务超800万开发者，今年5月周token处理量达25万亿，为企业提供跨模型切换与备用路由。",
+   "decision": "支付+AI调度的融合预示“模型路由即服务”成标配，招联可在联通合作中引入多模型路由，按场景与成本动态选模型。",
+   "source": "腾讯新闻（智东西/彭博）",
+   "url": "https://new.qq.com/rain/a/20260817A046RK00",
+   "firstSeen": "2026-08-17",
+   "id": 159
+  },
+  {
+   "cat": "AI行业",
+   "time": "01:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "人民日报：人工智能健康发展写入“十五五”规划，AI综合性立法列入2026立法计划",
+   "summary": "《人民日报》8月17日报道，“加强数据基础制度规则建设和人工智能治理”写入“十五五”规划纲要，“完善人工智能治理、加快推进人工智能健康发展综合性立法”列入《国务院2026年度立法工作计划》。2025年我国人工智能核心产业规模超1.2万亿元，企业超6200家。",
+   "decision": "综合性立法将抬升金融AI的可解释与可审计要求，招联应提前在标准、评估与备案层面布局，把合规做成业务壁垒而非成本。",
+   "source": "经济网（人民日报）",
+   "url": "https://www.ceweekly.cn/news/important/2026/0817/498739.html",
+   "firstSeen": "2026-08-17",
+   "id": 160
   },
   {
    "cat": "AI行业",
@@ -2208,7 +2278,7 @@ window.BRIEFING = {
    "source": "金融界/今日头条",
    "url": "https://www.toutiao.com/article/7670443533714702867/",
    "firstSeen": "2026-08-07",
-   "id": 156
+   "id": 161
   },
   {
    "cat": "AI行业",
@@ -2222,7 +2292,7 @@ window.BRIEFING = {
    "source": "每日经济新闻/网易",
    "url": "https://www.163.com/dy/article/L3NMOSM40512B07B.html",
    "firstSeen": "2026-08-07",
-   "id": 157
+   "id": 162
   },
   {
    "cat": "AI行业",
@@ -2236,7 +2306,7 @@ window.BRIEFING = {
    "source": "OpenAI",
    "url": "https://openai.com",
    "firstSeen": "2026-08-07",
-   "id": 158
+   "id": 163
   },
   {
    "cat": "AI行业",
@@ -2250,7 +2320,7 @@ window.BRIEFING = {
    "source": "Reuters/Yahoo Finance",
    "url": "https://finance.yahoo.com/technology/ai/articles/google-shakes-up-ai-leadership-as-deepmind-chief-shifts-role-160227886.html",
    "firstSeen": "2026-08-07",
-   "id": 159
+   "id": 164
   },
   {
    "cat": "AI行业",
@@ -2264,7 +2334,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A0E8XS00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 160
+   "id": 165
   },
   {
    "cat": "AI行业",
@@ -2278,7 +2348,7 @@ window.BRIEFING = {
    "source": "路透社/腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260801A03SLM00",
    "firstSeen": "2026-08-07",
-   "id": 161
+   "id": 166
   },
   {
    "cat": "AI行业",
@@ -2292,7 +2362,7 @@ window.BRIEFING = {
    "source": "Reuters/TBS",
    "url": "https://publisher.tbsnews.net/worldbiz/usa/openai-investigates-additional-ai-agent-containment-breaches-after-hugging-face",
    "firstSeen": "2026-08-07",
-   "id": 162
+   "id": 167
   },
   {
    "cat": "AI行业",
@@ -2306,7 +2376,7 @@ window.BRIEFING = {
    "source": "Reuters/优分析",
    "url": "https://uanalyze.com.tw/articles/2985352615",
    "firstSeen": "2026-08-07",
-   "id": 163
+   "id": 168
   },
   {
    "cat": "AI行业",
@@ -2320,7 +2390,7 @@ window.BRIEFING = {
    "source": "新浪财经(转 OpenAI)",
    "url": "https://cj.sina.com.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fstock%2Fwbstock%2F2026-08-07%2Fdoc-inimnkum3274300.shtml",
    "firstSeen": "2026-08-07",
-   "id": 164
+   "id": 169
   },
   {
    "cat": "AI行业",
@@ -2334,7 +2404,7 @@ window.BRIEFING = {
    "source": "南方都市报",
    "url": "https://www.toutiao.com/article/7670489467597226511/",
    "firstSeen": "2026-08-07",
-   "id": 165
+   "id": 170
   },
   {
    "cat": "AI行业",
@@ -2348,7 +2418,7 @@ window.BRIEFING = {
    "source": "i黑马",
    "url": "https://www.163.com/dy/article/L3JVB3LV05118I96.html",
    "firstSeen": "2026-08-07",
-   "id": 166
+   "id": 171
   },
   {
    "cat": "AI行业",
@@ -2362,7 +2432,7 @@ window.BRIEFING = {
    "source": "智东西/北京日报",
    "url": "https://www.toutiao.com/article/7670489467597226511/",
    "firstSeen": "2026-08-07",
-   "id": 167
+   "id": 172
   },
   {
    "cat": "AI行业",
@@ -2376,7 +2446,7 @@ window.BRIEFING = {
    "source": "Anthropic",
    "url": "https://www.anthropic.com",
    "firstSeen": "2026-08-07",
-   "id": 168
+   "id": 173
   },
   {
    "cat": "AI行业",
@@ -2390,7 +2460,7 @@ window.BRIEFING = {
    "source": "OpenAI",
    "url": "https://cdn.openai.com/pdf/GPT_5_6_August_Updates.pdf",
    "firstSeen": "2026-08-07",
-   "id": 169
+   "id": 174
   },
   {
    "cat": "AI行业",
@@ -2404,7 +2474,7 @@ window.BRIEFING = {
    "source": "南方都市报",
    "url": "https://www.toutiao.com/article/7670489467597226511/",
    "firstSeen": "2026-08-07",
-   "id": 170
+   "id": 175
   },
   {
    "cat": "AI行业",
@@ -2418,7 +2488,7 @@ window.BRIEFING = {
    "source": "华尔街见闻/网易",
    "url": "https://www.163.com/dy/article/L3N56EIA05198NMR.html",
    "firstSeen": "2026-08-07",
-   "id": 171
+   "id": 176
   },
   {
    "cat": "AI行业",
@@ -2432,7 +2502,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道/今日头条",
    "url": "https://www.toutiao.com/article/7669841972504314395/",
    "firstSeen": "2026-08-07",
-   "id": 172
+   "id": 177
   },
   {
    "cat": "AI行业",
@@ -2446,7 +2516,7 @@ window.BRIEFING = {
    "source": "量子位/网易",
    "url": "https://www.163.com/dy/article/L3MA3VJ70511DSSR.html",
    "firstSeen": "2026-08-07",
-   "id": 173
+   "id": 178
   },
   {
    "cat": "AI行业",
@@ -2460,7 +2530,21 @@ window.BRIEFING = {
    "source": "每日经济新闻/网易",
    "url": "https://www.163.com/dy/article/L3JLV9FJ0512B07B.html",
    "firstSeen": "2026-08-07",
-   "id": 174
+   "id": 179
+  },
+  {
+   "cat": "AI行业",
+   "time": "21:01",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "Meta发布开源模型Muse Glimmer，并承诺开放旗舰Muse Spark权重",
+   "summary": "8月10日Meta发布开源模型Muse Glimmer，约300亿参数、专为本地Agent工作流优化，支持规划、工具调用、自检与故障恢复，可在单卡24GB显存GPU运行（Apache 2.0）。Meta同时承诺未来数周开放旗舰Muse Spark 1.2权重，海外开源阵营与中国厂商同步加速。",
+   "decision": "本地可部署的开源Agent模型适合招联做内网私有化智能体，降低敏感数据外发风险，建议纳入本地推理选型POC。",
+   "source": "今日头条（第一财经）",
+   "url": "https://www.toutiao.com/article/7673500443246445106/",
+   "firstSeen": "2026-08-17",
+   "id": 180
   },
   {
    "cat": "AI行业",
@@ -2474,7 +2558,7 @@ window.BRIEFING = {
    "source": "AIPress/腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260803A0AQ0K00",
    "firstSeen": "2026-08-07",
-   "id": 175
+   "id": 181
   },
   {
    "cat": "AI行业",
@@ -2488,7 +2572,21 @@ window.BRIEFING = {
    "source": "澎湃新闻/今日头条",
    "url": "https://www.toutiao.com/article/7670855008321110555",
    "firstSeen": "2026-08-07",
-   "id": 176
+   "id": 182
+  },
+  {
+   "cat": "AI行业",
+   "time": "17:40",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "华为昇腾950超节点WAIC真机亮相，1024卡提供1EFLOPS FP8算力",
+   "summary": "2026世界人工智能大会上，华为昇腾950超节点（Atlas950SuperPoD）真机首次公开亮相，由1024张昇腾NPU组成、提供1EFLOPS FP8与2EFLOPS FP4算力、256TB统一内存编址、3μs超低时延。华为昇腾384超节点已累计部署超750套，规模应用于金融、运营商等行业。",
+   "decision": "昇腾超节点已在金融落地，招联可依托其低时延推理能力部署高并发风控与实时反欺诈模型，降低对进口单卡的依赖。",
+   "source": "网易（浩海投研）",
+   "url": "https://www.163.com/dy/article/L4AEMUDH0556AC6R.html",
+   "firstSeen": "2026-08-17",
+   "id": 183
   },
   {
    "cat": "AI行业",
@@ -2502,7 +2600,7 @@ window.BRIEFING = {
    "source": "环球网/网易",
    "url": "https://www.163.com/dy/article/L3GM29V40514R9OJ.html",
    "firstSeen": "2026-08-07",
-   "id": 177
+   "id": 184
   },
   {
    "cat": "AI行业",
@@ -2516,7 +2614,7 @@ window.BRIEFING = {
    "source": "南方都市报/今日头条",
    "url": "https://www.toutiao.com/article/7670845200604103219/",
    "firstSeen": "2026-08-07",
-   "id": 178
+   "id": 185
   },
   {
    "cat": "AI行业",
@@ -2530,7 +2628,21 @@ window.BRIEFING = {
    "source": "金羊网/今日头条",
    "url": "https://www.toutiao.com/article/7669728754083643938/",
    "firstSeen": "2026-08-07",
-   "id": 179
+   "id": 186
+  },
+  {
+   "cat": "AI行业",
+   "time": "16:13",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "阿里千问开源潮：Qwen3.8-27B正式开源，并首次开放Max级旗舰权重",
+   "summary": "8月14日晚，阿里千问团队宣布270亿参数的Qwen3.8-27B模型正式开源，可在高端手机和消费级显卡上流畅运行；同日开放Qwen3.8-2.4T-A95B（Max级旗舰）权重，系阿里首次开放旗舰模型权重。近几周Kimi、智谱等国产开源模型轮番上市，中国开源模型全球下载占比已达41%、累计破100亿次。",
+   "decision": "招联可关注开源模型在信贷风控、营销文案与智能客服私有化部署上的成本拐点，评估用开源权重替代高溢价闭源API的可行路径。",
+   "source": "央广网",
+   "url": "https://www.toutiao.com/article/7674168614248809010",
+   "firstSeen": "2026-08-17",
+   "id": 187
   },
   {
    "cat": "AI行业",
@@ -2544,7 +2656,133 @@ window.BRIEFING = {
    "source": "AAStocks",
    "url": "https://quotes.aastocks.com/tc/stocks/news/aafn-con/NOW.1527960/positive-news/AAFN",
    "firstSeen": "2026-08-07",
-   "id": 180
+   "id": 188
+  },
+  {
+   "cat": "AI行业",
+   "time": "13:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "AI视频生成平台Higgsfield完成4亿美元融资，估值升至54亿美元",
+   "summary": "AI视频生成平台Higgsfield完成4亿美元新一轮融资，投资方含DST Global、高盛、Liberty Global及英特尔投资部门，估值升至54亿美元。公司今年8月年化收入达7亿美元，较一年前约2000万美元增长34倍。",
+   "decision": "AI视频生成能力可批量生产金融科普与营销短视频，招联×联通合作中可试点自动生成投放素材、提升广告创意产能。",
+   "source": "东方财富（界面新闻）",
+   "url": "https://guba.eastmoney.com/news,cjpl,1759985108.html",
+   "firstSeen": "2026-08-17",
+   "id": 189
+  },
+  {
+   "cat": "AI行业",
+   "time": "13:01",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "百度文库网盘通用智能体“库库AI”官宣中文名，办公MAU达2500万居首",
+   "summary": "8月14日百度AIDay上，通用智能体GenFlow官宣中文名“库库AI”，办公场景MAU已达2500万、居AI办公赛道第一。其首期面向金融亮点场景优化，可解析财报、出机构级报告与财务模型，依托文库18亿份文档与网盘超10亿用户数据形成Looping闭环。",
+   "decision": "库库AI的金融场景能力可直接对标招联的报表分析、投研与经营分析需求，建议试点其办公智能体以提效中后台与广告投放复盘。",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20260817A06FGI00",
+   "firstSeen": "2026-08-17",
+   "id": 190
+  },
+  {
+   "cat": "AI行业",
+   "time": "12:15",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "全球大模型竞争白热化：Grok 4.6跻身顶流，OpenAI推出极速模式预览",
+   "summary": "xAI的Grok 4.6在Artificial Analysis综合智能指数获61分并列全球第三，定价输入2美元/百万token、输出6美元，金融工具测评τ³-Banking并列第一；OpenAI为GPT-5.6 Sol新增UltraFast极速模式预览，峰值750 token/秒、最高提速14倍且无损原生智能。",
+   "decision": "极速推理对实时反欺诈与营销实时决策价值高，招联可关注低延迟API在秒级授信与风控决策中的工程可用性。",
+   "source": "新浪财经（财闻）",
+   "url": "https://k.sina.com.cn/article_5952915720_162d2490806704p1b6.html",
+   "firstSeen": "2026-08-17",
+   "id": 191
+  },
+  {
+   "cat": "AI行业",
+   "time": "12:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "谷歌发布Gemini 3.7 Flash，强化代码与Agent、价格减半",
+   "summary": "谷歌8月13日发布Gemini 3.7 Flash，定位“最智能的编码与Agent工作马模型”，DeepSWE从49.0%提升至65.3%、FrontierCode从34.4%升至43.6%，保持100万token上下文与多模态输入。推广期定价输入0.75美元、输出3.75美元/百万token，至2026年底为3.6 Flash原价一半。",
+   "decision": "高性价比Flash模型适合招联做大规模营销文案与代码辅助，建议在小语种客服与营销生成场景做成本对比测试。",
+   "source": "新浪财经（财闻）",
+   "url": "https://k.sina.com.cn/article_5952915720_162d2490806704p1b6.html",
+   "firstSeen": "2026-08-17",
+   "id": 192
+  },
+  {
+   "cat": "AI行业",
+   "time": "11:45",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "《互联网信息服务管理办法》修订草案新增“智能信息服务”专节",
+   "summary": "8月2日《互联网信息服务管理办法（修订草案征求意见稿）》结束公开征求意见，草案新增“智能信息服务”专节，拟首次在行政法规层面将AI服务提供者概括为“智能信息服务提供者”。专节涵盖安全评估、数据合规、内容标识、算法规制，并要求公示技术原理与训练数据来源。",
+   "decision": "算法透明与训练数据来源公示将影响招联模型采购与自研策略，建议在供应商合同中加入数据合规与可审计条款。",
+   "source": "今日头条（忻州政法）",
+   "url": "https://www.toutiao.com/article/7670759541516091938/",
+   "firstSeen": "2026-08-17",
+   "id": 193
+  },
+  {
+   "cat": "AI行业",
+   "time": "11:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "DeepSeek完成第二轮融资，投前估值5000亿元、本轮募资500亿元",
+   "summary": "8月10日DeepSeek第二轮融资在杭州完成首批签约，投前估值5000亿元、本轮募资500亿元，自4月首轮启动以来估值涨幅约43%。据聚合平台统计，上周DeepSeek市场份额达53.6%居全球第一，V4 Flash发布后token调用占比近3周显著提升。",
+   "decision": "头部模型资本与份额集中，招联应减少单一模型依赖、保留多模型路由能力，以对冲厂商提价与供给波动风险。",
+   "source": "证券之星",
+   "url": "https://fund.stockstar.com/SS2026081700005160.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 194
+  },
+  {
+   "cat": "AI行业",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "工商银行日均Token消耗突破百亿级，AI数字员工年承担5.5万人年",
+   "summary": "工商银行全行日均Token消耗量突破百亿级、较两年前增长近百倍，“工银智湧”体系已在30余个业务领域落地500余个AI应用，AI数字员工年承担工作量5.5万人年，个人金融AI助理将产品匹配时间从约1小时压缩至2至3分钟。全国日均Token调用量两年增长超千倍。",
+   "decision": "工行的规模化落地印证了Token消耗与人力替代的可量化路径，招联可对标设定AI人均产能与成本压降的北极星指标。",
+   "source": "雪球",
+   "url": "https://xueqiu.com/9271268436/405212494",
+   "firstSeen": "2026-08-17",
+   "id": 195
+  },
+  {
+   "cat": "AI行业",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "IDC中国大模型开发平台评估：中关村科金入选领导者象限",
+   "summary": "8月12日IDC发布《中国大模型开发平台2026厂商评估》，中关村科金及得助大模型平台凭金融、政务、工业制造等规模化落地入选领导者（Leaders）象限，与阿里云、百度智能云、火山引擎、智谱AI同处第一梯队。",
+   "decision": "金融垂直大模型平台进入领导者象限，招联评估自研vs采购时可重点考察其金融场景know-how与合规交付能力。",
+   "source": "雪球",
+   "url": "https://xueqiu.com/9271268436/405212494",
+   "firstSeen": "2026-08-17",
+   "id": 196
+  },
+  {
+   "cat": "AI行业",
+   "time": "09:17",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "三部门联合印发《智能体规范应用与创新发展实施意见》",
+   "summary": "国家网信办、国家发改委、工信部联合印发《智能体规范应用与创新发展实施意见》，统筹高质量发展与高水平安全，回应智能体在消费、行业应用中的自主决策、网络攻击等风险。文件为智能体产业提供行动依据，推动其在安全可控前提下规范发展。",
+   "decision": "招联×联通合作专项大量使用智能体做营销与运营，应依《实施意见》建立智能体权限、审计与熔断机制，防范自主执行越权风险。",
+   "source": "瞭望（新华社）",
+   "url": "https://www.toutiao.com/article/7669979486133207604",
+   "firstSeen": "2026-08-17",
+   "id": 197
   },
   {
    "cat": "AI行业",
@@ -2558,7 +2796,7 @@ window.BRIEFING = {
    "source": "Skycrumbs",
    "url": "https://skycrumbs.com/blog/ai-models-august-2026",
    "firstSeen": "2026-08-07",
-   "id": 181
+   "id": 198
   },
   {
    "cat": "AI行业",
@@ -2572,7 +2810,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A07W6H00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 182
+   "id": 199
   },
   {
    "cat": "AI行业",
@@ -2586,7 +2824,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260806A03D3E00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 183
+   "id": 200
   },
   {
    "cat": "AI行业",
@@ -2600,7 +2838,7 @@ window.BRIEFING = {
    "source": "Mean CEO Blog",
    "url": "https://blog.mean.ceo/google-gemini-latest-model-news-august-2026/",
    "firstSeen": "2026-08-07",
-   "id": 184
+   "id": 201
   },
   {
    "cat": "AI行业",
@@ -2614,7 +2852,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9696a743cec05152",
    "firstSeen": "2026-08-07",
-   "id": 185
+   "id": 202
   },
   {
    "cat": "AI行业",
@@ -2628,7 +2866,7 @@ window.BRIEFING = {
    "source": "Skycrumbs",
    "url": "https://skycrumbs.com/blog/ai-open-source-august-2026",
    "firstSeen": "2026-08-07",
-   "id": 186
+   "id": 203
   },
   {
    "cat": "AI行业",
@@ -2642,7 +2880,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3416a7588a659452",
    "firstSeen": "2026-08-07",
-   "id": 187
+   "id": 204
   },
   {
    "cat": "AI行业",
@@ -2656,7 +2894,7 @@ window.BRIEFING = {
    "source": "TechWeb/腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A05BDB00",
    "firstSeen": "2026-08-07",
-   "id": 188
+   "id": 205
   },
   {
    "cat": "AI行业",
@@ -2670,7 +2908,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6556a754e6c02652",
    "firstSeen": "2026-08-07",
-   "id": 189
+   "id": 206
   },
   {
    "cat": "AI行业",
@@ -2684,7 +2922,7 @@ window.BRIEFING = {
    "source": "Skycrumbs",
    "url": "https://skycrumbs.com/blog/ai-agents-news-august-2026",
    "firstSeen": "2026-08-07",
-   "id": 190
+   "id": 207
   },
   {
    "cat": "AI行业",
@@ -2698,7 +2936,7 @@ window.BRIEFING = {
    "source": "AAStocks",
    "url": "http://www.us.aastocks.com/tc/stocks/news/aafn-con/NOW.1515774/popular-news/AAFN",
    "firstSeen": "2026-08-07",
-   "id": 191
+   "id": 208
   },
   {
    "cat": "AI行业",
@@ -2712,7 +2950,7 @@ window.BRIEFING = {
    "source": "机器之心",
    "url": "https://www.jiqizhixin.com",
    "firstSeen": "2026-08-07",
-   "id": 192
+   "id": 209
   },
   {
    "cat": "AI行业",
@@ -2726,7 +2964,7 @@ window.BRIEFING = {
    "source": "商派ShopeX",
    "url": "https://www.shopex.cn/news/34710",
    "firstSeen": "2026-08-07",
-   "id": 193
+   "id": 210
   },
   {
    "cat": "AI行业",
@@ -2740,7 +2978,7 @@ window.BRIEFING = {
    "source": "NeoDrop",
    "url": "https://neodrop.ai/post/tkVPifynPnk",
    "firstSeen": "2026-08-07",
-   "id": 194
+   "id": 211
   },
   {
    "cat": "AI行业",
@@ -2754,7 +2992,49 @@ window.BRIEFING = {
    "source": "TechCrunch/新浪",
    "url": "https://finance.sina.cn/tech/csj/2026-08-04/detail-inimctrr2111130.d.html",
    "firstSeen": "2026-08-07",
-   "id": 195
+   "id": 212
+  },
+  {
+   "cat": "AI行业",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "DeepSeek V4 Pro正式版上线并转向商用，API实行峰谷定价、高峰价翻倍",
+   "summary": "8月13日DeepSeek V4 Pro正式版（V4-Pro-0813）上线，Agent能力大幅提升，DeepSWE基准从预览版12.8升至62.7；API于8月17日0时起实行峰谷定价，高峰时段价格直接翻倍。作为行业定价锚点，DeepSeek提价有望推动大模型从价格战回归理性商业定价。",
+   "decision": "推理算力成本上行将直接推高AI客服与营销生成的调用账单，建议招联在闲时批量跑批、并对高频场景做缓存与蒸馏以控本。",
+   "source": "证券之星",
+   "url": "https://fund.stockstar.com/SS2026081700005160.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 213
+  },
+  {
+   "cat": "AI行业",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "AI初创River AI成立两月完成11亿美元融资，主打用户自主训练AI",
+   "summary": "由前xAI联合创始人Igor Babuschkin创立的River AI在成立两月内完成11亿美元种子及A轮融资，General Catalyst与AMP PBC领投，英伟达、AMD Ventures、Y Combinator、淡马锡参投。其neocloud可在15至20分钟内完成复杂强化学习，成本较闭源方案低2至4倍。",
+   "decision": "自主训练、完全归属用户的AI助理模式契合金融机构数据不出域诉求，招联可关注其在私有模型定制上的合规与成本价值。",
+   "source": "亿邦动力",
+   "url": "https://www.ebrun.com/20260817/695326.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 214
+  },
+  {
+   "cat": "AI行业",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "腾讯混元Hy3开源、WorkBuddy加码AI办公，BAT抢滩智能体入口",
+   "summary": "互联网大厂AI与治理双线并进：字节SeedRealtime上线豆包，阿里云入选IDC全球基础模型领导者象限；腾讯混元发布Hy ASR 3.0并持续加码WorkBuddy，百度收拢办公Agent产品线。BAT在AI办公与智能体入口再度重逢，竞争从产品转向底层能力。",
+   "decision": "腾讯系WorkBuddy与招联股东协同度高，可在联通合作专项中优先评估腾讯智能体与企业微信生态的集成方案。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260805A0954800",
+   "firstSeen": "2026-08-17",
+   "id": 215
   },
   {
    "cat": "AI行业",
@@ -2768,7 +3048,7 @@ window.BRIEFING = {
    "source": "北京商报/腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4146a72d20c26252",
    "firstSeen": "2026-08-07",
-   "id": 196
+   "id": 216
   },
   {
    "cat": "AI行业",
@@ -2782,7 +3062,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260806A04E3Y00",
    "firstSeen": "2026-08-07",
-   "id": 197
+   "id": 217
   },
   {
    "cat": "AI行业",
@@ -2796,7 +3076,35 @@ window.BRIEFING = {
    "source": "中国经营报/网易",
    "url": "https://dy.163.com/article/L3KNNMKN05199NHJ.html",
    "firstSeen": "2026-08-07",
-   "id": 198
+   "id": 218
+  },
+  {
+   "cat": "AI行业",
+   "time": "07:07",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "2026上半年金融行业大模型中标406个，同比增长110%",
+   "summary": "《中国大模型中标项目监测与洞察报告》显示，2026年上半年金融行业大模型中标项目达406个、同比增长110%，银行机构项目数量与金额占比均近半数。2025年金融大模型全年中标587个、披露金额15.06亿元，科大讯飞、中关村科金、阿里云列前三。",
+   "decision": "银行业AI采购从“囤算力”转向“用好大模型”，招联应聚焦信贷、客服、风控等可量化ROI的场景，避免跟风式试点。",
+   "source": "腾讯证券",
+   "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260812070745b68c8336",
+   "firstSeen": "2026-08-17",
+   "id": 219
+  },
+  {
+   "cat": "AI行业",
+   "time": "00:46",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "字节发布原生音视频全双工大模型SeedRealtime，已在豆包App全量上线",
+   "summary": "8月5日字节跳动Seed团队推出原生音视频全双工大模型SeedRealtime，统一端到端架构融合音频、视频与文本，支持“边看、边听、边说”实时交互。端到端评测显示，相比级联方案音视频对话节奏问题减少一半，已率先在豆包App规模化落地。",
+   "decision": "全双工实时交互是智能催收与远程面签的天然入口，招联可评估将此类能力引入语音客服以缩短通话时长、提升首解率。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260805A0954800",
+   "firstSeen": "2026-08-17",
+   "id": 220
   },
   {
    "cat": "AI行业",
@@ -2810,7 +3118,7 @@ window.BRIEFING = {
    "source": "澎湃新闻/网易",
    "url": "https://www.163.com/dy/article/L3E7VHPM0514R9P4.html",
    "firstSeen": "2026-08-07",
-   "id": 199
+   "id": 221
   },
   {
    "cat": "AI行业",
@@ -2824,7 +3132,7 @@ window.BRIEFING = {
    "source": "九派财经/今日头条",
    "url": "https://www.toutiao.com/article/7670809443826778664/",
    "firstSeen": "2026-08-07",
-   "id": 200
+   "id": 222
   },
   {
    "cat": "AI行业",
@@ -2838,7 +3146,7 @@ window.BRIEFING = {
    "source": "智东西/网易",
    "url": "https://www.163.com/dy/article/L3DOQK22051180F7.html",
    "firstSeen": "2026-08-07",
-   "id": 201
+   "id": 223
   },
   {
    "cat": "AI行业",
@@ -2852,7 +3160,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260729A0558E00",
    "firstSeen": "2026-08-07",
-   "id": 202
+   "id": 224
   },
   {
    "cat": "AI行业",
@@ -2866,7 +3174,7 @@ window.BRIEFING = {
    "source": "投资界/网易",
    "url": "https://www.163.com/dy/article/L3DC5BA505198R3E.html",
    "firstSeen": "2026-08-07",
-   "id": 203
+   "id": 225
   },
   {
    "cat": "AI行业",
@@ -2880,7 +3188,7 @@ window.BRIEFING = {
    "source": "界面新闻/网易",
    "url": "https://www.163.com/dy/article/L3303S820534A4SC.html",
    "firstSeen": "2026-08-07",
-   "id": 204
+   "id": 226
   },
   {
    "cat": "AI行业",
@@ -2894,7 +3202,7 @@ window.BRIEFING = {
    "source": "My2Cents",
    "url": "https://www.my2cents.ai/news/2026-08-07-anthropic",
    "firstSeen": "2026-08-07",
-   "id": 205
+   "id": 227
   },
   {
    "cat": "AI行业",
@@ -2908,7 +3216,7 @@ window.BRIEFING = {
    "source": "Mean CEO Blog",
    "url": "https://blog.mean.ceo/anthropic-claude-news-august-2026/",
    "firstSeen": "2026-08-07",
-   "id": 206
+   "id": 228
   },
   {
    "cat": "AI行业",
@@ -2922,7 +3230,7 @@ window.BRIEFING = {
    "source": "LikeOne",
    "url": "https://likeone.ai/blog/claude-api-august-2026-deprecations-guide",
    "firstSeen": "2026-08-07",
-   "id": 207
+   "id": 229
   },
   {
    "cat": "AI行业",
@@ -2936,7 +3244,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A0B93Z00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 208
+   "id": 230
   },
   {
    "cat": "AI行业",
@@ -2950,7 +3258,7 @@ window.BRIEFING = {
    "source": "微博",
    "url": "https://weibo.com/1737694250/5329323201397309",
    "firstSeen": "2026-08-07",
-   "id": 209
+   "id": 231
   },
   {
    "cat": "AI行业",
@@ -2964,7 +3272,7 @@ window.BRIEFING = {
    "source": "TechCrunch/新浪财经",
    "url": "https://finance.sina.com.cn/cj/2026-08-04/doc-inimchzm4157330.shtml",
    "firstSeen": "2026-08-07",
-   "id": 210
+   "id": 232
   },
   {
    "cat": "AI行业",
@@ -2978,7 +3286,7 @@ window.BRIEFING = {
    "source": "北京日报",
    "url": "https://xinwen.bjd.com.cn/content/s6a734a1fe4b03fa51a828a53.html",
    "firstSeen": "2026-08-07",
-   "id": 211
+   "id": 233
   },
   {
    "cat": "AI行业",
@@ -2992,7 +3300,7 @@ window.BRIEFING = {
    "source": "i黑马",
    "url": "https://www.163.com/dy/article/L3JVB3LV05118I96.html",
    "firstSeen": "2026-08-07",
-   "id": 212
+   "id": 234
   },
   {
    "cat": "AI行业",
@@ -3006,7 +3314,7 @@ window.BRIEFING = {
    "source": "北京商报",
    "url": "https://new.qq.com/rain/a/20260803A06OHV00",
    "firstSeen": "2026-08-07",
-   "id": 213
+   "id": 235
   },
   {
    "cat": "AI行业",
@@ -3020,7 +3328,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://new.qq.com/rain/a/20260804A0AMRC00",
    "firstSeen": "2026-08-07",
-   "id": 214
+   "id": 236
   },
   {
    "cat": "AI行业",
@@ -3034,7 +3342,21 @@ window.BRIEFING = {
    "source": "南方都市报",
    "url": "https://www.toutiao.com/article/7670489467597226511/",
    "firstSeen": "2026-08-07",
-   "id": 215
+   "id": 237
+  },
+  {
+   "cat": "母婴",
+   "time": "14:30",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "跨境婴配粉检测差异引发行业审视 海关发布消费提示",
+   "summary": "针对皇家美素力风波，专家认为单罐局部热点污染与抽样代表性可造成检测差异。海关总署7月26日提示内地暂未发现涉事产品通过一般贸易进口，并建议尽快出台跨境电商进口食品强制召回细则。",
+   "decision": "宝宝口粮优先选一般贸易国行版（有配方注册与每批检疫），跨境购需确认平台召回联动与同批次预警。",
+   "source": "消费日报",
+   "url": "https://www.xfrb.com.cn/article/news/10032842896693.html",
+   "firstSeen": "2026-08-17",
+   "id": 238
   },
   {
    "cat": "母婴",
@@ -3048,7 +3370,7 @@ window.BRIEFING = {
    "source": "科普中国",
    "url": "https://www.kepuah.cn/show.htm?id=22312&method=show_focus",
    "firstSeen": "2026-08-07",
-   "id": 216
+   "id": 239
   },
   {
    "cat": "母婴",
@@ -3062,7 +3384,7 @@ window.BRIEFING = {
    "source": "福建省政府",
    "url": "https://fj.gov.cn/xwdt/mszx/202512/t20251231_7069606.htm",
    "firstSeen": "2026-08-07",
-   "id": 217
+   "id": 240
   },
   {
    "cat": "母婴",
@@ -3076,7 +3398,21 @@ window.BRIEFING = {
    "source": "光明网/潇湘晨报",
    "url": "https://www.toutiao.com/article/7670816892981985832/",
    "firstSeen": "2026-08-07",
-   "id": 218
+   "id": 241
+  },
+  {
+   "cat": "母婴",
+   "time": "11:20",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国家免疫规划疫苗儿童免疫程序（2026年版）全面落地",
+   "summary": "新版程序百白破疫苗首针由3月龄提前至2月龄，全程5针均含百日咳成分；国产双价HPV疫苗首次纳入国家免疫规划，2011年11月10日后出生的满13周岁女孩可免费接种2剂。特殊儿童接种判定由五类扩充至九类。",
+   "decision": "宝宝2月龄起需按新程序接种百白破，建好接种本并设提醒；同时可规划女儿（如有）13周岁前免费HPV接种，做好长期健康档案。",
+   "source": "芜湖疾控/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260814A05SMN00",
+   "firstSeen": "2026-08-17",
+   "id": 242
   },
   {
    "cat": "母婴",
@@ -3090,7 +3426,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7667485315595698723/",
    "firstSeen": "2026-08-07",
-   "id": 219
+   "id": 243
   },
   {
    "cat": "母婴",
@@ -3104,7 +3440,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3836a6b1d5d44052",
    "firstSeen": "2026-08-07",
-   "id": 220
+   "id": 244
   },
   {
    "cat": "母婴",
@@ -3118,7 +3454,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260728A059TJ00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 221
+   "id": 245
   },
   {
    "cat": "母婴",
@@ -3132,7 +3468,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7667047832242733587",
    "firstSeen": "2026-08-07",
-   "id": 222
+   "id": 246
   },
   {
    "cat": "母婴",
@@ -3146,7 +3482,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://www.zydey.com.cn/department_szyxka0_ksdt/2026/Xe02G7bx.html",
    "firstSeen": "2026-08-07",
-   "id": 223
+   "id": 247
   },
   {
    "cat": "母婴",
@@ -3160,7 +3496,21 @@ window.BRIEFING = {
    "source": "广东疾控",
    "url": "https://cdcp.gd.gov.cn/zzzq/jkyw/content/mpost_4906159.html",
    "firstSeen": "2026-08-07",
-   "id": 224
+   "id": 248
+  },
+  {
+   "cat": "母婴",
+   "time": "10:15",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "黑龙江发布生育支持政策：上半年已为31万婴幼儿发放育儿补贴8.31亿元",
+   "summary": "黑龙江省2026年1月1日起0—3岁新生儿基本医保个人缴费由财政全额承担，育儿补贴每孩每年3600元。2026年上半年已为全省超31万名婴幼儿发放补贴资金8.31亿元。",
+   "decision": "若考虑异地参保或回户籍地生育，可关注黑龙江等地财政兜底新生儿医保政策，提前规划宝宝落地参保与补贴申领。",
+   "source": "黑龙江省卫健委",
+   "url": "https://wsjkw.hlj.gov.cn/wsjkw/c116783/202608/c00_31965555.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 249
   },
   {
    "cat": "母婴",
@@ -3174,7 +3524,7 @@ window.BRIEFING = {
    "source": "政府网站",
    "url": "http://www.cocodala.gov.cn/html/1518/2026-07-09/content-99830.html",
    "firstSeen": "2026-08-07",
-   "id": 225
+   "id": 250
   },
   {
    "cat": "母婴",
@@ -3188,7 +3538,21 @@ window.BRIEFING = {
    "source": "南方plus",
    "url": "https://static.nfnews.com/content/202604/28/c12379982.html?enterColumnId=2147483647",
    "firstSeen": "2026-08-07",
-   "id": 226
+   "id": 251
+  },
+  {
+   "cat": "母婴",
+   "time": "09:30",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "2022—2024年出生婴幼儿育儿补贴首次申领截止期延长至2026年12月31日",
+   "summary": "国家卫健委、财政部将2022—2024年出生婴幼儿首次育儿补贴申请截止时间统一延长至2026年12月31日。此前漏申请的家长可通过皖事通等线上渠道补领，补贴标准每孩每年3600元、按应补贴月数折算。",
+   "decision": "待产在即，建议提前在皖事通或户籍地政务平台核对申领资格并备齐出生医学证明、户口簿，确保宝宝出生后及时申领每年3600元补贴。",
+   "source": "健康安徽/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260815A0A31L00",
+   "firstSeen": "2026-08-17",
+   "id": 252
   },
   {
    "cat": "母婴",
@@ -3202,7 +3566,7 @@ window.BRIEFING = {
    "source": "人民日报海外版",
    "url": "https://paper.people.com.cn/rmrbhwb/pad/content/202606/03/content_30160692.html",
    "firstSeen": "2026-08-07",
-   "id": 227
+   "id": 253
   },
   {
    "cat": "母婴",
@@ -3216,7 +3580,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/lianbo/202607/content_7076240.htm",
    "firstSeen": "2026-08-07",
-   "id": 228
+   "id": 254
   },
   {
    "cat": "母婴",
@@ -3230,7 +3594,147 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/lianbo/202607/content_7076240.htm",
    "firstSeen": "2026-08-07",
-   "id": 229
+   "id": 255
+  },
+  {
+   "cat": "母婴",
+   "time": "08:40",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "十五五规划部署完善生育支持政策体系",
+   "summary": "十五五规划纲要围绕建设生育友好型社会作出系统部署，提出加大经济保障、落实生育休假、扩大生育保险覆盖面、推动普惠托育等组合拳。明确3岁以下婴幼儿照护个税专项附加扣除每孩每月2000元并支持多孩叠加。",
+   "decision": "宝宝出生后即可由一方按月享受2000元/孩个税专项附加扣除，建议提前在个税App设置扣除主体，降低家庭月度税负。",
+   "source": "北方网",
+   "url": "http://news.enorth.com.cn/system/2026/08/10/059641936.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 256
+  },
+  {
+   "cat": "母婴",
+   "time": "08:17",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "云南构建1+N普惠托育体系 逐步推行免费学前教育",
+   "summary": "《云南省十五五推进基本公共服务均等化规划》提出以托育综合服务中心为主体、幼儿园托班等为补充的1+N普惠托育体系，支持幼儿园向下延伸招收2—3岁幼儿，并明确逐步推行免费学前教育。",
+   "decision": "可关注居住地普惠托育点位与公办园托班报名窗口，提前规划宝宝2—3岁入托与学前教育开支。",
+   "source": "中国教育新闻网",
+   "url": "https://www.163.com/dy/article/L3AHMHIC0550CBNY.html",
+   "firstSeen": "2026-08-17",
+   "id": 257
+  },
+  {
+   "cat": "母婴",
+   "time": "08:01",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "海南修改生育保险条例：灵活就业人员纳入 津贴直发个人",
+   "summary": "海南省人大常委会7月29日通过生育保险条例修改决定，核心为一扩大两提高两优化：将灵活就业人员纳入参保，生育津贴计发由3个月调整为98日并按日核算，发放方式改为直接发至个人。",
+   "decision": "如家庭有一方为灵活就业者，可关注海南等地参保新政，确保生育医疗与津贴权益不落空。",
+   "source": "海南日报",
+   "url": "https://news.hndaily.cn/h5/html5/2026-08/01/content_58466_19753042.htm",
+   "firstSeen": "2026-08-17",
+   "id": 258
+  },
+  {
+   "cat": "母婴",
+   "time": "07:54",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "澳门通报皇家美素力1号奶粉铅超标 要求停售回收",
+   "summary": "澳门特区政府7月25日发布食品预警，一批次港版皇家美素力1号婴儿配方奶粉（批号1W07KPJ，限2027年9月30日）铅含量0.2mg/kg，超婴幼儿配方食品0.02mg/kg限值9倍，已要求全澳下架回收。",
+   "decision": "切勿通过代购购买该涉事批号港版奶粉；如已购，核对罐底批号1W07KPJ并停止食用，可联系渠道退换。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/article/7668844148346159660",
+   "firstSeen": "2026-08-17",
+   "id": 259
+  },
+  {
+   "cat": "母婴",
+   "time": "20:10",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "黑猫投诉集中曝光帮宝适纸尿裤异物、虫体及刺鼻问题",
+   "summary": "多名消费者在黑猫投诉反映帮宝适拉拉裤/纸尿裤出现木屑、活体虫子、刺鼻气味及货不对板（标注8代发7代）等问题，涉及抖音、淘宝、拼多多等渠道，商家多仅同意退货退款。",
+   "decision": "囤纸尿裤前先小批量试用以排查异味与异物，保留开箱视频与批号，遇问题依法主张退一赔三。",
+   "source": "黑猫投诉",
+   "url": "https://sc.tousu.sina.cn/company/view?couid=2214542774",
+   "firstSeen": "2026-08-17",
+   "id": 260
+  },
+  {
+   "cat": "母婴",
+   "time": "19:45",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "黑猫投诉：好奇纸尿裤被指含甲酰胺、虫卵并致宝宝红臀",
+   "summary": "多位消费者投诉好奇官方旗舰店纸尿裤发现虫卵、活虫，部分称宝宝穿戴后出现红臀、过敏；亦有投诉提及产品含甲酰胺争议，平台多处于处理中状态。",
+   "decision": "新生儿皮肤娇嫩，纸尿裤建议选A类无刺激、甲酰胺未检出的产品，开封后先验看再使用。",
+   "source": "黑猫投诉",
+   "url": "https://hainan.tousu.sina.cn/company/view/?couid=1906578485",
+   "firstSeen": "2026-08-17",
+   "id": 261
+  },
+  {
+   "cat": "母婴",
+   "time": "17:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "飞鹤奶粉现褐色异物 两地市监部门已受理投诉",
+   "summary": "云南昆明消费者购买的飞鹤奶粉中出现褐色颗粒异物，销售地与生产地市监部门已受理投诉，品牌方称系焦糊粉，成分检测仍在进行。",
+   "decision": "开罐冲调前先检查粉体色泽与有无结块异物，留存批号与购买凭证，遇问题及时向12315与属地市监投诉。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260816A02T6J00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 262
+  },
+  {
+   "cat": "母婴",
+   "time": "17:09",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "专家提醒产后盆底肌腹直肌黄金修复期别错过",
+   "summary": "威海市妇幼保健院指出盆底肌像承托脏器的弹力吊床，产后42天至半年为修复黄金期；腹直肌分离可致小腹突出与慢性腰痛，需先评估再修复，避免盲目束腰与过早做卷腹。",
+   "decision": "妻子预产期临近，可提前了解42天复查与盆底/腹直肌评估，把产后康复列入月子与开支规划。",
+   "source": "威海市妇幼保健院",
+   "url": "https://www.toutiao.com/article/7673439914368746020",
+   "firstSeen": "2026-08-17",
+   "id": 263
+  },
+  {
+   "cat": "母婴",
+   "time": "15:59",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "新规重塑辅食行业 守护成长提升行动强化全链条管控",
+   "summary": "市场监管总局《婴幼儿辅助食品生产许可审查细则（征求意见稿）》与守护成长提升行动要求大米原料镉≤0.06mg/kg、铅≤0.2mg/kg，畜禽原料须来自自建或自控规模场，明确禁止使用蜂蜜原料。",
+   "decision": "为宝宝选米粉看清国标GB 10769—2025，避开含蜂蜜与辐照原料产品，关注原料溯源信息。",
+   "source": "母婴时代/网易",
+   "url": "https://dy.163.com/article/L3GGKA0S05465CCQ.html",
+   "firstSeen": "2026-08-17",
+   "id": 264
+  },
+  {
+   "cat": "母婴",
+   "time": "15:38",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "宝宝水是刚需还是智商税？专家：无婴幼儿饮用水强制国标",
+   "summary": "潮新闻调查指出我国尚无婴幼儿饮用水强制性国标，唯一可参考的团体标准限钠≤20mg/L，而多数市售优质天然水钠含量已远低于50mg/L，宝宝所需矿物质主要来自母乳、配方奶与辅食，高价宝宝水性价比低。",
+   "decision": "冲调奶粉用煮沸冷却的自来水或不带营销溢价的合格饮用水即可，不必为宝宝水花数倍溢价。",
+   "source": "潮新闻",
+   "url": "https://www.toutiao.com/w/1873755319925760/",
+   "firstSeen": "2026-08-17",
+   "id": 265
   },
   {
    "cat": "母婴",
@@ -3244,7 +3748,7 @@ window.BRIEFING = {
    "source": "亲子天下(OECD研究)",
    "url": "https://www.parenting.com.tw/article/6002203",
    "firstSeen": "2026-08-07",
-   "id": 230
+   "id": 266
   },
   {
    "cat": "母婴",
@@ -3258,7 +3762,7 @@ window.BRIEFING = {
    "source": "华声在线",
    "url": "https://m.voc.com.cn/rmt/article/17419005.html",
    "firstSeen": "2026-08-07",
-   "id": 231
+   "id": 267
   },
   {
    "cat": "母婴",
@@ -3272,7 +3776,7 @@ window.BRIEFING = {
    "source": "淮南市政府",
    "url": "https://www.huainan.gov.cn/zwgk/jrhn/1261054608.html",
    "firstSeen": "2026-08-07",
-   "id": 232
+   "id": 268
   },
   {
    "cat": "母婴",
@@ -3286,7 +3790,7 @@ window.BRIEFING = {
    "source": "新化县政府",
    "url": "https://www.xinhua.gov.cn/xinhua/xxgk/zwyw/xhbmdt/202607/c91e8bfc7340486192d4b5f10d8f7c14.shtml",
    "firstSeen": "2026-08-07",
-   "id": 233
+   "id": 269
   },
   {
    "cat": "母婴",
@@ -3300,7 +3804,7 @@ window.BRIEFING = {
    "source": "珠晖区政府",
    "url": "https://www.hyzhq.gov.cn/zhqwjj/xxgk/gzjz/20260520/i3904723.html",
    "firstSeen": "2026-08-07",
-   "id": 234
+   "id": 270
   },
   {
    "cat": "母婴",
@@ -3314,7 +3818,7 @@ window.BRIEFING = {
    "source": "西安日报",
    "url": "https://epaper.xiancn.com/xdbjb/pc/html/202601/23/content_325096.html",
    "firstSeen": "2026-08-07",
-   "id": 235
+   "id": 271
   },
   {
    "cat": "母婴",
@@ -3328,7 +3832,7 @@ window.BRIEFING = {
    "source": "医药卫生网",
    "url": "https://www.yywsb.com/article/72414.html",
    "firstSeen": "2026-08-07",
-   "id": 236
+   "id": 272
   },
   {
    "cat": "母婴",
@@ -3342,7 +3846,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://www.zydey.com.cn/department_szyxka0_ksdt/2026/Xe02G7bx.html",
    "firstSeen": "2026-08-07",
-   "id": 237
+   "id": 273
   },
   {
    "cat": "母婴",
@@ -3356,7 +3860,7 @@ window.BRIEFING = {
    "source": "甘肃科技报",
    "url": "https://www.gskjb.cn/gskjb/20260720/html/content_20260720007002.htm",
    "firstSeen": "2026-08-07",
-   "id": 238
+   "id": 274
   },
   {
    "cat": "母婴",
@@ -3370,7 +3874,7 @@ window.BRIEFING = {
    "source": "南方plus",
    "url": "https://static.nfnews.com/content/202604/07/c12314294.html?enterColumnId=0",
    "firstSeen": "2026-08-07",
-   "id": 239
+   "id": 275
   },
   {
    "cat": "母婴",
@@ -3384,7 +3888,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260130A03T2000?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 240
+   "id": 276
   },
   {
    "cat": "母婴",
@@ -3398,7 +3902,7 @@ window.BRIEFING = {
    "source": "中国医药信息查询平台",
    "url": "https://m.dayi.org.cn/qa/19134?from=sg",
    "firstSeen": "2026-08-07",
-   "id": 241
+   "id": 277
   },
   {
    "cat": "母婴",
@@ -3412,7 +3916,7 @@ window.BRIEFING = {
    "source": "南充市政府",
    "url": "https://nanchong.gov.cn/zwgk/zc/xzgfxwj/t_2313611.html",
    "firstSeen": "2026-08-07",
-   "id": 242
+   "id": 278
   },
   {
    "cat": "母婴",
@@ -3426,7 +3930,7 @@ window.BRIEFING = {
    "source": "福州政府",
    "url": "https://zx.fuzhou.gov.cn/zz/csfz/fzdt/202512/t20251231_5264994.htm",
    "firstSeen": "2026-08-07",
-   "id": 243
+   "id": 279
   },
   {
    "cat": "母婴",
@@ -3440,7 +3944,7 @@ window.BRIEFING = {
    "source": "福州市政府",
    "url": "https://www.fuzhou.gov.cn/suc/login/logout?redirtUrl=http%3A%2F%2Fwww.fuzhou.gov.cn%2Fzwgk%2Fgzdt%2Frcyw%2F202512%2Ft20251231_5264461.htm",
    "firstSeen": "2026-08-07",
-   "id": 244
+   "id": 280
   },
   {
    "cat": "母婴",
@@ -3454,7 +3958,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "http://m2.people.cn/news/default.html?s=Ml8yXzQxNDU4OTQ2XzE4MTQ2Nl8xNzY3MDc3ODIy",
    "firstSeen": "2026-08-07",
-   "id": 245
+   "id": 281
   },
   {
    "cat": "母婴",
@@ -3468,7 +3972,7 @@ window.BRIEFING = {
    "source": "医学科普",
    "url": "https://ztzy.com/NewsDetail-28268.html",
    "firstSeen": "2026-08-07",
-   "id": 246
+   "id": 282
   },
   {
    "cat": "母婴",
@@ -3482,7 +3986,7 @@ window.BRIEFING = {
    "source": "河西区政府",
    "url": "https://www.tjhx.gov.cn/hxxw/szyw/202608/t20260807_7349129.html",
    "firstSeen": "2026-08-07",
-   "id": 247
+   "id": 283
   },
   {
    "cat": "母婴",
@@ -3496,7 +4000,7 @@ window.BRIEFING = {
    "source": "河北省卫生健康委",
    "url": "https://wsjkw.hebei.gov.cn/zwyw/420883.jhtml",
    "firstSeen": "2026-08-07",
-   "id": 248
+   "id": 284
   },
   {
    "cat": "母婴",
@@ -3510,7 +4014,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://baijiahao.baidu.com/s?id=1862593156438313560",
    "firstSeen": "2026-08-07",
-   "id": 249
+   "id": 285
   },
   {
    "cat": "母婴",
@@ -3524,7 +4028,7 @@ window.BRIEFING = {
    "source": "宿迁市卫生健康委",
    "url": "https://wjw.suqian.gov.cn/swsj/zcwj/202602/3ac5f0b410e64b24992ff2407b4658dd.shtml",
    "firstSeen": "2026-08-07",
-   "id": 250
+   "id": 286
   },
   {
    "cat": "母婴",
@@ -3538,7 +4042,7 @@ window.BRIEFING = {
    "source": "南充市政府",
    "url": "https://www.nanchong.gov.cn/zwgk/zfgb/2026n/d2q/202603/t20260318_2319635.html",
    "firstSeen": "2026-08-07",
-   "id": 251
+   "id": 287
   },
   {
    "cat": "母婴",
@@ -3552,7 +4056,7 @@ window.BRIEFING = {
    "source": "星辰在线",
    "url": "http://www.xnnews.com.cn/kejiao/kjqy/202607/t20260730_5169557.shtml",
    "firstSeen": "2026-08-07",
-   "id": 252
+   "id": 288
   },
   {
    "cat": "母婴",
@@ -3566,7 +4070,7 @@ window.BRIEFING = {
    "source": "新民周刊",
    "url": "https://www.xinminweekly.com.cn/shenghuo/2026/08/01/48806.html",
    "firstSeen": "2026-08-07",
-   "id": 253
+   "id": 289
   },
   {
    "cat": "母婴",
@@ -3580,7 +4084,7 @@ window.BRIEFING = {
    "source": "新京报",
    "url": "https://m.bjnews.com.cn/detail/1776515564129773.html",
    "firstSeen": "2026-08-07",
-   "id": 254
+   "id": 290
   },
   {
    "cat": "母婴",
@@ -3594,7 +4098,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260518A07KH300?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 255
+   "id": 291
   },
   {
    "cat": "母婴",
@@ -3608,7 +4112,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260629A06GPC00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 256
+   "id": 292
   },
   {
    "cat": "母婴",
@@ -3622,7 +4126,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://c.m.163.com/news/a/L046UFEV0530JPVV.html",
    "firstSeen": "2026-08-07",
-   "id": 257
+   "id": 293
   },
   {
    "cat": "母婴",
@@ -3636,7 +4140,7 @@ window.BRIEFING = {
    "source": "健康上海12320",
    "url": "https://www.zydey.com.cn/department_szyxka0_ksdt/2026/Xe02G7bx.html",
    "firstSeen": "2026-08-07",
-   "id": 258
+   "id": 294
   },
   {
    "cat": "母婴",
@@ -3650,7 +4154,7 @@ window.BRIEFING = {
    "source": "新浪",
    "url": "https://cj.sina.com.cn/articles/view/7880068467/1d5b04d7301901b6og",
    "firstSeen": "2026-08-07",
-   "id": 259
+   "id": 295
   },
   {
    "cat": "母婴",
@@ -3664,7 +4168,21 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7659653582534246955/",
    "firstSeen": "2026-08-07",
-   "id": 260
+   "id": 296
+  },
+  {
+   "cat": "母婴",
+   "time": "11:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "台湾食药署拦截日本婴幼儿米果 镉含量超标",
+   "summary": "2026年8月11日台湾食药署边境查验显示，日本酒田米菓产婴幼儿米果检出镉0.067mg/kg，超出婴幼儿谷物辅助食品0.04mg/kg限量，1.68公斤产品被退运或销毁，进口商调整为加强抽批查验。",
+   "decision": "宝宝辅食阶段慎选进口米果类零食，留意产地与重金属检测，优先符合国标的国产辅食。",
+   "source": "食品伙伴网",
+   "url": "https://news.foodmate.net/2026/08/wap_750248.html",
+   "firstSeen": "2026-08-17",
+   "id": 297
   },
   {
    "cat": "母婴",
@@ -3678,7 +4196,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260628A048G300?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 261
+   "id": 298
   },
   {
    "cat": "母婴",
@@ -3692,7 +4210,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260703A06HLL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 262
+   "id": 299
   },
   {
    "cat": "母婴",
@@ -3706,7 +4224,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260728A0AYSQ00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 263
+   "id": 300
   },
   {
    "cat": "母婴",
@@ -3720,7 +4238,21 @@ window.BRIEFING = {
    "source": "沙市区政府",
    "url": "http://shashi.gov.cn/ssqxw/jcdt/202602/t20260205_1069553.shtml",
    "firstSeen": "2026-08-07",
-   "id": 264
+   "id": 301
+  },
+  {
+   "cat": "母婴",
+   "time": "10:20",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "包头连续三轮新生儿免费疾病筛查 覆盖48种遗传代谢病",
+   "summary": "包头市2025—2026年度第三轮新生儿免费筛查项目投入184.99万元，覆盖48种遗传代谢病与耳聋基因筛查，父母一方为包头户籍即可在助产机构免费检测，截至2026年3月底已完成2033例、异常9人。",
+   "decision": "宝宝出生后务必做足跟血与耳聋基因免费筛查，异常可早干预，避免不可逆智力或听力损伤。",
+   "source": "包头新闻网",
+   "url": "https://iapp.baotounews.com.cn/share/YS02ODktNDM1MDA5NDQ.html",
+   "firstSeen": "2026-08-17",
+   "id": 302
   },
   {
    "cat": "母婴",
@@ -3734,7 +4266,35 @@ window.BRIEFING = {
    "source": "玉溪市红塔区政府",
    "url": "https://www.hongta.gov.cn/yxgovfront/guestbookInfo.jspx?_s_=1&number=20260611104412672382&numberPassword=102972",
    "firstSeen": "2026-08-07",
-   "id": 265
+   "id": 303
+  },
+  {
+   "cat": "母婴",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "2026年世界母乳喂养周：支持母乳喂养 护航生命起点",
+   "summary": "2026年8月1—7日为第35个世界母乳喂养周，主题为支持母乳喂养、护航生命起点。天门等地妇幼机构开展孕期营养、喂养姿势、产后康复科普，强调母乳是婴儿最安全天然食物。",
+   "decision": "预产期临近，可提前参加医院母乳喂养课堂，准备哺乳文胸与吸奶器，并了解产后开奶与含接姿势以减少乳头损伤。",
+   "source": "湖北日报",
+   "url": "https://news.hubeidaily.net/pc/c_5825746.html",
+   "firstSeen": "2026-08-17",
+   "id": 304
+  },
+  {
+   "cat": "母婴",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "含山县医保多维施策释放生育红利 生育津贴免申即享",
+   "summary": "马鞍山含山县自2026年7月1日新政实施以来，将灵活就业、农民工、新就业形态从业者纳入生育保险，产前检查报销上限提至1000元，分娩镇痛纳入甲类报销，生育津贴实行免申即享、即申即享。",
+   "decision": "关注参保地生育津贴免申即享政策，确保产假工资与津贴衔接，避免收入空窗影响家庭现金流。",
+   "source": "马鞍山市医保局",
+   "url": "https://ylbzj.mas.gov.cn/xwdt/gzdt/2006523141.html",
+   "firstSeen": "2026-08-17",
+   "id": 305
   },
   {
    "cat": "母婴",
@@ -3748,7 +4308,7 @@ window.BRIEFING = {
    "source": "嵊州市政府",
    "url": "https://www.szzj.gov.cn/col/col1229351765/art/2026/art_c1506ae448ca4562af7adb0563dd96b5.html",
    "firstSeen": "2026-08-07",
-   "id": 266
+   "id": 306
   },
   {
    "cat": "母婴",
@@ -3762,7 +4322,21 @@ window.BRIEFING = {
    "source": "龙泉市政府",
    "url": "https://www.longquan.gov.cn/col/col1229382445/art/2026/art_63be9e1db5564a6d81d999d77cae6734.html",
    "firstSeen": "2026-08-07",
-   "id": 267
+   "id": 307
+  },
+  {
+   "cat": "母婴",
+   "time": "09:44",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "山东抽检49批次童装及婴幼儿服装不合格",
+   "summary": "山东省市场监管局通告49批次抽检不合格童装及婴幼儿服装，涉及朴素耕婴幼儿polo连体衣、MLB儿童短裤、dadida直筒长裤、巴吉象婴儿开裆裤、益友小蚂蚁儿童服饰等。",
+   "decision": "为新生儿选购衣物认准GB 31701 A类标准，避开通报品牌批次，优先纯棉浅色无绳带款。",
+   "source": "海报新闻",
+   "url": "http://gzylhyzx.com/detail.html?newsId=12896863",
+   "firstSeen": "2026-08-17",
+   "id": 308
   },
   {
    "cat": "母婴",
@@ -3776,7 +4350,7 @@ window.BRIEFING = {
    "source": "平阳县政府",
    "url": "https://www.zjpy.gov.cn/col/col1229570948/art/2026/art_31687e297ac04f8ea475d337dd39f332.html",
    "firstSeen": "2026-08-07",
-   "id": 268
+   "id": 309
   },
   {
    "cat": "母婴",
@@ -3790,7 +4364,7 @@ window.BRIEFING = {
    "source": "福建省卫生健康委",
    "url": "https://wjw.fujian.gov.cn/jggk/csxx/jhsyjczdc/zhgl_53347/202605/t20260513_7147550.htm",
    "firstSeen": "2026-08-07",
-   "id": 269
+   "id": 310
   },
   {
    "cat": "母婴",
@@ -3804,7 +4378,7 @@ window.BRIEFING = {
    "source": "中国妇女网",
    "url": "https://www.nwccw.gov.cn/2026/03/30/99973985.html",
    "firstSeen": "2026-08-07",
-   "id": 270
+   "id": 311
   },
   {
    "cat": "母婴",
@@ -3818,7 +4392,7 @@ window.BRIEFING = {
    "source": "山东省医疗保障局",
    "url": "https://ybj.shandong.gov.cn/jsearchfront/visit/link.do?url=http%3A%2F%2Fybj.shandong.gov.cn%2Fart%2F2026%2F6%2F2%2Fart_113623_10321868.html&websiteid=370000000000073",
    "firstSeen": "2026-08-07",
-   "id": 271
+   "id": 312
   },
   {
    "cat": "母婴",
@@ -3832,7 +4406,7 @@ window.BRIEFING = {
    "source": "华声在线",
    "url": "https://m.voc.com.cn/rmt/article/16408180.html",
    "firstSeen": "2026-08-07",
-   "id": 272
+   "id": 313
   },
   {
    "cat": "母婴",
@@ -3846,7 +4420,7 @@ window.BRIEFING = {
    "source": "新浪",
    "url": "https://k.sina.cn/article_3164957712_bca56c1000102g9ay.html",
    "firstSeen": "2026-08-07",
-   "id": 273
+   "id": 314
   },
   {
    "cat": "母婴",
@@ -3860,7 +4434,231 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20251231A077XH00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 274
+   "id": 315
+  },
+  {
+   "cat": "母婴",
+   "time": "09:01",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "皇家美素力初检超标9倍、企业复检合格 专家提示核对批号",
+   "summary": "菲仕兰称同批次留存样复检铅含量低于0.007mg/kg合格，澳门扩大抽检1—4号共13个样本暂未发现异常，截至7月29日预警仍仅针对1W07KPJ单一涉事批次。",
+   "decision": "选购进口奶粉务必翻看罐底批号与日期，预警仅限特定批次，不必恐慌性囤货但需避开1W07KPJ。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/article/7669230873916588595",
+   "firstSeen": "2026-08-17",
+   "id": 316
+  },
+  {
+   "cat": "母婴",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "靖西市印发逐步推行免费学前教育实施方案",
+   "summary": "靖西市发布实施方案，明确公办幼儿园保育教育费收费标准（城区示范园414元/生·月等），对3岁以下婴幼儿日托保教费可上浮不超过30%，对脱贫户、困难幼儿减免不低于50%。",
+   "decision": "若居住地推行免费/普惠学前教育，可将其纳入宝宝中长期教育金规划，降低未来固定支出。",
+   "source": "靖西市政府",
+   "url": "http://www.jingxi.gov.cn/xxgk/fdzdgkmr/jcxxgk/zcwj/bjwj/szfbgswj_1/t27548274.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 317
+  },
+  {
+   "cat": "母婴",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "桐庐惠民七条：托育礼包每孩每年3600元至3周岁",
+   "summary": "桐庐县惠民七条（2026）对符合条件的3周岁以下婴幼儿发放每孩每年3600元育儿补助，三孩一次性补助9200元，二孩/三孩孕产补助2000/5000元，新增托育学位200个以上，政策有效期至2026年12月31日。",
+   "decision": "若户籍或居住地有类似县级补贴，宝宝出生后及时提交材料申领，叠加国家育儿补贴可减轻养育开支。",
+   "source": "桐庐县政府",
+   "url": "https://www.tonglu.gov.cn/jrobotfront/visit/link.do?url=http%3A%2F%2Fwww.tonglu.gov.cn%2Fcol%2Fcol1229267917%2Fart%2F2026%2Fart_d84d0d2599df4a4ab5fb890c9c707160.html&q=&websiteid=330122000000000",
+   "firstSeen": "2026-08-17",
+   "id": 318
+  },
+  {
+   "cat": "母婴",
+   "time": "08:42",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "智珍乳业晨牧阳光草原老奶粉菌落总数超标被通报",
+   "summary": "内蒙古市场监管局2026年第7期抽检通告显示，智珍乳业生产的260克/袋晨牧阳光草原老奶粉菌落总数实测最高16万CFU/g，超出国标限值。属地已启动下架、召回处置，一年两度抽检不合格。",
+   "decision": "宝宝辅食阶段如选购成人奶粉冲调或家庭饮用，应避开近期通报批次，优先选择抽检记录良好的大品牌。",
+   "source": "五谷财经/网易",
+   "url": "https://www.163.com/dy/article/L3D5EGC205198DU3.html",
+   "firstSeen": "2026-08-17",
+   "id": 319
+  },
+  {
+   "cat": "母婴",
+   "time": "08:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "内蒙古2026年投入1200万元为全区新生儿提供免费疾病筛查",
+   "summary": "内蒙古自治区2026年将为全区新生儿提供免费疾病筛查，病种含苯丙酮尿症、先天性甲状腺功能减低症和新生儿听力障碍，并依托出生缺陷防治条例完善筛诊治一体化网络。",
+   "decision": "若返乡内蒙古生育，可凭免费筛查政策完成宝宝出生缺陷三级预防，零成本建立健康档案。",
+   "source": "呼和浩特日报",
+   "url": "https://static.0471tv.org.cn/rb/pc/con/202602/18/content_96156.html",
+   "firstSeen": "2026-08-17",
+   "id": 320
+  },
+  {
+   "cat": "母婴",
+   "time": "08:13",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "暑期近视防控20问答发布 强调保护远视储备",
+   "summary": "全国综合防控儿童青少年近视宣讲团发布2026暑假近视防控20问答，指出6岁儿童应有+1.75—+2.25D远视储备，建议每天户外2小时、3岁以下尽量不接触电子产品，并将远视储备监测纳入学龄前体检。",
+   "decision": "从婴儿期起控制屏幕暴露、多安排户外活动的习惯，为宝宝远期视力健康打基础。",
+   "source": "广州招考/全国宣讲团",
+   "url": "https://gzzk.gz.gov.cn/gkmlpt/content/10/10963/post_10963857.html",
+   "firstSeen": "2026-08-17",
+   "id": 321
+  },
+  {
+   "cat": "母婴",
+   "time": "21:16",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "鲁医健康说：暑假过半孩子视力告急 护眼全攻略",
+   "summary": "山东省卫健委发布会提示暑期是近视高危时段，出现眯眼、凑近、揉眼等信号应尽早就医；建议3岁以下不接触电子产品，中小学生非学习用屏单次不超15分钟、每天累计不超1小时，每天户外不少于2小时。",
+   "decision": "家庭环境从现在起减少电子屏、增加自然光活动，把科学用眼习惯融入日常育儿。",
+   "source": "闪电新闻",
+   "url": "https://www.163.com/dy/article/L40HF6P30514CFC7.html",
+   "firstSeen": "2026-08-17",
+   "id": 322
+  },
+  {
+   "cat": "母婴",
+   "time": "18:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "陕西天和乳业奶粉标签造假被罚2.1万元",
+   "summary": "陕西天和乳业因生产的全脂甜牛奶粉标签标注含生牛乳、实际投料为全脂奶粉，被岐山县市监局依据《食品安全法》罚款2.1万元，该企业2025年12月曾因同类违法被处罚。",
+   "decision": "选购奶粉时核对配料表与标签一致性，对宣称生牛乳却标全脂奶粉的产品保持警惕。",
+   "source": "信网/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260816A02T6J00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 323
+  },
+  {
+   "cat": "母婴",
+   "time": "17:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "辛选供应链直播虚假宣传被罚32万 涉母婴奶粉",
+   "summary": "辛巴实控的广州辛选供应链因4月在快手直播间推广伊利高个子学生高锌高钙奶粉等产品虚假宣传被罚32万元，近期新增被执行人信息。",
+   "decision": "母婴产品直播带货需核验资质与检测报告，勿盲信主播话术，理性对比配方与价格。",
+   "source": "新黄河/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260816A02T6J00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 324
+  },
+  {
+   "cat": "母婴",
+   "time": "16:48",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "专家提醒初乳是宝宝免疫黄金 勿丢弃",
+   "summary": "江西省儿童医院专家称初乳富含免疫球蛋白与活性营养，被称为新生儿第一剂疫苗，能降低腹泻、肺炎、过敏风险并促母体子宫恢复。建议出生后黄金1小时内开奶、按需喂养。",
+   "decision": "产前可与助产士沟通早接触早开奶计划，避免因误区丢弃初乳，为宝宝建立初始免疫屏障。",
+   "source": "江西日报健康",
+   "url": "https://www.toutiao.com/article/7671206840700568079",
+   "firstSeen": "2026-08-17",
+   "id": 325
+  },
+  {
+   "cat": "母婴",
+   "time": "16:42",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "石嘴山市监局发布儿童用品消费警示 安全座椅须3C认证",
+   "summary": "石嘴山市监局围绕儿童学、玩、穿、用、行全场景发布暑期消费警示：文具避三无、台灯认3C；童装查标签避长绳带；奶瓶爬行垫选无毒稳固；机动车儿童安全座椅须选3C认证并规范安装。",
+   "decision": "待产清单可纳入3C认证婴幼儿安全座椅，按宝宝体重年龄段选购并提前练习正确安装。",
+   "source": "石嘴山市监局",
+   "url": "https://www.toutiao.com/article/7669717630537826860",
+   "firstSeen": "2026-08-17",
+   "id": 326
+  },
+  {
+   "cat": "母婴",
+   "time": "16:37",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "旺苍县筑牢新生儿疾病筛查全链条管控",
+   "summary": "旺苍县推进新生儿遗传代谢病、听力、先心病三项免费筛查，建立筛查—诊断—干预—随访闭环。案例中一名宝宝经足跟血查出先天性甲状腺功能减低症，规律服药后发育正常。",
+   "decision": "即便宝宝外观健康也应配合足跟血筛查，切勿因嫌检查多而拒绝，早筛早治关键。",
+   "source": "健康广元",
+   "url": "https://www.toutiao.com/article/7672319377173234217",
+   "firstSeen": "2026-08-17",
+   "id": 327
+  },
+  {
+   "cat": "母婴",
+   "time": "16:17",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "邯郸开展儿童服装质量专项监督抽查 共抽50批次",
+   "summary": "邯郸市纤维检验所采取双随机方式对全市童装生产、商超、母婴店抽取50批次样品，重点检测甲醛、pH值、可分解致癌芳香胺染料、色牢度、纤维含量等安全项目，部分样品存在标识不规范与纤维含量不符。",
+   "decision": "宝宝贴身衣物先看吊牌安全类别与执行标准，新衣穿前充分清洗晾晒以去除残留。",
+   "source": "中国纤检",
+   "url": "https://www.toutiao.com/article/7672314144133153306",
+   "firstSeen": "2026-08-17",
+   "id": 328
+  },
+  {
+   "cat": "母婴",
+   "time": "16:12",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "定制奶粉迎大考：动销与稳利成赛点",
+   "summary": "随着渠道定制奶粉从稀缺资源变为各级母婴渠道标准配置，定制身份带来的差异化优势弱化，行业竞争转向产品品质、品牌力与终端动销能力。",
+   "decision": "定制款不等于更优，选购时仍以配方注册号、检测报告与宝宝适应度为判断依据。",
+   "source": "母婴时代/网易",
+   "url": "https://www.163.com/dy/article/L454KFNN05465CCQ.html",
+   "firstSeen": "2026-08-17",
+   "id": 329
+  },
+  {
+   "cat": "母婴",
+   "time": "15:36",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "祺安婴童尿裤腰部橡筋硬化 存划伤婴儿皮肤隐患",
+   "summary": "消费者投诉祺安婴儿纸尿裤腰部松紧带边缘出现硬化结块硬物，商家解释为橡筋外包薄膜高温硬化，仅同意退货退款。该投诉已于8月15日系统自动完成。",
+   "decision": "选购纸尿裤时检查腰部橡筋是否平整柔软，发现硬块结块立即停用并留证维权。",
+   "source": "黑猫投诉",
+   "url": "https://tousu.sina.cn/complaint/view/17400338614?sld=6d71de637ce7c4849544c173acab9f8a",
+   "firstSeen": "2026-08-17",
+   "id": 330
+  },
+  {
+   "cat": "母婴",
+   "time": "15:19",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "怎样更好防控小眼镜 前移防控关口",
+   "summary": "文章强调将近视防控关口前移至6岁以前，落实零起点教学、避免幼儿园小学化，幼儿单次用屏不超15分钟、每天累计不超1小时，并为学生建立视力健康档案、将远视储备监测纳入常规体检。",
+   "decision": "选购绘本与玩具优于早教电子屏，保护宝宝远视储备从减少近距离用眼开始。",
+   "source": "求是网",
+   "url": "https://www.toutiao.com/article/7672669677521125940",
+   "firstSeen": "2026-08-17",
+   "id": 331
   },
   {
    "cat": "母婴",
@@ -3874,7 +4672,7 @@ window.BRIEFING = {
    "source": "育儿科普(综合)",
    "url": "https://www.zydey.com.cn/department_szyxka0_ksdt/2026/Xe02G7bx.html",
    "firstSeen": "2026-08-07",
-   "id": 275
+   "id": 332
   },
   {
    "cat": "母婴",
@@ -3888,7 +4686,7 @@ window.BRIEFING = {
    "source": "大众日报",
    "url": "https://paper.dzjkb.org.cn/article/45371/35197.html",
    "firstSeen": "2026-08-07",
-   "id": 276
+   "id": 333
   },
   {
    "cat": "母婴",
@@ -3902,7 +4700,7 @@ window.BRIEFING = {
    "source": "光明日报",
    "url": "https://epaper.gmw.cn/gmrb/html/content/202606/02/content_15557.html",
    "firstSeen": "2026-08-07",
-   "id": 277
+   "id": 334
   },
   {
    "cat": "母婴",
@@ -3916,7 +4714,7 @@ window.BRIEFING = {
    "source": "渭南市教育局",
    "url": "https://jyj.weinan.gov.cn/zthd/xqjyxcy/2067533673946820610.html",
    "firstSeen": "2026-08-07",
-   "id": 278
+   "id": 335
   },
   {
    "cat": "母婴",
@@ -3930,7 +4728,7 @@ window.BRIEFING = {
    "source": "消费提示(综合)",
    "url": "https://www.gov.cn/lianbo/202607/content_7076240.htm",
    "firstSeen": "2026-08-07",
-   "id": 279
+   "id": 336
   },
   {
    "cat": "母婴",
@@ -3944,7 +4742,7 @@ window.BRIEFING = {
    "source": "母婴平台",
    "url": "https://zypt.mfk.com/ask/13568182.shtml",
    "firstSeen": "2026-08-07",
-   "id": 280
+   "id": 337
   },
   {
    "cat": "母婴",
@@ -3958,7 +4756,7 @@ window.BRIEFING = {
    "source": "宿迁市卫生健康委",
    "url": "https://wjw.suqian.gov.cn/swsj/xqdt/202608/084fe7dde22a40b5be828631eb9c92ac.shtml",
    "firstSeen": "2026-08-07",
-   "id": 281
+   "id": 338
   },
   {
    "cat": "母婴",
@@ -3972,7 +4770,7 @@ window.BRIEFING = {
    "source": "福清市政府",
    "url": "https://www.fuqing.gov.cn/xjwz/zwgk/zfxxgkzdgz/tabl/zxta/202604/t20260407_5305891.htm",
    "firstSeen": "2026-08-07",
-   "id": 282
+   "id": 339
   },
   {
    "cat": "母婴",
@@ -3986,7 +4784,7 @@ window.BRIEFING = {
    "source": "中研网",
    "url": "https://m.chinairn.com/hyzx/20260529/175554661.shtml",
    "firstSeen": "2026-08-07",
-   "id": 283
+   "id": 340
   },
   {
    "cat": "母婴",
@@ -4000,7 +4798,7 @@ window.BRIEFING = {
    "source": "中研网",
    "url": "https://m.chinairn.com/hyzx/20260709/150912295.shtml",
    "firstSeen": "2026-08-07",
-   "id": 284
+   "id": 341
   },
   {
    "cat": "母婴",
@@ -4014,7 +4812,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.cn/2026-07-27/detail-inikhcmc0681576.d.html",
    "firstSeen": "2026-08-07",
-   "id": 285
+   "id": 342
   },
   {
    "cat": "母婴",
@@ -4028,7 +4826,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3666a56011c43452",
    "firstSeen": "2026-08-07",
-   "id": 286
+   "id": 343
   },
   {
    "cat": "母婴",
@@ -4042,7 +4840,63 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7631091558414041643/",
    "firstSeen": "2026-08-07",
-   "id": 287
+   "id": 344
+  },
+  {
+   "cat": "母婴",
+   "time": "11:30",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "8款宝宝洗沐二合一横向实测：温和清洁与保湿如何兼顾",
+   "summary": "凤凰网横评自购8款宝宝洗沐二合一，围绕表活体系、油脂养护、备案透明度等维度测评，首选推荐采用氨基酸/糖脂类非硫酸盐表活、含神经酰胺与角鲨烷的配方，并提醒泡沫多不等于洗得干净。",
+   "decision": "新生儿洗浴选无硫酸盐、有儿童化妆品标识的温和二合一，首次使用先在手臂内侧小范围试用。",
+   "source": "凤凰网",
+   "url": "https://i.ifeng.com/c/8vNB19dGchf",
+   "firstSeen": "2026-08-17",
+   "id": 345
+  },
+  {
+   "cat": "母婴",
+   "time": "11:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "外资奶粉巨头进入存量博弈深水区",
+   "summary": "达能、雀巢、菲仕兰、a2等外资奶粉企业2026上半年在华表现分化，定价贡献普遍高于销量贡献，行业进入精细化喂养时代，全家营养成为共同瞄准的核心增长方向。",
+   "decision": "选奶粉不必盲目追外资大牌，关注配方适配与近期供应链稳定性，理性看待营销叙事。",
+   "source": "腾讯新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2366a72951991052",
+   "firstSeen": "2026-08-17",
+   "id": 346
+  },
+  {
+   "cat": "母婴",
+   "time": "10:30",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "长春妇联推出春宝贝普惠托育免费开放 28家机构可试托",
+   "summary": "长春市妇联联合市卫健委征集28家优质普惠托育机构，开展春宝贝普惠托育免费开放活动，设免费试托与园区开放日，提供小时托、半日托等，严格执行普惠收费标准。",
+   "decision": "若日后需托育，可先预约免费试托体验师资与环境，对比普惠收费再做长期选择。",
+   "source": "长春市妇联",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2636a71207328952",
+   "firstSeen": "2026-08-17",
+   "id": 347
+  },
+  {
+   "cat": "母婴",
+   "time": "10:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "特配粉十年累计获批365款 HMO拟扩围至大众食品",
+   "summary": "奶粉智库周报显示特医食品注册十年累计获批365款；酵母蛋白正式单列纳入新国标《固体饮料质量要求》；母乳低聚糖HMO代表成分LNnT拟从婴配粉扩至调制乳、焙烤等大众食品，反馈截止8月14日。",
+   "decision": "特殊医学用途奶粉需凭医生评估购买，普通宝宝无需追HMO概念溢价，按需选择即可。",
+   "source": "奶粉智库",
+   "url": "https://www.naifenzhiku.com/article/cate-4/detail-28837.html",
+   "firstSeen": "2026-08-17",
+   "id": 348
   },
   {
    "cat": "母婴",
@@ -4056,7 +4910,161 @@ window.BRIEFING = {
    "source": "平凉发布/今日头条",
    "url": "https://www.toutiao.com/article/7625179130799407642/",
    "firstSeen": "2026-08-07",
-   "id": 288
+   "id": 349
+  },
+  {
+   "cat": "母婴",
+   "time": "09:20",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "金山卫镇宝宝屋社区普惠托育人气爆棚",
+   "summary": "上海金山卫镇卫来儿童服务中心宝宝屋免费为1—3岁婴幼儿家庭提供专业托育，面积约180平方米全域软包，已开展主题活动20余场、吸引500多人次，暑期日均10余组家庭。",
+   "decision": "可查询居住地15分钟生活圈内社区宝宝屋，作为宝宝早期社交与短时托管的低成本选项。",
+   "source": "金山卫镇/上观新闻",
+   "url": "https://www.jinshan.gov.cn/ywdt-zhxx/20260806/878180.html",
+   "firstSeen": "2026-08-17",
+   "id": 350
+  },
+  {
+   "cat": "母婴",
+   "time": "09:05",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "沈阳疾控科普科学喂母乳：出生1小时内尽早肌肤接触",
+   "summary": "沈阳疾控指出新生儿娩出后30分钟内尽早吸吮、1小时内充分肌肤接触可促进乳汁分泌。可通过每日排尿6—7次、胎粪3—15天转黄判断摄入充足，乳腺炎需及时就诊。",
+   "decision": "待产包可加入乳头护理霜与防溢乳垫；若产后出现堵奶或乳腺炎迹象，及时就医不必硬扛。",
+   "source": "沈阳市卫健委",
+   "url": "https://wjw.shenyang.gov.cn/ztzl/xsxxjkdjt/202608/t20260803_5066641.html",
+   "firstSeen": "2026-08-17",
+   "id": 351
+  },
+  {
+   "cat": "母婴",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "龙泉驿区妇幼阳光工程十九免五助 含多项新生儿免费筛查",
+   "summary": "成都龙泉驿区2026年7月更新妇幼阳光工程，提供免费孕产妇健康管理、儿童健康管理、新生儿耳聋基因筛查、新生儿疾病筛查、新生儿听力筛查等服务，覆盖出生前后全周期。",
+   "decision": "了解居住地免费妇幼项目清单，备产时带齐证件以便出院前完成多项新生儿免费筛查。",
+   "source": "龙泉驿区政府",
+   "url": "https://www.longquanyi.gov.cn/lqyqzfmhwz_gb/c123879/2026-07/10/content_46ae71173f5d4baabad4fadafb573e43.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 352
+  },
+  {
+   "cat": "母婴",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "露安适纸尿裤称甲酰胺未检出 通过老爸评测验证",
+   "summary": "露安适安敏微气候系列宣称依据欧盟REACH完成200余项SVHC筛查甲酰胺未检出，自2026年起纳入年度常态化复检，并与国家纸制品质量检验检测中心联合开展全链条质量排查。",
+   "decision": "选购纸尿裤可参考第三方检测报告，优先甲酰胺未检出的产品，为宝宝娇嫩肌肤把关。",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20260812A0D2RJ00",
+   "firstSeen": "2026-08-17",
+   "id": 353
+  },
+  {
+   "cat": "母婴",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "四款部分水解奶粉口感PK 敏宝转奶怎么选",
+   "summary": "评测从口感接受度、水解工艺、转奶顺利度对比雀巢超启能恩、雅培亲护、君乐宝恬适康敏、贝因美舒力乐，指出部分水解奶粉靠工艺降低苦味肽，并非靠加糖掩盖，选品应看致敏片段切割技术。",
+   "decision": "如宝宝有红疹、胀肚等小敏感信号，可在医生指导下尝试部分水解奶粉，别自行判断牛奶蛋白过敏。",
+   "source": "新母婴",
+   "url": "http://news.xnnews.com.cn/tyxw_2109/202608/t20260804_5195307.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 354
+  },
+  {
+   "cat": "母婴",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "皇宠婴幼儿保温杯获世界纪录认证 主打实测保温",
+   "summary": "皇宠大眼萌保温杯8月10日通过世界纪录认证，宣称世界最保温婴幼儿保温杯，委托宁波海关技术中心按国标对13款主流产品对比测试，强调以第三方实测数据替代模糊宣传话术。",
+   "decision": "选购宝宝水杯认准316/304食品级内胆与可拆解清洗结构，保温参数以检测报告为准。",
+   "source": "腾讯新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5396a82ae1193852",
+   "firstSeen": "2026-08-17",
+   "id": 355
+  },
+  {
+   "cat": "母婴",
+   "time": "08:30",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "珠晖区妇幼开展高危孕产妇及新生儿精细化随访",
+   "summary": "衡阳珠晖区妇幼保健院对妊娠期高血压、糖尿病、疤痕子宫等高危产妇及早产儿、黄疸异常新生儿建立一人一档随访，入户测血压血糖、指导喂养与脐部臀部护理。",
+   "decision": "如属高危妊娠或宝宝早产，产后可主动申请社区/医院上门随访，重点监测黄疸与体重增长曲线。",
+   "source": "珠晖区妇幼",
+   "url": "https://www.hyzhq.gov.cn/zhqwjj/xxgk/gzjz/20260807/i3942035.html",
+   "firstSeen": "2026-08-17",
+   "id": 356
+  },
+  {
+   "cat": "母婴",
+   "time": "08:11",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "尼尔森IQ：2026上半年母婴品类同比降2.3% 奶粉转向精细化",
+   "summary": "尼尔森IQ《中国婴幼儿奶粉2026年行业研究报告》显示母婴品类整体同比下滑2.3%，普配牛奶粉逆势增5.2%、婴儿尿布增2.2%，婴配羊奶粉降12.2%、婴儿辅食降15.4%；抖音渠道占比升至35.2%。",
+   "decision": "奶粉辅食市场价盘趋稳、渠道向线上迁移，可多平台比价囤货，但优先以品质与安全为准。",
+   "source": "同花顺",
+   "url": "https://m.10jqka.com.cn/20260811/c678846363.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 357
+  },
+  {
+   "cat": "母婴",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "广东农贸市场日用品抽检：儿童用品2款不合格",
+   "summary": "广东省市场监管局2026年第74号通告显示，2025年农贸市场日用消费品专项抽查发现不合格产品48款，其中儿童用品2款，涉及结构安全与有害物质限量等安全项目。",
+   "decision": "线下母婴店或批发市场采购儿童用品时查看合格证明，优先正规渠道与品牌货。",
+   "source": "陆河县市场监管局",
+   "url": "http://www.luhe.gov.cn/swlhscjdj/gkmlpt/content/1/1266/post_1266318.html",
+   "firstSeen": "2026-08-17",
+   "id": 358
+  },
+  {
+   "cat": "母婴",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "安图县普惠托育润童心 幼儿入园适应速度提升60%以上",
+   "summary": "吉林安图县推出周末免费游园、早晚延时托管、农忙专项托管等服务，参与普惠托育与公益早教的幼儿入园适应速度较未参与提升60%以上，实现早教、托班、小班平稳衔接。",
+   "decision": "关注本地社区普惠早教与延时托管资源，可缓解双职工家庭育儿时间压力。",
+   "source": "中国教育报",
+   "url": "http://www.jyb.cn/rmtzgjyb/202608/t20260816_2111510340.html",
+   "firstSeen": "2026-08-17",
+   "id": 359
+  },
+  {
+   "cat": "母婴",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "2026婴儿米粉十大品牌测评 老爸抽检参与把关",
+   "summary": "测评对比十大热门辅食品牌，强调安全维度看农残检测项数与溯源体系，补铁看二价铁+维C配比，并提醒部分品牌采用合规代工模式不代表品控失控，关键看自检与第三方报告是否公开。",
+   "decision": "宝宝6月龄加辅食首选强化铁米粉，关注二价铁含量与农残检测，初次添加单一谷物观察过敏。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260806A0CI9O00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 360
   },
   {
    "cat": "政治/政策",
@@ -4070,7 +5078,7 @@ window.BRIEFING = {
    "source": "中国经营报/腾讯新闻",
    "url": "https://view.inews.qq.com/a/20260801A01PKR00",
    "firstSeen": "2026-08-07",
-   "id": 289
+   "id": 361
   },
   {
    "cat": "政治/政策",
@@ -4084,7 +5092,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "https://www.toutiao.com/article/7669384812230115840",
    "firstSeen": "2026-08-07",
-   "id": 290
+   "id": 362
   },
   {
    "cat": "政治/政策",
@@ -4098,7 +5106,35 @@ window.BRIEFING = {
    "source": "山西信访/今日头条",
    "url": "https://www.toutiao.com/article/7669738618067452442/",
    "firstSeen": "2026-08-07",
-   "id": 291
+   "id": 363
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:14",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "失业保险支持企业稳岗扩岗 明确五项核心举措",
+   "summary": "人社部等四部门印发通知，延续稳岗返还、一次性扩岗补助、技能提升补贴三项政策至2026年底。招用毕业年度高校毕业生等每招1人最高补1500元。",
+   "decision": "稳岗扩岗与技能补贴利好就业，招联招聘与客群收入稳定性受益，可关注青年客群。",
+   "source": "人力资源和社会保障部",
+   "url": "https://www.toutiao.com/article/7669747095598842406/",
+   "firstSeen": "2026-08-17",
+   "id": 364
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国务院修改和废止部分行政法规（国令第843号）",
+   "summary": "为贯彻生态环境法典，国务院清理12部行政法规部分条款予以修改、3部予以废止。决定自2026年8月15日起施行。",
+   "decision": "关注行政法规清理衔接，招联合同与消金产品条款需同步对照生态环境法典等新规更新。",
+   "source": "中国政府网",
+   "url": "https://www.gov.cn/zhengce/content/202608/content_7077980.htm",
+   "firstSeen": "2026-08-17",
+   "id": 365
   },
   {
    "cat": "政治/政策",
@@ -4112,7 +5148,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://finance.people.com.cn/n1/2026/0807/c1004-40775743.html",
    "firstSeen": "2026-08-07",
-   "id": 292
+   "id": 366
   },
   {
    "cat": "政治/政策",
@@ -4126,7 +5162,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260803A04C3200",
    "firstSeen": "2026-08-07",
-   "id": 293
+   "id": 367
   },
   {
    "cat": "政治/政策",
@@ -4140,7 +5176,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.com/2026/08/01/ARTIaCfQVD4QtplI5tTVNsh3260801.shtml",
    "firstSeen": "2026-08-07",
-   "id": 294
+   "id": 368
   },
   {
    "cat": "政治/政策",
@@ -4154,7 +5190,21 @@ window.BRIEFING = {
    "source": "人民日报",
    "url": "https://sthjt.sc.gov.cn/sthjt/c25041002/2026/8/3/63d106cff2e54075903e8a716e069337.shtml",
    "firstSeen": "2026-08-07",
-   "id": 295
+   "id": 369
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:07",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "下半年宏观政策将发力提效 确保完成全年目标",
+   "summary": "发改委表示将以更大力度扩内需，加快8000亿元新型政策性金融工具投放，协同推进109项重大工程和六张网建设。人工智能相关行业保持30%以上高增长。",
+   "decision": "扩大内需与促消费政策利好消费金融需求，招联可结合联通渠道布局服务消费分期。",
+   "source": "央视网",
+   "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/01/ARTI7y8ZcInHLlK8UKAfsdpf260801.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 370
   },
   {
    "cat": "政治/政策",
@@ -4168,7 +5218,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/gongbao/2026/issue_12886/202607/content_7076952.html",
    "firstSeen": "2026-08-07",
-   "id": 296
+   "id": 371
   },
   {
    "cat": "政治/政策",
@@ -4182,7 +5232,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/zhengce/zhengceku/202606/content_7072482.htm",
    "firstSeen": "2026-08-07",
-   "id": 297
+   "id": 372
   },
   {
    "cat": "政治/政策",
@@ -4196,7 +5246,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260629A08PYK00",
    "firstSeen": "2026-08-07",
-   "id": 298
+   "id": 373
   },
   {
    "cat": "政治/政策",
@@ -4210,7 +5260,7 @@ window.BRIEFING = {
    "source": "商务部",
    "url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2026/art_93174802aa0740319a238fb6dc0ef730.html",
    "firstSeen": "2026-08-07",
-   "id": 299
+   "id": 374
   },
   {
    "cat": "政治/政策",
@@ -4224,7 +5274,49 @@ window.BRIEFING = {
    "source": "腾讯新闻/健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8586a71114883252",
    "firstSeen": "2026-08-07",
-   "id": 300
+   "id": 375
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "《个人贷款业务明示综合融资成本规定》8月1日起施行",
+   "summary": "金融监管总局、央行联合发布规定，要求贷款人向借款人展示综合融资成本明示表，息费项目与机构全覆盖。消费金融公司、小贷公司等全部纳入，线上线下均需落实明示。",
+   "decision": "招联消金须自8月1日起在新增个贷业务全面展示综合融资成本明示表，借招联×联通专项强化息费透明与合规获客。",
+   "source": "国家金融监督管理总局",
+   "url": "https://www.nfra.gov.cn/cn/view/pages/ItemDetail.html?docId=1251644&generaltype=0&itemId=915",
+   "firstSeen": "2026-08-17",
+   "id": 376
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国务院印发《知识产权保护和运用十五五规划》",
+   "summary": "规划部署四方面重点任务与12个专项工程，设战略性新兴产业知识产权保护、知识产权与人工智能双向赋能等工程。到2030年每万人口高价值发明专利拥有量目标超22件。",
+   "decision": "招联应关注知识产权与AI双向赋能工程，加强自有风控模型与品牌商标保护，联通合作中注意数据合规。",
+   "source": "中国政府网",
+   "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/yaowen/liebiao/202607/content_7077206.htm",
+   "firstSeen": "2026-08-17",
+   "id": 377
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国务院公布《出境入境管理的规定》 9月15日施行",
+   "summary": "规定共19条，健全公民出境安全风险防范制度，完善出境入境申请要求与限制措施，对中介服务实行备案管理。自2026年9月15日起施行。",
+   "decision": "出境入境新规影响员工出境合规，招联涉外业务与联通国际板块需关注签证与中介备案。",
+   "source": "中国政府网",
+   "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/yaowen/liebiao/202607/content_7077180.htm",
+   "firstSeen": "2026-08-17",
+   "id": 378
   },
   {
    "cat": "政治/政策",
@@ -4238,7 +5330,63 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/jjxw/2026-08-07/doc-inimnenp3289533.shtml",
    "firstSeen": "2026-08-07",
-   "id": 301
+   "id": 379
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "《中华人民共和国生态环境法典》自8月15日起正式施行",
+   "summary": "继民法典之后我国第二部以法典命名的法律正式施行，标志生态环境法治建设迈入新境界。法典强化公众健康保障与生态环境损害赔偿制度，明确生态环境部制定生态环境基准职责。",
+   "decision": "关注生态环境法典施行对绿色信贷与ESG合规的影响，招联可借联通场景推广低碳消费金融。",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/yw-lb/detail/20260816/4455779_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 380
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "发改委、能源局印发《煤炭工业发展十五五规划》",
+   "summary": "规划提出到2030年五大煤炭供应保障基地产量占全国比重超80%，全国大型现代化煤矿产能比重提升至87%，智能化煤矿产能比例提升至75%。",
+   "decision": "能源保供与绿色转型影响宏观景气，关注其对招联客群还款能力与县域市场拓展的间接影响。",
+   "source": "新华社",
+   "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20260817/4456126_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 381
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "两高修改涉生态环境领域司法解释 8月15日施行",
+   "summary": "最高法院修改船舶油污损害赔偿等九件司法解释，两高联合修改海洋生态环境公益诉讼与环境污染刑事案件司法解释。均自2026年8月15日起施行。",
+   "decision": "生态环境司法强化，招联绿色金融与数据安全合规需前置评估诉讼风险。",
+   "source": "最高人民法院",
+   "url": "https://www.court.gov.cn/fabu/xiangqing/508041.html",
+   "firstSeen": "2026-08-17",
+   "id": 382
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "生态环境部等印发《生态保护十五五规划》",
+   "summary": "规划提出到2030年生态空间格局持续优化、生物多样性丧失趋势有效缓解、优质生态产品供给更加丰富。生态保护与修复监管制度进一步完善。",
+   "decision": "生态补偿与环保政策趋严，招联可探索绿色消费贷并关注合作方环保合规。",
+   "source": "新华社",
+   "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20260817/4456126_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 383
   },
   {
    "cat": "政治/政策",
@@ -4252,7 +5400,7 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 302
+   "id": 384
   },
   {
    "cat": "政治/政策",
@@ -4266,7 +5414,7 @@ window.BRIEFING = {
    "source": "北京青年报/外交部",
    "url": "https://www.toutiao.com/article/7670510921365651994/",
    "firstSeen": "2026-08-07",
-   "id": 303
+   "id": 385
   },
   {
    "cat": "政治/政策",
@@ -4280,7 +5428,49 @@ window.BRIEFING = {
    "source": "新浪财经/新闻联播",
    "url": "https://cj.sina.com.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-08-07%2Fdoc-inimnkur3156422.shtml",
    "firstSeen": "2026-08-07",
-   "id": 304
+   "id": 386
+  },
+  {
+   "cat": "政治/政策",
+   "time": "21:12",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "公平竞争审查再出组合拳 严审财政奖补",
+   "summary": "市场监管总局将加快修订公平竞争审查条例实施办法，制定财政奖补审查指引，启动年度抽查。上半年审查政策措施3万余件，修改调整6600余件。",
+   "decision": "财政奖补审查趋严，招联参与政府合作项目须确保补贴合规、避免选择性扶持风险。",
+   "source": "中国新闻网",
+   "url": "https://www.toutiao.com/article/7671277021577708041/",
+   "firstSeen": "2026-08-17",
+   "id": 387
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:07",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "人社部等四部门印发人工智能+人社实施意见",
+   "summary": "意见打造就业服务管理、社保经办、人才供给等人工智能重大场景，构建职业分类知识图谱与求职招聘模型，建立AI就业影响评估体系。",
+   "decision": "人社AI场景与招联智能风控、智能客服同源，可借鉴就业画像能力优化客群评估。",
+   "source": "甘肃省人社厅",
+   "url": "https://www.toutiao.com/article/7673068877527024143/",
+   "firstSeen": "2026-08-17",
+   "id": 388
+  },
+  {
+   "cat": "政治/政策",
+   "time": "14:49",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "国家医保局发布检验类医疗服务价格立项指南",
+   "summary": "指南覆盖主要板块共计662个主项目、114个加收项、7个扩展项，标志40批医疗服务价格项目立项指南编制全面收官，全国价格项目统一。",
+   "decision": "医疗服务价格全国统一利好家庭医疗支出可预期，招联可结合健康管理做客群经营。",
+   "source": "央广网",
+   "url": "https://www.cnr.cn/2014jkpd/jkjrjd/20260814/t20260814_527762057.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 389
   },
   {
    "cat": "政治/政策",
@@ -4294,7 +5484,21 @@ window.BRIEFING = {
    "source": "中工网/中国旅游报",
    "url": "https://www.toutiao.com/article/7667790379000857129/",
    "firstSeen": "2026-08-07",
-   "id": 305
+   "id": 390
+  },
+  {
+   "cat": "政治/政策",
+   "time": "11:08",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "教育部印发义务教育科学教育做中学领航行动指南",
+   "summary": "指南要求4至9年级每学期至少完成1个探究实践任务且不少于4课时，围绕生命健康、人工智能等六大主题。今年秋季新学期起施行，不新增总课时。",
+   "decision": "科学教育新政关系子女教育规划，招联可借教育分期等家庭场景服务客户。",
+   "source": "央视网",
+   "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/05/ARTILUN8z2PyJWf3IMb1T9Me260805.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 391
   },
   {
    "cat": "政治/政策",
@@ -4308,7 +5512,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.cn/2026-07-26/detail-inikassk8782337.d.html",
    "firstSeen": "2026-08-07",
-   "id": 306
+   "id": 392
   },
   {
    "cat": "政治/政策",
@@ -4322,7 +5526,7 @@ window.BRIEFING = {
    "source": "今日头条/新华日报",
    "url": "https://www.toutiao.com/article/7665863032854610466/",
    "firstSeen": "2026-08-07",
-   "id": 307
+   "id": 393
   },
   {
    "cat": "政治/政策",
@@ -4336,7 +5540,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/content/202607/content_7074092.htm",
    "firstSeen": "2026-08-07",
-   "id": 308
+   "id": 394
   },
   {
    "cat": "政治/政策",
@@ -4350,7 +5554,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/gongbao/2026/issue_12886/202607/content_7076949.html",
    "firstSeen": "2026-08-07",
-   "id": 309
+   "id": 395
   },
   {
    "cat": "政治/政策",
@@ -4364,7 +5568,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/商务部",
    "url": "https://new.qq.com/rain/a/20260806A04OGE00",
    "firstSeen": "2026-08-07",
-   "id": 310
+   "id": 396
   },
   {
    "cat": "政治/政策",
@@ -4378,7 +5582,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.qtx.gov.cn/xxgk/gwywj/index.html",
    "firstSeen": "2026-08-07",
-   "id": 311
+   "id": 397
   },
   {
    "cat": "政治/政策",
@@ -4392,7 +5596,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.qtx.gov.cn/xxgk/gwywj/index.html",
    "firstSeen": "2026-08-07",
-   "id": 312
+   "id": 398
   },
   {
    "cat": "政治/政策",
@@ -4406,7 +5610,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.qtx.gov.cn/xxgk/gwywj/index.html",
    "firstSeen": "2026-08-07",
-   "id": 313
+   "id": 399
   },
   {
    "cat": "政治/政策",
@@ -4420,7 +5624,175 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.qtx.gov.cn/xxgk/gwywj/index.html",
    "firstSeen": "2026-08-07",
-   "id": 314
+   "id": 400
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "按病种付费3.0版新增158个基层病种同病同付",
+   "summary": "国家层面遴选158个基层病种在一个统筹区内不同等级医疗机构执行相同支付标准，含高血压、糖尿病等常见病。基层病种为推荐性工具非强制清单。",
+   "decision": "基层病种同病同付减轻群众就医负担，招联可关注医保客群还款稳定性。",
+   "source": "央视新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9036a82b09a36452",
+   "firstSeen": "2026-08-17",
+   "id": 401
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "最高法印发《人民法院知识产权司法保护实施方案（2026—2030）》",
+   "summary": "方案聚焦新兴领域知识产权保护，提出到2030年基本形成公正高效系统的知识产权司法保护体制机制，强化数据权益与AI案件裁判规则。",
+   "decision": "知识产权司法保护升级，招联商标品牌与数据权益保护力度应同步加强。",
+   "source": "最高人民法院知识产权法庭",
+   "url": "https://ipc.court.gov.cn/zh-cn/news/view-5626.html",
+   "firstSeen": "2026-08-17",
+   "id": 402
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:34",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "规范涉企执法优化营商环境 扫码入企全国推行",
+   "summary": "全国推行扫码入企，行政检查总量同比下降34%、发现问题比例平均提高近19个百分点。各地出台规范执法标准制度措施330多项。",
+   "decision": "涉企执法规范化降低合规不确定性，招联作为持牌机构应主动配合检查并完善内控。",
+   "source": "人民日报",
+   "url": "https://www.dswxyjy.org.cn/BIG5/n1/2026/0805/c423712-40774022.html",
+   "firstSeen": "2026-08-17",
+   "id": 403
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "发改委、能源局印发《新型电力系统建设十五五规划》",
+   "summary": "规划明确2030年初步建成新型电力系统，非化石能源发电量占比达50%，风光装机突破28亿千瓦，新型储能超3亿千瓦，充电桩总量超4000万个。",
+   "decision": "新型电力系统与充电桩建设拉动绿色消费，招联可布局新能源车主分期场景。",
+   "source": "国家能源局",
+   "url": "https://www.nea.gov.cn/20260803/f90e2bdec3744f3c90898ca65e31e597/c.html",
+   "firstSeen": "2026-08-17",
+   "id": 404
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "国内汽柴油价格按机制下调",
+   "summary": "自8月14日24时起国内汽柴油标准品每吨分别下调230元、220元，折合92号汽油每升下调0.19元，私家车加满一箱50L少花约9元。",
+   "decision": "油价下调减轻家庭出行成本，利好低收入客群现金流，招联可关注还款表现。",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/yw-lb/detail/20260816/4455779_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 405
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "市场监管总局批准发布338项重要国家标准",
+   "summary": "批准发布338项重要国家标准，其中强制性国家标准15项、推荐性国家标准323项，覆盖多领域质量与安全要求。",
+   "decision": "新国标提升产品质量与安全，招联采购与联通合作硬件须符合强制标准。",
+   "source": "人民日报",
+   "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20260817/4456126_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 406
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "集成电路、工业母机企业非货币性资产交换所得税政策出台",
+   "summary": "财政部等四部门公告，2026至2028年间相关企业非货币性资产交换所得可在不超过5年期限内分期计入应纳税所得额。双方均为相关企业的均可享受。",
+   "decision": "集成电路与工业母机税收优惠利好科技产业链，招联可关注合作方税务成本。",
+   "source": "财政部",
+   "url": "https://new.qq.com/rain/a/20260814A0D2HO00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 407
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "央行发布7月金融统计数据  M2同比增长7.7%",
+   "summary": "7月末社会融资规模存量463.27万亿元同比增7.4%，前7个月社融增量22.25万亿元，M2余额355.51万亿元同比增7.7%，人民币贷款前7月增10.38万亿元。",
+   "decision": "社融与M2数据反映流动性，招联资金成本与同业拆借环境需动态跟踪。",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/yw-lb/detail/20260816/4455779_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 408
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "《退役军人就业创业促进条例》8月1日施行",
+   "summary": "条例对退役军人考试就业创业给予优待，设置基层公务员职位面向服役满5年高校毕业生退役军人招考，对创业给予税收、融资、信贷扶持。",
+   "decision": "退役军人创业税收信贷扶持，招联可开发专属消费信贷并落实招录优待。",
+   "source": "央视新闻",
+   "url": "https://new.qq.com/rain/a/20260731A0564I00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 409
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "商务部对原产于印度的进口单模光纤续征反倾销税",
+   "summary": "商务部8月13日发布公告，公布对原产于印度的进口单模光纤所适用反倾销措施的期终复审裁定，继续征收反倾销税。",
+   "decision": "对印单模光纤反倾销影响通信产业链，招联×联通合作设备采购成本需评估。",
+   "source": "新华网",
+   "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20260817/4456126_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 410
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "河北印发医保支持基层医疗卫生服务发展若干措施",
+   "summary": "河北明确年度新增医保基金向基层倾斜，推进紧密型县域医共体总额付费，将县域就诊率、基层基金占比等纳入核心考核指标。",
+   "decision": "医保基金向基层倾斜，招联可联合基层医疗机构做惠民金融与便民缴费。",
+   "source": "河北省医疗保障局",
+   "url": "https://ylbzj.hebei.gov.cn/cms/content/5346",
+   "firstSeen": "2026-08-17",
+   "id": 411
+  },
+  {
+   "cat": "政治/政策",
+   "time": "06:35",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "修订后《集成电路布图设计保护条例》公布 10月15日施行",
+   "summary": "条例共6章54条，完善申请审查程序、加强专有权保护、加大侵权赔偿力度，促进布图设计运用。自2026年10月15日起施行。",
+   "decision": "集成电路知识产权保护强化，招联科技投入与联通合作硬件供应链需注意IP合规。",
+   "source": "人民日报",
+   "url": "https://www.toutiao.com/article/7669937379414770226/",
+   "firstSeen": "2026-08-17",
+   "id": 412
   },
   {
    "cat": "政治/政策",
@@ -4434,7 +5806,7 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 315
+   "id": 413
   },
   {
    "cat": "政治/政策",
@@ -4448,7 +5820,7 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 316
+   "id": 414
   },
   {
    "cat": "政治/政策",
@@ -4462,7 +5834,7 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 317
+   "id": 415
   },
   {
    "cat": "政治/政策",
@@ -4476,7 +5848,7 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 318
+   "id": 416
   },
   {
    "cat": "政治/政策",
@@ -4490,7 +5862,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9336a726d2426452",
    "firstSeen": "2026-08-07",
-   "id": 319
+   "id": 417
   },
   {
    "cat": "政治/政策",
@@ -4504,7 +5876,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://www.toutiao.com/article/7669384812230115840",
    "firstSeen": "2026-08-07",
-   "id": 320
+   "id": 418
   },
   {
    "cat": "政治/政策",
@@ -4518,7 +5890,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://www.hhtz.gov.cn/col/col1229396854/art/2026/art_79b1a6c9cdf64dca9277c17720543d12.html",
    "firstSeen": "2026-08-07",
-   "id": 321
+   "id": 419
   },
   {
    "cat": "政治/政策",
@@ -4532,7 +5904,7 @@ window.BRIEFING = {
    "source": "网易/财经网",
    "url": "https://www.163.com/dy/article/L3OA0QFC0519860S.html",
    "firstSeen": "2026-08-07",
-   "id": 322
+   "id": 420
   },
   {
    "cat": "政治/政策",
@@ -4546,7 +5918,7 @@ window.BRIEFING = {
    "source": "中评社/新华社",
    "url": "https://bj.crntt.com/doc/1072/1/6/7/107216761.html?docid=107216761",
    "firstSeen": "2026-08-07",
-   "id": 323
+   "id": 421
   },
   {
    "cat": "政治/政策",
@@ -4560,7 +5932,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260729A06EW800",
    "firstSeen": "2026-08-07",
-   "id": 324
+   "id": 422
   },
   {
    "cat": "政治/政策",
@@ -4574,7 +5946,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.com/2026/07/04/ARTINhnBZp8yzwR1UpjP0JVq260704.shtml",
    "firstSeen": "2026-08-07",
-   "id": 325
+   "id": 423
   },
   {
    "cat": "政治/政策",
@@ -4588,7 +5960,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://www.toutiao.com/article/7668875695115846171/",
    "firstSeen": "2026-08-07",
-   "id": 326
+   "id": 424
   },
   {
    "cat": "政治/政策",
@@ -4602,7 +5974,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A06ICF00",
    "firstSeen": "2026-08-07",
-   "id": 327
+   "id": 425
   },
   {
    "cat": "政治/政策",
@@ -4616,7 +5988,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/zhengce/zhengceku/202607/content_7077173.htm",
    "firstSeen": "2026-08-07",
-   "id": 328
+   "id": 426
   },
   {
    "cat": "政治/政策",
@@ -4630,7 +6002,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/content/202607/content_7076684.htm",
    "firstSeen": "2026-08-07",
-   "id": 329
+   "id": 427
   },
   {
    "cat": "政治/政策",
@@ -4644,7 +6016,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/zhengce/content/202607/content_7074826.htm",
    "firstSeen": "2026-08-07",
-   "id": 330
+   "id": 428
   },
   {
    "cat": "政治/政策",
@@ -4658,7 +6030,7 @@ window.BRIEFING = {
    "source": "新华网",
    "url": "https://www.xinhuanet.com/energy/20260807/f4dec12a7c4f4be29c264f22515e8b03/c.html",
    "firstSeen": "2026-08-07",
-   "id": 331
+   "id": 429
   },
   {
    "cat": "政治/政策",
@@ -4672,7 +6044,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/jjxw/2026-08-07/doc-inimmtwx3254221.shtml",
    "firstSeen": "2026-08-07",
-   "id": 332
+   "id": 430
   },
   {
    "cat": "政治/政策",
@@ -4686,7 +6058,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/zhengce/202607/content_7074004.htm",
    "firstSeen": "2026-08-07",
-   "id": 333
+   "id": 431
   },
   {
    "cat": "政治/政策",
@@ -4700,7 +6072,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/zhengce/202607/content_7074004.htm",
    "firstSeen": "2026-08-07",
-   "id": 334
+   "id": 432
   },
   {
    "cat": "政治/政策",
@@ -4714,7 +6086,7 @@ window.BRIEFING = {
    "source": "光明日报",
    "url": "https://news.gmw.cn/2026-08/07/content_38931090.htm",
    "firstSeen": "2026-08-07",
-   "id": 335
+   "id": 433
   },
   {
    "cat": "政治/政策",
@@ -4728,7 +6100,7 @@ window.BRIEFING = {
    "source": "国际在线",
    "url": "https://news.cri.cn/20260806/23b0ab96-673b-559a-5ba2-87dfcb794e34.html",
    "firstSeen": "2026-08-07",
-   "id": 336
+   "id": 434
   },
   {
    "cat": "政治/政策",
@@ -4742,7 +6114,7 @@ window.BRIEFING = {
    "source": "新疆司法厅/法规库",
    "url": "https://sft.xinjiang.gov.cn/xjsft/flzd/jump.shtml",
    "firstSeen": "2026-08-07",
-   "id": 337
+   "id": 435
   },
   {
    "cat": "政治/政策",
@@ -4756,7 +6128,7 @@ window.BRIEFING = {
    "source": "新华网",
    "url": "https://www.xinhuanet.com/energy/20260807/f4dec12a7c4f4be29c264f22515e8b03/c.html",
    "firstSeen": "2026-08-07",
-   "id": 338
+   "id": 436
   },
   {
    "cat": "政治/政策",
@@ -4770,7 +6142,175 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 339
+   "id": 437
+  },
+  {
+   "cat": "政治/政策",
+   "time": "18:05",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "青海省人大常委会审查批准五部地方性法规",
+   "summary": "批准《西宁市有诉必应马上办工作条例》等五部法规，将群众诉求处置纳入制度化轨道，并规范城镇供热、藏语言文字、全域无垃圾管理。",
+   "decision": "青海五部地方性法规完善基层治理，招联在西部展业须关注地方法规差异。",
+   "source": "人民网",
+   "url": "https://www.toutiao.com/article/7669744386946630207/",
+   "firstSeen": "2026-08-17",
+   "id": 438
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:43",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "《征收挥发性有机物环境保护税试点实施办法》印发",
+   "summary": "财税〔2026〕50号通知印发试点办法，在部分区域对挥发性有机物开征环境保护税，经国务院同意自文件发布后实施。",
+   "decision": "VOCs环保税试点增加企业成本，招联须关注制造业客群环保合规。",
+   "source": "延安市财政局",
+   "url": "https://czj.yanan.gov.cn/zfxxgk/fdzdgknr/jsjf/2086750817509355522.html",
+   "firstSeen": "2026-08-17",
+   "id": 439
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:37",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "江苏发布高温天气劳动者权益保障通知",
+   "summary": "通知要求用人单位落实高温津贴、合理调整作业时间、改善劳动条件，保障高温天气下劳动者身心健康与合法权益。",
+   "decision": "高温劳动者权益保障，招联蓝领客群还款受季节影响需关注。",
+   "source": "政策速递",
+   "url": "https://ctghr.com/information/policyNews/4287",
+   "firstSeen": "2026-08-17",
+   "id": 440
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:37",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "湖南：灵活就业人员参保后可享受生育保险待遇",
+   "summary": "湖南明确灵活就业人员参加职工医保后按规定享受生育保险相关待遇，扩大生育保险覆盖面，保障新就业形态群体权益。",
+   "decision": "灵活就业人员享生育保险，招联可完善新市民客群保障服务。",
+   "source": "政策速递",
+   "url": "https://ctghr.com/information/policyNews/4287",
+   "firstSeen": "2026-08-17",
+   "id": 441
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:37",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "天津落实带薪年休假制度",
+   "summary": "天津要求企业统筹制定年度休假计划、确保职工应休尽休，明确连续工作满12个月以上即可享受，不得因本单位未满12个月不落实权益。",
+   "decision": "带薪年休假落实利好员工福利，招联HR可参照并关注客户休假现金流。",
+   "source": "政策速递",
+   "url": "https://ctghr.com/information/policyNews/4287",
+   "firstSeen": "2026-08-17",
+   "id": 442
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:37",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "河南进一步推动落实职工带薪错峰休假",
+   "summary": "河南发文推动职工带薪错峰休假，发挥制度在保障职工健康、促进消费方面作用，落实保民生促消费工作要求。",
+   "decision": "错峰休假促消费，招联可结合假期做消费分期营销。",
+   "source": "政策速递",
+   "url": "https://ctghr.com/information/policyNews/4287",
+   "firstSeen": "2026-08-17",
+   "id": 443
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:37",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "贵州优化工伤认定简易办理机制",
+   "summary": "贵州推行工伤认定简易办理，对事实清楚、权利义务明确的案件快认快结，提升工伤保障服务效率。",
+   "decision": "工伤认定简化，招联用工与团险可优化流程。",
+   "source": "政策速递",
+   "url": "https://ctghr.com/information/policyNews/4287",
+   "firstSeen": "2026-08-17",
+   "id": 444
+  },
+  {
+   "cat": "政治/政策",
+   "time": "17:37",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "山西发布超龄劳动者用工协议参考文本",
+   "summary": "山西发布参考文本，规范超龄劳动者用工协议，明确双方权利义务，保障大龄劳动者合法权益与用工安全。",
+   "decision": "超龄劳动者协议范本，招联灵活用工须签协议防纠纷。",
+   "source": "政策速递",
+   "url": "https://ctghr.com/information/policyNews/4287",
+   "firstSeen": "2026-08-17",
+   "id": 445
+  },
+  {
+   "cat": "政治/政策",
+   "time": "16:11",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "矿业权出让收益征收政策进一步完善 8月1日施行",
+   "summary": "财政部等三部门发布通知，不再征收矿业权出让收益滞纳金，改按日加收千分之二违约金且不超过欠缴本金，自2026年8月1日施行。",
+   "decision": "矿业权收益新规8月施行，招联涉矿企信贷需评估费改影响。",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_33719050?commTag=true",
+   "firstSeen": "2026-08-17",
+   "id": 446
+  },
+  {
+   "cat": "政治/政策",
+   "time": "16:11",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "上海发布境外旅客购物离境退税代理机构名单",
+   "summary": "名单自2026年8月1日至2028年7月31日有效，中国银行上海市分行、建设银行上海市分行、交通银行上海市分行入选代理机构。",
+   "decision": "离境退税代理机构名单公布，招联可关注免税消费场景与联通用户的跨境权益。",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_33719050?commTag=true",
+   "firstSeen": "2026-08-17",
+   "id": 447
+  },
+  {
+   "cat": "政治/政策",
+   "time": "16:11",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "《社会团体分支机构、代表机构管理办法》8月1日施行",
+   "summary": "民政部发布办法，明确社会团体禁止设立地域性、姓氏宗亲等四类分支机构，规范分支代表机构设立与管理。",
+   "decision": "社会团体管理趋严，招联对外合作与行业社团参与须合规。",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_33719050?commTag=true",
+   "firstSeen": "2026-08-17",
+   "id": 448
+  },
+  {
+   "cat": "政治/政策",
+   "time": "10:44",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "河南省十四届人大常委会第二十五次会议闭幕",
+   "summary": "会议表决通过《河南省工伤保险条例（修订）》等多部法规，作出修改十九部地方性法规决定、废止四部法规决定，批准2025年省级财政决算。",
+   "decision": "河南通过多部民生法规，招联在豫展业需对齐工伤保险等新规。",
+   "source": "金台资讯",
+   "url": "https://www.toutiao.com/article/7669259736789713460/",
+   "firstSeen": "2026-08-17",
+   "id": 449
   },
   {
    "cat": "政治/政策",
@@ -4784,7 +6324,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260801A091UY00",
    "firstSeen": "2026-08-07",
-   "id": 340
+   "id": 450
   },
   {
    "cat": "政治/政策",
@@ -4798,7 +6338,7 @@ window.BRIEFING = {
    "source": "陕西网",
    "url": "https://www.ishaanxi.com/c/2026/0731/3754707.shtml",
    "firstSeen": "2026-08-07",
-   "id": 341
+   "id": 451
   },
   {
    "cat": "政治/政策",
@@ -4812,7 +6352,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260801A091UY00",
    "firstSeen": "2026-08-07",
-   "id": 342
+   "id": 452
   },
   {
    "cat": "政治/政策",
@@ -4826,7 +6366,175 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260801A091UY00",
    "firstSeen": "2026-08-07",
-   "id": 343
+   "id": 453
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "《北京市快递、外卖行业非机动车管理办法》试行",
+   "summary": "办法8月1日施行，要求快递外卖电动自行车登记悬挂专用号牌，平台须合理设定配送时间路线，不得推荐逆行禁行路线，严禁电池进电梯。",
+   "decision": "骑手配送合规影响新就业形态，招联可关注快递外卖客群信贷需求与权益。",
+   "source": "央视新闻",
+   "url": "https://new.qq.com/rain/a/20260731A0564I00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 454
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "浙江深化药品经营监管改革 17条举措促连锁发展",
+   "summary": "浙江省药监局等三部门印发举措，围绕优化许可准入、远程审方、数字化转型等方面提出17条措施，自2026年8月15日起施行。",
+   "decision": "药品零售连锁改革方便家庭购药，招联可探索医药消费分期合作。",
+   "source": "江山市政府网",
+   "url": "https://www.jiangshan.gov.cn/col/col1454565/art/2026/art_a46cea58b453481eb5bf11a117ae6ce2.html",
+   "firstSeen": "2026-08-17",
+   "id": 455
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "浙江印发医疗机构院内制剂产业化三年行动方案",
+   "summary": "方案自8月5日施行，目标到2028年新增批准文号院内制剂品种100个、布局5个左右区域制剂中心，力争1至2个转化为新药。",
+   "decision": "院内制剂产业化利好中医药，招联可关注健康消费金融场景。",
+   "source": "江山市政府网",
+   "url": "https://www.jiangshan.gov.cn/col/col1454565/art/2026/art_a46cea58b453481eb5bf11a117ae6ce2.html",
+   "firstSeen": "2026-08-17",
+   "id": 456
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "《上海市急需紧缺高技能人才职业目录（2026）》施行",
+   "summary": "目录8月1日施行，目录内职业可按规定享受本市人才引进等政策支持，并根据经济社会发展需要动态调整培育力度。",
+   "decision": "高技能人才目录享受人才引进，招联上海招聘与人才政策可借力。",
+   "source": "腾讯新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5246a6ca01256052",
+   "firstSeen": "2026-08-17",
+   "id": 457
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "天津全市开展跨境贸易高水平开放试点",
+   "summary": "国家外汇管理局天津市分局实施细则明确自8月1日起在全市开展跨境贸易高水平开放试点，多项便利化措施提升外汇服务实体经济质效。",
+   "decision": "跨境贸易开放试点便利实体企业，招联可服务外贸小微客群。",
+   "source": "腾讯新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5246a6ca01256052",
+   "firstSeen": "2026-08-17",
+   "id": 458
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "《海南自由贸易港政务服务领域中介服务规定》8月1日施行",
+   "summary": "规定共29条，实行清单管理、扩大开放培育市场、明确违法红线，降低制度性交易成本，营造市场化法治化国际化营商环境。",
+   "decision": "海南政务中介立法降成本，招联在琼可借高效办成一件事优化开户体验。",
+   "source": "海南省政府网",
+   "url": "https://www.hainan.gov.cn/hainan/mtkhn/202607/46342482641945f395f0b2c44a20e6c5.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 459
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "《社会组织评比表彰活动管理办法》8月1日施行",
+   "summary": "民政部、中央社会工作部印发办法，评比表彰实行项目清单管理与总量控制，原则上每组织仅设1个项目、每5年开展1次，严禁收费。",
+   "decision": "评比表彰清单管理，招联参与行业评奖须依规申报避免违规。",
+   "source": "民政部",
+   "url": "https://chinanpo.mca.gov.cn/xwxq?newsType=2351&id=29890",
+   "firstSeen": "2026-08-17",
+   "id": 460
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "新版《职业健康监护技术规范》8月1日施行",
+   "summary": "规范新增12类有害化学因素、3类粉尘因素及低温、激光等物理因素的健康监护要求，强化劳动者职业健康保护。",
+   "decision": "职业健康新规范扩大检测，招联职场健康管理可参照执行。",
+   "source": "江山市政府网",
+   "url": "https://www.jiangshan.gov.cn/col/col1454565/art/2026/art_a46cea58b453481eb5bf11a117ae6ce2.html",
+   "firstSeen": "2026-08-17",
+   "id": 461
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "《医药代表管理办法》8月1日施行",
+   "summary": "办法要求医药代表具医学药学相关大专以上学历，明确不得承担药品销售任务、给予回扣等9种禁止情形，防范商业贿赂。",
+   "decision": "医药代表禁售任务防贿赂，招联医疗合作须防范商业贿赂风险。",
+   "source": "江山市政府网",
+   "url": "https://www.jiangshan.gov.cn/col/col1454565/art/2026/art_a46cea58b453481eb5bf11a117ae6ce2.html",
+   "firstSeen": "2026-08-17",
+   "id": 462
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "广西建立常态化防止返贫致贫就业帮扶机制",
+   "summary": "广西人社厅等三部门印发通知，将常态化就业帮扶纳入乡村振兴统筹实施，精准帮扶脱贫人口与监测对象稳定就业。",
+   "decision": "防返贫就业帮扶机制，招联可下沉县域做普惠客群。",
+   "source": "中国人力资源市场网",
+   "url": "https://chrm.mohrss.gov.cn/2021/",
+   "firstSeen": "2026-08-17",
+   "id": 463
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "陕西就业见习管理办法8月1日实施",
+   "summary": "陕西省人社厅、财政厅发布办法，明确离校2年内未就业高校毕业生等见习人员范围，加强见习管理提升青年就业能力。",
+   "decision": "就业见习办法实施，招联校招与青年客群培育可对接。",
+   "source": "中国人力资源市场网",
+   "url": "https://chrm.mohrss.gov.cn/2021/",
+   "firstSeen": "2026-08-17",
+   "id": 464
+  },
+  {
+   "cat": "政治/政策",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "贵阳调整2026年度职工医保缴费基数",
+   "summary": "贵阳贵安自2026年8月1日起调整城镇职工基本医疗保险缴费基数，明确上下限标准，影响参保职工缴费与待遇。",
+   "decision": "职工医保缴费基数调整，招联薪酬与员工社保须同步更新。",
+   "source": "用工风险智图",
+   "url": "https://cfpeo.com.cn/newsinfo/11271906.html",
+   "firstSeen": "2026-08-17",
+   "id": 465
   },
   {
    "cat": "政治/政策",
@@ -4840,7 +6548,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://www.xjgmj.gov.cn/search?page=70",
    "firstSeen": "2026-08-07",
-   "id": 344
+   "id": 466
   },
   {
    "cat": "政治/政策",
@@ -4854,7 +6562,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260801A091UY00",
    "firstSeen": "2026-08-07",
-   "id": 345
+   "id": 467
   },
   {
    "cat": "政治/政策",
@@ -4868,7 +6576,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260801A091UY00",
    "firstSeen": "2026-08-07",
-   "id": 346
+   "id": 468
   },
   {
    "cat": "政治/政策",
@@ -4882,7 +6590,7 @@ window.BRIEFING = {
    "source": "陕西网",
    "url": "https://www.ishaanxi.com/c/2026/0731/3754707.shtml",
    "firstSeen": "2026-08-07",
-   "id": 347
+   "id": 469
   },
   {
    "cat": "政治/政策",
@@ -4896,7 +6604,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "https://www.ce.cn/xwzx/gnsz/szyw/202608/t20260806_3132354.shtml",
    "firstSeen": "2026-08-07",
-   "id": 348
+   "id": 470
   },
   {
    "cat": "政治/政策",
@@ -4910,7 +6618,7 @@ window.BRIEFING = {
    "source": "新疆司法厅/法规库",
    "url": "https://sft.xinjiang.gov.cn/xjsft/flzd/jump.shtml",
    "firstSeen": "2026-08-07",
-   "id": 349
+   "id": 471
   },
   {
    "cat": "政治/政策",
@@ -4924,7 +6632,7 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 350
+   "id": 472
   },
   {
    "cat": "政治/政策",
@@ -4938,7 +6646,7 @@ window.BRIEFING = {
    "source": "法治日报/今日头条",
    "url": "https://www.toutiao.com/article/7668801042267570734/",
    "firstSeen": "2026-08-07",
-   "id": 351
+   "id": 473
   },
   {
    "cat": "军事/地缘",
@@ -4952,7 +6660,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260802A05QXO00",
    "firstSeen": "2026-08-07",
-   "id": 352
+   "id": 474
   },
   {
    "cat": "军事/地缘",
@@ -4966,7 +6674,7 @@ window.BRIEFING = {
    "source": "网易/金融界",
    "url": "https://www.163.com/dy/article/L3JFTDHS0519QIKK.html",
    "firstSeen": "2026-08-07",
-   "id": 353
+   "id": 475
   },
   {
    "cat": "军事/地缘",
@@ -4980,7 +6688,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://new.qq.com/rain/a/20260807A02UAT00",
    "firstSeen": "2026-08-07",
-   "id": 354
+   "id": 476
   },
   {
    "cat": "军事/地缘",
@@ -4994,7 +6702,7 @@ window.BRIEFING = {
    "source": "央视财经/金十数据",
    "url": "https://www.toutiao.com/article/7670485619127697962",
    "firstSeen": "2026-08-07",
-   "id": 355
+   "id": 477
   },
   {
    "cat": "军事/地缘",
@@ -5008,7 +6716,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670104305797530147",
    "firstSeen": "2026-08-07",
-   "id": 356
+   "id": 478
   },
   {
    "cat": "军事/地缘",
@@ -5022,7 +6730,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670473945258132003",
    "firstSeen": "2026-08-07",
-   "id": 357
+   "id": 479
   },
   {
    "cat": "军事/地缘",
@@ -5036,7 +6744,7 @@ window.BRIEFING = {
    "source": "环球时报",
    "url": "https://www.163.com/dy/article/L3NFGQ1005504DOQ.html",
    "firstSeen": "2026-08-07",
-   "id": 358
+   "id": 480
   },
   {
    "cat": "军事/地缘",
@@ -5050,7 +6758,7 @@ window.BRIEFING = {
    "source": "新华社/新浪",
    "url": "https://k.sina.com.cn/article_5953189932_162d6782c06704u6j0.html",
    "firstSeen": "2026-08-07",
-   "id": 359
+   "id": 481
   },
   {
    "cat": "军事/地缘",
@@ -5064,7 +6772,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://dy.163.com/article/L3H11G070556BTRW.html",
    "firstSeen": "2026-08-07",
-   "id": 360
+   "id": 482
   },
   {
    "cat": "军事/地缘",
@@ -5078,7 +6786,7 @@ window.BRIEFING = {
    "source": "Reuters",
    "url": "https://www.reuters.com",
    "firstSeen": "2026-08-07",
-   "id": 361
+   "id": 483
   },
   {
    "cat": "军事/地缘",
@@ -5092,7 +6800,7 @@ window.BRIEFING = {
    "source": "news.com.au/AFP",
    "url": "https://www.news.com.au/world/asia/north-korea-launches-suspected-missile-after-berating-japan/news-story/93ec92a8aab4acc1a033f5b07db946d0",
    "firstSeen": "2026-08-07",
-   "id": 362
+   "id": 484
   },
   {
    "cat": "军事/地缘",
@@ -5106,7 +6814,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/w/1872577645123592/",
    "firstSeen": "2026-08-07",
-   "id": 363
+   "id": 485
   },
   {
    "cat": "军事/地缘",
@@ -5120,7 +6828,7 @@ window.BRIEFING = {
    "source": "环球时报/新华社",
    "url": "https://www.toutiao.com/article/7670469282387542547/",
    "firstSeen": "2026-08-07",
-   "id": 364
+   "id": 486
   },
   {
    "cat": "军事/地缘",
@@ -5134,7 +6842,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260806A0C2L600",
    "firstSeen": "2026-08-07",
-   "id": 365
+   "id": 487
   },
   {
    "cat": "军事/地缘",
@@ -5148,7 +6856,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3O95CVB0556E0G2.html",
    "firstSeen": "2026-08-07",
-   "id": 366
+   "id": 488
   },
   {
    "cat": "军事/地缘",
@@ -5162,7 +6870,7 @@ window.BRIEFING = {
    "source": "新浪",
    "url": "https://k.sina.com.cn/article_7879923854_1d5ae188e02001ukt6.html",
    "firstSeen": "2026-08-07",
-   "id": 367
+   "id": 489
   },
   {
    "cat": "军事/地缘",
@@ -5176,7 +6884,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://dy.163.com/article/L3O6VNEV0556C68Z.html",
    "firstSeen": "2026-08-07",
-   "id": 368
+   "id": 490
   },
   {
    "cat": "军事/地缘",
@@ -5190,7 +6898,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3MI5E2C0556M6J3.html",
    "firstSeen": "2026-08-07",
-   "id": 369
+   "id": 491
   },
   {
    "cat": "军事/地缘",
@@ -5204,7 +6912,7 @@ window.BRIEFING = {
    "source": "国防部网/腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A0BECI00",
    "firstSeen": "2026-08-07",
-   "id": 370
+   "id": 492
   },
   {
    "cat": "军事/地缘",
@@ -5218,7 +6926,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A061KF00",
    "firstSeen": "2026-08-07",
-   "id": 371
+   "id": 493
   },
   {
    "cat": "军事/地缘",
@@ -5232,7 +6940,7 @@ window.BRIEFING = {
    "source": "澎湃新闻",
    "url": "https://www.163.com/dy/article/L3O0KCNL0514R9P4.html",
    "firstSeen": "2026-08-07",
-   "id": 372
+   "id": 494
   },
   {
    "cat": "军事/地缘",
@@ -5246,7 +6954,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://dy.163.com/article/L3IIGSQI0556CSK8.html",
    "firstSeen": "2026-08-07",
-   "id": 373
+   "id": 495
   },
   {
    "cat": "军事/地缘",
@@ -5260,7 +6968,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3MIQLH2055615MY.html",
    "firstSeen": "2026-08-07",
-   "id": 374
+   "id": 496
   },
   {
    "cat": "军事/地缘",
@@ -5274,7 +6982,7 @@ window.BRIEFING = {
    "source": "Army Recognition/Reuters",
    "url": "https://www.armyrecognition.com/focus-analysis-conflicts/army/conflicts-in-the-world/russia-ukraine-war-2022/north-korea-ballistic-missile-unit-russia-deployment-ukraine-patriot",
    "firstSeen": "2026-08-07",
-   "id": 375
+   "id": 497
   },
   {
    "cat": "军事/地缘",
@@ -5288,7 +6996,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/gj/2026/08-05/10672195.shtml",
    "firstSeen": "2026-08-07",
-   "id": 376
+   "id": 498
   },
   {
    "cat": "军事/地缘",
@@ -5302,7 +7010,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7669631269076779529",
    "firstSeen": "2026-08-07",
-   "id": 377
+   "id": 499
   },
   {
    "cat": "军事/地缘",
@@ -5316,7 +7024,7 @@ window.BRIEFING = {
    "source": "环球时报",
    "url": "https://finance.sina.cn/2026-08-07/detail-inimnent3192080.d.html",
    "firstSeen": "2026-08-07",
-   "id": 378
+   "id": 500
   },
   {
    "cat": "军事/地缘",
@@ -5330,7 +7038,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7669999633074225708/",
    "firstSeen": "2026-08-07",
-   "id": 379
+   "id": 501
   },
   {
    "cat": "军事/地缘",
@@ -5344,7 +7052,7 @@ window.BRIEFING = {
    "source": "Reuters",
    "url": "https://www.reuters.com/world/europe/russian-forces-attack-ukrainian-capital-kyiv-with-ballistic-missiles-mayor-says-2026-08-04/",
    "firstSeen": "2026-08-07",
-   "id": 380
+   "id": 502
   },
   {
    "cat": "军事/地缘",
@@ -5358,7 +7066,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://dy.163.com/article/L3HIPIB205567B70.html",
    "firstSeen": "2026-08-07",
-   "id": 381
+   "id": 503
   },
   {
    "cat": "军事/地缘",
@@ -5372,7 +7080,7 @@ window.BRIEFING = {
    "source": "澎湃新闻",
    "url": "https://www.thepaper.cn/newsDetail_forward_33739052",
    "firstSeen": "2026-08-07",
-   "id": 382
+   "id": 504
   },
   {
    "cat": "军事/地缘",
@@ -5386,7 +7094,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260803A0BEKR00",
    "firstSeen": "2026-08-07",
-   "id": 383
+   "id": 505
   },
   {
    "cat": "军事/地缘",
@@ -5400,7 +7108,7 @@ window.BRIEFING = {
    "source": "解放军报",
    "url": "https://www.81.cn/szb_223187/szbxq/index.html?articleid=984011",
    "firstSeen": "2026-08-07",
-   "id": 384
+   "id": 506
   },
   {
    "cat": "军事/地缘",
@@ -5414,7 +7122,7 @@ window.BRIEFING = {
    "source": "光明网",
    "url": "https://www.toutiao.com/article/7670341798862946870/",
    "firstSeen": "2026-08-07",
-   "id": 385
+   "id": 507
   },
   {
    "cat": "军事/地缘",
@@ -5428,7 +7136,7 @@ window.BRIEFING = {
    "source": "光明网",
    "url": "https://m.gmw.cn/2026-08/06/content_1304544030.htm",
    "firstSeen": "2026-08-07",
-   "id": 386
+   "id": 508
   },
   {
    "cat": "军事/地缘",
@@ -5442,7 +7150,7 @@ window.BRIEFING = {
    "source": "香港中通社",
    "url": "https://www.hkcna.hk/h5/docDetail.jsp?id=101387172",
    "firstSeen": "2026-08-07",
-   "id": 387
+   "id": 509
   },
   {
    "cat": "军事/地缘",
@@ -5456,7 +7164,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L1I499PO0536IZMJ.html",
    "firstSeen": "2026-08-07",
-   "id": 388
+   "id": 510
   },
   {
    "cat": "军事/地缘",
@@ -5470,7 +7178,7 @@ window.BRIEFING = {
    "source": "上经网",
    "url": "http://sjsc.org.cn/2026/0806/xinwenzhongxin/18454.html",
    "firstSeen": "2026-08-07",
-   "id": 389
+   "id": 511
   },
   {
    "cat": "军事/地缘",
@@ -5484,7 +7192,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A00ONF00",
    "firstSeen": "2026-08-07",
-   "id": 390
+   "id": 512
   },
   {
    "cat": "军事/地缘",
@@ -5498,7 +7206,7 @@ window.BRIEFING = {
    "source": "澎湃新闻",
    "url": "https://www.thepaper.cn/newsDetail_forward_33711622",
    "firstSeen": "2026-08-07",
-   "id": 391
+   "id": 513
   },
   {
    "cat": "军事/地缘",
@@ -5512,7 +7220,7 @@ window.BRIEFING = {
    "source": "中国青年报",
    "url": "https://www.toutiao.com/article/7670313534974083610/",
    "firstSeen": "2026-08-07",
-   "id": 392
+   "id": 514
   },
   {
    "cat": "军事/地缘",
@@ -5526,7 +7234,7 @@ window.BRIEFING = {
    "source": "AASTOCKS/雅虎财经",
    "url": "https://hk.finance.yahoo.com/news/%E5%95%86%E5%93%81-%E4%B9%9F%E9%96%80%E8%83%A1%E5%A1%9E%E6%AD%A6%E8%A3%9D%E8%81%B2%E7%A8%B1%E8%A5%B2%E6%93%8A%E6%B2%99%E7%89%B9%E6%B2%B9%E8%BC%AA%E5%BE%8C-%E6%B2%B9%E5%83%B9%E4%B8%8A%E5%8D%87-100739373.html",
    "firstSeen": "2026-08-07",
-   "id": 393
+   "id": 515
   },
   {
    "cat": "军事/地缘",
@@ -5540,7 +7248,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670416058926236160/",
    "firstSeen": "2026-08-07",
-   "id": 394
+   "id": 516
   },
   {
    "cat": "军事/地缘",
@@ -5554,7 +7262,7 @@ window.BRIEFING = {
    "source": "腾讯财经",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_7336a73e50b09252",
    "firstSeen": "2026-08-07",
-   "id": 395
+   "id": 517
   },
   {
    "cat": "军事/地缘",
@@ -5568,7 +7276,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "https://m.21jingji.com/article/20260806/herald/579bc5c7d374c0b264b566a30f12d6a5.html",
    "firstSeen": "2026-08-07",
-   "id": 396
+   "id": 518
   },
   {
    "cat": "军事/地缘",
@@ -5582,7 +7290,7 @@ window.BRIEFING = {
    "source": "复旦大学/光明日报",
    "url": "https://iis.fudan.edu.cn/04/31/c6897a787505/page.htm",
    "firstSeen": "2026-08-07",
-   "id": 397
+   "id": 519
   },
   {
    "cat": "军事/地缘",
@@ -5596,7 +7304,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260802A0AUHX00",
    "firstSeen": "2026-08-07",
-   "id": 398
+   "id": 520
   },
   {
    "cat": "军事/地缘",
@@ -5610,7 +7318,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7669050691905667624",
    "firstSeen": "2026-08-07",
-   "id": 399
+   "id": 521
   },
   {
    "cat": "军事/地缘",
@@ -5624,7 +7332,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3H7FB4V055670M2.html",
    "firstSeen": "2026-08-07",
-   "id": 400
+   "id": 522
   },
   {
    "cat": "军事/地缘",
@@ -5638,7 +7346,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670447366256607778/",
    "firstSeen": "2026-08-07",
-   "id": 401
+   "id": 523
   },
   {
    "cat": "军事/地缘",
@@ -5652,7 +7360,7 @@ window.BRIEFING = {
    "source": "央视军事",
    "url": "https://military.cctv.cn/2026/08/03/ARTIJATcFbngmOq76kih5SUb260803.shtml",
    "firstSeen": "2026-08-07",
-   "id": 402
+   "id": 524
   },
   {
    "cat": "军事/地缘",
@@ -5666,7 +7374,7 @@ window.BRIEFING = {
    "source": "Security Council Report",
    "url": "https://www.securitycouncilreport.org/whatsinblue/2026/08/security-council-programme-of-work-for-august-2026.php",
    "firstSeen": "2026-08-07",
-   "id": 403
+   "id": 525
   },
   {
    "cat": "军事/地缘",
@@ -5680,7 +7388,7 @@ window.BRIEFING = {
    "source": "联合国",
    "url": "https://www.un.org/zh?9fe8w/53191",
    "firstSeen": "2026-08-07",
-   "id": 404
+   "id": 526
   },
   {
    "cat": "军事/地缘",
@@ -5694,7 +7402,7 @@ window.BRIEFING = {
    "source": "澎湃新闻/今日头条",
    "url": "https://www.toutiao.com/article/7670902181718540835",
    "firstSeen": "2026-08-07",
-   "id": 405
+   "id": 527
   },
   {
    "cat": "军事/地缘",
@@ -5708,7 +7416,7 @@ window.BRIEFING = {
    "source": "Ukraine Cabinet",
    "url": "https://www.kmu.gov.ua/en/news/uriad-tymchasovo-skoryhuvav-minimalni-eksportni-tsiny-na-okremi-vydy-ahroproduktsii-dlia-pidtrymky-ahrariiv",
    "firstSeen": "2026-08-07",
-   "id": 406
+   "id": 528
   },
   {
    "cat": "军事/地缘",
@@ -5722,7 +7430,7 @@ window.BRIEFING = {
    "source": "Reuters",
    "url": "https://www.reuters.com",
    "firstSeen": "2026-08-07",
-   "id": 407
+   "id": 529
   },
   {
    "cat": "军事/地缘",
@@ -5736,7 +7444,7 @@ window.BRIEFING = {
    "source": "Reuters",
    "url": "https://www.reuters.com",
    "firstSeen": "2026-08-07",
-   "id": 408
+   "id": 530
   },
   {
    "cat": "军事/地缘",
@@ -5750,7 +7458,7 @@ window.BRIEFING = {
    "source": "国防部",
    "url": "http://www.mod.gov.cn:8080/",
    "firstSeen": "2026-08-07",
-   "id": 409
+   "id": 531
   },
   {
    "cat": "军事/地缘",
@@ -5764,7 +7472,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A0D40I00",
    "firstSeen": "2026-08-07",
-   "id": 410
+   "id": 532
   },
   {
    "cat": "军事/地缘",
@@ -5778,7 +7486,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9336a726d2426452",
    "firstSeen": "2026-08-07",
-   "id": 411
+   "id": 533
   },
   {
    "cat": "军事/地缘",
@@ -5792,7 +7500,7 @@ window.BRIEFING = {
    "source": "China Daily",
    "url": "https://www.chinadailyasia.com/article/637415",
    "firstSeen": "2026-08-07",
-   "id": 412
+   "id": 534
   },
   {
    "cat": "军事/地缘",
@@ -5806,7 +7514,7 @@ window.BRIEFING = {
    "source": "环球时报",
    "url": "https://www.toutiao.com/w/1872676042051591",
    "firstSeen": "2026-08-07",
-   "id": 413
+   "id": 535
   },
   {
    "cat": "军事/地缘",
@@ -5820,7 +7528,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://www.sohu.com/a/1057595769_121118976",
    "firstSeen": "2026-08-07",
-   "id": 414
+   "id": 536
   },
   {
    "cat": "军事/地缘",
@@ -5834,7 +7542,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670476236883526186/",
    "firstSeen": "2026-08-07",
-   "id": 415
+   "id": 537
   },
   {
    "cat": "军事/地缘",
@@ -5848,7 +7556,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670058588609511999/",
    "firstSeen": "2026-08-07",
-   "id": 416
+   "id": 538
   },
   {
    "cat": "军事/地缘",
@@ -5862,7 +7570,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/w/1872852508793920/",
    "firstSeen": "2026-08-07",
-   "id": 417
+   "id": 539
   },
   {
    "cat": "军事/地缘",
@@ -5876,7 +7584,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7671090943788925475",
    "firstSeen": "2026-08-07",
-   "id": 418
+   "id": 540
   },
   {
    "cat": "军事/地缘",
@@ -5890,7 +7598,7 @@ window.BRIEFING = {
    "source": "国防部网",
    "url": "https://www.mod.gov.cn/gfbw/qwfb/16478268.html",
    "firstSeen": "2026-08-07",
-   "id": 419
+   "id": 541
   },
   {
    "cat": "军事/地缘",
@@ -5904,7 +7612,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A09SQJ00",
    "firstSeen": "2026-08-07",
-   "id": 420
+   "id": 542
   },
   {
    "cat": "军事/地缘",
@@ -5918,7 +7626,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/w/1872843990691916",
    "firstSeen": "2026-08-07",
-   "id": 421
+   "id": 543
   },
   {
    "cat": "军事/地缘",
@@ -5932,7 +7640,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://www.toutiao.com/article/7669684190413931035/",
    "firstSeen": "2026-08-07",
-   "id": 422
+   "id": 544
   },
   {
    "cat": "军事/地缘",
@@ -5946,7 +7654,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://dy.163.com/article/L37D49QR055692A9.html",
    "firstSeen": "2026-08-07",
-   "id": 423
+   "id": 545
   },
   {
    "cat": "军事/地缘",
@@ -5960,7 +7668,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A0729G00",
    "firstSeen": "2026-08-07",
-   "id": 424
+   "id": 546
   },
   {
    "cat": "军事/地缘",
@@ -5974,7 +7682,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3IQF1SV0556ENNK.html",
    "firstSeen": "2026-08-07",
-   "id": 425
+   "id": 547
   },
   {
    "cat": "军事/地缘",
@@ -5988,7 +7696,7 @@ window.BRIEFING = {
    "source": "参考消息/网易",
    "url": "https://www.163.com/dy/article/L3NUTG66053469LG.html",
    "firstSeen": "2026-08-07",
-   "id": 426
+   "id": 548
   },
   {
    "cat": "军事/地缘",
@@ -6002,7 +7710,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7671138072712495625/",
    "firstSeen": "2026-08-07",
-   "id": 427
+   "id": 549
   },
   {
    "cat": "军事/地缘",
@@ -6016,7 +7724,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670021738125591090",
    "firstSeen": "2026-08-07",
-   "id": 428
+   "id": 550
   },
   {
    "cat": "军事/地缘",
@@ -6030,7 +7738,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3NQUOMR055694GK.html",
    "firstSeen": "2026-08-07",
-   "id": 429
+   "id": 551
   },
   {
    "cat": "军事/地缘",
@@ -6044,7 +7752,7 @@ window.BRIEFING = {
    "source": "defence-industry.eu",
    "url": "https://defence-industry.eu/rimpac-2026-ends-after-30-nations-30000-personnel-and-2400-sorties-test-maritime-operations-around-hawaii",
    "firstSeen": "2026-08-07",
-   "id": 430
+   "id": 552
   },
   {
    "cat": "军事/地缘",
@@ -6058,7 +7766,7 @@ window.BRIEFING = {
    "source": "大众网/央视",
    "url": "http://gzylhyzx.com/detail.html?cpid=T17&newsId=43694711",
    "firstSeen": "2026-08-07",
-   "id": 431
+   "id": 553
   },
   {
    "cat": "军事/地缘",
@@ -6072,7 +7780,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/w/1872290158288903",
    "firstSeen": "2026-08-07",
-   "id": 432
+   "id": 554
   },
   {
    "cat": "军事/地缘",
@@ -6086,7 +7794,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/w/1872740769456203",
    "firstSeen": "2026-08-07",
-   "id": 433
+   "id": 555
   },
   {
    "cat": "军事/地缘",
@@ -6100,7 +7808,7 @@ window.BRIEFING = {
    "source": "新浪财经/网易",
    "url": "https://cj.sina.com.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-08-05%2Fdoc-inimhiec5152796.shtml",
    "firstSeen": "2026-08-07",
-   "id": 434
+   "id": 556
   },
   {
    "cat": "军事/地缘",
@@ -6114,7 +7822,7 @@ window.BRIEFING = {
    "source": "财联社",
    "url": "https://www.cls.cn/detail/2356417",
    "firstSeen": "2026-08-07",
-   "id": 435
+   "id": 557
   },
   {
    "cat": "军事/地缘",
@@ -6128,7 +7836,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://www.toutiao.com/article/7669998219127996980/",
    "firstSeen": "2026-08-07",
-   "id": 436
+   "id": 558
   },
   {
    "cat": "军事/地缘",
@@ -6142,7 +7850,7 @@ window.BRIEFING = {
    "source": "德国之声",
    "url": "https://amp.dw.com/zh/sipri%E4%B8%AD%E5%9B%BD%E5%86%9B%E8%B4%B9%E8%BF%9E%E7%BB%AD%E5%A2%9E%E9%95%BF31%E5%B9%B4/a-76955440",
    "firstSeen": "2026-08-07",
-   "id": 437
+   "id": 559
   },
   {
    "cat": "军事/地缘",
@@ -6156,7 +7864,7 @@ window.BRIEFING = {
    "source": "中国网",
    "url": "https://www.china.com.cn/opinion/2026-08/05/content_118634655.html",
    "firstSeen": "2026-08-07",
-   "id": 438
+   "id": 560
   },
   {
    "cat": "军事/地缘",
@@ -6170,7 +7878,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260802A03TBX00",
    "firstSeen": "2026-08-07",
-   "id": 439
+   "id": 561
   },
   {
    "cat": "军事/地缘",
@@ -6184,7 +7892,7 @@ window.BRIEFING = {
    "source": "新浪新闻",
    "url": "https://news.sina.cn/gj/2026-08-04/detail-inimcpim5749693.d.html",
    "firstSeen": "2026-08-07",
-   "id": 440
+   "id": 562
   },
   {
    "cat": "军事/地缘",
@@ -6198,7 +7906,7 @@ window.BRIEFING = {
    "source": "新华网",
    "url": "https://www.xinhuanet.com/globe/20260804/705feb2777b5450c81cf8cadbde3c691/c.html",
    "firstSeen": "2026-08-07",
-   "id": 441
+   "id": 563
   },
   {
    "cat": "军事/地缘",
@@ -6212,7 +7920,7 @@ window.BRIEFING = {
    "source": "Oman News/SIPRI",
    "url": "https://www.omannews.gov.om/topics/en/81/show/128108",
    "firstSeen": "2026-08-07",
-   "id": 442
+   "id": 564
   },
   {
    "cat": "军事/地缘",
@@ -6226,7 +7934,7 @@ window.BRIEFING = {
    "source": "上经网",
    "url": "http://sjsc.org.cn/2026/0806/xinwenzhongxin/18454.html",
    "firstSeen": "2026-08-07",
-   "id": 443
+   "id": 565
   },
   {
    "cat": "军事/地缘",
@@ -6240,7 +7948,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7671093994813735466",
    "firstSeen": "2026-08-07",
-   "id": 444
+   "id": 566
   },
   {
    "cat": "军事/地缘",
@@ -6254,7 +7962,7 @@ window.BRIEFING = {
    "source": "人民日报/今日头条",
    "url": "https://www.toutiao.com/article/7670721367418913343/",
    "firstSeen": "2026-08-07",
-   "id": 445
+   "id": 567
   },
   {
    "cat": "军事/地缘",
@@ -6268,7 +7976,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/w/1872504550162563",
    "firstSeen": "2026-08-07",
-   "id": 446
+   "id": 568
   },
   {
    "cat": "军事/地缘",
@@ -6282,7 +7990,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://www.sohu.com/a/1056240620_120335529",
    "firstSeen": "2026-08-07",
-   "id": 447
+   "id": 569
   },
   {
    "cat": "军事/地缘",
@@ -6296,7 +8004,7 @@ window.BRIEFING = {
    "source": "中央社",
    "url": "https://www.goodbye.be/magazine?live-blog-16096537-2026-07-08-xin-wen-zhuan-ti-bei-yue1-300bei-yue-feng-hui-de-guo-shen-bao4-5zhao-yuan-guo-fa",
    "firstSeen": "2026-08-07",
-   "id": 448
+   "id": 570
   },
   {
    "cat": "军事/地缘",
@@ -6310,7 +8018,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://www.toutiao.com/article/7668853404018328064/",
    "firstSeen": "2026-08-07",
-   "id": 449
+   "id": 571
   },
   {
    "cat": "军事/地缘",
@@ -6324,7 +8032,7 @@ window.BRIEFING = {
    "source": "中国国防报/人民网",
    "url": "https://military.people.com.cn/n1/2026/0626/c1011-40747972.html",
    "firstSeen": "2026-08-07",
-   "id": 450
+   "id": 572
   },
   {
    "cat": "军事/地缘",
@@ -6338,7 +8046,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3KM21M20556BT1X.html",
    "firstSeen": "2026-08-07",
-   "id": 451
+   "id": 573
   },
   {
    "cat": "军事/地缘",
@@ -6352,7 +8060,7 @@ window.BRIEFING = {
    "source": "网易/今日头条",
    "url": "https://www.163.com/dy/article/L3N729O80556DZEX.html",
    "firstSeen": "2026-08-07",
-   "id": 452
+   "id": 574
   },
   {
    "cat": "军事/地缘",
@@ -6366,7 +8074,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/w/1872193929572483/",
    "firstSeen": "2026-08-07",
-   "id": 453
+   "id": 575
   },
   {
    "cat": "军事/地缘",
@@ -6380,7 +8088,7 @@ window.BRIEFING = {
    "source": "网易/中评社",
    "url": "https://www.163.com/dy/article/L3NN8VPB05437ZOZ.html",
    "firstSeen": "2026-08-07",
-   "id": 454
+   "id": 576
   },
   {
    "cat": "军事/地缘",
@@ -6394,7 +8102,7 @@ window.BRIEFING = {
    "source": "联合国",
    "url": "https://www.un.org/zh?9fe8w/53191",
    "firstSeen": "2026-08-07",
-   "id": 455
+   "id": 577
   },
   {
    "cat": "军事/地缘",
@@ -6408,7 +8116,7 @@ window.BRIEFING = {
    "source": "环球网",
    "url": "https://new.qq.com/rain/a/20260806A0CSO800",
    "firstSeen": "2026-08-07",
-   "id": 456
+   "id": 578
   },
   {
    "cat": "军事/地缘",
@@ -6422,7 +8130,7 @@ window.BRIEFING = {
    "source": "国防部网/腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A0BAL500",
    "firstSeen": "2026-08-07",
-   "id": 457
+   "id": 579
   },
   {
    "cat": "军事/地缘",
@@ -6436,7 +8144,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A0357K00",
    "firstSeen": "2026-08-07",
-   "id": 458
+   "id": 580
   },
   {
    "cat": "军事/地缘",
@@ -6450,7 +8158,7 @@ window.BRIEFING = {
    "source": "云南网",
    "url": "https://news.yunnan.cn/system/2026/08/07/034114401.shtml",
    "firstSeen": "2026-08-07",
-   "id": 459
+   "id": 581
   },
   {
    "cat": "军事/地缘",
@@ -6464,7 +8172,7 @@ window.BRIEFING = {
    "source": "云南网",
    "url": "https://news.yunnan.cn/system/2026/08/07/034114401.shtml",
    "firstSeen": "2026-08-07",
-   "id": 460
+   "id": 582
   },
   {
    "cat": "军事/地缘",
@@ -6478,7 +8186,7 @@ window.BRIEFING = {
    "source": "环球时报",
    "url": "https://www.toutiao.com/w/1872491909808137/",
    "firstSeen": "2026-08-07",
-   "id": 461
+   "id": 583
   },
   {
    "cat": "军事/地缘",
@@ -6492,7 +8200,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com.cn/gn/2026/07-30/10669405.shtml",
    "firstSeen": "2026-08-07",
-   "id": 462
+   "id": 584
   },
   {
    "cat": "军事/地缘",
@@ -6506,7 +8214,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670469401875677736/",
    "firstSeen": "2026-08-07",
-   "id": 463
+   "id": 585
   },
   {
    "cat": "军事/地缘",
@@ -6520,7 +8228,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/gj/2026/08-06/10672696.shtml",
    "firstSeen": "2026-08-07",
-   "id": 464
+   "id": 586
   },
   {
    "cat": "军事/地缘",
@@ -6534,7 +8242,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670558726310380042",
    "firstSeen": "2026-08-07",
-   "id": 465
+   "id": 587
   },
   {
    "cat": "军事/地缘",
@@ -6548,7 +8256,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://new.qq.com/rain/a/20260807A04J3600",
    "firstSeen": "2026-08-07",
-   "id": 466
+   "id": 588
   },
   {
    "cat": "军事/地缘",
@@ -6562,7 +8270,21 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A0EWOP00",
    "firstSeen": "2026-08-07",
-   "id": 467
+   "id": 589
+  },
+  {
+   "cat": "经济",
+   "time": "21:22",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "央行部署下半年工作：下调结构性货币政策工具利率0.25个百分点",
+   "summary": "央行综合运用逆回购、MLF、国债买卖保持流动性充裕；下调结构性货币政策工具利率0.25个百分点；创设境外央行回购工具；在上海自贸区开展离岸人民币外汇交易。",
+   "decision": "综合融资成本低位运行，利好消费金融降低资金成本、稳定资产质量，家庭借贷成本随之下行。",
+   "source": "新浪财经",
+   "url": "https://finance.sina.com.cn/jjxw/2026-08-12/doc-ininamim3927759.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 590
   },
   {
    "cat": "经济",
@@ -6576,7 +8298,7 @@ window.BRIEFING = {
    "source": "澎湃新闻/头条",
    "url": "https://www.toutiao.com/article/7670893943776641572",
    "firstSeen": "2026-08-07",
-   "id": 468
+   "id": 591
   },
   {
    "cat": "经济",
@@ -6590,7 +8312,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "https://www.toutiao.com/article/7669384812230115840",
    "firstSeen": "2026-08-07",
-   "id": 469
+   "id": 592
   },
   {
    "cat": "经济",
@@ -6604,7 +8326,7 @@ window.BRIEFING = {
    "source": "财联社/网易",
    "url": "https://www.163.com/dy/article/L3ODG7Q805198CJN.html",
    "firstSeen": "2026-08-07",
-   "id": 470
+   "id": 593
   },
   {
    "cat": "经济",
@@ -6618,7 +8340,35 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.com/2026/08/01/ARTIxMVagonDW6a0lcURdIvb260801.shtml",
    "firstSeen": "2026-08-07",
-   "id": 471
+   "id": 594
+  },
+  {
+   "cat": "经济",
+   "time": "17:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "央行发布7月金融数据：M2余额355.51万亿增7.7%，社融存量463.27万亿增7.4%",
+   "summary": "7月末M2同比增7.7%，社融存量同比增7.4%；前7个月人民币贷款增加10.38万亿元，社融增量累计22.25万亿元、同比少1.74万亿元；两项指标增速均高于名义GDP。",
+   "decision": "宽货币环境延续，消费金融负债成本有望保持低位，可把握低成本扩表窗口并优化定价。",
+   "source": "金融时报",
+   "url": "https://fe.10jqka.com.cn/20260814/c678968298.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 595
+  },
+  {
+   "cat": "经济",
+   "time": "17:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "《个人消费贷款财政贴息政策实施方案》发布，招联金融在经办机构之列",
+   "summary": "年贴息比例1个百分点、最高不超贷款合同利率50%，每人每家机构累计上限3000元；经办机构含6大行、12股份行及招联金融等5家消金公司。",
+   "decision": "直接利好招联：贴息降低客户融资成本、提升获客转化，应尽快优化贴息系统承接政策红利、扩大投放。",
+   "source": "中国消费者报",
+   "url": "https://www.ccn.com.cn/Content/2025/08-13/1642568517.html",
+   "firstSeen": "2026-08-17",
+   "id": 596
   },
   {
    "cat": "经济",
@@ -6632,7 +8382,7 @@ window.BRIEFING = {
    "source": "中国商报/头条",
    "url": "https://www.toutiao.com/article/7668981609886679562/",
    "firstSeen": "2026-08-07",
-   "id": 472
+   "id": 597
   },
   {
    "cat": "经济",
@@ -6646,7 +8396,7 @@ window.BRIEFING = {
    "source": "界面新闻/头条",
    "url": "https://www.toutiao.com/article/7669343832601690630/",
    "firstSeen": "2026-08-07",
-   "id": 473
+   "id": 598
   },
   {
    "cat": "经济",
@@ -6660,7 +8410,7 @@ window.BRIEFING = {
    "source": "中国政府网",
    "url": "https://www.gov.cn/lianbo/202608/content_7077344.htm",
    "firstSeen": "2026-08-07",
-   "id": 474
+   "id": 599
   },
   {
    "cat": "经济",
@@ -6674,7 +8424,49 @@ window.BRIEFING = {
    "source": "证券时报",
    "url": "https://stcn.com/article/kx-tag-detail.html?tag=TUmRsMNfoPIB",
    "firstSeen": "2026-08-07",
-   "id": 475
+   "id": 600
+  },
+  {
+   "cat": "经济",
+   "time": "15:35",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "A股8月17日放量普涨逼近4000点，科技硬件全线爆发",
+   "summary": "沪指涨1.41%报3982.65，深成指涨2.44%，创业板涨3.14%，科创50涨4.14%；两市成交2.39万亿元；CPO、存储芯片、半导体领涨，超4300股上涨。",
+   "decision": "权益回暖提升居民财富效应与风险偏好，但须重点防范消费贷违规流入股市的监管红线。",
+   "source": "东方财富",
+   "url": "https://caifuhao.eastmoney.com/news/20260817153515542125660?from=guba",
+   "firstSeen": "2026-08-17",
+   "id": 601
+  },
+  {
+   "cat": "经济",
+   "time": "15:30",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国家统计局：1—7月国民经济运行总体平稳、延续向新向优态势",
+   "summary": "1—7月规上工业增加值同比增5.3%，服务业生产指数增4.7%，社零总额287744亿元增1.2%，货物进出口301264亿元增17.3%，城镇调查失业率均值5.2%，核心CPI 7月涨0.9%。",
+   "decision": "经济动能向新向优但内需偏弱，消费金融应聚焦服务消费与高技术制造客群，谨慎服务传统周期行业人群。",
+   "source": "人民网",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2436a82bdb293152",
+   "firstSeen": "2026-08-17",
+   "id": 602
+  },
+  {
+   "cat": "经济",
+   "time": "15:15",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国家统计局：1—7月消费市场运行稳定，服务零售额增5.0%",
+   "summary": "1—7月社零总额287744亿元增1.2%；服务零售额增5.0%、高于商品零售3.9个百分点；网上零售增4.8%；入境外国人次上半年增20.4%、免签增30.6%。",
+   "decision": "服务消费高景气，消费金融可拓展文旅、教育、健康等服务消费分期场景，招联可借联通生态触达。",
+   "source": "上海证券报",
+   "url": "https://www.cnstock.com/commonDetail/761306?commTag=true",
+   "firstSeen": "2026-08-17",
+   "id": 603
   },
   {
    "cat": "经济",
@@ -6688,7 +8480,21 @@ window.BRIEFING = {
    "source": "新黄河/腾讯",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8386a7533c439452",
    "firstSeen": "2026-08-07",
-   "id": 476
+   "id": 604
+  },
+  {
+   "cat": "经济",
+   "time": "15:00",
+   "impact": "high",
+   "related": true,
+   "overseas": true,
+   "title": "[海外] 路透：美联储维持利率3.50%—3.75%不变，加息预期降温",
+   "summary": "美联储7月维持利率不变，3名委员主张加息；7月CPI、PPI低于预期且非农疲弱，市场定价9月维持利率不变概率约65%、加息预期消退。",
+   "decision": "海外加息预期降温缓和人民币与外部流动性压力，利于境内消费金融稳定负债与家庭外币资产负债。",
+   "source": "路透中文",
+   "url": "https://finance.sina.com.cn/roll/2026-08-14/doc-ininhhrs2674595.shtml.md",
+   "firstSeen": "2026-08-17",
+   "id": 605
   },
   {
    "cat": "经济",
@@ -6702,7 +8508,21 @@ window.BRIEFING = {
    "source": "央视网/证券日报",
    "url": "https://finance.cctv.com/2026/08/06/ARTI1NVj3czF2OVbrjeXCBeu260806.shtml",
    "firstSeen": "2026-08-07",
-   "id": 477
+   "id": 606
+  },
+  {
+   "cat": "经济",
+   "time": "10:30",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国务院批复《扩大消费“十五五”规划》，住房纳入大宗消费首位",
+   "summary": "规划将住房消费与汽车、家居家电并列纳入大宗耐用消费品体系且住房居首；北京非京籍家庭购房社保年限降至1年、公积金贷款最高可至340万元。",
+   "decision": "住房消费金融场景拓宽，招联可借联通渠道协同拓展家装、家居、家电分期等消费场景。",
+   "source": "新华财经",
+   "url": "https://cj.sina.com.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-08-12%2Fdoc-inimzcpw5403881.shtml&finpagefr=w_110",
+   "firstSeen": "2026-08-17",
+   "id": 607
   },
   {
    "cat": "经济",
@@ -6716,7 +8536,7 @@ window.BRIEFING = {
    "source": "证券时报/网易",
    "url": "https://www.163.com/dy/article/L3NKA27J053469RG.html",
    "firstSeen": "2026-08-07",
-   "id": 478
+   "id": 608
   },
   {
    "cat": "经济",
@@ -6730,7 +8550,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "https://www.ce.cn/xwzx/gnsz/gdxw/202608/t20260807_3134294.shtml",
    "firstSeen": "2026-08-07",
-   "id": 479
+   "id": 609
   },
   {
    "cat": "经济",
@@ -6744,7 +8564,35 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/cj/2026/08-07/10673348.shtml",
    "firstSeen": "2026-08-07",
-   "id": 480
+   "id": 610
+  },
+  {
+   "cat": "经济",
+   "time": "09:10",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国务院《扩大消费“十五五”规划》全文：到2030年社零达60万亿元左右",
+   "summary": "规划提出到2030年社零约60万亿元，居民消费率明显提高，服务消费占比稳步提升，数字消费、绿色消费、入境消费多线发力。",
+   "decision": "消费长期扩容方向确定，消费金融机构应提前卡位数字消费与绿色消费场景，布局家庭全生命周期服务。",
+   "source": "国务院公报",
+   "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/gongbao/2026/issue_12886/202607/content_7076951.html",
+   "firstSeen": "2026-08-17",
+   "id": 611
+  },
+  {
+   "cat": "经济",
+   "time": "09:07",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "发改委：下半年宏观政策发力提效，AI相关行业保持30%以上高增长",
+   "summary": "7550亿元中央预算内投资基本下达；集成电路上半年产量增23.1%、出口增88.7%；全球每售10台人形和四足智能机器人有8台产自中国。",
+   "decision": "新兴产业高景气创造优质客群，可围绕AI与机器人产业链员工布局消费金融服务与员工福利。",
+   "source": "央视网",
+   "url": "https://news.cctv.cn/2026/08/01/ARTI7y8ZcInHLlK8UKAfsdpf260801.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 612
   },
   {
    "cat": "经济",
@@ -6758,7 +8606,7 @@ window.BRIEFING = {
    "source": "中国人民银行",
    "url": "https://www.pbc.gov.cn/zhengcehuobisi/125207/125217/125925/2026080709013821880/index.html",
    "firstSeen": "2026-08-07",
-   "id": 481
+   "id": 613
   },
   {
    "cat": "经济",
@@ -6772,7 +8620,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/roll/2026-08-07/doc-inimnenr0055662.shtml",
    "firstSeen": "2026-08-07",
-   "id": 482
+   "id": 614
   },
   {
    "cat": "经济",
@@ -6786,7 +8634,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "https://m.21jingji.com/article/20260806/herald/9f318fddc4fda8ba67aaa0c57f2e3225.html",
    "firstSeen": "2026-08-07",
-   "id": 483
+   "id": 615
   },
   {
    "cat": "经济",
@@ -6800,7 +8648,7 @@ window.BRIEFING = {
    "source": "人力资源社会保障部",
    "url": "https://www.mohrss.gov.cn/wap/xw/rsxw/202607/t20260724_580837.html",
    "firstSeen": "2026-08-07",
-   "id": 484
+   "id": 616
   },
   {
    "cat": "经济",
@@ -6814,7 +8662,7 @@ window.BRIEFING = {
    "source": "时代周报/喜马拉雅",
    "url": "https://m.ximalaya.com/sound/915291754",
    "firstSeen": "2026-08-07",
-   "id": 485
+   "id": 617
   },
   {
    "cat": "经济",
@@ -6828,7 +8676,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道/东财",
    "url": "https://guba.eastmoney.com/news/cjpl,1754947737.html",
    "firstSeen": "2026-08-07",
-   "id": 486
+   "id": 618
   },
   {
    "cat": "经济",
@@ -6842,7 +8690,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://www.sohu.com/a/1058344549_122658451",
    "firstSeen": "2026-08-07",
-   "id": 487
+   "id": 619
   },
   {
    "cat": "经济",
@@ -6856,7 +8704,7 @@ window.BRIEFING = {
    "source": "中信建投/新浪",
    "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/839175435712/index.phtml",
    "firstSeen": "2026-08-07",
-   "id": 488
+   "id": 620
   },
   {
    "cat": "经济",
@@ -6870,7 +8718,7 @@ window.BRIEFING = {
    "source": "证券日报/头条",
    "url": "https://www.toutiao.com/article/7669856720830693930",
    "firstSeen": "2026-08-07",
-   "id": 489
+   "id": 621
   },
   {
    "cat": "经济",
@@ -6884,7 +8732,7 @@ window.BRIEFING = {
    "source": "北京商报/头条",
    "url": "https://www.toutiao.com/article/7670211964987195944",
    "firstSeen": "2026-08-07",
-   "id": 490
+   "id": 622
   },
   {
    "cat": "经济",
@@ -6898,7 +8746,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道/新浪",
    "url": "https://www.toutiao.com/article/7670171435943363106/",
    "firstSeen": "2026-08-07",
-   "id": 491
+   "id": 623
   },
   {
    "cat": "经济",
@@ -6912,7 +8760,35 @@ window.BRIEFING = {
    "source": "金十数据/新浪/头条",
    "url": "https://www.toutiao.com/article/7669795047797228059/",
    "firstSeen": "2026-08-07",
-   "id": 492
+   "id": 624
+  },
+  {
+   "cat": "经济",
+   "time": "21:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外] 欧元区经济疲软促欧央行政策转向，2026年增长预期下调至0.8%",
+   "summary": "欧盟委员会、欧央行、IMF均下调欧元区2026年增长预期至0.8%—0.9%；6月重启加息后7月暂停，政策重心在控通胀与稳增长间再平衡。",
+   "decision": "外需走弱拖累我国对欧出口，关注对欧外贸企业客群收入稳定性，消费金融授信适度收紧。",
+   "source": "联合早报",
+   "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?id=SN2026080921420694cfb900",
+   "firstSeen": "2026-08-17",
+   "id": 625
+  },
+  {
+   "cat": "经济",
+   "time": "20:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外] 日本央行加息25个基点至1%，2027年起暂停缩表",
+   "summary": "日本央行7-1投票加息25个基点至1%，并宣布2027年4月起暂停购债缩减；日元约160兑美元，经济温和复苏但通胀上行风险犹存。",
+   "decision": "全球加息周期分化，关注套息交易与跨境资本流动对人民币资产及消费金融负债成本的影响。",
+   "source": "路透中文",
+   "url": "https://www.us.aastocks.com/en/funds/news/comment.aspx?source=AAFN&id=NOW.1529230",
+   "firstSeen": "2026-08-17",
+   "id": 626
   },
   {
    "cat": "经济",
@@ -6926,7 +8802,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.cn/2026/08/01/ARTIxcTa59v3duy3v7fQVCwW260801.shtml",
    "firstSeen": "2026-08-07",
-   "id": 493
+   "id": 627
   },
   {
    "cat": "经济",
@@ -6940,7 +8816,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "https://www.toutiao.com/article/7669384812230115840",
    "firstSeen": "2026-08-07",
-   "id": 494
+   "id": 628
   },
   {
    "cat": "经济",
@@ -6954,7 +8830,7 @@ window.BRIEFING = {
    "source": "财联社/网易",
    "url": "https://www.163.com/dy/article/L3LTHNB005198CJN.html",
    "firstSeen": "2026-08-07",
-   "id": 495
+   "id": 629
   },
   {
    "cat": "经济",
@@ -6968,7 +8844,21 @@ window.BRIEFING = {
    "source": "新华网",
    "url": "https://www.gx.news.cn/20260805/2c48b02bfd10413981f2eea703625686/c.html",
    "firstSeen": "2026-08-07",
-   "id": 496
+   "id": 630
+  },
+  {
+   "cat": "经济",
+   "time": "17:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外] 全球通胀走势反复：IMF上调2026年通胀至4.7%",
+   "summary": "美CPI 6月3.5%、欧元区6月2.8%、日本核心CPI连涨58个月；地缘冲突与贸易摩擦令物价走势反复，全球主要央行平衡稳物价与稳增长。",
+   "decision": "全球通胀反复或制约外需，关注进口型通胀对居民生活成本与消费信贷的传导，家庭宜控杠杆。",
+   "source": "经济日报",
+   "url": "https://www.163.com/dy/article/L3BHC96405568W0A.html",
+   "firstSeen": "2026-08-17",
+   "id": 631
   },
   {
    "cat": "经济",
@@ -6982,7 +8872,49 @@ window.BRIEFING = {
    "source": "财联社/腾讯",
    "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026080417182194c7d130",
    "firstSeen": "2026-08-07",
-   "id": 497
+   "id": 632
+  },
+  {
+   "cat": "经济",
+   "time": "16:56",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "北京优化限购：非京籍五环内社保1年，多子女家庭增购",
+   "summary": "8月7日北京优化房地产政策，非京籍家庭五环内购房社保或个税年限调为1年；国常会7月31日通过公积金条例修订草案，装修、物业费纳入提取范围。",
+   "decision": "一线城市政策松动释放改善型需求，关注住房相关消费分期与家装分期机会，招联可联动联通社区触点。",
+   "source": "时代周报",
+   "url": "https://www.toutiao.com/article/7672695328487686710/",
+   "firstSeen": "2026-08-17",
+   "id": 633
+  },
+  {
+   "cat": "经济",
+   "time": "16:48",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "国常会审议通过《住房公积金管理条例》修订，装修物业费纳入提取",
+   "summary": "7月31日国常会审议公积金条例修订草案，拓宽提取使用范围、放开灵活就业人员自愿缴存；上半年二手房占新房二手房交易总量50.4%，首超新房。",
+   "decision": "公积金覆盖面扩大减轻居民住房支出，间接释放其他消费信贷空间，利好家庭现金流管理。",
+   "source": "中国商报",
+   "url": "https://www.toutiao.com/article/7668981609886679562",
+   "firstSeen": "2026-08-17",
+   "id": 634
+  },
+  {
+   "cat": "经济",
+   "time": "16:12",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "国家统计局：1—7月CPI同比涨0.9%，猪肉价格下降13.4%",
+   "summary": "7月CPI同比涨0.5%、环比降0.1%；核心CPI 7月涨0.9%、1—7月涨1.1%；PPI 7月涨3.5%、环比降0.7%；猪肉价格降13.4%，食品烟酒类价格同比降0.2%。",
+   "decision": "低通胀环境利好居民实际购买力，但需警惕通缩预期抑制消费信贷需求，家庭负债规划宜稳中求进。",
+   "source": "新浪财经",
+   "url": "https://k.sina.com.cn/article_6105713761_16bedcc61020028ckq.html",
+   "firstSeen": "2026-08-17",
+   "id": 635
   },
   {
    "cat": "经济",
@@ -6996,7 +8928,49 @@ window.BRIEFING = {
    "source": "新华财经/腾讯",
    "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN202608061606179730130d",
    "firstSeen": "2026-08-07",
-   "id": 498
+   "id": 636
+  },
+  {
+   "cat": "经济",
+   "time": "16:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "A股缩量震荡后选方向，央行万亿逆回购净投放2000亿",
+   "summary": "上周沪指收3927.18微跌0.33%；央行万亿买断式逆回购等额续作、全月净投放2000亿元维持流动性充裕；多地因城施策稳楼市。",
+   "decision": "流动性充裕支撑估值，但消费贷违规入市的合规风险需重点防范，招联应加强资金用途监测。",
+   "source": "新浪财经",
+   "url": "https://cj.sina.com.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-08-17%2Fdoc-ininrean0220906.shtml&finpagefr=w_110",
+   "firstSeen": "2026-08-17",
+   "id": 637
+  },
+  {
+   "cat": "经济",
+   "time": "16:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "中国货币网：10年国债收益率约1.70%，LPR 1年3.00%、5年3.50%",
+   "summary": "8月12日1年国债收益率1.2091%、10年1.7101%；7月20日LPR 1年为3.00%、5年以上3.50%；美元兑人民币中间价6.7900。",
+   "decision": "低利率环境降低消费金融负债成本，但息差收窄倒逼精细化定价与客群分层经营。",
+   "source": "中国货币网",
+   "url": "https://www.chinamoney.com.cn/chinese/sddsintigy",
+   "firstSeen": "2026-08-17",
+   "id": 638
+  },
+  {
+   "cat": "经济",
+   "time": "15:43",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "国家统计局：7月全国城镇调查失业率5.2%，就业形势总体稳定",
+   "summary": "1—7月城镇调查失业率均值5.2%与上年同期持平；7月为5.2%，环比升0.2个百分点；外来农业户籍劳动力4.9%；企业就业人员周均工时48.2小时。",
+   "decision": "就业稳中季节性承压，消费金融授信须强化收入稳定性与偿债能力核验，防范家庭现金流波动风险。",
+   "source": "东方财富",
+   "url": "https://guba.eastmoney.com/news,cjpl,1760131794.html",
+   "firstSeen": "2026-08-17",
+   "id": 639
   },
   {
    "cat": "经济",
@@ -7010,7 +8984,49 @@ window.BRIEFING = {
    "source": "人民日报/中国经济网",
    "url": "http://adimg.ce.cn/xwzx/gnsz/gdxw/202607/t20260721_3099174.shtml",
    "firstSeen": "2026-08-07",
-   "id": 499
+   "id": 640
+  },
+  {
+   "cat": "经济",
+   "time": "14:51",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "招联金融：“自愈”贷后服务累计超500万人次，超25万客户获贴息",
+   "summary": "招联“自信”AI助手套降利率，“自愈”累计服务超500万人次、超200万成功还款；与中国联通APP深度合作推广金融分期；超25万客户获贴息约3.6亿元。",
+   "decision": "招联×联通渠道协同已落地，可借贴息与以旧换新进一步扩大分期场景、提升客户黏性。",
+   "source": "招联金融",
+   "url": "https://wx.laserfair.com/CONF-368047.HTML",
+   "firstSeen": "2026-08-17",
+   "id": 641
+  },
+  {
+   "cat": "经济",
+   "time": "14:47",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "置换债发行近九成，稳增长与防风险并举",
+   "summary": "年内置换存量隐性债务再融资专项债发行17942亿元，完成全年2万亿元限额89.7%；缓释地方偿债压力、腾出资金支持实体经济。",
+   "decision": "地方债务风险缓释利于区域金融稳定，低风险地区消费金融展业环境改善，可适度下沉。",
+   "source": "证券日报",
+   "url": "https://www.toutiao.com/article/7672607081253552703",
+   "firstSeen": "2026-08-17",
+   "id": 642
+  },
+  {
+   "cat": "经济",
+   "time": "14:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "上半年城镇新增就业695万人，青年失业率连续三月下降",
+   "summary": "上半年城镇新增就业695万人；16—24岁青年失业率14.9%，连续三个月下降创一年新低；今年高校毕业生预计达1270万人。",
+   "decision": "青年就业承压，校园与职场新人消费金融需强化审慎授信与金融教育，避免过度负债。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/a1873365999077385",
+   "firstSeen": "2026-08-17",
+   "id": 643
   },
   {
    "cat": "经济",
@@ -7024,7 +9040,49 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/06/ARTIOGYyGtvNAOnSoSd1xo7k260806.shtml",
    "firstSeen": "2026-08-07",
-   "id": 500
+   "id": 644
+  },
+  {
+   "cat": "经济",
+   "time": "11:50",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "中央财政安排1000亿财政金融协同促内需，带动相关贷款超17万亿",
+   "summary": "中央财政专门安排1000亿元推出财政金融协同促内需一揽子政策；上半年相关中小微、设备更新、服务业、个人消费贷4项贷款合计超17万亿元、增4.6%。",
+   "decision": "财政金融协同直接惠及消费信贷，招联可对接贴息与场景资源扩大合规投放、降本增效。",
+   "source": "人民日报海外版",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6586a7513ee48052",
+   "firstSeen": "2026-08-17",
+   "id": 645
+  },
+  {
+   "cat": "经济",
+   "time": "11:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "第三批625亿以旧换新补贴落地，上半年拉动销售额1.1万亿元",
+   "summary": "发改委、财政部下达第三批625亿元超长期特别国债支持以旧换新；上半年家电以旧换新6326.6万台、数码和智能产品购新7909.8万台，惠及1.5亿人次。",
+   "decision": "国补叠加招联贴息，3C与家电分期需求旺盛，可借联通渠道精准触达换新客群提升转化。",
+   "source": "新华社",
+   "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?id=SN2026072918061694beddb7",
+   "firstSeen": "2026-08-17",
+   "id": 646
+  },
+  {
+   "cat": "经济",
+   "time": "11:20",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "上半年地方财政运行平稳，专项债发行使用加快",
+   "summary": "全国新增地方政府债务限额5.2万亿元（专项4.4万亿元）；上半年专项债发行进度47%，用于项目资本金超1700亿元；河北等4省市纳入“自审自发”试点。",
+   "decision": "财政托底增强居民信心，利于消费金融市场温和扩张，家庭可适度增加耐用消费支出。",
+   "source": "人民日报海外版",
+   "url": "https://new.qq.com/rain/a/20260815A03HOC00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 647
   },
   {
    "cat": "经济",
@@ -7038,7 +9096,7 @@ window.BRIEFING = {
    "source": "视听甘肃/头条",
    "url": "https://www.toutiao.com/article/7670373167109636659/",
    "firstSeen": "2026-08-07",
-   "id": 501
+   "id": 648
   },
   {
    "cat": "经济",
@@ -7052,7 +9110,35 @@ window.BRIEFING = {
    "source": "人民日报/头条",
    "url": "https://www.toutiao.com/article/7670001221076107803/",
    "firstSeen": "2026-08-07",
-   "id": 502
+   "id": 649
+  },
+  {
+   "cat": "经济",
+   "time": "10:20",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "服务消费增速近5倍于商品消费，消费结构加速换轨",
+   "summary": "上半年服务零售额增5.3%、商品零售额仅增1.1%，增速差达4.2个百分点；居民人均服务性消费支出占比45.7%，文旅、体验型服务消费刚性增强。",
+   "decision": "顺应服务消费趋势，招联可布局文旅、体育、体验式消费分期产品，弱周期属性更稳。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/article/7670793917217931814",
+   "firstSeen": "2026-08-17",
+   "id": 650
+  },
+  {
+   "cat": "经济",
+   "time": "10:08",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "房地产股大涨，业内：各地或多方位促进住房消费潜力释放",
+   "summary": "8月12日A股地产板块多股涨停，内房股普遍上涨；业内预期住房纳入大宗消费后各地将持续加码楼市政策，促进住房消费。",
+   "decision": "地产链企稳利好居民财富与消费信心，但需甄别区域分化风险，授信避免单一依赖房产抵押。",
+   "source": "证券时报",
+   "url": "https://www.toutiao.com/article/7673332431277130266/",
+   "firstSeen": "2026-08-17",
+   "id": 651
   },
   {
    "cat": "经济",
@@ -7066,7 +9152,7 @@ window.BRIEFING = {
    "source": "汇通财经",
    "url": "https://www.fx678.com/C/20260801/202608011326002285.html",
    "firstSeen": "2026-08-07",
-   "id": 503
+   "id": 652
   },
   {
    "cat": "经济",
@@ -7080,7 +9166,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260716A06L1800?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 504
+   "id": 653
   },
   {
    "cat": "经济",
@@ -7094,7 +9180,7 @@ window.BRIEFING = {
    "source": "教育部/人社部",
    "url": "https://www.edu.mohrss.gov.cn/info/1038/2611.htm",
    "firstSeen": "2026-08-07",
-   "id": 505
+   "id": 654
   },
   {
    "cat": "经济",
@@ -7108,7 +9194,49 @@ window.BRIEFING = {
    "source": "沈阳晚报/腾讯",
    "url": "https://new.qq.com/rain/a/20260807A0BLBH00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 506
+   "id": 655
+  },
+  {
+   "cat": "经济",
+   "time": "09:56",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "“六张网”协同发力，下半年投资回暖预期升温",
+   "summary": "超长期特别国债8000亿元额度全部分配至1417个重大项目；专项债三季度计划发1.37万亿元；“六张网”（水网、电网、算力网、通信网、地下管网、物流网）投资规模超7万亿元。",
+   "decision": "新型基建投资撬动就业与收入，关注算力网、通信网产业链客群的消费金融与分期需求。",
+   "source": "中国经营报",
+   "url": "https://www.163.com/dy/article/L4HBA12L05199NHJ.html",
+   "firstSeen": "2026-08-17",
+   "id": 656
+  },
+  {
+   "cat": "经济",
+   "time": "09:51",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "央视网：前7个月我国直接融资占比上升，融资结构深刻转变",
+   "summary": "前7月直接融资（企业债、政府债、股票）合计约10.69万亿元，约占社融增量48%，首次接近并部分超过贷款占比；招联首席经济学家董希淼解读结构变化。",
+   "decision": "直接融资崛起分流银行信贷，消费金融机构应错位服务银行覆盖不足的长尾客群，补位普惠金融。",
+   "source": "央视网",
+   "url": "https://jingji.cctv.com/2026/08/15/ARTIKLvKD8IqqfiOAvZRZLY1260815.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 657
+  },
+  {
+   "cat": "经济",
+   "time": "09:26",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "新增专项债发行提速：年内已发2.54万亿、进度57.8%",
+   "summary": "截至8月10日各地发行新增专项债25448亿元，完成全年4.4万亿元额度57.8%；河北、江西、湖北、重庆等“自审自发”试点发行占77%。",
+   "decision": "财政发力托底经济，居民就业与收入预期改善，利好消费信贷基本盘稳健扩张。",
+   "source": "中国经营报",
+   "url": "https://www.toutiao.com/article/7674063630869987880",
+   "firstSeen": "2026-08-17",
+   "id": 658
   },
   {
    "cat": "经济",
@@ -7122,7 +9250,7 @@ window.BRIEFING = {
    "source": "经济日报/头条",
    "url": "https://www.toutiao.com/article/7665898853211587135/",
    "firstSeen": "2026-08-07",
-   "id": 507
+   "id": 659
   },
   {
    "cat": "经济",
@@ -7136,7 +9264,21 @@ window.BRIEFING = {
    "source": "华夏基金/头条",
    "url": "https://www.toutiao.com/article/7671091268142907954",
    "firstSeen": "2026-08-07",
-   "id": 508
+   "id": 660
+  },
+  {
+   "cat": "经济",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "中国建设报：立足存量发展新阶段，激活住房消费新动力",
+   "summary": "《扩大消费“十五五”规划》将家居家电、物业服务、旧改等全生命周期消费纳入住房消费；上半年全国二手房交易占比50.4%，存量时代特征凸显。",
+   "decision": "存量住房更新改造带动建材、家电、家装消费，契合招联“以旧换新”一站式分期布局。",
+   "source": "中国建设报",
+   "url": "https://gjj.wuhan.gov.cn/xxfw/zdgz/gzbsjz/ynxw/202608/t20260803_2828772.html",
+   "firstSeen": "2026-08-17",
+   "id": 661
   },
   {
    "cat": "经济",
@@ -7150,7 +9292,7 @@ window.BRIEFING = {
    "source": "证券时报/网易",
    "url": "https://www.163.com/dy/article/L17LMG3V053469RG.html",
    "firstSeen": "2026-08-07",
-   "id": 509
+   "id": 662
   },
   {
    "cat": "经济",
@@ -7164,7 +9306,7 @@ window.BRIEFING = {
    "source": "证券时报/头条",
    "url": "https://www.toutiao.com/article/7668852307420938786/",
    "firstSeen": "2026-08-07",
-   "id": 510
+   "id": 663
   },
   {
    "cat": "经济",
@@ -7178,7 +9320,7 @@ window.BRIEFING = {
    "source": "经济参考报/腾讯",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9026a6fec2f29552",
    "firstSeen": "2026-08-07",
-   "id": 511
+   "id": 664
   },
   {
    "cat": "经济",
@@ -7192,7 +9334,7 @@ window.BRIEFING = {
    "source": "中国证券报/网易",
    "url": "https://www.163.com/dy/article/L3LIKVGJ05346RC6.html",
    "firstSeen": "2026-08-07",
-   "id": 512
+   "id": 665
   },
   {
    "cat": "经济",
@@ -7206,7 +9348,7 @@ window.BRIEFING = {
    "source": "咸宁市住新局",
    "url": "http://zjj.xianning.gov.cn/xxgk/zc/zcwj/202608/t20260804_5196406.shtml",
    "firstSeen": "2026-08-07",
-   "id": 513
+   "id": 666
   },
   {
    "cat": "经济",
@@ -7220,7 +9362,7 @@ window.BRIEFING = {
    "source": "新华社/人社部",
    "url": "https://chrm.mohrss.gov.cn/?p=16662&post_type=post",
    "firstSeen": "2026-08-07",
-   "id": 514
+   "id": 667
   },
   {
    "cat": "经济",
@@ -7234,7 +9376,49 @@ window.BRIEFING = {
    "source": "央广网/腾讯",
    "url": "https://new.qq.com/rain/a/20260715A03KG400?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 515
+   "id": 668
+  },
+  {
+   "cat": "经济",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外] 欧洲央行左右为难：7月通胀2.9%，9月或再加息",
+   "summary": "欧元区二季度GDP环比增0.4%，7月通胀加速至2.9%、核心2.5%；欧央行或9月再加息以控通胀，但增长与信贷风险令决策两难。",
+   "decision": "欧美货币政策分化加大外需不确定性，关注出口链客群收入波动，审慎服务外贸依存度高的家庭。",
+   "source": "参考消息",
+   "url": "https://qhweb.eastmoney.com/news/202608113837006293.html",
+   "firstSeen": "2026-08-17",
+   "id": 669
+  },
+  {
+   "cat": "经济",
+   "time": "07:06",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "经济日报：社融、M2增速高于名义GDP，社会融资环境较为宽松",
+   "summary": "普惠小微贷款余额38.19万亿元同比增9.0%，不含房地产业服务业中长期贷款增9.3%；企业贷款加权利率降至约3%，5年期AAA企业债利率降至1.8%左右。",
+   "decision": "普惠小微高增体现政策导向，消费金融可与银行形成错位互补，共同服务小微与居民信用需求。",
+   "source": "经济日报",
+   "url": "https://www.163.com/dy/article/L4BSPETV0519AKBM.html",
+   "firstSeen": "2026-08-17",
+   "id": 670
+  },
+  {
+   "cat": "经济",
+   "time": "06:40",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外] 美国对进口多晶硅及衍生品设最低价并加征15%关税，剑指中国",
+   "summary": "特朗普签署行政令，多晶硅最低进口价21美元/公斤、相关衍生品加征15%从价税，12月4日生效；中方坚决反对美方泛化国家安全。",
+   "decision": "光伏供应链摩擦或影响相关产业就业与收入，审慎评估光伏客群授信，关注政策反制外溢。",
+   "source": "环球时报",
+   "url": "https://www.toutiao.com/article/7671423196544909874/",
+   "firstSeen": "2026-08-17",
+   "id": 671
   },
   {
    "cat": "经济",
@@ -7248,7 +9432,7 @@ window.BRIEFING = {
    "source": "Reuters",
    "url": "https://www.reuters.com",
    "firstSeen": "2026-08-07",
-   "id": 516
+   "id": 672
   },
   {
    "cat": "经济",
@@ -7262,7 +9446,7 @@ window.BRIEFING = {
    "source": "Reuters",
    "url": "https://www.reuters.com",
    "firstSeen": "2026-08-07",
-   "id": 517
+   "id": 673
   },
   {
    "cat": "经济",
@@ -7276,7 +9460,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "https://www.toutiao.com/article/7669384812230115840",
    "firstSeen": "2026-08-07",
-   "id": 518
+   "id": 674
   },
   {
    "cat": "经济",
@@ -7290,7 +9474,7 @@ window.BRIEFING = {
    "source": "新华财经/头条",
    "url": "https://www.toutiao.com/article/7670115195062075904/",
    "firstSeen": "2026-08-07",
-   "id": 519
+   "id": 675
   },
   {
    "cat": "经济",
@@ -7304,7 +9488,7 @@ window.BRIEFING = {
    "source": "界面新闻/腾讯",
    "url": "https://new.qq.com/rain/a/20260803A08T6300",
    "firstSeen": "2026-08-07",
-   "id": 520
+   "id": 676
   },
   {
    "cat": "经济",
@@ -7318,7 +9502,7 @@ window.BRIEFING = {
    "source": "上游财经/头条",
    "url": "https://www.toutiao.com/article/7671203665952260623/",
    "firstSeen": "2026-08-07",
-   "id": 521
+   "id": 677
   },
   {
    "cat": "经济",
@@ -7332,7 +9516,7 @@ window.BRIEFING = {
    "source": "中新经纬/湖南中新",
    "url": "https://www.hn.chinanews.com.cn/news/cjxx/2026/0807/532216.html",
    "firstSeen": "2026-08-07",
-   "id": 522
+   "id": 678
   },
   {
    "cat": "经济",
@@ -7346,7 +9530,7 @@ window.BRIEFING = {
    "source": "Reuters/MarketScreener",
    "url": "https://in.marketscreener.com/news/uk-faces-recession-if-strait-of-hormuz-stays-closed-forecaster-warns-ce7f50d8de89f02d",
    "firstSeen": "2026-08-07",
-   "id": 523
+   "id": 679
   },
   {
    "cat": "经济",
@@ -7360,7 +9544,7 @@ window.BRIEFING = {
    "source": "亿恩网/机电商会",
    "url": "https://www.cccme.org.cn/news/details.aspx?classid=F180AA952616909B&id=6AC3229546AEAC1AC59F995F581E801D&xgid=F868932F64EB7AAF",
    "firstSeen": "2026-08-07",
-   "id": 524
+   "id": 680
   },
   {
    "cat": "经济",
@@ -7374,7 +9558,7 @@ window.BRIEFING = {
    "source": "亿恩网",
    "url": "https://www.chwang.com/article/208273593336",
    "firstSeen": "2026-08-07",
-   "id": 525
+   "id": 681
   },
   {
    "cat": "经济",
@@ -7388,7 +9572,7 @@ window.BRIEFING = {
    "source": "海关总署",
    "url": "http://www.customs.gov.cn/customs/2026-08/05/article_2026080511145355493.html",
    "firstSeen": "2026-08-07",
-   "id": 526
+   "id": 682
   },
   {
    "cat": "经济",
@@ -7402,7 +9586,7 @@ window.BRIEFING = {
    "source": "Reuters/Fidelity",
    "url": "https://www.fidelity.com/news/article/international/202608040222RTRSNEWSCOMBINED_L6N4410A3_1",
    "firstSeen": "2026-08-07",
-   "id": 527
+   "id": 683
   },
   {
    "cat": "经济",
@@ -7416,7 +9600,7 @@ window.BRIEFING = {
    "source": "海关总署",
    "url": "http://www.customs.gov.cn/customs/2025-12/31/article_2025123119401553789.html",
    "firstSeen": "2026-08-07",
-   "id": 528
+   "id": 684
   },
   {
    "cat": "经济",
@@ -7430,7 +9614,7 @@ window.BRIEFING = {
    "source": "华尔街见闻/腾讯",
    "url": "https://new.qq.com/rain/a/20260807A03PG400?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 529
+   "id": 685
   },
   {
    "cat": "经济",
@@ -7444,7 +9628,203 @@ window.BRIEFING = {
    "source": "金价查询网",
    "url": "http://www.huangjinjiage.cn/hot/202608/07152825.html",
    "firstSeen": "2026-08-07",
-   "id": 530
+   "id": 686
+  },
+  {
+   "cat": "经济",
+   "time": "18:28",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "上市券商中报预增，26H1净利同比增56%至66%",
+   "summary": "截至8月14日25家上市券商预告，26H1合计归母净利1127亿—1184亿元同比增58%—66%，由财富管理、投行业务及科创投资驱动。",
+   "decision": "券商业绩高增反映市场活跃，居民财富管理需求上升，可探索消费金融与财富管理联动。",
+   "source": "东吴证券",
+   "url": "https://pdf.dfcfw.com/pdf/H3_AP202608171828033738_1.pdf",
+   "firstSeen": "2026-08-17",
+   "id": 687
+  },
+  {
+   "cat": "经济",
+   "time": "17:28",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "广西以旧换新发力，智能家电消费升温拉动销售额267亿元",
+   "summary": "广西以旧换新累计补贴数码和智能产品206.1万台、汽车9.5万辆、家电255.3万台，补贴29.6亿元拉动商品销售额267亿元；县域参与主体占比45.2%。",
+   "decision": "下沉市场换新潜力大，县域消费金融渗透率提升空间可观，招联可加强县域与联通网点合作。",
+   "source": "新华社",
+   "url": "https://www.toutiao.com/article/7670476923696382499/",
+   "firstSeen": "2026-08-17",
+   "id": 688
+  },
+  {
+   "cat": "经济",
+   "time": "16:30",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "中国联通×招联分期促销：免息分期购机，叠加国家贴息",
+   "summary": "中国联通多地在APP推广“招联免息分期”购OPPO、华为等机型，并叠加国家消费贷贴息活动，覆盖智慧生活消费场景。",
+   "decision": "招联×联通联合营销常态化佐证，可复制至更多省份与品类，强化场景金融与获客效率。",
+   "source": "中国联通",
+   "url": "https://www.sina.cn/media/1827225287",
+   "firstSeen": "2026-08-17",
+   "id": 689
+  },
+  {
+   "cat": "经济",
+   "time": "15:20",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "7月制造业PMI为49.2%，企业生产经营活动预期54.1%",
+   "summary": "7月制造业PMI为49.2%，服务业商务活动指数49.3%；企业生产经营活动预期指数54.1%，仍处扩张区间；高技术制造业增势较好。",
+   "decision": "制造业景气略弱，消费金融需关注工业从业人群收入波动，优先服务高技术制造等强预期行业。",
+   "source": "人民网",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2436a82bdb293152",
+   "firstSeen": "2026-08-17",
+   "id": 690
+  },
+  {
+   "cat": "经济",
+   "time": "11:50",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "两部门：跨国公司本外币跨境资金集中运营业务即将全国推广",
+   "summary": "8月17日两部门发布，跨国公司本外币跨境资金集中运营业务即将向全国推广，提升跨境资金管理便利化。",
+   "decision": "跨境资金便利化利好外向型企业，关注跨国公司员工与高管群体的消费金融与财富管理需求。",
+   "source": "网易财经",
+   "url": "https://money.163.com/special/00252G50/macro.html",
+   "firstSeen": "2026-08-17",
+   "id": 691
+  },
+  {
+   "cat": "经济",
+   "time": "11:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "机械工业半年报：进出口总额增15.9%，“中国智造”出海",
+   "summary": "上半年机械工业货物贸易进出口6927.6亿美元增15.9%，出口5593.3亿美元增20%；工业机器人出口62.9亿元增18.6%，手术机器人增3.3倍。",
+   "decision": "高端制造出海拉动产业链收入，可服务相关就业人群消费信贷，招联宜沿制造业集群布点。",
+   "source": "北京商报",
+   "url": "https://new.qq.com/rain/a/20260807A03CAP00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 692
+  },
+  {
+   "cat": "经济",
+   "time": "11:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "商务部：上半年服务出口增17.6%，知识密集型占比过半",
+   "summary": "1—6月服务进出口37797.5亿元增8.3%，出口15047亿元增17.6%；知识密集型服务出口8056.7亿元增12.8%、占服务出口53.5%。",
+   "decision": "服务贸易顺差扩大，跨境消费与留学旅游需求支撑消费金融场景，关注出境服务相关的分期需求。",
+   "source": "人民网",
+   "url": "https://new.qq.com/rain/a/20260807A03CAP00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 693
+  },
+  {
+   "cat": "经济",
+   "time": "11:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "上海：鼓励民企建设区块链、机器人规模化应用等新基建示范",
+   "summary": "上海发布促进民间投资行动方案，支持民企参与重大基建，发放“算力券”“模型券”“语料券”，降低数字要素使用成本。",
+   "decision": "数字经济新基建集聚人才与收入，关注长三角新兴就业人群消费金融需求，招联可布局区域渠道。",
+   "source": "新华财经",
+   "url": "https://www.cnfin.com/hg-lb/detail/20260813/4454644_1.html",
+   "firstSeen": "2026-08-17",
+   "id": 694
+  },
+  {
+   "cat": "经济",
+   "time": "10:02",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "大同以旧换新拉动消费22.33亿元，上半年社零282.27亿元",
+   "summary": "大同市以旧换新惠及消费者22.1万人次、补贴2.06亿元拉动消费22.33亿元；汽车报废更新、家电、数码购新均有较快增长。",
+   "decision": "三四线城市以旧换新成效显著，下沉市场消费金融空间广阔，招联可联合地方渠道获客。",
+   "source": "大同日报",
+   "url": "https://www.toutiao.com/article/7671846258511790638",
+   "firstSeen": "2026-08-17",
+   "id": 695
+  },
+  {
+   "cat": "经济",
+   "time": "10:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "厦门发布具身智能产业三年行动方案，2028年规模超300亿",
+   "summary": "厦门《具身智能产业发展三年行动方案（2026—2028）》提出到2028年关联产业规模超300亿元、相关企业超100家，攻坚核心零部件国产化。",
+   "decision": "区域新兴产业规划带来就业增量，可前瞻布局当地消费金融渠道与人才客群。",
+   "source": "厦门日报",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4056a7bc4f162252",
+   "firstSeen": "2026-08-17",
+   "id": 696
+  },
+  {
+   "cat": "经济",
+   "time": "09:15",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "人民币汇率：美元兑人民币中间价6.79，汇率指数稳定运行",
+   "summary": "8月11日美元兑人民币中间价6.7900；CFETS人民币汇率指数102.03，BIS货币篮子109.40，人民币保持韧性。",
+   "decision": "汇率稳定利于居民财富，跨境消费与留学分期汇率风险可控，家庭无须过度配置外币负债。",
+   "source": "中国货币网",
+   "url": "https://www.chinamoney.com.cn?1307639134/",
+   "firstSeen": "2026-08-17",
+   "id": 697
+  },
+  {
+   "cat": "经济",
+   "time": "09:13",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "苏州工业园区前7月进出口首破万亿元，同比增126.8%",
+   "summary": "据海关，前7月苏州工业园区外贸进出口1.02万亿元，出口5085.9亿元增120.9%、进口5107.2亿元增133%；高技术产品进出口7274亿元增189.9%。",
+   "decision": "区域外贸高景气带动就业收入，关注长三角外向型区域消费金融机会，但需核验订单真实性防波动。",
+   "source": "人民日报海外版",
+   "url": "http://www.customs.gov.cn/customs/2026-08/17/article_2026081709135073737.html",
+   "firstSeen": "2026-08-17",
+   "id": 698
+  },
+  {
+   "cat": "经济",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": true,
+   "title": "[海外] 美国对11家中国木质卧室家具企业加征216.01%反倾销税",
+   "summary": "美东8月12日公告，11家中国家具企业适用216.01%反倾销税，自8月12日起生效，或对其美国业务造成重大冲击。",
+   "decision": "家具出口受挫或冲击相关外贸企业现金流，审慎服务家具产业带客群，分散行业集中度风险。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260813A0BNAY00?refer=cp_1009",
+   "firstSeen": "2026-08-17",
+   "id": 699
+  },
+  {
+   "cat": "经济",
+   "time": "08:45",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "河南印发政府投资基金重点投资领域清单，覆盖78个细分领域",
+   "summary": "河南明确政府投资基金投向新兴支柱、未来产业、传统优势、现代服务业四大板块78个细分领域，引导基金精准发力。",
+   "decision": "中部产业基金引导资源下沉，关注河南等地消费金融市场拓展与产业客群服务。",
+   "source": "金台资讯",
+   "url": "https://www.toutiao.com/article/7672939819114234422/",
+   "firstSeen": "2026-08-17",
+   "id": 700
   },
   {
    "cat": "经济",
@@ -7458,7 +9838,7 @@ window.BRIEFING = {
    "source": "财政部/21世纪",
    "url": "https://www.toutiao.com/article/7669384812230115840",
    "firstSeen": "2026-08-07",
-   "id": 531
+   "id": 701
   },
   {
    "cat": "经济",
@@ -7472,7 +9852,7 @@ window.BRIEFING = {
    "source": "证券时报",
    "url": "https://www.stcn.com/article/detail/4063768.html",
    "firstSeen": "2026-08-07",
-   "id": 532
+   "id": 702
   },
   {
    "cat": "经济",
@@ -7486,7 +9866,7 @@ window.BRIEFING = {
    "source": "每日经济新闻/网易",
    "url": "https://www.163.com/dy/article/L3IIVE0H0512B07B.html",
    "firstSeen": "2026-08-07",
-   "id": 533
+   "id": 703
   },
   {
    "cat": "经济",
@@ -7500,7 +9880,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A0D9TL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 534
+   "id": 704
   },
   {
    "cat": "经济",
@@ -7514,7 +9894,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://stock.finance.sina.com.cn/stock/view/paper.php?reportid=839061605019&symbol=sh000001",
    "firstSeen": "2026-08-07",
-   "id": 535
+   "id": 705
   },
   {
    "cat": "经济",
@@ -7528,7 +9908,7 @@ window.BRIEFING = {
    "source": "第一财经/网易",
    "url": "https://www.163.com/dy/article/L3K2GGIG0519DDQ2.html",
    "firstSeen": "2026-08-07",
-   "id": 536
+   "id": 706
   },
   {
    "cat": "科技",
@@ -7542,7 +9922,7 @@ window.BRIEFING = {
    "source": "科创板日报",
    "url": "https://www.toutiao.com/article/7670557546977198618/",
    "firstSeen": "2026-08-07",
-   "id": 537
+   "id": 707
   },
   {
    "cat": "科技",
@@ -7556,7 +9936,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://www.toutiao.com/article/7670553474391638554/",
    "firstSeen": "2026-08-07",
-   "id": 538
+   "id": 708
   },
   {
    "cat": "科技",
@@ -7570,7 +9950,35 @@ window.BRIEFING = {
    "source": "中国经营报",
    "url": "https://www.toutiao.com/article/7669062723841425960/",
    "firstSeen": "2026-08-07",
-   "id": 539
+   "id": 709
+  },
+  {
+   "cat": "科技",
+   "time": "21:54",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "本源量子×中科大破解超导量子门“速度-保真度”矛盾",
+   "summary": "8月7日，本源量子与中国科大联合提出“参数空间扩展受控相位门（PSE-CZ）”方案，在30至40纳秒极短门长下仍优于传统CZ门，成果发表于《物理评论快报》，在“本源悟空”上验证。",
+   "decision": "量子底层专利自主可控价值高，招联金融可前瞻关注量子计算产业链的科研金融与设备租赁需求。",
+   "source": "科技日报",
+   "url": "https://www.toutiao.com/article/7671283375939797554/",
+   "firstSeen": "2026-08-17",
+   "id": 710
+  },
+  {
+   "cat": "科技",
+   "time": "19:02",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "长鑫存储DDR5内存良率突破90% 国产存储加速追赶",
+   "summary": "8月12日消息，长鑫存储采用17纳米级工艺的DDR5芯片产出良率达90%，跨过规模化量产关键门槛。良率突破将缩小与美光等国际巨头差距，有望切入服务器与AI训练高端市场。",
+   "decision": "国产高端内存良率达标将平抑AI算力成本，招联金融可评估其在信创数据中心与算力采购中的成本与供应弹性。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260812A0C3MN00",
+   "firstSeen": "2026-08-17",
+   "id": 711
   },
   {
    "cat": "科技",
@@ -7584,7 +9992,7 @@ window.BRIEFING = {
    "source": "网易汽车",
    "url": "https://www.163.com/dy/article/L3LMD1B30552C82R.html",
    "firstSeen": "2026-08-07",
-   "id": 540
+   "id": 712
   },
   {
    "cat": "科技",
@@ -7598,7 +10006,7 @@ window.BRIEFING = {
    "source": "科技日报",
    "url": "https://www.stdaily.com/web/gdxw/2026-08/07/content_560955.html",
    "firstSeen": "2026-08-07",
-   "id": 541
+   "id": 713
   },
   {
    "cat": "科技",
@@ -7612,7 +10020,35 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://www.163.com/dy/article/L3OC1CEP05568W0A.html",
    "firstSeen": "2026-08-07",
-   "id": 542
+   "id": 714
+  },
+  {
+   "cat": "科技",
+   "time": "16:30",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "中芯国际Q2收入首破30亿美元 净利同比增逾三倍",
+   "summary": "8月17日，中芯国际联合CEO赵海军在业绩会上表示，二季度收入首次突破30亿美元、净利同比增长超三倍。其称中国互联网公司硬件投资“超出此前预测”，逻辑电路与光模块配套芯片供不应求并已提价。",
+   "decision": "国产晶圆代工量价齐升印证算力景气，招联金融可顺势关注半导体与AI硬件产业链的信贷与租赁需求。",
+   "source": "21世纪经济报道",
+   "url": "https://view.inews.qq.com/a/20260817A04QVK00",
+   "firstSeen": "2026-08-17",
+   "id": 715
+  },
+  {
+   "cat": "科技",
+   "time": "16:27",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "英伟达H20芯片获美批准恢复销往中国 将推RTX Pro",
+   "summary": "8月14日，英伟达CEO黄仁勋接受央视采访时表示，美国政府已批准H20芯片销往中国并将开始发货，同时英伟达将发布面向图形、数字孪生与AI的RTX Pro新显卡。",
+   "decision": "H20恢复供应缓解合规算力缺口，招联金融在搭建AI风控平台时可重新评估训练与推理算力采购组合。",
+   "source": "央视新闻",
+   "url": "http://gzylhyzx.com/detail.html?cpid=T17&newsId=20925",
+   "firstSeen": "2026-08-17",
+   "id": 716
   },
   {
    "cat": "科技",
@@ -7626,7 +10062,7 @@ window.BRIEFING = {
    "source": "微博财经",
    "url": "https://weibo.com/ttarticle/p/show?id=2309405328122127450227",
    "firstSeen": "2026-08-07",
-   "id": 543
+   "id": 717
   },
   {
    "cat": "科技",
@@ -7640,7 +10076,7 @@ window.BRIEFING = {
    "source": "人民邮电报",
    "url": "https://cj.sina.com.cn/article/norm_detail?url=https%3A%2F%2Ffinance.sina.com.cn%2Fjjxw%2F2026-08-07%2Fdoc-inimnrap3115536.shtml&finpagefr=w_110",
    "firstSeen": "2026-08-07",
-   "id": 544
+   "id": 718
   },
   {
    "cat": "科技",
@@ -7654,7 +10090,21 @@ window.BRIEFING = {
    "source": "腾讯科技",
    "url": "https://new.qq.com/rain/a/20260804A0AGPT00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 545
+   "id": 719
+  },
+  {
+   "cat": "科技",
+   "time": "12:10",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "我国成功发射卫星互联网低轨24组卫星",
+   "summary": "8月16日12时10分，我国在海南商业航天发射场使用长征十二号运载火箭，成功将卫星互联网低轨24组卫星送入预定轨道，发射任务获得圆满成功。",
+   "decision": "卫星互联网组网提速，招联金融可跟踪地面终端与运营服务商的消费分期与B端融资需求。",
+   "source": "新华社",
+   "url": "https://news.gmw.cn/2026-08/17/content_38946309.htm",
+   "firstSeen": "2026-08-17",
+   "id": 720
   },
   {
    "cat": "科技",
@@ -7668,7 +10118,7 @@ window.BRIEFING = {
    "source": "网易科技",
    "url": "https://www.163.com/dy/article/L3NP2RRK0531PW97.html",
    "firstSeen": "2026-08-07",
-   "id": 546
+   "id": 721
   },
   {
    "cat": "科技",
@@ -7682,7 +10132,21 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/07/ARTIfeUi87J6siQKPN7kxN2q260807.shtml",
    "firstSeen": "2026-08-07",
-   "id": 547
+   "id": 722
+  },
+  {
+   "cat": "科技",
+   "time": "11:02",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "我国成功发射SEO卫星 长征系列第664次飞行",
+   "summary": "北京时间8月17日11时02分，我国在太原卫星发射中心用长征二号丙运载火箭成功将SEO卫星发射升空，卫星顺利进入预定轨道，发射任务圆满成功。",
+   "decision": "航天发射高频常态化利好卫星互联网产业链，招联金融可关注商业航天配套企业的设备融资租赁机会。",
+   "source": "央视新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0306a827fc177652",
+   "firstSeen": "2026-08-17",
+   "id": 723
   },
   {
    "cat": "科技",
@@ -7696,7 +10160,7 @@ window.BRIEFING = {
    "source": "腾讯科技",
    "url": "https://new.qq.com/rain/a/20260807A0AZU400?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 548
+   "id": 724
   },
   {
    "cat": "科技",
@@ -7710,7 +10174,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A0AGPT00",
    "firstSeen": "2026-08-07",
-   "id": 549
+   "id": 725
   },
   {
    "cat": "科技",
@@ -7724,7 +10188,21 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&t=1785512162796&item_id=10855399071019797650&channelId=1119",
    "firstSeen": "2026-08-07",
-   "id": 550
+   "id": 726
+  },
+  {
+   "cat": "科技",
+   "time": "10:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "宁德时代全固态电池中试线贯通 能量密度达520Wh/kg",
+   "summary": "8月4日，宁德时代宣布硫化物体系全固态电池中试线在福建宁德贯通，首批Ah级电芯能量密度达520Wh/kg、循环寿命突破1000次，通过针刺与200℃热箱测试，计划2027年小批量装车。",
+   "decision": "全固态突破将重构新能源车残值与电池资产模型，招联金融车贷风控需提前纳入电池技术迭代因子。",
+   "source": "宁德时代/腾讯云",
+   "url": "https://cloud.tencent.com/developer/article/2723637",
+   "firstSeen": "2026-08-17",
+   "id": 727
   },
   {
    "cat": "科技",
@@ -7738,7 +10216,7 @@ window.BRIEFING = {
    "source": "通信信息报",
    "url": "https://www.163.com/dy/article/L3NJCGOJ0511A632.html",
    "firstSeen": "2026-08-07",
-   "id": 551
+   "id": 728
   },
   {
    "cat": "科技",
@@ -7752,7 +10230,21 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3NJ1EA40550WHYR.html",
    "firstSeen": "2026-08-07",
-   "id": 552
+   "id": 729
+  },
+  {
+   "cat": "科技",
+   "time": "09:25",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "工信部启动6G“部省协同”试点 逾300项技术储备就位",
+   "summary": "8月12日，工信部正式启动6G部省协同试点专项行动，我国6G专利全球占比居前、形成超300项关键技术储备，已完成第一阶段单点技术试验，目标2029年形成自主技术方案。",
+   "decision": "6G标准与牌照周期关乎未来通信基建，招联金融可提前布局5G-A/6G相关设备与物联网金融场景。",
+   "source": "工信部/通信那些事",
+   "url": "https://www.toutiao.com/article/7674063074755691034/",
+   "firstSeen": "2026-08-17",
+   "id": 730
   },
   {
    "cat": "科技",
@@ -7766,7 +10258,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://www.toutiao.com/article/7669979480954094115/",
    "firstSeen": "2026-08-07",
-   "id": 553
+   "id": 731
   },
   {
    "cat": "科技",
@@ -7780,7 +10272,7 @@ window.BRIEFING = {
    "source": "上海证券报",
    "url": "https://www.toutiao.com/article/7669607713156694528/",
    "firstSeen": "2026-08-07",
-   "id": 554
+   "id": 732
   },
   {
    "cat": "科技",
@@ -7794,7 +10286,7 @@ window.BRIEFING = {
    "source": "腾讯科技",
    "url": "https://new.qq.com/rain/a/20260805A09HAS00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 555
+   "id": 733
   },
   {
    "cat": "科技",
@@ -7808,7 +10300,7 @@ window.BRIEFING = {
    "source": "深圳新闻网",
    "url": "https://www.sznews.com/news/content/2026-08/05/content_32141355.htm",
    "firstSeen": "2026-08-07",
-   "id": 556
+   "id": 734
   },
   {
    "cat": "科技",
@@ -7822,7 +10314,7 @@ window.BRIEFING = {
    "source": "科技日报",
    "url": "https://www.stdaily.com/web/gdxw/2026-08/07/content_560975.html",
    "firstSeen": "2026-08-07",
-   "id": 557
+   "id": 735
   },
   {
    "cat": "科技",
@@ -7836,7 +10328,7 @@ window.BRIEFING = {
    "source": "经济参考报",
    "url": "https://www.ce.cn/cysc/newmain/yc/jsxw/202608/t20260803_3123647.shtml",
    "firstSeen": "2026-08-07",
-   "id": 558
+   "id": 736
   },
   {
    "cat": "科技",
@@ -7850,7 +10342,35 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8096a73d3c883552",
    "firstSeen": "2026-08-07",
-   "id": 559
+   "id": 737
+  },
+  {
+   "cat": "科技",
+   "time": "09:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "中科大实现420公里量子存储器纠缠 为城际量子网络铺路",
+   "summary": "8月11日，中科大潘建伟、包小辉、张强等联合团队实现两个冷原子量子存储器间跨越420公里光纤的量子纠缠，并在230公里以上突破无中继纠缠分发理论极限，成果发表于《物理评论快报》。",
+   "decision": "量子中继距离跨越支撑金融级量子保密通信，招联金融可关注量子安全在支付与数据链路中的试点。",
+   "source": "中国科学报",
+   "url": "https://www.cas.cn/cm/202608/t20260814_5118374.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 738
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "阿里巴巴发布Qwen3.8-Max 2.4万亿参数旗舰模型将开源",
+   "summary": "8月3日，阿里发布新一代基座大模型Qwen3.8，最大尺寸Qwen3.8-Max参数达2.4万亿、单次激活约950亿，支持最长100万Token上下文，权重将于下周正式开源，系千问Max级旗舰首次对外开源。",
+   "decision": "国产万亿参数模型开源降低私有化部署门槛，招联金融可据此评估自有大模型成本与数据合规方案。",
+   "source": "阿里巴巴",
+   "url": "https://view.inews.qq.com/k/20260809A083L000",
+   "firstSeen": "2026-08-17",
+   "id": 739
   },
   {
    "cat": "科技",
@@ -7864,7 +10384,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7669658771258262068/",
    "firstSeen": "2026-08-07",
-   "id": 560
+   "id": 740
   },
   {
    "cat": "科技",
@@ -7878,7 +10398,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.cn/2026/08/02/ARTIdXn1LmRbPyyhzgpZkfnm260802.shtml",
    "firstSeen": "2026-08-07",
-   "id": 561
+   "id": 741
   },
   {
    "cat": "科技",
@@ -7892,7 +10412,7 @@ window.BRIEFING = {
    "source": "新华网",
    "url": "https://www.xinhuanet.com/energy/20260807/f4dec12a7c4f4be29c264f22515e8b03/c.html",
    "firstSeen": "2026-08-07",
-   "id": 562
+   "id": 742
   },
   {
    "cat": "科技",
@@ -7906,7 +10426,7 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://new.qq.com/rain/a/20260807A03Z0V00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 563
+   "id": 743
   },
   {
    "cat": "科技",
@@ -7920,7 +10440,91 @@ window.BRIEFING = {
    "source": "中国科学院",
    "url": "https://www.cas.cn/cm/202608/t20260807_5117989.shtml",
    "firstSeen": "2026-08-07",
-   "id": 564
+   "id": 744
+  },
+  {
+   "cat": "科技",
+   "time": "19:55",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "台积电5.5倍光罩尺寸CoWoS实现量产",
+   "summary": "8月11日消息，台积电副总经理何军透露，5.5倍光罩尺寸CoWoS已进入量产，多家AI客户产品良率超98%、部分达99%。公司目标到2029年将CoWoS扩至光罩14倍。",
+   "decision": "先进封装产能紧绷直接牵动AI算力供给，招联金融在评估AI基础设施投入时应关注供应链交付周期与价格波动。",
+   "source": "半导体产业纵横",
+   "url": "https://www.toutiao.com/article/7672740535387292201",
+   "firstSeen": "2026-08-17",
+   "id": 745
+  },
+  {
+   "cat": "科技",
+   "time": "19:28",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "中科大实现百用户级全连接MDI量子密钥分发网络",
+   "summary": "8月11日《自然·通讯》发表中科大郭光灿、韩正甫团队与西安光机所成果：提出基于微腔光孤子的片上光梳批量制备全同双光子源，验证百用户级全连接测量设备无关量子网络可行性。",
+   "decision": "量子网络从点对点迈向全连接组网，招联金融可关注其在政务与金融高安全通信的落地窗口。",
+   "source": "科技日报",
+   "url": "https://www.toutiao.com/article/7672734404388717096/",
+   "firstSeen": "2026-08-17",
+   "id": 746
+  },
+  {
+   "cat": "科技",
+   "time": "18:54",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "英伟达联手六大华尔街机构拟撬动5000亿美元AI融资",
+   "summary": "8月11日，英伟达宣布与Apollo、黑石、贝莱德、Brookfield、高盛及KKR签署谅解备忘录，为超大规模云服务商及AI实验室搭建融资平台，目标动员超5000亿美元第三方资本用于数据中心与硬件采购。",
+   "decision": "AI算力被包装为新资产类别，招联金融可关注算力融资租赁与基础设施金融的结构化机会。",
+   "source": "光明网",
+   "url": "https://www.toutiao.com/article/7672725537793557043",
+   "firstSeen": "2026-08-17",
+   "id": 747
+  },
+  {
+   "cat": "科技",
+   "time": "18:13",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "广汽慧仑科技完成超亿元融资 车企人形机器人量产提速",
+   "summary": "8月13日，广汽集团孵化的人形机器人公司慧仑科技宣布完成超亿元融资，由中车国创基金、招银国际、四川科创等联合投资，资金投向具身智能垂类模型与汽车产线场景落地。",
+   "decision": "车企跨界机器人带来新产线投资，招联金融可配套 robotics 供应链的设备融资租赁服务。",
+   "source": "中国商报",
+   "url": "https://www.163.com/dy/article/L47U5C6I05199LJK.html",
+   "firstSeen": "2026-08-17",
+   "id": 748
+  },
+  {
+   "cat": "科技",
+   "time": "18:03",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "成都诺和晟泰AI发现的1类创新药STC009获批临床",
+   "summary": "8月5日，成都诺和晟泰宣布1类创新药STC009注射液获国家药监局临床批准，拟用于继发性甲状旁腺功能亢进。该药由iCVETide多肽平台融合AI与计算机辅助设计发现。",
+   "decision": "AI赋能原创新药研发效率提升，招联金融可评估医药AI平台型企业的投贷联动价值。",
+   "source": "成都科技",
+   "url": "https://www.toutiao.com/article/7670460538815611443/",
+   "firstSeen": "2026-08-17",
+   "id": 749
+  },
+  {
+   "cat": "科技",
+   "time": "17:42",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "固态电池峰会：半固态2026年成规模化量产元年",
+   "summary": "8月11日行业固态电池峰会共识：半固态电池产业化推进速度超预期，2026年正式成为量产元年。当前量产半固态电芯能量密度350至420Wh/kg，全年装车规模预计60至70万辆。",
+   "decision": "半固态先行落地将带动电池材料与整车配套订单，招联金融可跟踪相关产业链的应收账款融资机会。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/article/7672706996134511148",
+   "firstSeen": "2026-08-17",
+   "id": 750
   },
   {
    "cat": "科技",
@@ -7934,7 +10538,21 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7671188342121316890/",
    "firstSeen": "2026-08-07",
-   "id": 565
+   "id": 751
+  },
+  {
+   "cat": "科技",
+   "time": "17:12",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "江西1GWh全固态电池项目即将试产",
+   "summary": "8月10日消息，位于湖口县的纯锂新能源全固态储能电池项目设备正安装调试，一期预计9月底试生产，产能可达1GWh至2GWh，两期达产后总产能6GWh。",
+   "decision": "全固态从试验走向量产，招联金融可关注储能集成商的产能扩张融资与设备租赁需求。",
+   "source": "新浪财经",
+   "url": "https://www.toutiao.com/article/7672328356758618687",
+   "firstSeen": "2026-08-17",
+   "id": 752
   },
   {
    "cat": "科技",
@@ -7948,7 +10566,49 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7670090768614261290",
    "firstSeen": "2026-08-07",
-   "id": 566
+   "id": 753
+  },
+  {
+   "cat": "科技",
+   "time": "16:25",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外]英伟达开始向中国客户推销Vera CPU",
+   "summary": "据路透社报道，英伟达已告知中国客户，用于AI数据中心的Vera中央处理器最快8月上市、可开始下订单。Vera已全面投产，运行速度比竞争对手同类处理器快1.8倍。",
+   "decision": "海外高端CPU回归中国市场，招联金融采购AI服务器时需同步评估供应稳定性与合规边界。",
+   "source": "路透社",
+   "url": "https://www.aastocks.com/en/cnhk/news/china-hot-topic-content.aspx?catg=4&id=NOW.1528861&source=AAFN&totc=1",
+   "firstSeen": "2026-08-17",
+   "id": 754
+  },
+  {
+   "cat": "科技",
+   "time": "15:57",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外]索尼与台积电拟投1万亿日元在熊本量产图像传感器",
+   "summary": "据《日经新闻》报道，索尼与台积电计划投资约1万亿日元（约64亿美元），于2029年前在日本熊本量产下一代图像传感器芯片，双方拟2027年3月底前成立合资企业。",
+   "decision": "海外半导体产能外迁加剧供应链区域化，招联金融出海或供应链金融业务需关注地缘政治对零部件可得性的影响。",
+   "source": "日经中文网",
+   "url": "https://view.inews.qq.com/a/20260810A0DA8S00",
+   "firstSeen": "2026-08-17",
+   "id": 755
+  },
+  {
+   "cat": "科技",
+   "time": "14:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "华为全场景发布会：尊界MPV上市 多款鸿蒙终端亮相",
+   "summary": "8月5日华为在深圳举行全场景新品发布会，上市尊界V680/V800超豪华MPV，并发布MateBook Fold、MatePad Pro、nova 16 SE、WATCH GT 7系列等多款终端，完整展示人车家全场景生态。",
+   "decision": "鸿蒙人车家全场景打通，招联金融可探索车载金融与智能终端消费分期的联动营销。",
+   "source": "新浪科技",
+   "url": "http://www.sina.cn/news/detail/5328822891187019.html",
+   "firstSeen": "2026-08-17",
+   "id": 756
   },
   {
    "cat": "科技",
@@ -7962,7 +10622,7 @@ window.BRIEFING = {
    "source": "人民日报",
    "url": "https://www.toutiao.com/article/7669674787106603539/",
    "firstSeen": "2026-08-07",
-   "id": 567
+   "id": 757
   },
   {
    "cat": "科技",
@@ -7976,7 +10636,35 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://www.toutiao.com/article/7670410859352490547/",
    "firstSeen": "2026-08-07",
-   "id": 568
+   "id": 758
+  },
+  {
+   "cat": "科技",
+   "time": "13:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "凌泰氪LT-010小核酸涂抹剂获中美双批临床",
+   "summary": "8月13日，成都凌泰氪生物宣布其First-in-Class小核酸药物LT-010涂抹剂（适应症雄激素性脱发）获国家药监局1.1类新药临床试验批件，此前6月已获FDA许可，成全球少数同时获批中美临床的透皮小核酸药物。",
+   "decision": "核酸药物递送平台全球化验证提速，招联金融可关注生物医药创新企业的研发贷与股权融资联动。",
+   "source": "凌泰氪生物",
+   "url": "https://www.pharmcube.com/newsLibraryWeb/article_list?name=%E6%A0%B8%E9%85%B8%E8%8D%AF%E7%89%A9",
+   "firstSeen": "2026-08-17",
+   "id": 759
+  },
+  {
+   "cat": "科技",
+   "time": "12:03",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "西湖机器人完成A轮融资 6个月募资5亿元",
+   "summary": "8月12日，具身智能通用大脑公司西湖机器人完成A轮融资，6个月累计募资5亿元，资金投向人形机器人全身统一大模型研发。公司已发布通用运动大模型GAE与“西湖o1”人形本体。",
+   "decision": "具身大模型融资升温，招联金融可将其纳入硬科技早期股权与信贷联动观察名单。",
+   "source": "北京商报",
+   "url": "https://www.toutiao.com/article/7672990799181480499/",
+   "firstSeen": "2026-08-17",
+   "id": 760
   },
   {
    "cat": "科技",
@@ -7990,7 +10678,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3NOAM6B0511D2LM.html",
    "firstSeen": "2026-08-07",
-   "id": 569
+   "id": 761
   },
   {
    "cat": "科技",
@@ -8004,7 +10692,7 @@ window.BRIEFING = {
    "source": "中国联通微博",
    "url": "https://weibo.com/2002148123/5328946016289580",
    "firstSeen": "2026-08-07",
-   "id": 570
+   "id": 762
   },
   {
    "cat": "科技",
@@ -8018,7 +10706,49 @@ window.BRIEFING = {
    "source": "腾讯科技",
    "url": "https://new.qq.com/rain/a/20260807A06OFJ00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 571
+   "id": 763
+  },
+  {
+   "cat": "科技",
+   "time": "10:47",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "华为发布新款鸿蒙折叠电脑MateBook Fold非凡大师",
+   "summary": "8月5日，华为发布新款鸿蒙折叠电脑MateBook Fold，展开单面最薄7.3mm、号称全球最轻薄18英寸折叠电脑，首次支持手写笔，搭载HarmonyOS 6.1与端云协同AI小艺。",
+   "decision": "端侧AI+鸿蒙生态成熟，招联金融移动展业与终端安全可优先考虑鸿蒙原生适配。",
+   "source": "IT之家",
+   "url": "https://www.toutiao.com/article/7670373613320618511",
+   "firstSeen": "2026-08-17",
+   "id": 764
+  },
+  {
+   "cat": "科技",
+   "time": "10:33",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "芯擎科技车规级7纳米AI加速芯片“天工100”量产交付",
+   "summary": "8月12日，芯擎科技宣布自研车规级7纳米AI加速芯片“天工100”全面量产，向整车厂及一级供应商批量供货。该芯片以插卡式形态为汽车提供独立大模型算力。",
+   "decision": "端侧车载AI算力规模化落地，提示招联金融可关注汽车金融与车联网风控中的实时智能场景。",
+   "source": "财联社",
+   "url": "https://guba.eastmoney.com/news,cjpl,1759051050.html",
+   "firstSeen": "2026-08-17",
+   "id": 765
+  },
+  {
+   "cat": "科技",
+   "time": "10:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "中国首部V2G国家标准GB/T 44892—2026发布",
+   "summary": "国家标准委联合国家能源局发布《电动汽车与电网互动通信协议》（GB/T 44892—2026），覆盖有序充电-双向充放电-虚拟电厂聚合全场景，拟2027年1月起实施。",
+   "decision": "电动车变身分布式储能节点，招联金融可探索车网互动场景下的用能分期与绿色金融产品。",
+   "source": "国家标准委/国家能源局",
+   "url": "https://cloud.tencent.com/developer/article/2723637",
+   "firstSeen": "2026-08-17",
+   "id": 766
   },
   {
    "cat": "科技",
@@ -8032,7 +10762,7 @@ window.BRIEFING = {
    "source": "科技日报",
    "url": "https://www.stdaily.com/web/gdxw/2026-08/05/content_559682.html",
    "firstSeen": "2026-08-07",
-   "id": 572
+   "id": 767
   },
   {
    "cat": "科技",
@@ -8046,7 +10776,49 @@ window.BRIEFING = {
    "source": "光明网",
    "url": "https://economy.gmw.cn/2026-08/06/content_38930330.htm",
    "firstSeen": "2026-08-07",
-   "id": 573
+   "id": 768
+  },
+  {
+   "cat": "科技",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "北京发布星上智能调度系统 太空算力平台亮相",
+   "summary": "8月13日北京日报报道，星测未来发布星上智能调度与遥感处理系统，算力达1P（每秒千万亿次），可支撑卫星在轨完成数据智能处理，将回传耗时从数小时缩至数分钟。",
+   "decision": "在轨实时处理能力降低地面带宽依赖，招联金融可关注遥感数据在农业/物流金融风控中的实时应用。",
+   "source": "北京日报",
+   "url": "http://view.inews.qq.com/a/20260813A0CDVP00",
+   "firstSeen": "2026-08-17",
+   "id": 769
+  },
+  {
+   "cat": "科技",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "硅臻芯片×中科大在片上演示最大规模光量子纠缠态",
+   "summary": "8月10日，合肥硅臻芯片与中国科大任希锋团队依托自研可编程硅光芯片，首次在片上稳定生成4光子16量子比特GHZ态，其中10个量子比特真实纠缠，并用簇态演示Grover搜索平均识别概率0.987。",
+   "decision": "光量子芯片路线渐清晰，招联金融可将其作为硬科技早期投资与科创信贷的跟踪方向。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260810A03GSW00",
+   "firstSeen": "2026-08-17",
+   "id": 770
+  },
+  {
+   "cat": "科技",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "openKylin 3.0 Beta发布 开启全民公测",
+   "summary": "8月10日，openKylin社区发布3.0 Beta版本，成为中国首个基于Linux 7.0内核的开源发行版，预装KylinBot智能体、支持Rust化系统工具与隔空手势等新特性，公测持续至8月25日。",
+   "decision": "开源根社区与AI助手融合，招联金融内部办公可考虑国产开源系统降本并强化自主可控。",
+   "source": "openKylin社区",
+   "url": "https://segmentfault.com/a/1190000048141235",
+   "firstSeen": "2026-08-17",
+   "id": 771
   },
   {
    "cat": "科技",
@@ -8060,7 +10832,7 @@ window.BRIEFING = {
    "source": "央视财经",
    "url": "https://t.cj.sina.com.cn/articles/view/2258727970/m86a1742203302hvpa?finpagefr=p_104",
    "firstSeen": "2026-08-07",
-   "id": 574
+   "id": 772
   },
   {
    "cat": "科技",
@@ -8074,7 +10846,7 @@ window.BRIEFING = {
    "source": "南方+",
    "url": "https://www.nfnews.com/content/Lownxnqe6J.html",
    "firstSeen": "2026-08-07",
-   "id": 575
+   "id": 773
   },
   {
    "cat": "科技",
@@ -8088,7 +10860,7 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0586a702f4a40852",
    "firstSeen": "2026-08-07",
-   "id": 576
+   "id": 774
   },
   {
    "cat": "科技",
@@ -8102,7 +10874,7 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://new.qq.com/rain/a/20260807A032EZ00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 577
+   "id": 775
   },
   {
    "cat": "科技",
@@ -8116,7 +10888,7 @@ window.BRIEFING = {
    "source": "松江政府网",
    "url": "https://www.songjiang.gov.cn/ztzl/005019/005019001/20260803/d2bd191d-6e8f-44fb-8df0-9d31c153d24e.html",
    "firstSeen": "2026-08-07",
-   "id": 578
+   "id": 776
   },
   {
    "cat": "科技",
@@ -8130,7 +10902,7 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8356a75ab4635752",
    "firstSeen": "2026-08-07",
-   "id": 579
+   "id": 777
   },
   {
    "cat": "科技",
@@ -8144,7 +10916,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://k.sina.com.cn/article_1261340881_4b2e88d100101m258.html",
    "firstSeen": "2026-08-07",
-   "id": 580
+   "id": 778
   },
   {
    "cat": "科技",
@@ -8158,7 +10930,21 @@ window.BRIEFING = {
    "source": "微博科技",
    "url": "https://weibo.com/2099539611/5329203831506288",
    "firstSeen": "2026-08-07",
-   "id": 581
+   "id": 779
+  },
+  {
+   "cat": "科技",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "浙江“三体计算星座”在轨验证太空AI 已部署20个模型",
+   "summary": "8月16日人民日报报道，之江实验室“三体计算星座”新增两颗计算卫星稳定在轨，已完成20个人工智能模型在轨部署，推动“算力上天、卫星互联、模型上天”。",
+   "decision": "天基算力为偏远地区金融网点与物联网提供新连接范式，招联金融可前瞻布局卫星通信赋能的普惠金融服务。",
+   "source": "人民日报",
+   "url": "http://view.inews.qq.com/a/20260816A03CQO00",
+   "firstSeen": "2026-08-17",
+   "id": 780
   },
   {
    "cat": "科技",
@@ -8172,7 +10958,245 @@ window.BRIEFING = {
    "source": "腾讯证券",
    "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260805101535b681c54e",
    "firstSeen": "2026-08-07",
-   "id": 582
+   "id": 781
+  },
+  {
+   "cat": "科技",
+   "time": "08:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "国产FPGA里程碑：京微齐力22nm芯片H3C08正式量产",
+   "summary": "8月13日，京微齐力官宣大力神-H系列H3C08芯片完成量产落地，为国内首款基于22nm工艺的高性能FPGA，一次性落地22颗同工艺芯片矩阵。晶体管密度较28nm提升35%、功耗下降约22%，最高主频突破600MHz。",
+   "decision": "招联金融可关注国产FPGA在边缘算力与风控硬件的自主可控机会，降低对进口芯片的依赖风险。",
+   "source": "京微齐力/芯智讯",
+   "url": "https://www.aschip.com/info-detail.php?InfoId=297",
+   "firstSeen": "2026-08-17",
+   "id": 782
+  },
+  {
+   "cat": "科技",
+   "time": "08:19",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "苹果将扩大智能家居产品线 全新HomePad中枢在研",
+   "summary": "8月17日消息，苹果被曝计划扩大智能家居硬件布局：新一代HomePod mini或由S5升级至S9，Apple TV 4K或由A15升级至A17 Pro，并开发代号“HomePad”的新中枢设备，预计2026年10月至2027年初推出。",
+   "decision": "家庭智能终端生态扩张，招联金融可围绕智能家居消费分期与家庭场景金融做产品联动。",
+   "source": "CNMO科技",
+   "url": "https://www.163.com/dy/article/L4H5PAV8051191D6.html",
+   "firstSeen": "2026-08-17",
+   "id": 783
+  },
+  {
+   "cat": "科技",
+   "time": "08:01",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "悦康药业siRNA药物YKYY033获FDA临床批准",
+   "summary": "8月13日，悦康药业子公司YKYY033注射液获美国FDA临床试验许可，用于预防治疗动静脉血栓。该药为偶联GalNAc配体的双链siRNA，已于6、7月获国内多项抗凝适应症临床批准。",
+   "decision": "小核酸药物出海临床验证，招联金融可关注具备全球权益的创新药企的跨境融资需求。",
+   "source": "21世纪经济报道",
+   "url": "https://www.toutiao.com/article/7673299637826060851/",
+   "firstSeen": "2026-08-17",
+   "id": 784
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "商业航天规模化应用提速 10吨级电循环发动机成本降至每公斤2元以下",
+   "summary": "8月17日总台社教《探新记》聚焦“十五五”科技热点，商业航天被定位为重点新质生产力：科研团队自研10吨级电循环液体火箭发动机，发射成本可降至每公斤2万元以下。",
+   "decision": "发射成本数量级下降将激活整条空天产业链，招联金融可配套研发设备租赁与供应链金融服务。",
+   "source": "央视社教",
+   "url": "http://view.inews.qq.com/a/20260817A05BYX00",
+   "firstSeen": "2026-08-17",
+   "id": 785
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "科济药业通用型CAR-T CT0596获批临床",
+   "summary": "8月4日，科济药业公告其靶向BCMA的通用型CAR-T细胞产品CT0596获国家药监局IND批准，用于治疗复发/难治多发性骨髓瘤。IIT研究已展现初步良好安全性与疗效信号。",
+   "decision": "通用型CAR-T降本潜力大，招联金融可将其列入创新药械重点跟踪赛道，关注临床里程碑融资节点。",
+   "source": "每日经济新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1036a7270ac87852",
+   "firstSeen": "2026-08-17",
+   "id": 786
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "中国6G推进组成立星地融合（NTN）工作组",
+   "summary": "8月7日，在工信部信息通信发展司指导下，IMT-2030（6G）推进组星地融合工作组在北京成立，统筹6G星地融合网络总体布局，培育卫星通信核心技术。",
+   "decision": "星地融合打通天地一体网络，招联金融可前瞻评估卫星直连在偏远地区普惠信贷中的连接价值。",
+   "source": "人民邮电报",
+   "url": "https://rmydb.cnii.com.cn/html/2026/20260807/20260807_001/20260807_001_06_7680.html",
+   "firstSeen": "2026-08-17",
+   "id": 787
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "中国6G何以加速跑：试验频率获批进入真实场景验证",
+   "summary": "8月10日人民日报刊文指出，我国5月已向IMT-2030推进组批复6GHz频段6G试验频率许可，成为全球首个获批6G试验频率的国家，6G发展从实验室加速走向试验验证与产业落地。",
+   "decision": "6G试验频率落地意味着产业链订单临近，招联金融可跟踪基站、射频与卫星通信设备商的扩产融资。",
+   "source": "人民日报",
+   "url": "https://paper.people.com.cn/rmrb/pc/content/202608/10/content_30173920.html",
+   "firstSeen": "2026-08-17",
+   "id": 788
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "腾讯混元发布语音识别模型Hy ASR 3.0 preview",
+   "summary": "8月4日，腾讯混元发布新一代语音识别模型Hy ASR 3.0 preview，基于最新Hy3语言理解能力，已在腾讯云提供API服务，元宝首发上线且免费开放，WorkBuddy等产品陆续接入。",
+   "decision": "语音识别能力可直接赋能招联金融智能客服与合规质检，降低人工坐席成本。",
+   "source": "腾讯混元",
+   "url": "https://view.inews.qq.com/k/20260809A083L000",
+   "firstSeen": "2026-08-17",
+   "id": 789
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "字节跳动发布原生音视频全双工大模型SeedRealtime",
+   "summary": "8月5日，字节跳动推出原生音视频全双工大模型SeedRealtime，统一架构融合音频、视频与文本，可在连续多模态信息流上实时交互，已在豆包App全量上线。",
+   "decision": "全模态实时交互成熟，招联金融可借鉴用于远程面签与智能投顾的自然交互体验升级。",
+   "source": "字节跳动",
+   "url": "https://view.inews.qq.com/k/20260809A083L000",
+   "firstSeen": "2026-08-17",
+   "id": 790
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "苹果全量推送Apple Intelligence 端侧AI覆盖全系生态",
+   "summary": "8月6日，苹果向全球用户推送正式版Apple Intelligence，覆盖iPhone、iPad、Mac全产品线，核心推理全部在本地端侧完成，并支持私有云协同保障隐私。",
+   "decision": "端侧AI规模化落地凸显隐私优势，招联金融App可借鉴本地化推理以强化用户数据合规。",
+   "source": "苹果公司",
+   "url": "http://www.tzjp.cn/news/73779",
+   "firstSeen": "2026-08-17",
+   "id": 791
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": true,
+   "title": "[海外]中国国产开源大模型全球累计下载破100亿次",
+   "summary": "据新加坡《联合早报》报道，中国国产开源大模型全球累计下载量突破100亿次，AI相关行业上半年增速保持30%以上，OpenRouter最新一周调用量前五产品全部来自中国企业、连续14周霸榜。",
+   "decision": "国产开源模型全球影响力上升，招联金融可借成熟开源生态低成本构建自有金融大模型。",
+   "source": "联合早报",
+   "url": "https://techsir.com/k/index.html",
+   "firstSeen": "2026-08-17",
+   "id": 792
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "AI硬件日报：智能体AI崛起 CPU成新性能瓶颈",
+   "summary": "8月17日，智能体AI系统派生海量子智能体并频繁工具调用，使CPU需求激增，AMD测试显示真实智能体流水线八个阶段有七个运行在CPU上；英特尔服务器CPU订单排至年底，市场担忧“CPU荒”蔓延。",
+   "decision": "Agentic AI抬高通用算力需求，招联金融建设智能体平台时应同步规划CPU与GPU算力配比。",
+   "source": "至顶科技",
+   "url": "https://view.inews.qq.com/a/20260817A05PET00",
+   "firstSeen": "2026-08-17",
+   "id": 793
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "觅蜂科技（智元机器人）完成数亿元融资 建物理AI数据底座",
+   "summary": "8月17日，智元机器人旗下物理AI数据服务平台觅蜂科技完成新一轮数亿元融资，由中国电信领投、红杉中国等老股东超额追加，用于建设具身智能数据基础设施。",
+   "decision": "具身智能数据底座受运营商加注，招联金融可关注AI数据服务企业的设备与算力融资需求。",
+   "source": "科创板日报",
+   "url": "https://view.inews.qq.com/a/20260817A0359X00",
+   "firstSeen": "2026-08-17",
+   "id": 794
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "戴盟机器人数亿元战略融资 触觉智能成技术标签",
+   "summary": "8月11日，戴盟机器人完成数亿元战略轮融资，由蚂蚁集团领投、老股东超额跟投，此前投资方含招商局创投、联想创投、中国移动、中国电信等。资金用于触觉算法迭代与真实场景数据采集。",
+   "decision": "触觉感知提升机器人作业成功率，招联金融可关注其在仓储与金融服务场景的落地融资。",
+   "source": "澎湃新闻",
+   "url": "https://www.aibiaozhu.cn/article/41",
+   "firstSeen": "2026-08-17",
+   "id": 795
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "潜界科技数亿元种子轮 瞄准具身基座模型",
+   "summary": "8月11日，脱胎于清华大学交叉信息研究院的潜界科技完成数亿元种子轮融资，投资方为高瓴创投、清流资本、英诺基金，智元机器人等产业方参与，主攻面向物理世界的具身基座模型。",
+   "decision": "世界模型与具身基座成融资热点，招联金融可跟踪高校成果转化企业的早期融资窗口。",
+   "source": "界面新闻",
+   "url": "https://www.aibiaozhu.cn/article/41",
+   "firstSeen": "2026-08-17",
+   "id": 796
+  },
+  {
+   "cat": "科技",
+   "time": "07:42",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "朱雀三号遥二火箭确定8月19日酒泉发射",
+   "summary": "8月14日消息，蓝箭航天朱雀三号遥二运载火箭发射窗口敲定，将于北京时间8月19日7:27在酒泉东风商业航天创新试验区升空。可复用火箭产业化进入加速期。",
+   "decision": "可复用火箭降本将重塑商业航天经济性，招联金融可把火箭及配套制造企业列入科创金融重点名单。",
+   "source": "央视新闻/每日经济新闻",
+   "url": "https://www.nbd.com.cn/articles/2026-08-17/4543358.html",
+   "firstSeen": "2026-08-17",
+   "id": 797
+  },
+  {
+   "cat": "科技",
+   "time": "07:42",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "澳研究人员利用干细胞培育出人类心脏瓣膜组织",
+   "summary": "8月17日消息，澳大利亚研究人员在实验室利用干细胞培育出人类心脏瓣膜组织，可用于研究心脏瓣膜发育与病变、测试治疗方法，成果发表于《细胞-干细胞》。该技术未来有望开发随患者生长的自体替代瓣膜。",
+   "decision": "再生医学突破拓展高端医疗场景，招联金融可关注相关器械与生物材料的进口替代与分期消费。",
+   "source": "每日经济新闻",
+   "url": "https://www.nbd.com.cn/articles/2026-08-17/4543358.html",
+   "firstSeen": "2026-08-17",
+   "id": 798
   },
   {
    "cat": "科技",
@@ -8186,7 +11210,21 @@ window.BRIEFING = {
    "source": "中国经营报",
    "url": "https://www.163.com/dy/article/L3NAFKFC05199NHJ.html",
    "firstSeen": "2026-08-07",
-   "id": 583
+   "id": 799
+  },
+  {
+   "cat": "科技",
+   "time": "06:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "钙钛矿-有机叠层太阳能电池效率达28.04%",
+   "summary": "中国科学院化学所李永舫院士、孟磊团队成功制备高性能钙钛矿-有机叠层太阳能电池，稳态光电转换效率达28.04%，成果发表于《自然》，向实际应用迈出关键一步。",
+   "decision": "光伏转换效率突破利好绿电成本，招联金融绿色金融可优先支持高效电池产线扩产。",
+   "source": "人民日报",
+   "url": "https://www.sohu.com/a/1057409368_114731",
+   "firstSeen": "2026-08-17",
+   "id": 800
   },
   {
    "cat": "科技",
@@ -8200,7 +11238,7 @@ window.BRIEFING = {
    "source": "上观新闻",
    "url": "https://www.toutiao.com/article/7669774138336903715/",
    "firstSeen": "2026-08-07",
-   "id": 584
+   "id": 801
   },
   {
    "cat": "科技",
@@ -8214,7 +11252,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7669773344387924523",
    "firstSeen": "2026-08-07",
-   "id": 585
+   "id": 802
   },
   {
    "cat": "科技",
@@ -8228,7 +11266,7 @@ window.BRIEFING = {
    "source": "北京日报",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6606a71c82030052",
    "firstSeen": "2026-08-07",
-   "id": 586
+   "id": 803
   },
   {
    "cat": "科技",
@@ -8242,7 +11280,7 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0906a7292bb14352",
    "firstSeen": "2026-08-07",
-   "id": 587
+   "id": 804
   },
   {
    "cat": "科技",
@@ -8256,7 +11294,7 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9666a7514d930852",
    "firstSeen": "2026-08-07",
-   "id": 588
+   "id": 805
   },
   {
    "cat": "科技",
@@ -8270,7 +11308,7 @@ window.BRIEFING = {
    "source": "澎湃新闻",
    "url": "https://www.thepaper.cn/newsDetail_forward_33719285?commTag=true",
    "firstSeen": "2026-08-07",
-   "id": 589
+   "id": 806
   },
   {
    "cat": "科技",
@@ -8284,7 +11322,7 @@ window.BRIEFING = {
    "source": "凤凰网",
    "url": "https://news.ifeng.com/c/8vL4qUpXTzr",
    "firstSeen": "2026-08-07",
-   "id": 590
+   "id": 807
   },
   {
    "cat": "科技",
@@ -8298,7 +11336,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://new.qq.com/rain/a/20260805A05QQD00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 591
+   "id": 808
   },
   {
    "cat": "科技",
@@ -8312,7 +11350,7 @@ window.BRIEFING = {
    "source": "腾讯网",
    "url": "https://new.qq.com/rain/a/20260801A04PUE00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 592
+   "id": 809
   },
   {
    "cat": "科技",
@@ -8326,7 +11364,7 @@ window.BRIEFING = {
    "source": "慧博",
    "url": "https://www.fxbaogao.com/detail/5580626",
    "firstSeen": "2026-08-07",
-   "id": 593
+   "id": 810
   },
   {
    "cat": "科技",
@@ -8340,7 +11378,7 @@ window.BRIEFING = {
    "source": "同花顺",
    "url": "https://m.10jqka.com.cn/20260804/c678650138.shtml",
    "firstSeen": "2026-08-07",
-   "id": 594
+   "id": 811
   },
   {
    "cat": "科技",
@@ -8354,7 +11392,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3NM37TA0511CMF5.html",
    "firstSeen": "2026-08-07",
-   "id": 595
+   "id": 812
   },
   {
    "cat": "科技",
@@ -8368,7 +11406,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260806A07P1700",
    "firstSeen": "2026-08-07",
-   "id": 596
+   "id": 813
   },
   {
    "cat": "科技",
@@ -8382,7 +11420,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://new.qq.com/rain/a/20260806A07P1700",
    "firstSeen": "2026-08-07",
-   "id": 597
+   "id": 814
   },
   {
    "cat": "科技",
@@ -8396,7 +11434,105 @@ window.BRIEFING = {
    "source": "中国经营报",
    "url": "https://www.toutiao.com/article/7668788843692311050/",
    "firstSeen": "2026-08-07",
-   "id": 598
+   "id": 815
+  },
+  {
+   "cat": "科技",
+   "time": "18:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "概伦电子完成对EDA新锐启芯领航Pre-A轮投资",
+   "summary": "8月10日，概伦电子宣布完成对江阴启芯领航半导体的Pre-A轮投资，后者专注数字集成电路EDA工具研发。双方将加强合作，助力国产EDA技术突破与产业链自主。",
+   "decision": "EDA国产替代是长期确定性赛道，招联金融可将其纳入科技金融重点客群进行跟踪服务。",
+   "source": "亿欧网",
+   "url": "https://view.inews.qq.com/a/20260811A01MHU00",
+   "firstSeen": "2026-08-17",
+   "id": 816
+  },
+  {
+   "cat": "科技",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "海思科1类镇痛新药HSK51155获批临床 用于偏头痛",
+   "summary": "8月6日，海思科公告其自主研发的口服小分子镇痛药HSK51155片获国家药监局临床批准，拟用于偏头痛治疗。该药已与艾伯维达成全球合作，潜在交易总额超7亿美元。",
+   "decision": "创新药License-out验证研发价值，招联金融可将其作为科创企业信用评估的加分维度。",
+   "source": "海思科",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_7476a744dbc05952",
+   "firstSeen": "2026-08-17",
+   "id": 817
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "国仪量子科创板上市首日暴涨419%",
+   "summary": "8月11日消息，专注量子传感与科学仪器的国仪量子科创板上市，发行价21.22元、收盘110.23元，首日涨419%，市值突破440亿元，由中科大90后博士贺羽创立。",
+   "decision": "量子测量企业受资本热捧，招联金融可关注科学仪器国产替代场景中的设备租赁与供应链金融。",
+   "source": "互联网数码快报",
+   "url": "https://www.xcstar.com.cn/index.php/archives/75",
+   "firstSeen": "2026-08-17",
+   "id": 818
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "张一鸣、梁汝波定调字节跳动“拒绝蒸馏”坚持自研",
+   "summary": "8月6日，字节跳动CEO梁汝波在年中全员会表示自家大模型暂落后海外领先模型，但将坚持自研、接受短期落后；张一鸣亦表示即便落后也不会用“蒸馏”方式加速训练。",
+   "decision": "头部厂强调自研基本功，提示招联金融在采购外部模型时应考察训练合规与数据权属。",
+   "source": "字节跳动",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3176a787c9990552",
+   "firstSeen": "2026-08-17",
+   "id": 819
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "英伟达Rubin Ultra或缩减HBM规格 台积电7月营收增44.7%",
+   "summary": "8月11日数码快报：因HBM涨价与短缺，英伟达Rubin Ultra单卡HBM4或由768GB砍半至384GB；台积电7月营收145亿美元、同比增44.7%创历史新高；三星HBM4良率由60%提升至80%。",
+   "decision": "HBM紧缺推高AI硬件成本，招联金融在测算AI投入ROI时应预留显存与供应链涨价弹性。",
+   "source": "互联网数码快报",
+   "url": "https://www.xcstar.com.cn/index.php/archives/75",
+   "firstSeen": "2026-08-17",
+   "id": 820
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": true,
+   "title": "[海外]中国扫地机器人全球占据七成市场份额",
+   "summary": "据日经中文网报道，全球扫地机器人市场5家主要企业均来自中国，2025年下半年合计份额首超七成；美国iRobot已破产被中企收归旗下。中国厂商靠自研功能（机械臂、上楼梯、扫拖基站）形成寡头格局。",
+   "decision": "中国智能硬件靠技术出海，招联金融可为其海外渠道与售后提供消费分期与跨境结算支持。",
+   "source": "日经中文网",
+   "url": "https://news.qq.com/rain/a/20260806A0D69800",
+   "firstSeen": "2026-08-17",
+   "id": 821
+  },
+  {
+   "cat": "科技",
+   "time": "08:00",
+   "impact": "low",
+   "related": true,
+   "overseas": true,
+   "title": "[海外]原阿里“千问”技术负责人林俊旸创业",
+   "summary": "据新加坡《联合早报》报道，原阿里AI技术核心人物、“千问”大模型原技术负责人林俊旸卸任五个月后创立新公司，引发业界对国内大模型人才流动与创业潮的关注。",
+   "decision": "AI人才创业活跃，招联金融可关注大模型创业者群体的对公与人才个人金融服务。",
+   "source": "联合早报",
+   "url": "https://www.zaobao.com.sg/news/china/story20260812-9506044",
+   "firstSeen": "2026-08-17",
+   "id": 822
   },
   {
    "cat": "科技",
@@ -8410,7 +11546,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://www.sohu.com/comments/1058357081_100288030",
    "firstSeen": "2026-08-07",
-   "id": 599
+   "id": 823
   },
   {
    "cat": "科技",
@@ -8424,7 +11560,7 @@ window.BRIEFING = {
    "source": "武汉量子技术研究院",
    "url": "https://www.whiqt.org.cn/index.php?m=home&c=View&a=index&aid=871",
    "firstSeen": "2026-08-07",
-   "id": 600
+   "id": 824
   },
   {
    "cat": "科技",
@@ -8438,7 +11574,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6056a75a1cf66452",
    "firstSeen": "2026-08-07",
-   "id": 601
+   "id": 825
   },
   {
    "cat": "科技",
@@ -8452,7 +11588,7 @@ window.BRIEFING = {
    "source": "中国科学院",
    "url": "https://www.cas.cn/cm/202608/t20260806_5117958.shtml",
    "firstSeen": "2026-08-07",
-   "id": 602
+   "id": 826
   },
   {
    "cat": "科技",
@@ -8466,7 +11602,7 @@ window.BRIEFING = {
    "source": "岳阳日报",
    "url": "https://www.toutiao.com/article/7670343468090229289/",
    "firstSeen": "2026-08-07",
-   "id": 603
+   "id": 827
   },
   {
    "cat": "社会/生活",
@@ -8480,7 +11616,21 @@ window.BRIEFING = {
    "source": "燃新闻(今日头条)",
    "url": "https://www.toutiao.com/article/7670503182371439147",
    "firstSeen": "2026-08-07",
-   "id": 604
+   "id": 828
+  },
+  {
+   "cat": "社会/生活",
+   "time": "19:05",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "上海公布第四批幽灵外卖典型案例 多店资质造假",
+   "summary": "上海市监局公布第四批网络餐饮食品安全专项治理典型案例：汇心餐饮店伪造备案公示卡罚款1.5万；居民住宅内藏匿幽灵外卖加工点罚款6万；多起伪造国家机关证件线索移送公安。",
+   "decision": "妻孕期与新生儿肠胃更脆弱，点外卖务必看实体证照与堂食实拍，避开无资质幽灵外卖，优选品牌连锁。",
+   "source": "中国消费者报",
+   "url": "https://www.toutiao.com/article/7671243971577889289/",
+   "firstSeen": "2026-08-17",
+   "id": 829
   },
   {
    "cat": "社会/生活",
@@ -8494,7 +11644,7 @@ window.BRIEFING = {
    "source": "中国医疗保险杂志社",
    "url": "https://www.163.com/dy/article/L3E285Q00553Q1S1.html",
    "firstSeen": "2026-08-07",
-   "id": 605
+   "id": 830
   },
   {
    "cat": "社会/生活",
@@ -8508,7 +11658,35 @@ window.BRIEFING = {
    "source": "央视新闻(网易号)",
    "url": "https://www.163.com/dy/article/L3L5594H053469LG.html",
    "firstSeen": "2026-08-07",
-   "id": 606
+   "id": 831
+  },
+  {
+   "cat": "社会/生活",
+   "time": "15:50",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "太湖发生2026年第1号洪水 苏州多地内涝抽排",
+   "summary": "今年第13号台风白海豚外围环流携持续强降雨席卷苏州，长江、太湖、大运河等骨干河湖水位全线超警，太湖发生2026年第1号洪水，救援力量争分夺秒抽排积水。",
+   "decision": "水网城市内涝风险高，若携孕妻途经长三角，避开低洼路段与临河景区，遇积水听从指挥及时绕行。",
+   "source": "澎湃新闻",
+   "url": "https://www.toutiao.com/w/1873756056771588/",
+   "firstSeen": "2026-08-17",
+   "id": 832
+  },
+  {
+   "cat": "社会/生活",
+   "time": "15:30",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "中央财政下达2026育儿补贴999亿元 每孩每年3600元",
+   "summary": "财政部近期下达2026年育儿补贴补助资金999亿元，较上年增长10.6%，预计全年各级财政共安排约1100亿元，为3岁以下婴幼儿按每人每年3600元发放育儿补贴，原则上每季度集中发放一批。",
+   "decision": "您家宝宝出生即可申领每年3600元育儿补贴，记得在微信/支付宝育儿补贴小程序或户籍地街道主动按年申请，别漏领。",
+   "source": "央广网/羊城晚报",
+   "url": "https://news.ycwb.com/ikimvkmtjj/content_54168815.htm",
+   "firstSeen": "2026-08-17",
+   "id": 833
   },
   {
    "cat": "社会/生活",
@@ -8522,7 +11700,7 @@ window.BRIEFING = {
    "source": "第一财经",
    "url": "https://www.yicai.com/news/103106887.html",
    "firstSeen": "2026-08-07",
-   "id": 607
+   "id": 834
   },
   {
    "cat": "社会/生活",
@@ -8536,7 +11714,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A05GB900",
    "firstSeen": "2026-08-07",
-   "id": 608
+   "id": 835
   },
   {
    "cat": "社会/生活",
@@ -8550,7 +11728,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2526a75a31e64552",
    "firstSeen": "2026-08-07",
-   "id": 609
+   "id": 836
   },
   {
    "cat": "社会/生活",
@@ -8564,7 +11742,35 @@ window.BRIEFING = {
    "source": "极目新闻",
    "url": "http://view.inews.qq.com/a/20260805A0DRVP00",
    "firstSeen": "2026-08-07",
-   "id": 610
+   "id": 837
+  },
+  {
+   "cat": "社会/生活",
+   "time": "11:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "个人贷款综合融资成本新规8月1日落地 整治信贷乱象",
+   "summary": "《个人贷款业务明示综合融资成本规定》8月1日在全国落地，要求所有个人贷款全面、清晰、统一公示综合融资成本，将利息、手续费、服务费、担保费等全部纳入，严禁模糊标注与捆绑销售。监管部门同步排查违规机构。",
+   "decision": "作为持牌消金机构员工，您更应熟知综合融资成本披露要求；家庭若有装修、育儿等贷款需求，签前务必核对年化综合成本，警惕隐形费用。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/a7672845156009148980",
+   "firstSeen": "2026-08-17",
+   "id": 838
+  },
+  {
+   "cat": "社会/生活",
+   "time": "10:30",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "失能老人养老补贴累计核销65.12亿元 约200万人受益",
+   "summary": "民政部数据显示，面向中度以上失能老年人的养老服务消费补贴项目截至7月底累计核销消费券1079.92万次、金额65.12亿元，带动养老服务消费290.93亿元。约200万失能老人受益，养老支付保障显著加强。",
+   "decision": "您即将升级为父亲，未来双方父母年迈后的照护开销值得提前规划，可关注长期护理险与养老消费补贴政策。",
+   "source": "金台资讯/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260814A03X0400",
+   "firstSeen": "2026-08-17",
+   "id": 839
   },
   {
    "cat": "社会/生活",
@@ -8578,7 +11784,7 @@ window.BRIEFING = {
    "source": "环球网(经济参考报)",
    "url": "https://www.toutiao.com/article/7669622819298525738/",
    "firstSeen": "2026-08-07",
-   "id": 611
+   "id": 840
   },
   {
    "cat": "社会/生活",
@@ -8592,7 +11798,21 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://news.youth.cn/jsxw/202608/t20260807_16803896.htm",
    "firstSeen": "2026-08-07",
-   "id": 612
+   "id": 841
+  },
+  {
+   "cat": "社会/生活",
+   "time": "10:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "台风白海豚致湖北多地大暴雨 累计转移避险约5.57万人",
+   "summary": "今年第13号台风白海豚携强降雨横扫湖北，襄阳谷城36小时累计降雨近500毫米。全省省级及12市60县启动应急响应，截至8月12日累计提前转移避险群众约5.57万人，设224个临时安置点。",
+   "decision": "极端天气频发，建议家庭备好应急包与孕期常用药品，关注本地预警叫应机制，必要时第一时间转移避险。",
+   "source": "荆楚网",
+   "url": "https://news.cnhubei.com/content/2026-08/15/content_20141245.html",
+   "firstSeen": "2026-08-17",
+   "id": 842
   },
   {
    "cat": "社会/生活",
@@ -8606,7 +11826,7 @@ window.BRIEFING = {
    "source": "海峡网",
    "url": "https://www.toutiao.com/article/7669981650301878824/",
    "firstSeen": "2026-08-07",
-   "id": 613
+   "id": 843
   },
   {
    "cat": "社会/生活",
@@ -8620,7 +11840,7 @@ window.BRIEFING = {
    "source": "人民日报",
    "url": "https://hb.people.com.cn/BIG5/n2/2026/0803/c192237-41657134.html",
    "firstSeen": "2026-08-07",
-   "id": 614
+   "id": 844
   },
   {
    "cat": "社会/生活",
@@ -8634,7 +11854,7 @@ window.BRIEFING = {
    "source": "国家医疗保障局",
    "url": "https://www.nhsa.gov.cn",
    "firstSeen": "2026-08-07",
-   "id": 615
+   "id": 845
   },
   {
    "cat": "社会/生活",
@@ -8648,7 +11868,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A09V7500",
    "firstSeen": "2026-08-07",
-   "id": 616
+   "id": 846
   },
   {
    "cat": "社会/生活",
@@ -8662,7 +11882,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7670511400921350658",
    "firstSeen": "2026-08-07",
-   "id": 617
+   "id": 847
   },
   {
    "cat": "社会/生活",
@@ -8676,7 +11896,7 @@ window.BRIEFING = {
    "source": "国家医保局(综合)",
    "url": "https://sk3456@game.sohu.com/a/1057535772_121106832",
    "firstSeen": "2026-08-07",
-   "id": 618
+   "id": 848
   },
   {
    "cat": "社会/生活",
@@ -8690,7 +11910,21 @@ window.BRIEFING = {
    "source": "南方日报",
    "url": "https://www.toutiao.com/article/7670333286442385970/",
    "firstSeen": "2026-08-07",
-   "id": 619
+   "id": 849
+  },
+  {
+   "cat": "社会/生活",
+   "time": "08:10",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "全国大范围反常高温 8月呈四轮热浪 体感可达40℃",
+   "summary": "中国气象局与国家气候中心预警，8月全国大部气温显著偏高，华北南部、华东、华中、西南东部、新疆等地阶段性高温热浪风险极高；已明确8月7-9日、11-14日、22-25日、29-31日四轮高温过程。",
+   "decision": "妻预产期在8月25日前后，高温高热对孕妇心血管负担大，家中空调保持26-28℃、补水补盐，出现头晕胸闷立即就医。",
+   "source": "新浪/国家气候中心",
+   "url": "https://k.sina.com.cn/article_7879923441_1d5ae16f106801jwz6.html",
+   "firstSeen": "2026-08-17",
+   "id": 850
   },
   {
    "cat": "社会/生活",
@@ -8704,7 +11938,35 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260803A0261Y00",
    "firstSeen": "2026-08-07",
-   "id": 620
+   "id": 851
+  },
+  {
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "国家医保局发布检验类价格立项指南 实现全国同检同价",
+   "summary": "国家医保局8月16日发布检验类医疗服务价格项目立项指南，覆盖临床检验、输血与血型、生化、免疫等板块共662个主项目，实现检验类项目同检同价、不再区分检测方法。历时数年的40批立项指南编制全面收官。",
+   "decision": "妻预产期临近，产检与新生儿筛查检验项目将更规范透明，报销有全国统一标尺，可提前了解本地医保报销目录。",
+   "source": "大河网/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260816A02NCT00",
+   "firstSeen": "2026-08-17",
+   "id": 852
+  },
+  {
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "8月退休人员注意养老金资格认证 365天滚动递延",
+   "summary": "2026年全国全面推行365天滚动递延认证，不再按自然年统一认证，超期未认证次月暂停发放。手机掌上12333或电子社保卡刷脸即可，还有买药坐公交的静默认证；8月为认证到期高峰。",
+   "decision": "帮家中长辈在手机上完成养老金资格认证，避免断发；这也能让您提前熟悉电子社保卡操作，未来给宝宝用得上。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260801A086FB00",
+   "firstSeen": "2026-08-17",
+   "id": 853
   },
   {
    "cat": "社会/生活",
@@ -8718,7 +11980,35 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/02/ARTI4PAwKYRCHUWS045hq4Rn260802.shtml",
    "firstSeen": "2026-08-07",
-   "id": 621
+   "id": 854
+  },
+  {
+   "cat": "社会/生活",
+   "time": "16:15",
+   "impact": "high",
+   "related": false,
+   "overseas": true,
+   "title": "[海外]印尼东弗洛勒斯海域7.7级强震 至少20人死亡",
+   "summary": "印度尼西亚东部弗洛勒斯岛附近海域发生强烈地震，已造成至少20人死亡、数千人逃离家园，救援人员在废墟中搜寻幸存者；当局曾警告可能引发海啸。",
+   "decision": "若您家庭有东南亚出行计划，请避开印尼震区，出发前买好含地震意外的旅行险并留存使馆求助信息。",
+   "source": "联合早报",
+   "url": "https://www.zaobao.com.sg/",
+   "firstSeen": "2026-08-17",
+   "id": 855
+  },
+  {
+   "cat": "社会/生活",
+   "time": "15:20",
+   "impact": "high",
+   "related": false,
+   "overseas": true,
+   "title": "[海外]日本千叶县破纪录暴雨酿洪灾 40万人避难8人死亡",
+   "summary": "日本千叶县8月13日晚遭遇破纪录强降雨，多个城区严重积水成灾并大范围停电，日本气象厅发布最高级别红色暴雨警报，指示约40万人避难，灾害已造成8人死亡。",
+   "decision": "赴日出游避开关东强降雨时段，关注日本气象厅预警与避难指示，雨季行程预留改签空间。",
+   "source": "联合早报微博",
+   "url": "https://sina.cn/media/1654134123",
+   "firstSeen": "2026-08-17",
+   "id": 856
   },
   {
    "cat": "社会/生活",
@@ -8732,7 +12022,7 @@ window.BRIEFING = {
    "source": "楼市新观(今日头条)",
    "url": "https://www.toutiao.com/article/7669444606995563059/",
    "firstSeen": "2026-08-07",
-   "id": 622
+   "id": 857
   },
   {
    "cat": "社会/生活",
@@ -8746,7 +12036,7 @@ window.BRIEFING = {
    "source": "西安报业",
    "url": "https://www.xiancn.com/content/2026-08/04/content_7485944.htm",
    "firstSeen": "2026-08-07",
-   "id": 623
+   "id": 858
   },
   {
    "cat": "社会/生活",
@@ -8760,7 +12050,7 @@ window.BRIEFING = {
    "source": "中国劳动保障报",
    "url": "https://www.toutiao.com/article/7669766391444111918",
    "firstSeen": "2026-08-07",
-   "id": 624
+   "id": 859
   },
   {
    "cat": "社会/生活",
@@ -8774,7 +12064,7 @@ window.BRIEFING = {
    "source": "天眼新闻",
    "url": "https://www.toutiao.com/article/7669018181222089254/",
    "firstSeen": "2026-08-07",
-   "id": 625
+   "id": 860
   },
   {
    "cat": "社会/生活",
@@ -8788,7 +12078,35 @@ window.BRIEFING = {
    "source": "华声在线(投诉)",
    "url": "https://ts.voc.com.cn/question/view/2350395.html",
    "firstSeen": "2026-08-07",
-   "id": 626
+   "id": 861
+  },
+  {
+   "cat": "社会/生活",
+   "time": "18:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "多部门支持河南应对洪涝 启动国家四级救灾响应",
+   "summary": "国家防灾减灾救灾委员会针对台风白海豚残涡及强降雨对河南的严重灾害启动国家四级救灾应急响应，调拨折叠床、毛毯等3万件中央救灾物资及10万条编织袋等防汛物资；发改委安排3000万元中央预算内投资。",
+   "decision": "国家救灾体系运转迅速，但个人仍需未雨绸缪，汛期尽量减少前往已启响应的省份长途出游。",
+   "source": "人民日报/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260815A038O200",
+   "firstSeen": "2026-08-17",
+   "id": 862
+  },
+  {
+   "cat": "社会/生活",
+   "time": "17:40",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "广安一学校以赶进度为由提前开学 教科体局叫停",
+   "summary": "广安岳池县某校被投诉以赶进度为由要求个别年级8月23日提前返校，教科体局核查后要求立即停止相关安排，严禁违规提前组织学生返校上课，保障学生正常暑假休息。",
+   "decision": "未来孩子升学，留意校历与双减政策，遇到违规提前开学或补课可向教育主管部门反馈，守护孩子休息权。",
+   "source": "凤凰网",
+   "url": "https://h5.ifeng.com/c/vivo/v002Qj3PsTVaQpDgyqA--2PVoiY8HU-_lNGqfiLZIPjQCbspI__",
+   "firstSeen": "2026-08-17",
+   "id": 863
   },
   {
    "cat": "社会/生活",
@@ -8802,7 +12120,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260803A077CO00",
    "firstSeen": "2026-08-07",
-   "id": 627
+   "id": 864
   },
   {
    "cat": "社会/生活",
@@ -8816,7 +12134,21 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A079O000",
    "firstSeen": "2026-08-07",
-   "id": 628
+   "id": 865
+  },
+  {
+   "cat": "社会/生活",
+   "time": "17:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "从怀孕到生娃可领7笔钱 含产检报销生育津贴",
+   "summary": "梳理从怀孕建档到孩子满3岁可享7笔福利：孕期产检报销、住院分娩报销、生育津贴直发个人、0-3岁每年3600元育儿现金补贴、婴幼儿照护个税专项附加扣除每孩每月2000元、男方陪产护理津贴及地方生育奖励。",
+   "decision": "您作为准爸爸正好对得上：妻可领生育津贴与产检报销，您可申报婴幼儿照护个税抵扣，记得生完及时办、别错过申领时限。",
+   "source": "羊城晚报",
+   "url": "https://news.ycwb.com/ikimvkmtjj/content_54168815.htm",
+   "firstSeen": "2026-08-17",
+   "id": 866
   },
   {
    "cat": "社会/生活",
@@ -8830,7 +12162,7 @@ window.BRIEFING = {
    "source": "中国网湖北",
    "url": "https://www.toutiao.com/article/7669350776283644457",
    "firstSeen": "2026-08-07",
-   "id": 629
+   "id": 867
   },
   {
    "cat": "社会/生活",
@@ -8844,7 +12176,35 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.toutiao.com/article/7670831601424630291",
    "firstSeen": "2026-08-07",
-   "id": 630
+   "id": 868
+  },
+  {
+   "cat": "社会/生活",
+   "time": "16:10",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "广东东莞委托第三方招153名课时服务人员派驻公办校引争议",
+   "summary": "广东东莞委托第三方招聘153名课时服务人员派驻公办学校，名称在教师与人员间变动引发全网热议。新京报评论指教育用工可多元但育人底线不能破，律师提醒权责割裂风险。",
+   "decision": "孩子未来上学，师资稳定性与用工规范直接影响教学质量，择校时可留意学校外包用工情况与师资透明度。",
+   "source": "新京报/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260814A03X0400",
+   "firstSeen": "2026-08-17",
+   "id": 869
+  },
+  {
+   "cat": "社会/生活",
+   "time": "16:08",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "上海杨浦推透明物业指数 破解基层治理信任赤字",
+   "summary": "世界人工智能大会上发布基于上海杨浦长白新村街道实践的透明物业指数及数智化平台。该探索以物业与业委会双重信任赤字为原点，通过公开竞标、账目透明重塑小区多元主体互信。",
+   "decision": "未来购房置业，物业透明度直接影响居住体验与资产保值，可把透明物业指数类指标纳入选房参考。",
+   "source": "新华网",
+   "url": "https://k.sina.com.cn/article_2318265821_8a2deddd02001jlb8.html",
+   "firstSeen": "2026-08-17",
+   "id": 870
   },
   {
    "cat": "社会/生活",
@@ -8858,7 +12218,7 @@ window.BRIEFING = {
    "source": "广元融媒",
    "url": "https://www.163.com/dy/article/L3IJTG280524FQGV.html",
    "firstSeen": "2026-08-07",
-   "id": 631
+   "id": 871
   },
   {
    "cat": "社会/生活",
@@ -8872,7 +12232,35 @@ window.BRIEFING = {
    "source": "安徽文明网",
    "url": "http://ah.wenming.cn/zthd/2019/wmsj/wmsjbb/202608/t20260806_7011151.shtml",
    "firstSeen": "2026-08-07",
-   "id": 632
+   "id": 872
+  },
+  {
+   "cat": "社会/生活",
+   "time": "15:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "民政部：上半年民生支出2436亿元 超3900万人吃低保",
+   "summary": "民政部上半年统计显示，全国民政事业累计支出2436亿元，城市低保589.2万人、农村低保3346.2万人、特困供养493.7万人，超3900万人依靠低保维持基本生活。",
+   "decision": "社会救助底线关系千万家庭，您家庭收入稳定，可把这份安全感转化为给长辈和宝宝的应急储备规划。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260814A02Y4B00",
+   "firstSeen": "2026-08-17",
+   "id": 873
+  },
+  {
+   "cat": "社会/生活",
+   "time": "15:20",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "汕头澄海通报牛蛙抗生素超标 2家经营主体封存送检",
+   "summary": "媒体曝光多地牛蛙产品抗生素超标，涉及汕头澄海顺联水产、蛙嘟嘟食品两家经营主体。澄海区市监局现场封存牛蛙产品并抽样送检，在全区开展专项排查，依法依规严肃处理。",
+   "decision": "备孕与孕期饮食安全第一，水产选可溯源正规渠道，牛蛙等水产务必煮熟，关注抽检通报规避抗生素残留。",
+   "source": "央广网",
+   "url": "https://www.toutiao.com/article/7669701864354480649",
+   "firstSeen": "2026-08-17",
+   "id": 874
   },
   {
    "cat": "社会/生活",
@@ -8886,7 +12274,7 @@ window.BRIEFING = {
    "source": "广州日报",
    "url": "https://www.toutiao.com/article/7668956398851605001",
    "firstSeen": "2026-08-07",
-   "id": 633
+   "id": 875
   },
   {
    "cat": "社会/生活",
@@ -8900,7 +12288,7 @@ window.BRIEFING = {
    "source": "澎湃新闻",
    "url": "https://m.thepaper.cn/newsDetail_forward_33586723",
    "firstSeen": "2026-08-07",
-   "id": 634
+   "id": 876
   },
   {
    "cat": "社会/生活",
@@ -8914,7 +12302,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260805A0CCNG00",
    "firstSeen": "2026-08-07",
-   "id": 635
+   "id": 877
   },
   {
    "cat": "社会/生活",
@@ -8928,7 +12316,35 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260730A0B6O600",
    "firstSeen": "2026-08-07",
-   "id": 636
+   "id": 878
+  },
+  {
+   "cat": "社会/生活",
+   "time": "14:43",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "湖南肝肾移植患者出院即享待遇 免申请零跑腿",
+   "summary": "湖南依托统一医保信息平台上线肝肾移植后抗排异治疗待遇找人模型，患者出院结算时自动比对准入标准、即时生成待遇，每月自付降至900余元，窗口咨询量下降约90%。",
+   "decision": "重大疾病的医保便民改革值得关注，建议为家庭建立医保电子凭证与慢特病备案意识，关键时刻少跑腿。",
+   "source": "长沙晚报",
+   "url": "https://www.icswb.com/h/204/20260812/991013.html",
+   "firstSeen": "2026-08-17",
+   "id": 879
+  },
+  {
+   "cat": "社会/生活",
+   "time": "14:20",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "上海员工台风天请假被罚近1500元 人社局认定违规",
+   "summary": "话题员工台风天临时请假被罚近1500元冲上热搜。上海青浦人社局认定公司处罚违规，称台风白海豚影响致误工不得扣薪处罚；总工会表示可提供法律援助，强调安全比考勤更重要。",
+   "decision": "您在招联金融任职，遇极端天气通勤务必以安全为先，台风等红色预警下的请假权益受法律保护，不必担心被违规扣薪。",
+   "source": "上海法治报/腾讯新闻",
+   "url": "https://view.inews.qq.com/a/20260813A0AX7600",
+   "firstSeen": "2026-08-17",
+   "id": 880
   },
   {
    "cat": "社会/生活",
@@ -8942,7 +12358,49 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260804A0E0F200",
    "firstSeen": "2026-08-07",
-   "id": 637
+   "id": 881
+  },
+  {
+   "cat": "社会/生活",
+   "time": "14:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "黑龙江生育友好政策：产假津贴158天 0-3岁新生儿医保财政承担",
+   "summary": "黑龙江推动180日产假和父母各10日育儿假落地，生育津贴支付天数由98天调整为158天并直发女职工本人；将分娩镇痛等7项产科项目、辅助生殖8项纳入医保；2026年起0-3岁新生儿基本医保个人缴费由财政全额承担。",
+   "decision": "虽您在广东，但可参照黑龙江经验了解本地生育津贴天数与新生儿医保政策，提前算清妻产假与津贴到账节奏。",
+   "source": "黑龙江省卫健委",
+   "url": "https://wsjkw.hlj.gov.cn/wsjkw/c116783/202608/c00_31965555.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 882
+  },
+  {
+   "cat": "社会/生活",
+   "time": "13:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "央行加码千亿纾困信贷 入汛以来保险业已赔付76亿元",
+   "summary": "央行加码千亿元专项信贷额度支持小微商户与农户；入汛以来22省份保险业接报案67万件、估损132亿元、已赔付76亿元，银行+保险组合托底受灾群众生产生活。",
+   "decision": "汛期财险理赔频发，建议趁宝宝出生前核查家庭车险、家财险与意外险保障是否足额，避免灾害来临时保障缺口。",
+   "source": "央广网/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260814A02Y4B00",
+   "firstSeen": "2026-08-17",
+   "id": 883
+  },
+  {
+   "cat": "社会/生活",
+   "time": "13:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "上半年城镇新增就业695万人 各地织密就业保障网",
+   "summary": "新华社报道2026年上半年全国城镇新增就业695万人，各地通过零工市场、技能培训、青年公寓、暖新驿站及暑期托管等举措，从能就业到就好业。",
+   "decision": "就业大盘稳定利好金融行业，您可关注公司为员工提供的育儿友好福利与配偶就业支持，提前规划家庭现金流。",
+   "source": "新华社/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260814A02Y4B00",
+   "firstSeen": "2026-08-17",
+   "id": 884
   },
   {
    "cat": "社会/生活",
@@ -8956,7 +12414,7 @@ window.BRIEFING = {
    "source": "湖北日报",
    "url": "https://www.toutiao.com/article/7669665243034829347/",
    "firstSeen": "2026-08-07",
-   "id": 638
+   "id": 885
   },
   {
    "cat": "社会/生活",
@@ -8970,7 +12428,21 @@ window.BRIEFING = {
    "source": "路透社(中文报道)",
    "url": "https://www.gs.asiams.net/article_details/shared-beds-shrinking-budgets-chinas-young-workers-feel-economic-squeeze",
    "firstSeen": "2026-08-07",
-   "id": 639
+   "id": 886
+  },
+  {
+   "cat": "社会/生活",
+   "time": "11:20",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "2026居民医保缴费400元免缴传言澄清 断保设等待期",
+   "summary": "网传2026年居民医保60岁以上全免、五类人免缴系误读。专家明确居民医保个人缴费全国最低指导线400元，人均财政补助提至724元；特困等困难群体由地方资助参保，断保将设3个月待遇等待期。",
+   "decision": "宝宝出生后应及时参保，新生儿医保个人缴费部分多地由财政承担；切勿轻信免缴谣言而断保，避免等待期影响报销。",
+   "source": "解码新金济/腾讯新闻",
+   "url": "https://view.inews.qq.com/a/20260815A0AL4G00",
+   "firstSeen": "2026-08-17",
+   "id": 887
   },
   {
    "cat": "社会/生活",
@@ -8984,7 +12456,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "https://m.21jingji.com/article/20260807/herald/629e97ab8846ad6b1a6400fdf601046b.html",
    "firstSeen": "2026-08-07",
-   "id": 640
+   "id": 888
   },
   {
    "cat": "社会/生活",
@@ -8998,7 +12470,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/cj/2026/08-05/10672180.shtml",
    "firstSeen": "2026-08-07",
-   "id": 641
+   "id": 889
   },
   {
    "cat": "社会/生活",
@@ -9012,7 +12484,7 @@ window.BRIEFING = {
    "source": "北京青年报",
    "url": "https://www.163.com/dy/article/L3IHKBJL0514R9KQ.html",
    "firstSeen": "2026-08-07",
-   "id": 642
+   "id": 890
   },
   {
    "cat": "社会/生活",
@@ -9026,7 +12498,21 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/04/ARTIcab86zB9Lz7k263rCGX5260804.shtml",
    "firstSeen": "2026-08-07",
-   "id": 643
+   "id": 891
+  },
+  {
+   "cat": "社会/生活",
+   "time": "10:15",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "家庭病床上门费可医保报销 西安统筹报销95%",
+   "summary": "国家卫健委与中医药局印发家庭病床服务指南，居民在家住院、医生护士上门费可通过医保报销。以西安为例，合规医疗费统筹报销95%、个人出5%，一年家庭病床报销最高1.5万元。",
+   "decision": "若长辈未来需居家照护，家庭病床能大幅减轻负担；可提前咨询本地是否已将上门服务费纳入医保报销。",
+   "source": "华商网/腾讯新闻",
+   "url": "https://view.inews.qq.com/a/20260816A00HVL00",
+   "firstSeen": "2026-08-17",
+   "id": 892
   },
   {
    "cat": "社会/生活",
@@ -9040,7 +12526,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://m.chinanews.com/wap/detail/cht/zw/jw682282.shtml",
    "firstSeen": "2026-08-07",
-   "id": 644
+   "id": 893
   },
   {
    "cat": "社会/生活",
@@ -9054,7 +12540,49 @@ window.BRIEFING = {
    "source": "腾讯新闻(黑龙江省卫健委)",
    "url": "https://new.qq.com/rain/a/20260807A0BFCL00",
    "firstSeen": "2026-08-07",
-   "id": 645
+   "id": 894
+  },
+  {
+   "cat": "社会/生活",
+   "time": "09:40",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "襄阳迎战台风白海豚 最大雨量超430毫米 7人因预警避险",
+   "summary": "台风白海豚致襄阳108个乡镇暴雨、81个乡镇大暴雨，最大雨量突破430毫米。全市通过应急广播、短信覆盖超269万人次，984个山洪防御重点村电话抽查叫应；谷城一村因信息员果断上报提前撤离7人脱险。",
+   "decision": "基层预警叫应机制能救命，您家庭可开启手机气象预警推送，并把应急联系人设为紧急呼叫，确保孕期家人第一时间收到提示。",
+   "source": "极目新闻",
+   "url": "https://www.ctdsb.net/c1476_202608/2831300.html",
+   "firstSeen": "2026-08-17",
+   "id": 895
+  },
+  {
+   "cat": "社会/生活",
+   "time": "09:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "四川启动2026青年就业服务攻坚行动 岗位只增不减",
+   "summary": "四川省7月14日启动高校毕业生等青年就业服务攻坚行动，提供实名登记、职业指导、岗位推荐、培训见习等一对一服务，落实1131就业服务，对四类重点群体兜底帮扶。",
+   "decision": "金融圈校招与实习机会多，您未来可为亲属或配偶同行友人留意合规就业信息，警惕招转培等虚假招聘骗局。",
+   "source": "中国就业网/四川日报",
+   "url": "https://chinajob.mohrss.gov.cn/h5/c/2026-08-10/574160.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 896
+  },
+  {
+   "cat": "社会/生活",
+   "time": "09:25",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "天津反诈中心预警：暑期涉未成年人电诈显著高发",
+   "summary": "天津市反诈中心8月6日预警，暑期中小学生电诈案显著增多，主要类型为假游戏皮肤、刷单返利、虚假购物理赔、冒充公检法恐吓。11岁学生因免费领皮肤被骗5万元。警方提醒防诈五不准则。",
+   "decision": "宝宝长大后用网早，现在就养成家庭反诈习惯：关免密支付、装国家反诈中心App、教孩子遇转账先告知家长。",
+   "source": "金台资讯",
+   "url": "https://www.toutiao.com/article/7671094622436770345/",
+   "firstSeen": "2026-08-17",
+   "id": 897
   },
   {
    "cat": "社会/生活",
@@ -9068,7 +12596,7 @@ window.BRIEFING = {
    "source": "北京商报",
    "url": "https://new.qq.com/rain/a/20260805A09JJ200",
    "firstSeen": "2026-08-07",
-   "id": 646
+   "id": 898
   },
   {
    "cat": "社会/生活",
@@ -9082,7 +12610,63 @@ window.BRIEFING = {
    "source": "中华网(四川)",
    "url": "https://sc.china.com.cn/2026-08/04/content_43471772.html",
    "firstSeen": "2026-08-07",
-   "id": 647
+   "id": 899
+  },
+  {
+   "cat": "社会/生活",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "《生态环境法典》8月15日起施行 系我国第二部法典",
+   "summary": "《中华人民共和国生态环境法典》于8月15日正式施行，系我国第二部以法典命名的法律。广东民声热线回应湛江港粉尘、惠州填土砷超标两起达标扰民案例，明确治理不能止于厂界检测达标。",
+   "decision": "妻预产期临近，宝宝出生后对居住环境空气与水质更敏感，可关注本地生态环境投诉渠道维护社区环境质量。",
+   "source": "金羊网/腾讯新闻",
+   "url": "https://view.inews.qq.com/a/20260814A03USY00",
+   "firstSeen": "2026-08-17",
+   "id": 900
+  },
+  {
+   "cat": "社会/生活",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "四川新一轮强降雨 成渝西成川青等多条高铁或晚点停运",
+   "summary": "受四川境内8月16日至18日强降雨影响，成渝、西成、成贵、成宜、川青等多条高铁及成都铁路枢纽部分区段可能雨量超标，铁路部门将封锁巡查，途经列车可能晚点或停运。",
+   "decision": "暑期出行高峰叠加汛期，若计划带孩子或陪产家属乘高铁，出行前务必看天气与车站公告，买好可免费退改的车票。",
+   "source": "封面新闻/微博",
+   "url": "https://m.weibo.cn/status/5332929011779120",
+   "firstSeen": "2026-08-17",
+   "id": 901
+  },
+  {
+   "cat": "社会/生活",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "鹰潭月湖区24个小区物业费下调10%-15% 减负296万元",
+   "summary": "鹰潭月湖区纪委监委整治物业乱象，选取8个小区开展全成本核查，推动24个小区完成物业费下调，幅度10%-15%，累计为1.5万余户居民减轻负担296.26万元，同步修补路面335处、新装照明829盏。",
+   "decision": "降费不降服务是关键，您家庭可关注本地物业收费监管政策，合理维护作为业主的知情权与监督权。",
+   "source": "新华网江西",
+   "url": "http://www.jx.xinhua.org/20260811/355bb8e6df974f94b7895935d0af2df8/c.html",
+   "firstSeen": "2026-08-17",
+   "id": 902
+  },
+  {
+   "cat": "社会/生活",
+   "time": "08:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "受强降雨影响 浙江江苏多趟高铁列车限速停运",
+   "summary": "铁路部门对8月15日合杭、宁杭、杭台、杭深、京沪、沪宁等高铁部分区段采取限速运行、临时停运措施；钱江三桥渡口、杭州水上巴士因水位过高暂停运营。停运列车车票30日内可免费退票。",
+   "decision": "妻预产期前后如需异地就医或探亲，遇汛期务必提前查12306列车动态调整，预留充足缓冲，勿卡点赶车。",
+   "source": "杭州日报/腾讯新闻",
+   "url": "https://www.toutiao.com/article/7674093978634945030/",
+   "firstSeen": "2026-08-17",
+   "id": 903
   },
   {
    "cat": "社会/生活",
@@ -9096,7 +12680,7 @@ window.BRIEFING = {
    "source": "今日头条(自媒体)",
    "url": "https://www.toutiao.com/article/7670337064050934295",
    "firstSeen": "2026-08-07",
-   "id": 648
+   "id": 904
   },
   {
    "cat": "社会/生活",
@@ -9110,7 +12694,7 @@ window.BRIEFING = {
    "source": "封面新闻",
    "url": "https://new.qq.com/rain/a/20260806A07P1700",
    "firstSeen": "2026-08-07",
-   "id": 649
+   "id": 905
   },
   {
    "cat": "社会/生活",
@@ -9124,7 +12708,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6076a7118c411652",
    "firstSeen": "2026-08-07",
-   "id": 650
+   "id": 906
   },
   {
    "cat": "社会/生活",
@@ -9138,7 +12722,7 @@ window.BRIEFING = {
    "source": "北京日报",
    "url": "https://www.toutiao.com/article/7669584452426695178/",
    "firstSeen": "2026-08-07",
-   "id": 651
+   "id": 907
   },
   {
    "cat": "社会/生活",
@@ -9152,7 +12736,7 @@ window.BRIEFING = {
    "source": "天眼新闻",
    "url": "https://www.toutiao.com/article/7669952882803851786",
    "firstSeen": "2026-08-07",
-   "id": 652
+   "id": 908
   },
   {
    "cat": "社会/生活",
@@ -9166,7 +12750,7 @@ window.BRIEFING = {
    "source": "健康报",
    "url": "https://www.toutiao.com/article/7670678795476615686/",
    "firstSeen": "2026-08-07",
-   "id": 653
+   "id": 909
   },
   {
    "cat": "社会/生活",
@@ -9180,7 +12764,7 @@ window.BRIEFING = {
    "source": "新电梯网",
    "url": "https://dy.163.com/article/L3N2S19S0534BDMA.html",
    "firstSeen": "2026-08-07",
-   "id": 654
+   "id": 910
   },
   {
    "cat": "社会/生活",
@@ -9194,7 +12778,35 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9336a726d2426452",
    "firstSeen": "2026-08-07",
-   "id": 655
+   "id": 911
+  },
+  {
+   "cat": "社会/生活",
+   "time": "18:25",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外]日韩遭遇极端热浪 韩国视高温为国家级灾难",
+   "summary": "韩国与日本被极端高温困扰：熊本地震后逾4万户供水未恢复，一名70多岁老人在车中避暑中暑身亡；韩国棒球赛多场因中暑取消，特等黄瓜批发价同比涨近60%。韩总统称高温形势如国家灾难。",
+   "decision": "海外极端天气警示气候风险，国内 likewise 高温频发，可参照其教训为孕妻备好空调与补水预案。",
+   "source": "中国青年报/网易",
+   "url": "https://www.163.com/dy/article/L3LU30O10514CDBK.html",
+   "firstSeen": "2026-08-17",
+   "id": 912
+  },
+  {
+   "cat": "社会/生活",
+   "time": "18:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外]欧洲干旱河流干涸 多瑙河水位降至30年最低",
+   "summary": "欧洲各地极端高温与干旱使多瑙河流域水位降至30年来最低，纳粹战舰残骸、古代猛犸象骨骸甚至被遗忘的修道院等历史遗迹重见天日，凸显气候干旱影响。",
+   "decision": "全球气候干旱趋势下，国内夏季用水与用电高峰或常态化，家庭可提前养成节水电与应急储备习惯。",
+   "source": "BBC中文",
+   "url": "https://www.bbc.com/zhongwen/simp",
+   "firstSeen": "2026-08-17",
+   "id": 913
   },
   {
    "cat": "社会/生活",
@@ -9208,7 +12820,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://www.163.com/dy/article/L3ODJATB05346RC6_pdya11y.html",
    "firstSeen": "2026-08-07",
-   "id": 656
+   "id": 914
   },
   {
    "cat": "社会/生活",
@@ -9222,7 +12834,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/sh/2026/08-05/10672324.shtml",
    "firstSeen": "2026-08-07",
-   "id": 657
+   "id": 915
   },
   {
    "cat": "社会/生活",
@@ -9236,7 +12848,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://www.toutiao.com/article/7670750560928137768/",
    "firstSeen": "2026-08-07",
-   "id": 658
+   "id": 916
   },
   {
    "cat": "社会/生活",
@@ -9250,7 +12862,7 @@ window.BRIEFING = {
    "source": "人民日报/凤凰网",
    "url": "https://news.ifeng.com/c/8vLKfI7XuLd",
    "firstSeen": "2026-08-07",
-   "id": 659
+   "id": 917
   },
   {
    "cat": "社会/生活",
@@ -9264,7 +12876,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A03IPC00",
    "firstSeen": "2026-08-07",
-   "id": 660
+   "id": 918
   },
   {
    "cat": "社会/生活",
@@ -9278,7 +12890,35 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/05/ARTIxihQRQiMQeCul8fdtJHY260804.shtml",
    "firstSeen": "2026-08-07",
-   "id": 661
+   "id": 919
+  },
+  {
+   "cat": "社会/生活",
+   "time": "23:26",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "海口海南国际旅游岛欢乐节落幕 累计接待游客超99万人次",
+   "summary": "2026第二十七届海南国际旅游岛欢乐节7月17日至8月2日举办，海口主会场累计接待游客超99万人次，长影奇幻乐园突破21.54万人次；同期活动持续至8月底，含女篮热身赛、咖啡博览会、开渔季等。",
+   "decision": "暑期亲子游热度高的城市人多价涨，若计划带新生儿出行选错峰与室内场馆，注意防暑与母婴设施。",
+   "source": "海口市旅文局/今日头条",
+   "url": "https://www.toutiao.com/article/7670197990174245428",
+   "firstSeen": "2026-08-17",
+   "id": 920
+  },
+  {
+   "cat": "社会/生活",
+   "time": "18:18",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "云南出台医保支持基层医疗卫生服务若干措施 45条举措",
+   "summary": "云南三部门联合印发医保支持基层医疗卫生服务发展的若干措施，从优化区域总额预算、完善医共体总额付费、拓展医保定点覆盖等14类发布45条措施，推动常见病慢性病引导在基层首诊。",
+   "decision": "强基导向下家门口看病更方便，未来宝宝感冒发烧等小病可优先就近社区医院，省去大医院排队。",
+   "source": "澎湃新闻",
+   "url": "https://www.thepaper.cn/newsDetail_forward_33771754",
+   "firstSeen": "2026-08-17",
+   "id": 921
   },
   {
    "cat": "社会/生活",
@@ -9292,7 +12932,91 @@ window.BRIEFING = {
    "source": "腾讯新闻(顶端新闻)",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2366a73ea3965552",
    "firstSeen": "2026-08-07",
-   "id": 662
+   "id": 922
+  },
+  {
+   "cat": "社会/生活",
+   "time": "18:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "2026秋季中小学开学时间确定 严控提前开学违规补课",
+   "summary": "多地公布2026秋季开学时间：义务教育9月1日开学，高中多8月下旬返校，高一军训属正常安排。教育部门明确严禁义务教育学校提前返校上课、统一补课，发现可向主管部门反馈。",
+   "decision": "虽离您宝宝上学尚早，但提前了解学区与开学节奏，有助未来从容安排双职工家庭的接送与托管。",
+   "source": "今日头条",
+   "url": "https://www.toutiao.com/a7673806365223109122",
+   "firstSeen": "2026-08-17",
+   "id": 923
+  },
+  {
+   "cat": "社会/生活",
+   "time": "17:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "即墨区通报5起食品安全典型案例 涉健康证与过期食品",
+   "summary": "青岛即墨区市监局通报5起食品领域突出问题典型案例：火锅店安排无健康证人员接触直接入口食品、牛肉汤店未查验供货许可、私厨销售过期啤酒等，均已立案查处并行政处罚。",
+   "decision": "带娃家庭外出就餐看重后厨卫生，优先选择公示健康证与明厨亮灶的门店，发现违规可拨12315投诉。",
+   "source": "腾讯新闻",
+   "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_4296a796fba09352",
+   "firstSeen": "2026-08-17",
+   "id": 924
+  },
+  {
+   "cat": "社会/生活",
+   "time": "16:30",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "菏泽警方预警：冒充保险客服远程控制骗走4万余元",
+   "summary": "巨野县叶女士接冒充保险客服电话，以保单自动扣费影响征信为由诱导下载无备案软件并开启远程控制，被申请保单贷款并划走4万余元。警方提醒凡索要验证码、人脸识别、远程控制的均为诈骗。",
+   "decision": "您在消金行业更懂这类话术，请帮家中老人关闭手机远程权限、设置来电识别，遇保单异常直接打官方客服核实。",
+   "source": "巨野县公安局/腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260806A05VDD00",
+   "firstSeen": "2026-08-17",
+   "id": 925
+  },
+  {
+   "cat": "社会/生活",
+   "time": "16:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "湖南未来一周多热对流 湘南22至23日局地暴雨",
+   "summary": "湖南省气象台预计17日至21日多云间晴多阵雨或雷阵雨，22日至23日受南海热带系统影响湘南局地暴雨并伴有7至9级阵风，需防范山洪、地质灾害及景区安全风险。",
+   "decision": "暑期出游若去湖南，避开山区景区强对流时段，孕期家属尤需注意防雷暴大风与温差。",
+   "source": "湖南日报",
+   "url": "https://www.toutiao.com/article/7674906443820106303/",
+   "firstSeen": "2026-08-17",
+   "id": 926
+  },
+  {
+   "cat": "社会/生活",
+   "time": "16:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "网购三无瘦身产品 法院调解消费者获赔6500元",
+   "summary": "李某网购买到无厂家、无日期、无许可的三无瘦身食品，诉至法院要求退一赔十。经新野县法院调解，转卖者当庭一次性支付6500元。法官提示销售者转卖不是免责金牌。",
+   "decision": "妻产后若考虑瘦身产品，务必认准正规资质与配料表，三无产品不仅无效还可能伤身，维权记得留好订单与聊天记录。",
+   "source": "南都晨报/新野法院",
+   "url": "https://nyzy.hncourt.gov.cn/public/detail.php?id=38003",
+   "firstSeen": "2026-08-17",
+   "id": 927
+  },
+  {
+   "cat": "社会/生活",
+   "time": "15:32",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "天津十五五期间巩固双减 压减考试频次推广分层作业",
+   "summary": "天津公布十五五期间基础教育安排：健全作业总量审核与质量评价制度，推广基础+弹性+实践分层作业模式；合理压减考试频次，保障课间权益，强化校外隐形变异培训治理。",
+   "decision": "孩子未来学业压力可从政策端缓解，关注本地课后服务与素质拓展菜单，比盲目报班更可持续。",
+   "source": "津云",
+   "url": "https://www.toutiao.com/article/7670074994545803795",
+   "firstSeen": "2026-08-17",
+   "id": 928
   },
   {
    "cat": "社会/生活",
@@ -9306,7 +13030,63 @@ window.BRIEFING = {
    "source": "湖北日报",
    "url": "https://news.hubeidaily.net/pc/c_5826434.html",
    "firstSeen": "2026-08-07",
-   "id": 663
+   "id": 929
+  },
+  {
+   "cat": "社会/生活",
+   "time": "15:15",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "河南湖北遭遇强风雨 部分列车临时停运",
+   "summary": "受台风残余环流影响，河南、湖北处于强风雨中，铁路部门对郑州、武昌等局管内多趟列车采取临时停运，涉及杭州至西安、武昌至乌鲁木齐等方向共数十趟车次。",
+   "decision": "跨线探亲访友若途经中原、华中，关注12306停运通知，提前改签避免滞留，孕期家属尽量少选恶劣天气长途出行。",
+   "source": "央视新闻/网易",
+   "url": "https://www.163.com/dy/article/L451IS0F0514R9OJ.html",
+   "firstSeen": "2026-08-17",
+   "id": 930
+  },
+  {
+   "cat": "社会/生活",
+   "time": "14:55",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "包头青山区推进信托制物业改革 惠及5277户",
+   "summary": "包头青山区全域推进信托制物业改革，在9个街镇16个社区18个小区落地，覆盖老旧家属院、新建商品房等业态，惠及居民5277户；15个小区上线数字化治理小程序，居民可查账提议。",
+   "decision": "信托制让物业费阳光共管，选房时留意小区治理模式，账目透明的小区居住更安心、转手也更稳。",
+   "source": "金台资讯",
+   "url": "https://www.toutiao.com/article/7669695415327113780/",
+   "firstSeen": "2026-08-17",
+   "id": 931
+  },
+  {
+   "cat": "社会/生活",
+   "time": "11:47",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "莱阳锚定物业痛点深耕小区治理 带动203人家门口就业",
+   "summary": "山东莱阳将物业重点小区专项治理作为一把手工程，87处党群阵地一档一册管理，领办20个幸福工坊带动203名居民家门口就业，孵化45个治理项目，服务6万余人次。",
+   "decision": "社区治理越扎实，托育、助老等普惠服务越近便，未来育儿可优先选择治理水平高的成熟社区。",
+   "source": "中国城市报",
+   "url": "https://paper.people.com.cn/zgcsb/pc/content_202608/10/content_30174107.html",
+   "firstSeen": "2026-08-17",
+   "id": 932
+  },
+  {
+   "cat": "社会/生活",
+   "time": "11:47",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "北京朝阳东坝物管会重组 推动基层治理提质增效",
+   "summary": "北京朝阳东坝2026年完成15个物管会重组，推动标准化培训、议事协商、履职评价全覆盖。汇景苑二社区梳理38.73万元临停车费收支结余形成三张清单公示，停车乱象一周内明显减少。",
+   "decision": "公共收益晒出来更踏实，您作为业主可主动参加物管会议事，监督停车位与广告收益用于小区改善。",
+   "source": "北晚在线",
+   "url": "https://www.takefoto.cn/news/2026/08/10/11909105.shtml",
+   "firstSeen": "2026-08-17",
+   "id": 933
   },
   {
    "cat": "社会/生活",
@@ -9320,7 +13100,35 @@ window.BRIEFING = {
    "source": "潜江融媒",
    "url": "https://hb.news.163.com/26/0804/10/L3FT0PRK04089AUO.html",
    "firstSeen": "2026-08-07",
-   "id": 664
+   "id": 934
+  },
+  {
+   "cat": "社会/生活",
+   "time": "10:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "大连八月文旅日历发布 近千场群众文化活动",
+   "summary": "大连推出八月文旅日历，涵盖李荣浩、周华健等演唱会，芭蕾、脱口秀、儿童剧等数百场演出，以及伊朗文物展、鲨鱼王国标本展等展览，还有老虎滩避暑亲海活动。",
+   "decision": "妻产后休养期可规划轻松亲子文旅，优先室内空调场馆与滨海亲水，避开高温正午时段。",
+   "source": "大连发布",
+   "url": "https://nginx-dlrm.dlrm.cn/dlrm/site1/mweb/ja9u4/content_7073779.html",
+   "firstSeen": "2026-08-17",
+   "id": 935
+  },
+  {
+   "cat": "社会/生活",
+   "time": "10:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "广东百日千万招聘专项行动启动 7月1日至10月10日",
+   "summary": "广东省人社厅7月1日至10月10日开展职引未来筑梦青春2026百日千万招聘专项行动，汇聚先进制造业、服务业、民生需求等优质岗位，线上线下一站式提供招聘、职业指导与AI云课堂。",
+   "decision": "金融人才需求旺，您可为亲友留意粤就业小程序正规岗位，同时警惕假招聘与培训贷陷阱。",
+   "source": "湛江市坡头区人社局",
+   "url": "http://www.ptq.gov.cn/zjptrsj/gkmlpt/content/2/2208/post_2208434.html",
+   "firstSeen": "2026-08-17",
+   "id": 936
   },
   {
    "cat": "社会/生活",
@@ -9334,7 +13142,21 @@ window.BRIEFING = {
    "source": "信阳日报",
    "url": "http://www.hcxww.gov.cn/index.php?m=content&c=index&a=show&catid=4&id=34453",
    "firstSeen": "2026-08-07",
-   "id": 665
+   "id": 937
+  },
+  {
+   "cat": "社会/生活",
+   "time": "09:00",
+   "impact": "low",
+   "related": true,
+   "overseas": false,
+   "title": "遵义八月文旅消费季开启 33项活动持续到8月25日",
+   "summary": "遵义推出清凉避暑文旅消费季，土城古镇开展泼水狂欢、提灯夜游等33项活动至8月25日，中国茶海电音泼水、柏梓顶星空篝火常态化，8月22日星动遵义超级演唱会集结多位唱将。",
+   "decision": "山区避暑游适合全家，但孕晚期家属不宜参与泼水、篝火等剧烈活动，量力而行选温和项目。",
+   "source": "腾讯新闻",
+   "url": "https://new.qq.com/rain/a/20260802A09E7000",
+   "firstSeen": "2026-08-17",
+   "id": 938
   },
   {
    "cat": "社会/生活",
@@ -9348,7 +13170,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_9336a726d2426452",
    "firstSeen": "2026-08-07",
-   "id": 666
+   "id": 939
   },
   {
    "cat": "社会/生活",
@@ -9362,7 +13184,7 @@ window.BRIEFING = {
    "source": "极目新闻",
    "url": "https://www.163.com/dy/article/L3OD751H053469LG_pdya11y.html",
    "firstSeen": "2026-08-07",
-   "id": 667
+   "id": 940
   },
   {
    "cat": "社会/生活",
@@ -9376,7 +13198,7 @@ window.BRIEFING = {
    "source": "微博(大象新闻)",
    "url": "https://weibo.com/7308140398/5329330398036909",
    "firstSeen": "2026-08-07",
-   "id": 668
+   "id": 941
   },
   {
    "cat": "社会/生活",
@@ -9390,7 +13212,7 @@ window.BRIEFING = {
    "source": "山西省医保局(微博)",
    "url": "https://weibo.com/6343959685/5329331156947054",
    "firstSeen": "2026-08-07",
-   "id": 669
+   "id": 942
   },
   {
    "cat": "社会/生活",
@@ -9404,7 +13226,7 @@ window.BRIEFING = {
    "source": "扬眼/腾讯",
    "url": "https://new.qq.com/rain/a/20260806A07P1700",
    "firstSeen": "2026-08-07",
-   "id": 670
+   "id": 943
   },
   {
    "cat": "社会/生活",
@@ -9418,7 +13240,7 @@ window.BRIEFING = {
    "source": "北京日报",
    "url": "https://www.toutiao.com/article/7670328900630889014/",
    "firstSeen": "2026-08-07",
-   "id": 671
+   "id": 944
   },
   {
    "cat": "娱乐/文娱",
@@ -9432,7 +13254,7 @@ window.BRIEFING = {
    "source": "Netflix/SEC",
    "url": "https://www.sec.gov/Archives/edgar/data/1065280/000106528026000211/ex991_q226.htm",
    "firstSeen": "2026-08-07",
-   "id": 672
+   "id": 945
   },
   {
    "cat": "娱乐/文娱",
@@ -9446,7 +13268,7 @@ window.BRIEFING = {
    "source": "DOTA2官网",
    "url": "https://www.dota2.com.cn/wapnews/article/details/20260731/220508.html",
    "firstSeen": "2026-08-07",
-   "id": 673
+   "id": 946
   },
   {
    "cat": "娱乐/文娱",
@@ -9460,7 +13282,7 @@ window.BRIEFING = {
    "source": "国家广播电视总局",
    "url": "https://www.nrta.gov.cn/art/2026/7/31/art_113_73785.html",
    "firstSeen": "2026-08-07",
-   "id": 674
+   "id": 947
   },
   {
    "cat": "娱乐/文娱",
@@ -9474,7 +13296,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7667511815076708914/",
    "firstSeen": "2026-08-07",
-   "id": 675
+   "id": 948
   },
   {
    "cat": "娱乐/文娱",
@@ -9488,7 +13310,7 @@ window.BRIEFING = {
    "source": "Box Office Mojo/新浪",
    "url": "https://www.boxofficemojo.com/?ref=ft",
    "firstSeen": "2026-08-07",
-   "id": 676
+   "id": 949
   },
   {
    "cat": "娱乐/文娱",
@@ -9502,7 +13324,7 @@ window.BRIEFING = {
    "source": "财联社/新浪财经",
    "url": "https://www.cls.cn/detail/2447473",
    "firstSeen": "2026-08-07",
-   "id": 677
+   "id": 950
   },
   {
    "cat": "娱乐/文娱",
@@ -9516,7 +13338,7 @@ window.BRIEFING = {
    "source": "猫眼专业版/网易",
    "url": "https://www.163.com/dy/article/L3OCGSH80519DDQ2.html",
    "firstSeen": "2026-08-07",
-   "id": 678
+   "id": 951
   },
   {
    "cat": "娱乐/文娱",
@@ -9530,7 +13352,7 @@ window.BRIEFING = {
    "source": "ChinaJoy官网",
    "url": "https://www.chinajoy.net#/navStation/homeNewsDetail?id=533632&language=Zh",
    "firstSeen": "2026-08-07",
-   "id": 679
+   "id": 952
   },
   {
    "cat": "娱乐/文娱",
@@ -9544,7 +13366,7 @@ window.BRIEFING = {
    "source": "Billboard",
    "url": "https://www.billboard.com/pro/lady-gaga-midyear-boxscore-record?taid=6a16ec5bd6c7180001ae6cd2",
    "firstSeen": "2026-08-07",
-   "id": 680
+   "id": 953
   },
   {
    "cat": "娱乐/文娱",
@@ -9558,7 +13380,7 @@ window.BRIEFING = {
    "source": "光明网/今日头条",
    "url": "https://www.toutiao.com/article/7633989620316897792",
    "firstSeen": "2026-08-07",
-   "id": 681
+   "id": 954
   },
   {
    "cat": "娱乐/文娱",
@@ -9572,7 +13394,7 @@ window.BRIEFING = {
    "source": "中国足协",
    "url": "https://www.thecfa.cn/shipinu17/20260807/38048.html",
    "firstSeen": "2026-08-07",
-   "id": 682
+   "id": 955
   },
   {
    "cat": "娱乐/文娱",
@@ -9586,7 +13408,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://www.sohu.com/a/1059905451_121962515",
    "firstSeen": "2026-08-07",
-   "id": 683
+   "id": 956
   },
   {
    "cat": "娱乐/文娱",
@@ -9600,7 +13422,7 @@ window.BRIEFING = {
    "source": "今日头条/财联社",
    "url": "https://www.toutiao.com/article/7665672903085572650",
    "firstSeen": "2026-08-07",
-   "id": 684
+   "id": 957
   },
   {
    "cat": "娱乐/文娱",
@@ -9614,7 +13436,7 @@ window.BRIEFING = {
    "source": "北青网/今日头条",
    "url": "https://www.toutiao.com/article/7668633346569798171/",
    "firstSeen": "2026-08-07",
-   "id": 685
+   "id": 958
   },
   {
    "cat": "娱乐/文娱",
@@ -9628,7 +13450,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/大皖新闻",
    "url": "https://new.qq.com/rain/a/20260731A02ZQQ00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 686
+   "id": 959
   },
   {
    "cat": "娱乐/文娱",
@@ -9642,7 +13464,7 @@ window.BRIEFING = {
    "source": "消费日报/中国新闻网",
    "url": "https://www.xfrb.com.cn/article/focus/14492558610930.html",
    "firstSeen": "2026-08-07",
-   "id": 687
+   "id": 960
   },
   {
    "cat": "娱乐/文娱",
@@ -9656,7 +13478,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/乒乓国球汇",
    "url": "https://new.qq.com/rain/a/20260807A094NT00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 688
+   "id": 961
   },
   {
    "cat": "娱乐/文娱",
@@ -9670,7 +13492,7 @@ window.BRIEFING = {
    "source": "文旅之声/陕西发布",
    "url": "https://weibo.com/3097688767/Nj6kJeS4V",
    "firstSeen": "2026-08-07",
-   "id": 689
+   "id": 962
   },
   {
    "cat": "娱乐/文娱",
@@ -9684,7 +13506,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://sh.people.com.cn/BIG5/n2/2026/0703/c138654-41628543.html",
    "firstSeen": "2026-08-07",
-   "id": 690
+   "id": 963
   },
   {
    "cat": "娱乐/文娱",
@@ -9698,7 +13520,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260702A0A4LL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 691
+   "id": 964
   },
   {
    "cat": "娱乐/文娱",
@@ -9712,7 +13534,7 @@ window.BRIEFING = {
    "source": "网易/搜狐",
    "url": "https://www.163.com/dy/article/L3JV8LRF05561FZ0.html",
    "firstSeen": "2026-08-07",
-   "id": 692
+   "id": 965
   },
   {
    "cat": "娱乐/文娱",
@@ -9726,7 +13548,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3226a730b8708652",
    "firstSeen": "2026-08-07",
-   "id": 693
+   "id": 966
   },
   {
    "cat": "娱乐/文娱",
@@ -9740,7 +13562,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8616a743ce859752",
    "firstSeen": "2026-08-07",
-   "id": 694
+   "id": 967
   },
   {
    "cat": "娱乐/文娱",
@@ -9754,7 +13576,7 @@ window.BRIEFING = {
    "source": "南方都市报/今日头条",
    "url": "https://www.toutiao.com/article/7665689107611320873",
    "firstSeen": "2026-08-07",
-   "id": 695
+   "id": 968
   },
   {
    "cat": "娱乐/文娱",
@@ -9768,7 +13590,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://dy.163.com/article/L3B8OMM10514R9KQ.html",
    "firstSeen": "2026-08-07",
-   "id": 696
+   "id": 969
   },
   {
    "cat": "娱乐/文娱",
@@ -9782,7 +13604,7 @@ window.BRIEFING = {
    "source": "网易/湖南卫视",
    "url": "https://www.163.com/dy/article/L394UCML0517BTJ6.html",
    "firstSeen": "2026-08-07",
-   "id": 697
+   "id": 970
   },
   {
    "cat": "娱乐/文娱",
@@ -9796,7 +13618,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7659682940581986835",
    "firstSeen": "2026-08-07",
-   "id": 698
+   "id": 971
   },
   {
    "cat": "娱乐/文娱",
@@ -9810,7 +13632,7 @@ window.BRIEFING = {
    "source": "中国足协/腾讯新闻",
    "url": "https://www.thecfa.cn/shipinu17/20260807/38048.html",
    "firstSeen": "2026-08-07",
-   "id": 699
+   "id": 972
   },
   {
    "cat": "娱乐/文娱",
@@ -9824,7 +13646,7 @@ window.BRIEFING = {
    "source": "央视新闻/腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260731A0BHE200?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 700
+   "id": 973
   },
   {
    "cat": "娱乐/文娱",
@@ -9838,7 +13660,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://big5.cctv.com/gate/big5/news.cctv.cn/2026/08/01/ARTI5u2geng5CkJk1qAT5mcr260731.shtml",
    "firstSeen": "2026-08-07",
-   "id": 701
+   "id": 974
   },
   {
    "cat": "娱乐/文娱",
@@ -9852,7 +13674,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7665733583759262235",
    "firstSeen": "2026-08-07",
-   "id": 702
+   "id": 975
   },
   {
    "cat": "娱乐/文娱",
@@ -9866,7 +13688,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8256a75aeab68452",
    "firstSeen": "2026-08-07",
-   "id": 703
+   "id": 976
   },
   {
    "cat": "娱乐/文娱",
@@ -9880,7 +13702,7 @@ window.BRIEFING = {
    "source": "综合外媒",
    "url": "https://www.broadbandtvnews.com/2026/07/17/netflix-growth-slows-despite-higher-revenues",
    "firstSeen": "2026-08-07",
-   "id": 704
+   "id": 977
   },
   {
    "cat": "娱乐/文娱",
@@ -9894,7 +13716,7 @@ window.BRIEFING = {
    "source": "腾讯财经",
    "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026050915455394c8b900",
    "firstSeen": "2026-08-07",
-   "id": 705
+   "id": 978
   },
   {
    "cat": "娱乐/文娱",
@@ -9908,7 +13730,7 @@ window.BRIEFING = {
    "source": "Broadband TV News/AP",
    "url": "https://www.broadbandtvnews.com/2026/07/17/netflix-growth-slows-despite-higher-revenues",
    "firstSeen": "2026-08-07",
-   "id": 706
+   "id": 979
   },
   {
    "cat": "娱乐/文娱",
@@ -9922,7 +13744,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/stock/usstock/c/2026-08-06/doc-inimkncm0640927.shtml?cre=tianyi&mod=pchp&loc=6&r=0&rfunc=55&tj=cxvertical_pc_hp&tr=12",
    "firstSeen": "2026-08-07",
-   "id": 707
+   "id": 980
   },
   {
    "cat": "娱乐/文娱",
@@ -9936,7 +13758,7 @@ window.BRIEFING = {
    "source": "中研普华/中国产业研究网",
    "url": "https://m.chinairn.com/hyzx/20260731/153809569.shtml",
    "firstSeen": "2026-08-07",
-   "id": 708
+   "id": 981
   },
   {
    "cat": "娱乐/文娱",
@@ -9950,7 +13772,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A0AJFL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 709
+   "id": 982
   },
   {
    "cat": "娱乐/文娱",
@@ -9964,7 +13786,7 @@ window.BRIEFING = {
    "source": "今日头条/大皖新闻",
    "url": "https://www.toutiao.com/article/7668202321456759311/",
    "firstSeen": "2026-08-07",
-   "id": 710
+   "id": 983
   },
   {
    "cat": "娱乐/文娱",
@@ -9978,7 +13800,7 @@ window.BRIEFING = {
    "source": "网易/猫眼专业版",
    "url": "https://www.163.com/dy/article/L3OCGSH80519DDQ2.html",
    "firstSeen": "2026-08-07",
-   "id": 711
+   "id": 984
   },
   {
    "cat": "娱乐/文娱",
@@ -9992,7 +13814,7 @@ window.BRIEFING = {
    "source": "央广网/腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A09O9J00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 712
+   "id": 985
   },
   {
    "cat": "娱乐/文娱",
@@ -10006,7 +13828,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/乒乓国球汇",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6606a75184c62552",
    "firstSeen": "2026-08-07",
-   "id": 713
+   "id": 986
   },
   {
    "cat": "娱乐/文娱",
@@ -10020,7 +13842,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://440093@game.sohu.com/a/1057886126_821124",
    "firstSeen": "2026-08-07",
-   "id": 714
+   "id": 987
   },
   {
    "cat": "娱乐/文娱",
@@ -10034,7 +13856,7 @@ window.BRIEFING = {
    "source": "新浪娱乐",
    "url": "https://ent.sina.cn/2026-08-07/detail-inimmpqz3372208.d.html",
    "firstSeen": "2026-08-07",
-   "id": 715
+   "id": 988
   },
   {
    "cat": "娱乐/文娱",
@@ -10048,7 +13870,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7671107515006714403/",
    "firstSeen": "2026-08-07",
-   "id": 716
+   "id": 989
   },
   {
    "cat": "娱乐/文娱",
@@ -10062,7 +13884,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260802A065T300?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 717
+   "id": 990
   },
   {
    "cat": "娱乐/文娱",
@@ -10076,7 +13898,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260802A065T300?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 718
+   "id": 991
   },
   {
    "cat": "娱乐/文娱",
@@ -10090,7 +13912,7 @@ window.BRIEFING = {
    "source": "ChinaJoy官网",
    "url": "https://www.chinajoy.net#/navStation/homeNewsDetail?id=533080&language=Zh",
    "firstSeen": "2026-08-07",
-   "id": 719
+   "id": 992
   },
   {
    "cat": "娱乐/文娱",
@@ -10104,7 +13926,7 @@ window.BRIEFING = {
    "source": "Billboard",
    "url": "https://www.billboard.com/pro/midyear-boxscore-report-growth-lady-gaga-bad-bunny",
    "firstSeen": "2026-08-07",
-   "id": 720
+   "id": 993
   },
   {
    "cat": "娱乐/文娱",
@@ -10118,7 +13940,7 @@ window.BRIEFING = {
    "source": "中国足协",
    "url": "https://www.thecfa.cn/shipinu17/20260807/38048.html",
    "firstSeen": "2026-08-07",
-   "id": 721
+   "id": 994
   },
   {
    "cat": "娱乐/文娱",
@@ -10132,7 +13954,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/长江证券",
    "url": "https://new.qq.com/rain/a/20260729A06J7V00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 722
+   "id": 995
   },
   {
    "cat": "娱乐/文娱",
@@ -10146,7 +13968,7 @@ window.BRIEFING = {
    "source": "上海证券报",
    "url": "https://www.cnstock.com/commonDetail/752551?commTag=true",
    "firstSeen": "2026-08-07",
-   "id": 723
+   "id": 996
   },
   {
    "cat": "娱乐/文娱",
@@ -10160,7 +13982,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260729A06J7V00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 724
+   "id": 997
   },
   {
    "cat": "娱乐/文娱",
@@ -10174,7 +13996,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/国际金融报",
    "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601160624b61d756e",
    "firstSeen": "2026-08-07",
-   "id": 725
+   "id": 998
   },
   {
    "cat": "娱乐/文娱",
@@ -10188,7 +14010,7 @@ window.BRIEFING = {
    "source": "财联社/今日头条",
    "url": "https://www.toutiao.com/article/7665672903085572650",
    "firstSeen": "2026-08-07",
-   "id": 726
+   "id": 999
   },
   {
    "cat": "娱乐/文娱",
@@ -10202,7 +14024,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐",
    "url": "https://yule.sohu.com/a/1057179416_539687",
    "firstSeen": "2026-08-07",
-   "id": 727
+   "id": 1000
   },
   {
    "cat": "娱乐/文娱",
@@ -10216,7 +14038,7 @@ window.BRIEFING = {
    "source": "网易/搜狐",
    "url": "https://dy.163.com/article/L35CGGFE0514R9P4.html",
    "firstSeen": "2026-08-07",
-   "id": 728
+   "id": 1001
   },
   {
    "cat": "娱乐/文娱",
@@ -10230,7 +14052,7 @@ window.BRIEFING = {
    "source": "新华社/腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3226a730b8708652",
    "firstSeen": "2026-08-07",
-   "id": 729
+   "id": 1002
   },
   {
    "cat": "娱乐/文娱",
@@ -10244,7 +14066,7 @@ window.BRIEFING = {
    "source": "DOTA2官网",
    "url": "https://www.dota2.com.cn/article/details/20260629/220498.html",
    "firstSeen": "2026-08-07",
-   "id": 730
+   "id": 1003
   },
   {
    "cat": "娱乐/文娱",
@@ -10258,7 +14080,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://m.chinanews.com/wap/detail/cht/zw/10673573.shtml",
    "firstSeen": "2026-08-07",
-   "id": 731
+   "id": 1004
   },
   {
    "cat": "娱乐/文娱",
@@ -10272,7 +14094,7 @@ window.BRIEFING = {
    "source": "新浪",
    "url": "https://k.sina.com.cn/article_7879923918_1d5ae18ce02001g2ay.html",
    "firstSeen": "2026-08-07",
-   "id": 732
+   "id": 1005
   },
   {
    "cat": "娱乐/文娱",
@@ -10286,7 +14108,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7668202321456759311/",
    "firstSeen": "2026-08-07",
-   "id": 733
+   "id": 1006
   },
   {
    "cat": "娱乐/文娱",
@@ -10300,7 +14122,7 @@ window.BRIEFING = {
    "source": "新浪/今日头条",
    "url": "https://k.sina.com.cn/article_7879923918_1d5ae18ce02001g2ay.html",
    "firstSeen": "2026-08-07",
-   "id": 734
+   "id": 1007
   },
   {
    "cat": "娱乐/文娱",
@@ -10314,7 +14136,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/上观新闻",
    "url": "https://new.qq.com/rain/a/20260702A0A4LL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 735
+   "id": 1008
   },
   {
    "cat": "娱乐/文娱",
@@ -10328,7 +14150,7 @@ window.BRIEFING = {
    "source": "Box Office Mojo",
    "url": "https://www.boxofficemojo.com/?ref=ft",
    "firstSeen": "2026-08-07",
-   "id": 736
+   "id": 1009
   },
   {
    "cat": "娱乐/文娱",
@@ -10342,7 +14164,7 @@ window.BRIEFING = {
    "source": "正观新闻/搜狐",
    "url": "https://wap.zhengguannews.cn/html/news/497882.html",
    "firstSeen": "2026-08-07",
-   "id": 737
+   "id": 1010
   },
   {
    "cat": "娱乐/文娱",
@@ -10356,7 +14178,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://sh.people.com.cn/BIG5/n2/2026/0703/c138654-41628543.html",
    "firstSeen": "2026-08-07",
-   "id": 738
+   "id": 1011
   },
   {
    "cat": "娱乐/文娱",
@@ -10370,7 +14192,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_3226a730b8708652",
    "firstSeen": "2026-08-07",
-   "id": 739
+   "id": 1012
   },
   {
    "cat": "娱乐/文娱",
@@ -10384,7 +14206,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://www.cnr.cn/newscenter/native/gd/20260428/t20260428_527603920.shtml",
    "firstSeen": "2026-08-07",
-   "id": 740
+   "id": 1013
   },
   {
    "cat": "娱乐/文娱",
@@ -10398,7 +14220,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://sh.people.com.cn/BIG5/n2/2026/0703/c138654-41628543.html",
    "firstSeen": "2026-08-07",
-   "id": 741
+   "id": 1014
   },
   {
    "cat": "娱乐/文娱",
@@ -10412,7 +14234,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://sh.people.com.cn/BIG5/n2/2026/0703/c138654-41628543.html",
    "firstSeen": "2026-08-07",
-   "id": 742
+   "id": 1015
   },
   {
    "cat": "娱乐/文娱",
@@ -10426,7 +14248,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_5146a754dc124952",
    "firstSeen": "2026-08-07",
-   "id": 743
+   "id": 1016
   },
   {
    "cat": "娱乐/文娱",
@@ -10440,7 +14262,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7659678309051007538",
    "firstSeen": "2026-08-07",
-   "id": 744
+   "id": 1017
   },
   {
    "cat": "娱乐/文娱",
@@ -10454,7 +14276,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7656670825310929449",
    "firstSeen": "2026-08-07",
-   "id": 745
+   "id": 1018
   },
   {
    "cat": "娱乐/文娱",
@@ -10468,7 +14290,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://sh.people.com.cn/BIG5/n2/2026/0703/c138654-41628543.html",
    "firstSeen": "2026-08-07",
-   "id": 746
+   "id": 1019
   },
   {
    "cat": "娱乐/文娱",
@@ -10482,7 +14304,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_8616a743ce859752",
    "firstSeen": "2026-08-07",
-   "id": 747
+   "id": 1020
   },
   {
    "cat": "娱乐/文娱",
@@ -10496,7 +14318,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A094NT00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 748
+   "id": 1021
   },
   {
    "cat": "娱乐/文娱",
@@ -10510,7 +14332,7 @@ window.BRIEFING = {
    "source": "今日头条/腾讯新闻",
    "url": "https://www.toutiao.com/article/7667511815076708914/",
    "firstSeen": "2026-08-07",
-   "id": 749
+   "id": 1022
   },
   {
    "cat": "娱乐/文娱",
@@ -10524,7 +14346,7 @@ window.BRIEFING = {
    "source": "长桥",
    "url": "https://longbridge.com/topics/42799168",
    "firstSeen": "2026-08-07",
-   "id": 750
+   "id": 1023
   },
   {
    "cat": "娱乐/文娱",
@@ -10538,7 +14360,7 @@ window.BRIEFING = {
    "source": "中国产业研究网",
    "url": "https://m.chinairn.com/hyzx/20260731/153809569.shtml",
    "firstSeen": "2026-08-07",
-   "id": 751
+   "id": 1024
   },
   {
    "cat": "娱乐/文娱",
@@ -10552,7 +14374,7 @@ window.BRIEFING = {
    "source": "网易/第一财经",
    "url": "https://www.163.com/dy/article/L3OCGSH80519DDQ2.html",
    "firstSeen": "2026-08-07",
-   "id": 752
+   "id": 1025
   },
   {
    "cat": "娱乐/文娱",
@@ -10566,7 +14388,7 @@ window.BRIEFING = {
    "source": "网易/灯塔专业版",
    "url": "https://www.163.com/dy/article/L3OCGSH80519DDQ2.html",
    "firstSeen": "2026-08-07",
-   "id": 753
+   "id": 1026
   },
   {
    "cat": "娱乐/文娱",
@@ -10580,7 +14402,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7668727843426009650",
    "firstSeen": "2026-08-07",
-   "id": 754
+   "id": 1027
   },
   {
    "cat": "娱乐/文娱",
@@ -10594,7 +14416,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7668727843426009650",
    "firstSeen": "2026-08-07",
-   "id": 755
+   "id": 1028
   },
   {
    "cat": "娱乐/文娱",
@@ -10608,7 +14430,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/article/7668727843426009650",
    "firstSeen": "2026-08-07",
-   "id": 756
+   "id": 1029
   },
   {
    "cat": "娱乐/文娱",
@@ -10622,7 +14444,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260802A065T300?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 757
+   "id": 1030
   },
   {
    "cat": "娱乐/文娱",
@@ -10636,7 +14458,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260702A0A4LL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 758
+   "id": 1031
   },
   {
    "cat": "娱乐/文娱",
@@ -10650,7 +14472,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://www.cnr.cn/newscenter/native/gd/20260428/t20260428_527603920.shtml",
    "firstSeen": "2026-08-07",
-   "id": 759
+   "id": 1032
   },
   {
    "cat": "娱乐/文娱",
@@ -10664,7 +14486,7 @@ window.BRIEFING = {
    "source": "ChinaJoy官网",
    "url": "https://www.chinajoy.net#/navStation/homeNewsDetail?id=533632&language=Zh",
    "firstSeen": "2026-08-07",
-   "id": 760
+   "id": 1033
   },
   {
    "cat": "娱乐/文娱",
@@ -10678,7 +14500,7 @@ window.BRIEFING = {
    "source": "中国足协",
    "url": "https://www.thecfa.cn/shipinu17/20260807/38048.html",
    "firstSeen": "2026-08-07",
-   "id": 761
+   "id": 1034
   },
   {
    "cat": "娱乐/文娱",
@@ -10692,7 +14514,7 @@ window.BRIEFING = {
    "source": "上海证券报",
    "url": "https://www.cnstock.com/commonDetail/752551?commTag=true",
    "firstSeen": "2026-08-07",
-   "id": 762
+   "id": 1035
   },
   {
    "cat": "娱乐/文娱",
@@ -10706,7 +14528,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260729A06J7V00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 763
+   "id": 1036
   },
   {
    "cat": "娱乐/文娱",
@@ -10720,7 +14542,7 @@ window.BRIEFING = {
    "source": "上海证券报",
    "url": "https://www.cnstock.com/commonDetail/752551?commTag=true",
    "firstSeen": "2026-08-07",
-   "id": 764
+   "id": 1037
   },
   {
    "cat": "娱乐/文娱",
@@ -10734,7 +14556,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260729A06J7V00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 765
+   "id": 1038
   },
   {
    "cat": "娱乐/文娱",
@@ -10748,7 +14570,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/L3OCGSH80519DDQ2.html",
    "firstSeen": "2026-08-07",
-   "id": 766
+   "id": 1039
   },
   {
    "cat": "娱乐/文娱",
@@ -10762,7 +14584,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260731A02ZQQ00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 767
+   "id": 1040
   },
   {
    "cat": "娱乐/文娱",
@@ -10776,7 +14598,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐",
    "url": "https://yule.sohu.com/a/1057179416_539687",
    "firstSeen": "2026-08-07",
-   "id": 768
+   "id": 1041
   },
   {
    "cat": "娱乐/文娱",
@@ -10790,7 +14612,7 @@ window.BRIEFING = {
    "source": "消费日报",
    "url": "https://www.xfrb.com.cn/article/focus/14492558610930.html",
    "firstSeen": "2026-08-07",
-   "id": 769
+   "id": 1042
   },
   {
    "cat": "娱乐/文娱",
@@ -10804,7 +14626,7 @@ window.BRIEFING = {
    "source": "消费日报",
    "url": "https://www.xfrb.com.cn/article/focus/14492558610930.html",
    "firstSeen": "2026-08-07",
-   "id": 770
+   "id": 1043
   },
   {
    "cat": "娱乐/文娱",
@@ -10818,7 +14640,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260807A094NT00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 771
+   "id": 1044
   },
   {
    "cat": "娱乐/文娱",
@@ -10832,7 +14654,7 @@ window.BRIEFING = {
    "source": "微博/快手黑板报",
    "url": "https://weibo.com/1893892941/5329252742074774",
    "firstSeen": "2026-08-07",
-   "id": 772
+   "id": 1045
   },
   {
    "cat": "娱乐/文娱",
@@ -10846,7 +14668,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260802A065T300?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 773
+   "id": 1046
   },
   {
    "cat": "娱乐/文娱",
@@ -10860,7 +14682,7 @@ window.BRIEFING = {
    "source": "消费日报",
    "url": "https://www.xfrb.com.cn/article/focus/14492558610930.html",
    "firstSeen": "2026-08-07",
-   "id": 774
+   "id": 1047
   },
   {
    "cat": "娱乐/文娱",
@@ -10874,7 +14696,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://m.chinanews.com/wap/detail/cht/zw/10673573.shtml",
    "firstSeen": "2026-08-07",
-   "id": 775
+   "id": 1048
   },
   {
    "cat": "娱乐/文娱",
@@ -10888,7 +14710,7 @@ window.BRIEFING = {
    "source": "消费日报",
    "url": "https://www.xfrb.com.cn/article/focus/14492558610930.html",
    "firstSeen": "2026-08-07",
-   "id": 776
+   "id": 1049
   },
   {
    "cat": "娱乐/文娱",
@@ -10902,7 +14724,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260702A0A4LL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 777
+   "id": 1050
   },
   {
    "cat": "娱乐/文娱",
@@ -10916,7 +14738,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260702A0A4LL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 778
+   "id": 1051
   },
   {
    "cat": "娱乐/文娱",
@@ -10930,7 +14752,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20260702A0A4LL00?refer=cp_1009",
    "firstSeen": "2026-08-07",
-   "id": 779
+   "id": 1052
   },
   {
    "cat": "娱乐/文娱",
@@ -10944,7 +14766,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://sh.people.com.cn/BIG5/n2/2026/0703/c138654-41628543.html",
    "firstSeen": "2026-08-07",
-   "id": 780
+   "id": 1053
   }
  ]
 };
