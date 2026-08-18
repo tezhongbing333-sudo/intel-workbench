@@ -23,6 +23,23 @@ const COLLECT_DIR = process.argv[2] || path.join(ROOT, 'collect');
 const TODAY = process.argv[3] || new Date().toISOString().slice(0, 10);
 const EDITION = process.argv[4] || '每日双版 · 早览 + 详报';
 
+// 可选参数：--max-age-days N（新鲜化滚动：清理早于 今天-N 天的旧条目）
+// 用 indexOf 全局定位，避免参数位置偏移导致解析失败
+let MAX_AGE_DAYS = 0;
+{
+  const ai = process.argv.indexOf('--max-age-days');
+  if (ai !== -1) MAX_AGE_DAYS = parseInt(process.argv[ai + 1] || '0', 10) || 0;
+}
+function addDays(s, d) {
+  const [y, m, dd] = s.split('-').map(Number);
+  const dt = new Date(y, m - 1, dd);
+  dt.setDate(dt.getDate() - d);
+  const yy = dt.getFullYear();
+  const mm = String(dt.getMonth() + 1).padStart(2, '0');
+  const ddd = String(dt.getDate()).padStart(2, '0');
+  return `${yy}-${mm}-${ddd}`;
+}
+
 const CATS = ["金融", "AI行业", "母婴", "政治/政策", "军事/地缘", "经济", "科技", "社会/生活", "娱乐/文娱"];
 const RANK = { high: 0, mid: 1, low: 2 };
 const MAX_PER_CAT = 220;   // 单类目上限，防止母库无限膨胀
@@ -96,6 +113,14 @@ if (fs.existsSync(POOL_PATH)) {
   }
 }
 
+// ---------- 1.5 新鲜化滚动：清理 >N 天的旧条目 ----------
+if (MAX_AGE_DAYS > 0) {
+  const cutoff = addDays(TODAY, MAX_AGE_DAYS);
+  const before = pool.length;
+  pool = pool.filter(it => (it.firstSeen || '') >= cutoff);
+  console.log(`[新鲜化] 清理 >${MAX_AGE_DAYS}天旧条目（早于 ${cutoff}）：移除 ${before - pool.length} 条，保留 ${pool.length} 条`);
+}
+
 // ---------- 2. 载入本次采集 ----------
 let fresh = [];
 if (fs.existsSync(COLLECT_DIR)) {
@@ -147,10 +172,14 @@ const health = [];
 for (const cat of CATS) {
   let arr = byCat[cat] || [];
   arr.sort((a, b) => {
+    // 第一优先：首次出现日期（firstSeen）新的靠前 —— 新鲜化核心
+    if (String(a.firstSeen || '') !== String(b.firstSeen || '')) {
+      return String(b.firstSeen || '').localeCompare(String(a.firstSeen || ''));
+    }
     const r = (RANK[a.impact] ?? 3) - (RANK[b.impact] ?? 3);
     if (r !== 0) return r;
     if (a.related !== b.related) return a.related ? -1 : 1; // 与我相关的靠前
-    return String(b.time).localeCompare(String(a.time));    // 新的靠前
+    return String(b.time).localeCompare(String(a.time));    // 同日内新的靠前
   });
   if (arr.length > MAX_PER_CAT) arr = arr.slice(0, MAX_PER_CAT);
   arr.forEach(it => { it.id = id++; out.push(it); });
