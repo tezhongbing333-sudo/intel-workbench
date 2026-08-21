@@ -1,5 +1,5 @@
 // AI 情报工作台 - Service Worker（v3 全资产缓存：文档/数据网络优先，其余缓存优先）
-const VERSION = 'intel-v3';
+const VERSION = 'intel-v4';
 const CACHE = 'intel-cache-' + VERSION;
 const ASSETS = [
   './', './index.html', './data.js', './pool.json',
