@@ -59,12 +59,27 @@
   .fitem .fs{font-size:11px;color:var(--sub);margin-top:5px}
   .search{width:100%;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:12px;padding:12px 14px;font-size:16px;margin-bottom:11px}
   .search::placeholder{color:var(--sub)}
-  .chips{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px;scrollbar-width:none}
+  .chips{display:none;gap:8px;overflow-x:auto;padding-bottom:8px;margin-bottom:6px;scrollbar-width:none}
   .chips::-webkit-scrollbar{display:none}
   .chip{flex:0 0 auto;border:1px solid var(--line);background:var(--card);color:var(--sub);border-radius:999px;padding:8px 13px;font-size:13px;cursor:pointer;white-space:nowrap;display:flex;align-items:center;gap:6px;min-height:38px}
   .chip.on{background:var(--text);color:var(--bg);border-color:var(--text)}
   .chip .cnt{font-size:11px;background:var(--line);color:var(--sub);border-radius:999px;padding:0 6px;min-width:20px;text-align:center;font-variant-numeric:tabular-nums}
   .chip.on .cnt{background:var(--accent);color:#fff}
+  .grid{display:grid;grid-template-columns:218px 1fr;gap:20px;align-items:start}
+  .side{position:sticky;top:10px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:10px}
+  .side .sT{font-size:12px;color:var(--sub);padding:4px 8px 9px;font-weight:600}
+  .side .nav{display:flex;flex-direction:column;gap:3px}
+  .side .navbtn{display:flex;align-items:center;justify-content:space-between;width:100%;text-align:left;background:none;border:none;color:var(--text);padding:9px 10px;border-radius:10px;font-size:13.5px;cursor:pointer;min-height:42px}
+  .side .navbtn:hover{background:var(--accent-soft)}
+  .side .navbtn.on{background:var(--accent);color:#fff}
+  .side .navbtn .c{font-size:11px;background:var(--bg);color:var(--sub);border-radius:999px;padding:1px 7px;font-variant-numeric:tabular-nums}
+  .side .navbtn.on .c{background:rgba(255,255,255,.25);color:#fff}
+  .pager{display:flex;align-items:center;justify-content:center;gap:6px;flex-wrap:wrap;margin:16px 0 4px;padding-bottom:calc(8px + env(safe-area-inset-bottom))}
+  .pager .pg{min-height:40px;min-width:40px;padding:0 12px;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:10px;cursor:pointer;font-size:13.5px}
+  .pager .pg.cur{background:var(--accent);color:#fff;border-color:var(--accent)}
+  .pager .pg:disabled{opacity:.4;cursor:default}
+  .pager .dots{padding:0 5px;color:var(--sub)}
+  @media(max-width:760px){ .grid{display:block} .side{display:none} .chips{display:flex} }
   .item{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 15px;margin-bottom:11px;position:relative}
   .item.read{opacity:.5}
   .item .top{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
@@ -140,6 +155,10 @@
 
   <div class="kpis" id="kpis"></div>
 
+  <div class="grid">
+    <aside class="side"><div class="sT">浏览方式</div><div class="nav" id="sideNav"></div></aside>
+    <main class="main">
+
   <section class="focus" id="focusSec">
     <div class="fh">
       <span class="t"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.4 7.4H22l-6 4.4 2.3 7.2L12 17l-6.3 4 2.3-7.2-6-4.4h7.6z" stroke-linejoin="round"/></svg>今日决策速览</span>
@@ -155,7 +174,8 @@
   <div id="list"></div>
 
   <footer id="footer"></footer>
-</div>
+    </main>
+  </div>
 
 <div class="mask" id="mask"></div>
 <div class="drawer" id="drawer">
@@ -337,21 +357,30 @@
   }
 
   var chips = document.getElementById("chips");
+  var sideNav = document.getElementById("sideNav");
   var VIEWS = ["全部","我的关注","家庭","线索"].concat(CATS);
+  function setFilter(c){
+    filter = c; PAGE = 1; showAll = false;
+    document.querySelectorAll(".chip,.navbtn").forEach(function(x){ x.classList.toggle("on", x.dataset.c===c); });
+    render();
+  }
   VIEWS.forEach(function(c){
-    var el = document.createElement("div");
-    el.className = "chip"+(c===filter?" on":"");
-    el.innerHTML = c + '<span class="cnt">' + catCount(c) + '</span>';
-    el.onclick = function(){ filter=c; document.querySelectorAll(".chip").forEach(function(x){x.classList.remove("on")}); el.classList.add("on"); render(); };
-    chips.appendChild(el);
+    var ch = document.createElement("div");
+    ch.className = "chip"+(c===filter?" on":""); ch.dataset.c = c;
+    ch.innerHTML = c + '<span class="cnt">' + catCount(c) + '</span>';
+    ch.onclick = function(){ setFilter(c); };
+    chips.appendChild(ch);
+    var nb = document.createElement("button");
+    nb.className = "navbtn"+(c===filter?" on":""); nb.dataset.c = c; nb.type = "button";
+    nb.innerHTML = '<span>'+c+'</span><span class="c">'+catCount(c)+'</span>';
+    nb.onclick = function(){ setFilter(c); };
+    sideNav.appendChild(nb);
   });
   document.getElementById("search").addEventListener("input", function(e){ query = e.target.value.trim().toLowerCase(); render(); });
 
-  // ---------- 列表渲染（懒加载） ----------
+  // ---------- 列表渲染（分页） ----------
   var listEl = document.getElementById("list");
-  var io = ("IntersectionObserver" in window) ? new IntersectionObserver(function(es){
-    if(es.some(function(e){return e.isIntersecting;})) loadMore();
-  }, {rootMargin:"300px"}) : null;
+  var PAGE = 1, PER = 20, showAll = false;
 
   function cardEl(it){
     var col = colorVar(it.cat);
@@ -390,35 +419,59 @@
     return el;
   }
 
-  function loadMore(){
-    if(rendered>=matched.length) return;
+  function pageNums(p, tot){
+    var arr = [], i;
+    if(tot <= 7){ for(i=1;i<=tot;i++) arr.push(i); }
+    else {
+      arr.push(1);
+      if(p > 3) arr.push("…");
+      var s = Math.max(2, p-1), e = Math.min(tot-1, p+1);
+      for(i=s;i<=e;i++) arr.push(i);
+      if(p < tot-2) arr.push("…");
+      arr.push(tot);
+    }
+    return arr.map(function(n){
+      if(n === "…") return '<span class="dots">…</span>';
+      return '<button class="pg num'+(n===p?" cur":"")+'" data-p="'+n+'">'+n+'</button>';
+    }).join("");
+  }
+  function renderPager(){
+    var tot = Math.ceil(matched.length / PER) || 1;
+    if(matched.length <= PER) return;
+    var bar = document.createElement("div");
+    bar.className = "pager";
+    bar.innerHTML = '<button class="pg" id="prev"'+(PAGE<=1?" disabled":"")+'>‹ 上一页</button>'+
+      '<span class="pgnums">'+pageNums(PAGE, tot)+'</span>'+
+      '<button class="pg" id="next"'+(PAGE>=tot?" disabled":"")+'>下一页 ›</button>';
+    listEl.appendChild(bar);
+    if(PAGE > 1) document.getElementById("prev").onclick = function(){ PAGE--; renderList(); };
+    if(PAGE < tot) document.getElementById("next").onclick = function(){ PAGE++; renderList(); };
+    Array.prototype.forEach.call(bar.querySelectorAll(".pg.num"), function(b){
+      b.onclick = function(){ PAGE = +b.dataset.p; renderList(); };
+    });
+  }
+  function renderList(){
+    listEl.innerHTML = "";
+    if(!matched.length){ listEl.innerHTML = '<div class="empty">没有匹配的内容</div>'; return; }
+    var items = showAll ? matched : matched.slice((PAGE-1)*PER, PAGE*PER);
     var frag = document.createDocumentFragment();
-    var end = Math.min(rendered+CHUNK, matched.length);
-    for(; rendered<end; rendered++){ frag.appendChild(cardEl(matched[rendered])); }
-    var sentinel = document.getElementById("sentinel");
-    listEl.insertBefore(frag, sentinel);
-    if(rendered<matched.length && io){ io.observe(sentinel); }
-    else if(rendered>=matched.length && sentinel.parentNode){ sentinel.parentNode.removeChild(sentinel); }
+    items.forEach(function(it){ frag.appendChild(cardEl(it)); });
+    listEl.appendChild(frag);
+    if(showAll){
+      var back = document.createElement("div");
+      back.className = "morebar";
+      back.innerHTML = '<button class="more alt" id="pgBack">↥ 收起，恢复分页</button>';
+      listEl.appendChild(back);
+      document.getElementById("pgBack").onclick = function(){ showAll = false; renderList(); };
+    } else {
+      renderPager();
+    }
   }
 
   function render(){
     matched = sortMatched(computeMatched());
-    rendered = 0;
-    listEl.innerHTML = "";
-    if(!matched.length){ listEl.innerHTML = '<div class="empty">没有匹配的内容</div>'; return; }
-    var sentinel = document.createElement("div");
-    sentinel.id = "sentinel"; sentinel.className = "sentinel";
-    listEl.appendChild(sentinel);
-    loadMore();
-    if(matched.length > rendered){
-      var bar = document.createElement("div");
-      bar.className = "morebar";
-      bar.innerHTML = '<button class="more" id="more">查看更多（+'+CHUNK+'）▼ 还剩 '+(matched.length-rendered)+' 条</button>'+
-        '<button class="more alt" id="moreAll">展开全部 '+matched.length+' 条</button>';
-      listEl.appendChild(bar);
-      document.getElementById("more").onclick = function(){ loadMore(); if(rendered<matched.length){ this.innerHTML='查看更多（+'+CHUNK+'）▼ 还剩 '+(matched.length-rendered)+' 条'; } else { this.parentNode.remove(); } };
-      document.getElementById("moreAll").onclick = function(){ while(rendered<matched.length) loadMore(); var b=document.getElementById("more"); if(b&&b.parentNode) b.parentNode.remove(); this.parentNode.remove(); };
-    }
+    PAGE = 1; showAll = false;
+    renderList();
     renderFocus();
   }
   render();
