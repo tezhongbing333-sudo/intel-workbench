@@ -3,29 +3,113 @@
 // related 是否与我相关 / decision 决策提示 / source 来源 / url 原文链接 / overseas 海外源
 // 本文件由 tools/merge_pool.js 自动生成，勿手改
 window.BRIEFING = {
- "date": "2026-11-11",
- "edition": "详报版 19:00",
- "generatedAt": "2026-11-11 11:06",
+ "date": "2026-11-12",
+ "edition": "早览版 07:00",
+ "generatedAt": "2026-11-11 23:09",
  "scope": "中国优先 + 全球要闻（金融 · AI行业 · 母婴 · 政治 · 军事 · 经济 · 科技 · 社会 · 娱乐），海外条目标注「海外」",
  "poolMode": true,
  "kpi": {
-  "total": 713,
-  "high": 145,
-  "related": 152,
-  "todayNew": 81
+  "total": 698,
+  "high": 147,
+  "related": 145,
+  "todayNew": 65
  },
  "catCounts": {
-  "金融": 98,
-  "AI行业": 104,
+  "金融": 92,
+  "AI行业": 106,
   "母婴": 60,
   "政治/政策": 65,
-  "军事/地缘": 86,
-  "经济": 76,
-  "科技": 88,
-  "社会/生活": 73,
-  "娱乐/文娱": 63
+  "军事/地缘": 84,
+  "经济": 72,
+  "科技": 86,
+  "社会/生活": 71,
+  "娱乐/文娱": 62
  },
  "items": [
+  {
+   "cat": "金融",
+   "time": "18:54",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "金融网络营销新规满月：互金协会开首张自律罚单 8款小贷App因低门槛宣传被点名",
+   "summary": "《金融产品网络营销管理办法》落地一月，品牌隔离与收银台分区整改推进，互金协会启动常态化监测并点名8款小贷App；配套问答划定全链路合规红线。招联首席经济学家董希淼称核心是品牌隔离、主体透明，保障用户知情权与责任可追溯。",
+   "decision": "作为持牌消金，招联线上营销与第三方导流链路需持续对标品牌隔离、页面跳转、数据授权硬要求，规避合规风险。",
+   "source": "第一财经/新浪财经",
+   "url": "https://finance.sina.com.cn/roll/2026-11-11/doc-iniykkpw8408257.shtml",
+   "firstSeen": "2026-11-12",
+   "id": 1
+  },
+  {
+   "cat": "金融",
+   "time": "11:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "央行发布2026年第三季度货币政策执行报告",
+   "summary": "报告提出深入推进利率市场化改革，推动贷款定价基准从单一参考LPR向多元转型，指导金融机构探索挂钩DR001的浮动利率贷款；加力实施支持资本市场两项货币政策工具，并设债市非银大额赎回互换便利专栏。招联首席经济学家董希淼解读称利率调控框架换锚、结构性工具定向、金融稳定职能拓展三点值得关注。",
+   "decision": "利率定价基准改革直接影响招联消金贷款定价与负债成本测算，关注挂钩DR001浮动利率贷款试点落地节奏；董希淼观点可作内部研判参考。",
+   "source": "中国青年网/央行",
+   "url": "https://news.youth.cn/gn/202611/t20261112_16962227.htm",
+   "firstSeen": "2026-11-12",
+   "id": 2
+  },
+  {
+   "cat": "金融",
+   "time": "06:17",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "央行Q3报告：加力实施支持资本市场两项货币政策工具 维护股债汇平稳",
+   "summary": "报告明确拓展丰富中央银行宏观审慎与金融稳定功能，加力实施支持资本市场的两项货币政策工具，用好债市非银大额赎回互换便利，维护股票、债券、外汇等金融市场平稳运行。",
+   "decision": "资本市场工具加力利好权益市场情绪，招联可关注居民财富效应与消费信贷需求的联动。",
+   "source": "证券时报/央行",
+   "url": "https://www.163.com/dy/article/LBGVBJBV053469RG.html",
+   "firstSeen": "2026-11-12",
+   "id": 3
+  },
+  {
+   "cat": "金融",
+   "time": "15:03",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] 阿根廷启动美阿货币互换协议 美财长称已获收益",
+   "summary": "美国财政部长贝森特11月11日表示，阿根廷中央银行已启动美阿货币互换协议，且美国政府已获得相关收益，反映新兴市场汇率维稳工具的使用。",
+   "decision": "新兴市场货币互换活跃，关注拉美汇率波动对出海业务与跨境资金的影响。",
+   "source": "每日经济新闻",
+   "url": "https://m.nbd.com.cn/web_app/column/375?max_pos=4140038",
+   "firstSeen": "2026-11-12",
+   "id": 4
+  },
+  {
+   "cat": "金融",
+   "time": "10:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "离岸信托收益征税过渡期结束 10月入库超1200亿元",
+   "summary": "国家税务总局通报，离岸信托收益征税政策过渡期平稳结束，累计申报个人所得税超1600亿元，其中10月当月入库超1200亿元，带动当月全国个人所得税收入增长近90%。",
+   "decision": "高净值与离岸架构客户税务成本上升，招联高客群及财富管理合作需关注合规提示。",
+   "source": "国家税务总局/新华社",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 5
+  },
+  {
+   "cat": "金融",
+   "time": "09:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] 韩国加强专营信贷与消费信贷CDD义务 资产50亿韩元以上须尽职调查",
+   "summary": "韩国金融委员会11月4日内阁批准修订令，要求资产50亿韩元以上的专营信贷金融与消费信贷企业在放贷中履行客户尽职调查（CDD），防范语音钓鱼诈骗，违者最高罚1000万韩元并赔偿受害者，六个月后生效。",
+   "decision": "海外消费金融监管趋严，可借鉴其反洗钱与反诈前置经验，反哺招联风控体系建设。",
+   "source": "韩国金融委员会(FSC)",
+   "url": "https://www.fsc.go.kr/comm/getFile?srvcId=BBSTY1&upperNo=85603&fileTy=ATTACH&fileNo=1",
+   "firstSeen": "2026-11-12",
+   "id": 6
+  },
   {
    "cat": "金融",
    "time": "16:00",
@@ -38,7 +122,7 @@ window.BRIEFING = {
    "source": "南方+",
    "url": "https://www.nfnews.com/content/5yppgDLOyp.html",
    "firstSeen": "2026-11-11",
-   "id": 1
+   "id": 7
   },
   {
    "cat": "金融",
@@ -52,7 +136,7 @@ window.BRIEFING = {
    "source": "信用湖北",
    "url": "https://credit.hubei.gov.cn/xyzx/gzdt/gzdt/202611/t20261111_183160.shtml",
    "firstSeen": "2026-11-11",
-   "id": 2
+   "id": 8
   },
   {
    "cat": "金融",
@@ -66,7 +150,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/stock/aigc/bwdt/shkt/2026-11-11/doc-iniyiauk2218483.shtml",
    "firstSeen": "2026-11-11",
-   "id": 3
+   "id": 9
   },
   {
    "cat": "金融",
@@ -80,7 +164,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A0F1Y300",
    "firstSeen": "2026-11-11",
-   "id": 4
+   "id": 10
   },
   {
    "cat": "金融",
@@ -94,7 +178,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A07DKT00",
    "firstSeen": "2026-11-11",
-   "id": 5
+   "id": 11
   },
   {
    "cat": "金融",
@@ -108,7 +192,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 6
+   "id": 12
   },
   {
    "cat": "金融",
@@ -122,7 +206,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 7
+   "id": 13
   },
   {
    "cat": "金融",
@@ -136,7 +220,7 @@ window.BRIEFING = {
    "source": "南方+",
    "url": "https://www.nfnews.com/content/5yppgDLOyp.html",
    "firstSeen": "2026-11-11",
-   "id": 8
+   "id": 14
   },
   {
    "cat": "金融",
@@ -150,7 +234,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "https://www.ce.cn/cysc/newmain/yc/jsxw/202611/t20261111_3291061.shtml",
    "firstSeen": "2026-11-11",
-   "id": 9
+   "id": 15
   },
   {
    "cat": "金融",
@@ -164,7 +248,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0BZ1V00",
    "firstSeen": "2026-11-11",
-   "id": 10
+   "id": 16
   },
   {
    "cat": "金融",
@@ -178,7 +262,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/stock/aigc/bwdt/shkt/2026-11-11/doc-iniyhwnn2342021.shtml",
    "firstSeen": "2026-11-11",
-   "id": 11
+   "id": 17
   },
   {
    "cat": "金融",
@@ -192,7 +276,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 12
+   "id": 18
   },
   {
    "cat": "金融",
@@ -206,7 +290,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 13
+   "id": 19
   },
   {
    "cat": "金融",
@@ -220,7 +304,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 14
+   "id": 20
   },
   {
    "cat": "金融",
@@ -234,7 +318,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "https://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261111_3291577.shtml",
    "firstSeen": "2026-11-11",
-   "id": 15
+   "id": 21
   },
   {
    "cat": "金融",
@@ -248,7 +332,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/cj/2026/11-11/10730293.shtml",
    "firstSeen": "2026-11-11",
-   "id": 16
+   "id": 22
   },
   {
    "cat": "金融",
@@ -262,7 +346,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://www.mrjjxw.com/articles/2026-11-10/4643499.html",
    "firstSeen": "2026-11-11",
-   "id": 17
+   "id": 23
   },
   {
    "cat": "金融",
@@ -276,7 +360,7 @@ window.BRIEFING = {
    "source": "金融投资报",
    "url": "https://stocknews.scol.com.cn/shtml/jrtzb/20261110/1093956.html",
    "firstSeen": "2026-11-11",
-   "id": 18
+   "id": 24
   },
   {
    "cat": "金融",
@@ -290,7 +374,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "http://ipaper.ce.cn/pad/content/202611/11/content_341683.html",
    "firstSeen": "2026-11-11",
-   "id": 19
+   "id": 25
   },
   {
    "cat": "金融",
@@ -304,7 +388,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 20
+   "id": 26
   },
   {
    "cat": "金融",
@@ -318,7 +402,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 21
+   "id": 27
   },
   {
    "cat": "金融",
@@ -332,7 +416,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://m.nbd.com.cn/articles/2026-11-10/4644207.html",
    "firstSeen": "2026-11-11",
-   "id": 22
+   "id": 28
   },
   {
    "cat": "金融",
@@ -346,7 +430,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 23
+   "id": 29
   },
   {
    "cat": "金融",
@@ -360,7 +444,7 @@ window.BRIEFING = {
    "source": "参考消息",
    "url": "https://www.163.com/dy/article/LBFEP5NT0514BQ68.html",
    "firstSeen": "2026-11-11",
-   "id": 24
+   "id": 30
   },
   {
    "cat": "金融",
@@ -374,7 +458,7 @@ window.BRIEFING = {
    "source": "参考消息",
    "url": "https://www.163.com/dy/article/LBFEP5NT0514BQ68.html",
    "firstSeen": "2026-11-11",
-   "id": 25
+   "id": 31
   },
   {
    "cat": "金融",
@@ -388,7 +472,7 @@ window.BRIEFING = {
    "source": "券商中国/网易",
    "url": "https://www.163.com/dy/article/LBCFQPNG0519JFL1.html",
    "firstSeen": "2026-11-11",
-   "id": 26
+   "id": 32
   },
   {
    "cat": "金融",
@@ -402,7 +486,7 @@ window.BRIEFING = {
    "source": "读创/网易",
    "url": "https://www.163.com/dy/article/LBD50RUU05569L3G.html",
    "firstSeen": "2026-11-10",
-   "id": 27
+   "id": 33
   },
   {
    "cat": "金融",
@@ -416,7 +500,7 @@ window.BRIEFING = {
    "source": "券商中国/网易",
    "url": "https://www.163.com/dy/article/LBCFQPNG0519JFL1.html",
    "firstSeen": "2026-11-10",
-   "id": 28
+   "id": 34
   },
   {
    "cat": "金融",
@@ -430,7 +514,7 @@ window.BRIEFING = {
    "source": "同花顺财经/中国证券报",
    "url": "https://news.10jqka.com.cn/20261110/c681630214.shtml",
    "firstSeen": "2026-11-10",
-   "id": 29
+   "id": 35
   },
   {
    "cat": "金融",
@@ -444,7 +528,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 30
+   "id": 36
   },
   {
    "cat": "金融",
@@ -458,7 +542,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 31
+   "id": 37
   },
   {
    "cat": "金融",
@@ -472,7 +556,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 32
+   "id": 38
   },
   {
    "cat": "金融",
@@ -486,7 +570,7 @@ window.BRIEFING = {
    "source": "央视新闻/新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 33
+   "id": 39
   },
   {
    "cat": "金融",
@@ -500,7 +584,7 @@ window.BRIEFING = {
    "source": "国家统计局/陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 34
+   "id": 40
   },
   {
    "cat": "金融",
@@ -514,7 +598,7 @@ window.BRIEFING = {
    "source": "国务院关税税则委员会/腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A039EM00",
    "firstSeen": "2026-11-10",
-   "id": 35
+   "id": 41
   },
   {
    "cat": "金融",
@@ -528,7 +612,7 @@ window.BRIEFING = {
    "source": "中国网",
    "url": "http://www.senn.com.cn/jr/2026/11/10/25615.html",
    "firstSeen": "2026-11-10",
-   "id": 36
+   "id": 42
   },
   {
    "cat": "金融",
@@ -542,7 +626,7 @@ window.BRIEFING = {
    "source": "中财网",
    "url": "https://www.cfi.cn/p20261110000302.html",
    "firstSeen": "2026-11-10",
-   "id": 37
+   "id": 43
   },
   {
    "cat": "金融",
@@ -556,7 +640,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://www.cnr.cn/jingji/jjgd/20261105/t20261105_527863653.shtml",
    "firstSeen": "2026-11-10",
-   "id": 38
+   "id": 44
   },
   {
    "cat": "金融",
@@ -570,7 +654,7 @@ window.BRIEFING = {
    "source": "新华财经",
    "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20261110/4493401_1.html",
    "firstSeen": "2026-11-10",
-   "id": 39
+   "id": 45
   },
   {
    "cat": "金融",
@@ -584,7 +668,7 @@ window.BRIEFING = {
    "source": "信用中国（天津）",
    "url": "https://credit.fzgg.tj.gov.cn/detail.do?channelId=xyyj&contentId=a186e88948c84ec99fd89dc4b0e1090b",
    "firstSeen": "2026-11-10",
-   "id": 40
+   "id": 46
   },
   {
    "cat": "金融",
@@ -598,7 +682,7 @@ window.BRIEFING = {
    "source": "证券日报",
    "url": "http://epaper.zqrb.cn/html/2026-11/10/node_1215.htm",
    "firstSeen": "2026-11-10",
-   "id": 41
+   "id": 47
   },
   {
    "cat": "金融",
@@ -612,7 +696,7 @@ window.BRIEFING = {
    "source": "东方财富/中国证券报",
    "url": "https://forex.eastmoney.com/a/202611103926663138.html",
    "firstSeen": "2026-11-10",
-   "id": 42
+   "id": 48
   },
   {
    "cat": "金融",
@@ -626,7 +710,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 43
+   "id": 49
   },
   {
    "cat": "金融",
@@ -640,7 +724,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 44
+   "id": 50
   },
   {
    "cat": "金融",
@@ -654,7 +738,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 45
+   "id": 51
   },
   {
    "cat": "金融",
@@ -668,7 +752,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 46
+   "id": 52
   },
   {
    "cat": "金融",
@@ -682,7 +766,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 47
+   "id": 53
   },
   {
    "cat": "金融",
@@ -696,7 +780,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 48
+   "id": 54
   },
   {
    "cat": "金融",
@@ -710,7 +794,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 49
+   "id": 55
   },
   {
    "cat": "金融",
@@ -724,7 +808,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://m.163.com/news/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 50
+   "id": 56
   },
   {
    "cat": "金融",
@@ -738,7 +822,7 @@ window.BRIEFING = {
    "source": "商务部/陆家嘴财经早餐",
    "url": "https://m.nbd.com.cn/articles/2026-11-09/4643026.html",
    "firstSeen": "2026-11-10",
-   "id": 51
+   "id": 57
   },
   {
    "cat": "金融",
@@ -752,7 +836,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 52
+   "id": 58
   },
   {
    "cat": "金融",
@@ -766,7 +850,7 @@ window.BRIEFING = {
    "source": "微信公众号(公开整理)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzE5MTMyODM1Mg==&mid=2247488740&idx=3&sn=5e30abeba4a07d1d579491e4da779ccf&chksm=97c19fe7bfcf4dba712a597b801452ce3ada441aa9072a68172618b6a49806d79e10fe340516#rd",
    "firstSeen": "2026-11-10",
-   "id": 53
+   "id": 59
   },
   {
    "cat": "金融",
@@ -780,7 +864,7 @@ window.BRIEFING = {
    "source": "新华财经",
    "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20261110/4493401_1.html",
    "firstSeen": "2026-11-10",
-   "id": 54
+   "id": 60
   },
   {
    "cat": "金融",
@@ -794,7 +878,7 @@ window.BRIEFING = {
    "source": "新华财经",
    "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20261110/4493401_1.html",
    "firstSeen": "2026-11-10",
-   "id": 55
+   "id": 61
   },
   {
    "cat": "金融",
@@ -808,7 +892,7 @@ window.BRIEFING = {
    "source": "证券日报",
    "url": "http://epaper.zqrb.cn/html/2026-11/10/node_1215.htm",
    "firstSeen": "2026-11-10",
-   "id": 56
+   "id": 62
   },
   {
    "cat": "金融",
@@ -822,7 +906,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://m.163.com/news/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 57
+   "id": 63
   },
   {
    "cat": "金融",
@@ -836,7 +920,7 @@ window.BRIEFING = {
    "source": "交通运输部/陆家嘴财经早餐",
    "url": "https://m.nbd.com.cn/articles/2026-11-09/4643026.html",
    "firstSeen": "2026-11-10",
-   "id": 58
+   "id": 64
   },
   {
    "cat": "金融",
@@ -850,7 +934,7 @@ window.BRIEFING = {
    "source": "新京报/南方企业新闻网",
    "url": "http://www.senn.com.cn/zq/2026/11/09/25509.html",
    "firstSeen": "2026-11-09",
-   "id": 59
+   "id": 65
   },
   {
    "cat": "金融",
@@ -864,7 +948,7 @@ window.BRIEFING = {
    "source": "天津工信（国务院信息）",
    "url": "https://gyxxh.tj.gov.cn/glllm/gabsycs/gwyxxgh/index.html",
    "firstSeen": "2026-11-09",
-   "id": 60
+   "id": 66
   },
   {
    "cat": "金融",
@@ -878,7 +962,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "https://finance.people.com.cn/n1/2026/1109/c1004-40830270.html",
    "firstSeen": "2026-11-09",
-   "id": 61
+   "id": 67
   },
   {
    "cat": "金融",
@@ -892,7 +976,7 @@ window.BRIEFING = {
    "source": "中国金融信息网",
    "url": "https://m.cnfin.com/zs-lb//zixun/20261109/4492784_1.html",
    "firstSeen": "2026-11-09",
-   "id": 62
+   "id": 68
   },
   {
    "cat": "金融",
@@ -906,7 +990,7 @@ window.BRIEFING = {
    "source": "信用中国(天津)",
    "url": "https://credit.fzgg.tj.gov.cn/detail.do?channelId=xyyj&contentId=a186e88948c84ec99fd89dc4b0e1090b",
    "firstSeen": "2026-11-09",
-   "id": 63
+   "id": 69
   },
   {
    "cat": "金融",
@@ -920,7 +1004,7 @@ window.BRIEFING = {
    "source": "金融监管总局（据点汇云科简报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NDM4NDI2MA==&mid=2247484800&idx=1&sn=5a9a64b129076fd3b7725ee2a2e2a27f&chksm=f543c8b5a0b949a52ce20e542f4e6bb9fd3db0f8daa6085241e63f87987bfe298eaf5ce62f5b#rd",
    "firstSeen": "2026-11-09",
-   "id": 64
+   "id": 70
   },
   {
    "cat": "金融",
@@ -934,7 +1018,7 @@ window.BRIEFING = {
    "source": "券商中国",
    "url": "https://finance.sina.com.cn/stock/zqgd/2026-11-09/doc-iniyazea3061209.shtml",
    "firstSeen": "2026-11-09",
-   "id": 65
+   "id": 71
   },
   {
    "cat": "金融",
@@ -948,7 +1032,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "https://en.ce.cn/Business/sdata/index.shtml",
    "firstSeen": "2026-11-09",
-   "id": 66
+   "id": 72
   },
   {
    "cat": "金融",
@@ -962,7 +1046,7 @@ window.BRIEFING = {
    "source": "环球网财经/网易",
    "url": "https://www.163.com/dy/article/LBA8RU5T0514R9OJ.html",
    "firstSeen": "2026-11-09",
-   "id": 67
+   "id": 73
   },
   {
    "cat": "金融",
@@ -976,7 +1060,7 @@ window.BRIEFING = {
    "source": "证券时报",
    "url": "https://www.stcn.com/article/detail/4327788.html",
    "firstSeen": "2026-11-09",
-   "id": 68
+   "id": 74
   },
   {
    "cat": "金融",
@@ -990,7 +1074,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.cn/shipin/spfts/20260114/6320.shtml",
    "firstSeen": "2026-11-09",
-   "id": 69
+   "id": 75
   },
   {
    "cat": "金融",
@@ -1004,7 +1088,7 @@ window.BRIEFING = {
    "source": "中新经纬",
    "url": "https://cj.sina.com.cn/articles/view/5993531560/1653e08a802001qbiw?finpagefr=p_104",
    "firstSeen": "2026-11-09",
-   "id": 70
+   "id": 76
   },
   {
    "cat": "金融",
@@ -1018,7 +1102,7 @@ window.BRIEFING = {
    "source": "淄博改革网",
    "url": "https://gaige.zibo.gov.cn/art/2026/11/9/art_19874_3030505.html",
    "firstSeen": "2026-11-09",
-   "id": 71
+   "id": 77
   },
   {
    "cat": "金融",
@@ -1032,7 +1116,7 @@ window.BRIEFING = {
    "source": "路透社（据点汇云科简报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NDM4NDI2MA==&mid=2247484800&idx=1&sn=5a9a64b129076fd3b7725ee2a2e2a27f&chksm=f543c8b5a0b949a52ce20e542f4e6bb9fd3db0f8daa6085241e63f87987bfe298eaf5ce62f5b#rd",
    "firstSeen": "2026-11-09",
-   "id": 72
+   "id": 78
   },
   {
    "cat": "金融",
@@ -1046,7 +1130,7 @@ window.BRIEFING = {
    "source": "新浪财经（据点汇云科简报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NDM4NDI2MA==&mid=2247484800&idx=1&sn=5a9a64b129076fd3b7725ee2a2e2a27f&chksm=f543c8b5a0b949a52ce20e542f4e6bb9fd3db0f8daa6085241e63f87987bfe298eaf5ce62f5b#rd",
    "firstSeen": "2026-11-09",
-   "id": 73
+   "id": 79
   },
   {
    "cat": "金融",
@@ -1060,7 +1144,7 @@ window.BRIEFING = {
    "source": "证券之星",
    "url": "https://wap.stockstar.com/detail/RB2026110700002643",
    "firstSeen": "2026-11-09",
-   "id": 74
+   "id": 80
   },
   {
    "cat": "金融",
@@ -1074,7 +1158,7 @@ window.BRIEFING = {
    "source": "界面新闻",
    "url": "https://www.163.com/dy/article/LB9OLIJB0534A4SC.html",
    "firstSeen": "2026-11-09",
-   "id": 75
+   "id": 81
   },
   {
    "cat": "金融",
@@ -1088,7 +1172,7 @@ window.BRIEFING = {
    "source": "中国人民银行（据点汇云科简报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NDM4NDI2MA==&mid=2247484800&idx=1&sn=5a9a64b129076fd3b7725ee2a2e2a27f&chksm=f543c8b5a0b949a52ce20e542f4e6bb9fd3db0f8daa6085241e63f87987bfe298eaf5ce62f5b#rd",
    "firstSeen": "2026-11-09",
-   "id": 76
+   "id": 82
   },
   {
    "cat": "金融",
@@ -1102,7 +1186,7 @@ window.BRIEFING = {
    "source": "证券日报（据点汇云科简报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NDM4NDI2MA==&mid=2247484800&idx=1&sn=5a9a64b129076fd3b7725ee2a2e2a27f&chksm=f543c8b5a0b949a52ce20e542f4e6bb9fd3db0f8daa6085241e63f87987bfe298eaf5ce62f5b#rd",
    "firstSeen": "2026-11-09",
-   "id": 77
+   "id": 83
   },
   {
    "cat": "金融",
@@ -1116,7 +1200,7 @@ window.BRIEFING = {
    "source": "广州日报（据点汇云科简报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NDM4NDI2MA==&mid=2247484800&idx=1&sn=5a9a64b129076fd3b7725ee2a2e2a27f&chksm=f543c8b5a0b949a52ce20e542f4e6bb9fd3db0f8daa6085241e63f87987bfe298eaf5ce62f5b#rd",
    "firstSeen": "2026-11-09",
-   "id": 78
+   "id": 84
   },
   {
    "cat": "金融",
@@ -1130,7 +1214,7 @@ window.BRIEFING = {
    "source": "财富晨报(东方财富/格隆汇等)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzA5ODEwMzU5Nw==&mid=2649698964&idx=1&sn=fab78a3e9991a9f9aa4465c5c6bd94a3&chksm=89dd35c5ad3ee2d8afb9e98fa2a8e818dba9d39add9718ad4b5f04a45850f9cdc689ce2268a1#rd",
    "firstSeen": "2026-11-09",
-   "id": 79
+   "id": 85
   },
   {
    "cat": "金融",
@@ -1144,7 +1228,7 @@ window.BRIEFING = {
    "source": "证券日报",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyauwa6427195.shtml",
    "firstSeen": "2026-11-09",
-   "id": 80
+   "id": 86
   },
   {
    "cat": "金融",
@@ -1158,7 +1242,7 @@ window.BRIEFING = {
    "source": "央视新闻/新华财经",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 81
+   "id": 87
   },
   {
    "cat": "金融",
@@ -1172,7 +1256,7 @@ window.BRIEFING = {
    "source": "中国金融新闻网",
    "url": "https://www.financialnews.com.cn/2026-11/09/content_460458.html",
    "firstSeen": "2026-11-09",
-   "id": 82
+   "id": 88
   },
   {
    "cat": "金融",
@@ -1186,7 +1270,7 @@ window.BRIEFING = {
    "source": "腾讯财经/中新经纬",
    "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026110909302498b0793e",
    "firstSeen": "2026-11-09",
-   "id": 83
+   "id": 89
   },
   {
    "cat": "金融",
@@ -1200,7 +1284,7 @@ window.BRIEFING = {
    "source": "东方财富/天天基金",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 84
+   "id": 90
   },
   {
    "cat": "金融",
@@ -1214,7 +1298,7 @@ window.BRIEFING = {
    "source": "商务部",
    "url": "https://swj.lsz.gov.cn/sy/swyw/202611/t20261109_3038316.html",
    "firstSeen": "2026-11-09",
-   "id": 85
+   "id": 91
   },
   {
    "cat": "金融",
@@ -1228,175 +1312,189 @@ window.BRIEFING = {
    "source": "券商中国（据财经简报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzIwNTExOTg2Ng==&mid=2247485090&idx=1&sn=7e62b26b2ab2f9c1207381abe7fc0ba0&chksm=965ee74ffa2cfa9528c1129e9798b38c94f24047249288944c18e7ea22f1a91bb4840240b430#rd",
    "firstSeen": "2026-11-09",
-   "id": 86
-  },
-  {
-   "cat": "金融",
-   "time": "01:19",
-   "impact": "high",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 英国央行三年多来首次加息25基点至4% 贝利暗示12月或继续收紧",
-   "summary": "英国央行将基准利率上调25个基点至4%，为2023年8月以来首次加息，MPC以8票赞成1票反对通过；央行预计2027年中通胀升至约5%，若中东冲突无实质缓和则进一步加息具合理性。",
-   "decision": "全球主要央行中最后一家启动紧缩，叠加美伊战事推高能源价格，需关注对国内出口企业汇率避险与招联跨境合作（联通）相关海外融资成本的外溢影响。",
-   "source": "财联社",
-   "url": "https://www.cls.cn/detail/2526735",
-   "firstSeen": "2026-11-06",
-   "id": 87
-  },
-  {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "mid",
-   "related": true,
-   "overseas": false,
-   "title": "消费贷贴息政策经办机构从23家扩容至500多家 蓝佛安详解成效",
-   "summary": "财政部部长蓝佛安表示，个人消费贷款财政贴息政策已由首批23家经办机构扩围至500多家，取消消费领域限制并延长至2026年底，对日常消费给予1个百分点贴息。",
-   "decision": "招联消金为首批参与贴息机构之一，政策扩围直接利好消费贷获客与定价，关注后续地方属地经办机构准入与贴息申报节奏。",
-   "source": "界面新闻·产业地网",
-   "url": "https://www.chanyedi.com/news/719345.html",
-   "firstSeen": "2026-11-06",
-   "id": 88
-  },
-  {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "mid",
-   "related": true,
-   "overseas": false,
-   "title": "高盛看好中国AI相关股票 中国AI篮子远期PE回落至约25倍",
-   "summary": "高盛亚洲团队报告称，其构建的中国AI篮子较7月初高点下跌约55%，远期市盈率从约53倍回落至约25倍；全球主动基金对中国配置降至5.5%，接近五年低点。",
-   "decision": "招联×联通合作聚焦AI应用，AI资产估值回落至合理区间或降低双方技术采购与生态合作成本，关注AI营销与风控场景落地窗口。",
-   "source": "华尔街见闻·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
-   "id": 89
-  },
-  {
-   "cat": "金融",
-   "time": "05:44",
-   "impact": "mid",
-   "related": true,
-   "overseas": false,
-   "title": "招联消费金融诉冷某小额借款合同纠纷案11月6日上海金融法院开庭",
-   "summary": "上海金融法院公告显示，招联消费金融作为上诉人就小额借款合同纠纷案11月6日10:30在第十一法庭开庭审理，案号(2026)沪74民终2253号，属消费金融机构常规债权追偿司法维权动作。",
-   "decision": "招联为本人所在公司，此类常规诉讼系贷后风控合规处置样本，关注其对逾期资产回收效率与合规口径的影响，不影响资本充足与日常运营。",
-   "source": "新浪财经·锐眼工作室",
-   "url": "https://www.163.com/dy/article/LB1F3S6005568W0A.html",
-   "firstSeen": "2026-11-06",
-   "id": 90
-  },
-  {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "央行11月5日开展3000亿元买断式逆回购 净回笼2000亿元",
-   "summary": "央行以固定数量、利率招标、多重价位中标方式开展3000亿元3个月期买断式逆回购，当月有5000亿元到期，操作后净回笼2000亿元，为今年6月以来该品种首次净回笼。",
-   "decision": "体现央行'削峰填谷'精细化流动性调控，短端资金面边际收敛，关注对消费金融同业融资成本与居民信贷需求的传导。",
-   "source": "财联社·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
-   "id": 91
-  },
-  {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "基金业协会明确'T类份额'规则 公募投顾专属份额免认申购费",
-   "summary": "基金业协会下发通知明确'T类份额'设立规则，为公募投顾设立专属份额、免认申购费，存量基金须于11月底前完成增设，投顾业务试点七周年迎制度突破。",
-   "decision": "居民财富管理工具供给扩容，关注其与消费金融在客户分层经营、场景化理财上的潜在协同空间。",
-   "source": "界面新闻·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
    "id": 92
   },
   {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "mid",
+   "cat": "AI行业",
+   "time": "11:30",
+   "impact": "high",
    "related": false,
    "overseas": false,
-   "title": "A股11月5日三大指数集体收涨 沪深成交2.12万亿元",
-   "summary": "11月5日A股三大指数收涨，沪指涨0.10%报3689.91点，深成指涨1.19%，创业板指涨0.87%，科创50涨1.68%；两市成交2.12万亿元，超4800只个股上涨。",
-   "decision": "权益市场情绪回暖利好居民财富效应与消费意愿，间接支撑消费信贷需求，关注AI应用、光伏、贵金属板块轮动。",
-   "source": "证券日报·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
+   "title": "美团LongCat-2.5开源 MIT协议 1.6万亿参数 全程国产算力训练",
+   "summary": "美团正式开源LongCat-2.5大模型，采用MIT宽松协议，总参数1.6万亿、每token激活约480亿，全程基于国产算力集群训练，针对本地生活与即时零售场景优化，支持百万级上下文与多模态，开发者可免费商用与二次修改。",
+   "decision": "万亿级模型加纯国产算力双重突破，国产AI自主生态再下一城，值得关注本地生活场景复用。",
+   "source": "中国基金报/网易",
+   "url": "https://www.163.com/dy/article/LBGEO79505569XIR.html",
+   "firstSeen": "2026-11-12",
    "id": 93
   },
   {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "mid",
+   "cat": "AI行业",
+   "time": "11:00",
+   "impact": "high",
    "related": false,
    "overseas": false,
-   "title": "港股11月5日大幅走高 恒指涨3.67% 恒科涨5.55%",
-   "summary": "港股11月5日大幅走高，恒生指数收报24796.98点涨3.67%，恒生科技指数涨5.55%；小米、阿里涨超8%，腾讯涨逾7%，美团涨近7%，南向资金净卖出约213亿港元。",
-   "decision": "科网龙头反弹改善跨境资本情绪，关注对招联股东方（招行、联通）估值与中概科技合作预期的连带影响。",
-   "source": "东方财富Choice·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
+   "title": "阿里Qwen4-Max预览版上线 100万token上下文 限时最低1折",
+   "summary": "阿里正式官宣新一代千问Qwen4系列，Qwen4-Max预览版首发上线，在知识理解、世界感知、编程与Agentic四项升级，支持100万token上下文与图文视频输入；经Token Plan限时最低1折体验，预览至11月25日，后续将释放开源权重。",
+   "decision": "国产大模型代际迭代加速，关注其对招联智鹿大模型与智能客服能力的对标与借鉴。",
+   "source": "上海证券报/阿里云",
+   "url": "https://www.cnstock.com/commonDetail/826985",
+   "firstSeen": "2026-11-12",
    "id": 94
   },
   {
-   "cat": "金融",
-   "time": "05:44",
-   "impact": "low",
-   "related": true,
-   "overseas": false,
-   "title": "招联消费金融诉吴某某金融借款合同纠纷案12月7日开庭",
-   "summary": "上海金融法院公告显示，招联消费金融诉吴某某金融借款合同纠纷案将于2026年12月7日开庭审理，属消费金融机构常规债权主张司法流程。",
-   "decision": "招联贷后合规处置的常态化动作，不实质影响运营，可作为债权追偿标准化流程的常规样本持续跟踪。",
-   "source": "新浪财经·锐眼工作室",
-   "url": "https://www.163.com/dy/article/LB1GC06Q05568W0A.html",
-   "firstSeen": "2026-11-06",
+   "cat": "AI行业",
+   "time": "10:00",
+   "impact": "high",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] Anthropic发布Claude办公套件并冲刺纳斯达克IPO",
+   "summary": "Anthropic推出Claude Meetings、Sheets、Whiteboards三款测试产品，Claude以参与者身份进入Google Meet实时起草方案，直接攻入微软、谷歌办公腹地；公司递交招股书，计划11月中旬登陆纳斯达克，最高募资1000亿美元，估值预期1.5-2万亿美元。",
+   "decision": "AI办公入口之争加剧，关注其企业级落地模式对招联内部协作与客服工具的启示。",
+   "source": "智通财经/The Verge",
+   "url": "https://news.qq.com/rain/a/20261111A03UPQ00",
+   "firstSeen": "2026-11-12",
    "id": 95
   },
   {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "low",
+   "cat": "AI行业",
+   "time": "09:00",
+   "impact": "high",
    "related": false,
-   "overseas": false,
-   "title": "国内黄金饰品价格上调 周生生足金报1233元/克",
-   "summary": "受海外金价走高带动，国内黄金饰品价格同步上调，周生生足金饰品报1233元/克（较昨日涨45元），周大福报1229元/克，老凤祥报1232元/克。",
-   "decision": "贵金属波动加剧，关注其与避险情绪、居民资产配置偏好的关联，对消费金融抵质押与回收类业务影响有限。",
-   "source": "财联社·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] 谷歌正式开放Gemini 4 Carbon 最强模型 多智能体一夜造游戏",
+   "summary": "谷歌向公众发布旗舰模型Gemini 4 Carbon，主打多智能体协同与长周期复杂工程任务，CursorBench 4.0第一，输入2美元/百万token（11月30日后翻倍）；官方实测多个Carbon智能体可一夜自主完成一款小游戏从设计到上线的全流程。",
+   "decision": "多智能体协作进入工程生产阶段，关注其在自动化办公与代码生成场景对金融科技的渗透。",
+   "source": "Google/量子位",
+   "url": "https://byobot.ai/ai-news/ai-daily-newsstand-november-12-2026",
+   "firstSeen": "2026-11-12",
    "id": 96
   },
   {
-   "cat": "金融",
-   "time": "06:00",
-   "impact": "low",
+   "cat": "AI行业",
+   "time": "08:00",
+   "impact": "high",
    "related": false,
-   "overseas": false,
-   "title": "多家外资银行集中上架人民币大额存单 三年期利率达1.9%-1.92%",
-   "summary": "汇丰、渣打、东亚、星展（中国）等多家外资银行上架人民币大额存单，部分三年期产品年利率1.90%-1.92%，较同期限国有大行高出近40个基点。",
-   "decision": "存款端竞争升温反映银行负债成本压力，关注对消费金融资金来源价格与净息差的中长期约束。",
-   "source": "上海证券报·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] Fireworks AI数据泄露扩大 波及客户数据集与部分模型权重",
+   "summary": "推理服务商Fireworks AI的10月入侵后续扩大：继早期内部凭证与API密钥被盗后，11月9日更新显示账单地址、发票历史、账户余额及部分不完整模型权重与数据集被波及；提示推理供应商本质是数据处理方，需立即轮换密钥并确认零数据保留。",
+   "decision": "AI推理供应链安全风险凸显，招联在调用第三方大模型API时必须落实密钥隔离与零留存核查。",
+   "source": "The Hacker News/BYOBot",
+   "url": "https://byobot.ai/ai-news/ai-daily-newsstand-november-12-2026",
+   "firstSeen": "2026-11-12",
    "id": 97
   },
   {
-   "cat": "金融",
-   "time": "03:00",
-   "impact": "low",
+   "cat": "AI行业",
+   "time": "11:30",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "百度发布ERNIE 5.5 Flash Preview 承诺11月25日前开源权重",
+   "summary": "百度推出文心ERNIE 5.5 Flash Preview轻量旗舰模型，采用稀疏MoE架构，在保持接近中阶能力的同时大幅压低推理时延与成本，长上下文、工具调用、多模态能力同步优化，官方承诺11月25日前开放完整权重。",
+   "decision": "国产轻量旗舰开源节奏加快，企业规模化部署门槛降低，可跟踪其对招联模型选型的影响。",
+   "source": "百度/文心大模型",
+   "url": "https://www.163.com/dy/article/LBGEO79505569XIR.html",
+   "firstSeen": "2026-11-12",
+   "id": 98
+  },
+  {
+   "cat": "AI行业",
+   "time": "11:30",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "字节Seedream 5.5原生透明图生成 2K编辑单张0.28元",
+   "summary": "字节跳动推出Seedream 5.5图像生成模型，行业首批原生支持Alpha通道透明背景图生成，升级2K分辨率图像编辑，API定价单张2K编辑低至0.28元，深度适配电商设计、品牌物料、UI创作等专业生产场景。",
+   "decision": "AIGC向专业工业场景纵深，关注其在招联营销素材与消保科普内容生产中的应用潜力。",
+   "source": "字节跳动",
+   "url": "https://www.163.com/dy/article/LBGEO79505569XIR.html",
+   "firstSeen": "2026-11-12",
+   "id": 99
+  },
+  {
+   "cat": "AI行业",
+   "time": "11:11",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "北大团队RoboColiseum周榜登顶具身智能评测",
+   "summary": "RoboColiseum周榜显示，北大数院杨超团队旗下MXI-SimWorld v0以0.9656综合分登顶总榜，空间理解、通用操作双第一；该榜单由Hugging Face、英伟达、清华等近20家机构发起，评测与真机表现相关性约90%。",
+   "decision": "国产物理AI框架在实机前置标尺上领先，关注具身智能评测体系对金融风控仿真的借鉴。",
+   "source": "机器之心/Hugging Face",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzU5NjYzMjI0Mg==&mid=2247485328",
+   "firstSeen": "2026-11-12",
+   "id": 100
+  },
+  {
+   "cat": "AI行业",
+   "time": "11:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "阿里分拆平头哥赴港独立上市 真武芯片累计出货56万片",
+   "summary": "阿里推进平头哥半导体分拆独立并筹备赴港上市，9月已保密递表；真武系列AI芯片累计出货超56万片、服务超650家企业客户，媒体称拟募资20-30亿美元，摩根士丹利给出280-830亿美元估值区间。",
+   "decision": "国产AI算力第一梯队走向资本市场，关注其芯-模-云协同对招联算力采购的议价空间。",
+   "source": "中国基金报/证券时报",
+   "url": "https://www.163.com/dy/article/LBGEO79505569XIR.html",
+   "firstSeen": "2026-11-12",
+   "id": 101
+  },
+  {
+   "cat": "AI行业",
+   "time": "11:00",
+   "impact": "mid",
    "related": false,
    "overseas": true,
-   "title": "[海外] 美国财政部单周国债拍卖规模创纪录达8390亿美元",
-   "summary": "美国财政部单周国债拍卖规模创纪录达8390亿美元，其中大部分用于偿还到期国库券，实际新增借款仅680亿美元；累积债务增加与融资成本上升令拍卖规模持续放大。",
-   "decision": "美债供给压力推升全球长端利率，关注对美元流动性与中资离岸融资成本的潜在外溢，间接影响消费金融海外资金窗口。",
-   "source": "界面新闻·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
-   "id": 98
+   "title": "[海外] 谷歌Gemini Robotics 2.5奔驰产线分拣成功率96% 英伟达GR00T2世界动作模型亮相",
+   "summary": "谷歌发布Gemini Robotics 2.5机器人专用模型，在奔驰汽车产线零部件分拣试点任务成功率96%，无需大规模重训即可迁移；英伟达同步发布GR00T2通用机器人世界动作模型与Isaac Lab 3.0，通配人形、四足、机械臂等多形态本体。",
+   "decision": "具身智能切入高端制造，关注机器人降本对招联运营自动化与客服实体化的远期影响。",
+   "source": "谷歌/英伟达",
+   "url": "https://www.163.com/dy/article/LBGEO79505569XIR.html",
+   "firstSeen": "2026-11-12",
+   "id": 102
+  },
+  {
+   "cat": "AI行业",
+   "time": "11:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] Anthropic Mythos漏洞挖掘模型嵌入思科与IBM产品",
+   "summary": "Claude Mythos漏洞挖掘模型将嵌入思科AI Defense红队工具（现有授权内不额外收费）与IBM Concert扫描产品，客户经受控界面使用、拿不到模型本身，此前仅向Project Glasswing审核机构开放，形成产品化但不外泄的双用途分发范式。",
+   "decision": "高危安全模型找到受控分发范式，关注AI赋能安全检测在招联反欺诈与合规审计的落地。",
+   "source": "The Register/BigGo Finance",
+   "url": "http://mp.weixin.qq.com/s?__biz=MzU5NjYzMjI0Mg==&mid=2247485328",
+   "firstSeen": "2026-11-12",
+   "id": 103
+  },
+  {
+   "cat": "AI行业",
+   "time": "08:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] Anthropic与微软谷歌新采购承诺 云支出至2033年增约100亿美元",
+   "summary": "Anthropic表示与微软、谷歌达成新采购承诺，从现在至2033年云服务器租赁支出较此前披露值增加约100亿美元；与规模较小的云服务商Lambda签署的349亿美元服务器租赁协议存在被取消可能，因其未能按期建成数据中心。",
+   "decision": "大模型训练算力需求持续膨胀，关注AI算力供需与成本曲线对金融科技投入的影响。",
+   "source": "陆家嘴财经早餐/Anthropic",
+   "url": "https://www.163.com/dy/article/LBH1S98F05198RSU.html",
+   "firstSeen": "2026-11-12",
+   "id": 104
+  },
+  {
+   "cat": "AI行业",
+   "time": "00:02",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "MiniMax开源图像生成模型H3-Image 10秒生成4096×4096",
+   "summary": "MiniMax稀宇科技开源图像生成模型H3-Image，支持文生图、图像参考与编辑，可在10秒内生成4096×4096（约1600万像素）高分辨率图像，速度约为市面主流水平的5倍，具备开源模型中最强的指令遵循能力，最多支持16张参考图。",
+   "decision": "图像生成开源竞争白热化，关注其在电商与本地生活视觉素材侧的降本机会。",
+   "source": "MiniMax稀宇科技",
+   "url": "http://mp.weixin.qq.com/s?__biz=Mzk0MTY0OTg1NQ==&mid=2247496285",
+   "firstSeen": "2026-11-12",
+   "id": 105
   },
   {
    "cat": "AI行业",
@@ -1410,7 +1508,7 @@ window.BRIEFING = {
    "source": "澎湃新闻/网易",
    "url": "https://www.163.com/dy/article/LBCKK1930514R9P4.html",
    "firstSeen": "2026-11-11",
-   "id": 99
+   "id": 106
   },
   {
    "cat": "AI行业",
@@ -1424,7 +1522,7 @@ window.BRIEFING = {
    "source": "The Neuron",
    "url": "https://www.theneurondaily.com/p/3-ai-labs-shipped-for-you",
    "firstSeen": "2026-11-11",
-   "id": 100
+   "id": 107
   },
   {
    "cat": "AI行业",
@@ -1438,7 +1536,7 @@ window.BRIEFING = {
    "source": "中国证券网",
    "url": "https://www.cnstock.com/commonDetail/826985",
    "firstSeen": "2026-11-11",
-   "id": 101
+   "id": 108
   },
   {
    "cat": "AI行业",
@@ -1452,7 +1550,7 @@ window.BRIEFING = {
    "source": "aibriefing.dev",
    "url": "https://aibriefing.dev/?utm_source=ai-bar.cn",
    "firstSeen": "2026-11-11",
-   "id": 102
+   "id": 109
   },
   {
    "cat": "AI行业",
@@ -1466,7 +1564,7 @@ window.BRIEFING = {
    "source": "CSDN",
    "url": "https://blog.csdn.net/Smoothly_Lu/article/details/170487095",
    "firstSeen": "2026-11-11",
-   "id": 103
+   "id": 110
   },
   {
    "cat": "AI行业",
@@ -1480,7 +1578,7 @@ window.BRIEFING = {
    "source": "钛媒体",
    "url": "https://www.tmtpost.com/fm/8200588.html",
    "firstSeen": "2026-11-11",
-   "id": 104
+   "id": 111
   },
   {
    "cat": "AI行业",
@@ -1494,7 +1592,7 @@ window.BRIEFING = {
    "source": "AI Daily News",
    "url": "https://pharma.intelligence-synthesis.com/en/ai-news/2026-11-11-morning.html",
    "firstSeen": "2026-11-11",
-   "id": 105
+   "id": 112
   },
   {
    "cat": "AI行业",
@@ -1508,7 +1606,7 @@ window.BRIEFING = {
    "source": "The Neuron",
    "url": "https://www.theneurondaily.com/p/3-ai-labs-shipped-for-you",
    "firstSeen": "2026-11-11",
-   "id": 106
+   "id": 113
   },
   {
    "cat": "AI行业",
@@ -1522,7 +1620,7 @@ window.BRIEFING = {
    "source": "AI Briefing",
    "url": "https://aibriefing.dev/story/20a0a0a5a7ea",
    "firstSeen": "2026-11-11",
-   "id": 107
+   "id": 114
   },
   {
    "cat": "AI行业",
@@ -1536,7 +1634,7 @@ window.BRIEFING = {
    "source": "aibriefing.dev",
    "url": "https://aibriefing.dev/?utm_source=ai-bar.cn",
    "firstSeen": "2026-11-11",
-   "id": 108
+   "id": 115
   },
   {
    "cat": "AI行业",
@@ -1550,7 +1648,7 @@ window.BRIEFING = {
    "source": "aibriefing.dev",
    "url": "https://aibriefing.dev/?utm_source=ai-bar.cn",
    "firstSeen": "2026-11-11",
-   "id": 109
+   "id": 116
   },
   {
    "cat": "AI行业",
@@ -1564,7 +1662,7 @@ window.BRIEFING = {
    "source": "aibriefing.dev",
    "url": "https://aibriefing.dev/?utm_source=ai-bar.cn",
    "firstSeen": "2026-11-11",
-   "id": 110
+   "id": 117
   },
   {
    "cat": "AI行业",
@@ -1578,7 +1676,7 @@ window.BRIEFING = {
    "source": "同花顺财经",
    "url": "https://m.10jqka.com.cn/20261110/c681676778.shtml",
    "firstSeen": "2026-11-11",
-   "id": 111
+   "id": 118
   },
   {
    "cat": "AI行业",
@@ -1592,7 +1690,7 @@ window.BRIEFING = {
    "source": "同花顺财经",
    "url": "https://m.10jqka.com.cn/20261110/c681676778.shtml",
    "firstSeen": "2026-11-11",
-   "id": 112
+   "id": 119
   },
   {
    "cat": "AI行业",
@@ -1606,7 +1704,7 @@ window.BRIEFING = {
    "source": "同花顺财经",
    "url": "https://m.10jqka.com.cn/20261110/c681676778.shtml",
    "firstSeen": "2026-11-11",
-   "id": 113
+   "id": 120
   },
   {
    "cat": "AI行业",
@@ -1620,7 +1718,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7706313531972502031",
    "firstSeen": "2026-11-11",
-   "id": 114
+   "id": 121
   },
   {
    "cat": "AI行业",
@@ -1634,7 +1732,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7706313531972502031",
    "firstSeen": "2026-11-11",
-   "id": 115
+   "id": 122
   },
   {
    "cat": "AI行业",
@@ -1648,7 +1746,7 @@ window.BRIEFING = {
    "source": "AI大模型产业追踪",
    "url": "http://mp.weixin.qq.com/s?__biz=MzcwMzE5NTc5OQ==&mid=2247484083&idx=1&sn=a1e54d97df4317c6700f031ea02398f3&chksm=f5cb65ed5bcf99b42365b01e2016cc04b0a7eb11482939233fe7da6cb6536b4fc4031ab4139d#rd",
    "firstSeen": "2026-11-11",
-   "id": 116
+   "id": 123
   },
   {
    "cat": "AI行业",
@@ -1662,7 +1760,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7706313531972502031",
    "firstSeen": "2026-11-11",
-   "id": 117
+   "id": 124
   },
   {
    "cat": "AI行业",
@@ -1676,7 +1774,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7706313531972502031",
    "firstSeen": "2026-11-11",
-   "id": 118
+   "id": 125
   },
   {
    "cat": "AI行业",
@@ -1690,7 +1788,7 @@ window.BRIEFING = {
    "source": "今日头条",
    "url": "https://www.toutiao.com/a7706313531972502031",
    "firstSeen": "2026-11-11",
-   "id": 119
+   "id": 126
   },
   {
    "cat": "AI行业",
@@ -1704,7 +1802,7 @@ window.BRIEFING = {
    "source": "CSDN",
    "url": "https://blog.csdn.net/Smoothly_Lu/article/details/170487095",
    "firstSeen": "2026-11-11",
-   "id": 120
+   "id": 127
   },
   {
    "cat": "AI行业",
@@ -1718,7 +1816,7 @@ window.BRIEFING = {
    "source": "今日AI早报",
    "url": "http://jinri.ai/",
    "firstSeen": "2026-11-11",
-   "id": 121
+   "id": 128
   },
   {
    "cat": "AI行业",
@@ -1732,7 +1830,7 @@ window.BRIEFING = {
    "source": "AI Daily News",
    "url": "https://pharma.intelligence-synthesis.com/en/ai-news/2026-11-11-morning.html",
    "firstSeen": "2026-11-11",
-   "id": 122
+   "id": 129
   },
   {
    "cat": "AI行业",
@@ -1746,7 +1844,7 @@ window.BRIEFING = {
    "source": "CSDN",
    "url": "https://blog.csdn.net/Smoothly_Lu/article/details/170487095",
    "firstSeen": "2026-11-11",
-   "id": 123
+   "id": 130
   },
   {
    "cat": "AI行业",
@@ -1760,7 +1858,7 @@ window.BRIEFING = {
    "source": "CSDN",
    "url": "https://blog.csdn.net/Smoothly_Lu/article/details/170487095",
    "firstSeen": "2026-11-11",
-   "id": 124
+   "id": 131
   },
   {
    "cat": "AI行业",
@@ -1774,7 +1872,7 @@ window.BRIEFING = {
    "source": "CSDN",
    "url": "https://blog.csdn.net/Smoothly_Lu/article/details/170487095",
    "firstSeen": "2026-11-11",
-   "id": 125
+   "id": 132
   },
   {
    "cat": "AI行业",
@@ -1788,7 +1886,7 @@ window.BRIEFING = {
    "source": "AI Briefing",
    "url": "https://aibriefing.dev/story/20a0a0a5a7ea",
    "firstSeen": "2026-11-11",
-   "id": 126
+   "id": 133
   },
   {
    "cat": "AI行业",
@@ -1802,7 +1900,7 @@ window.BRIEFING = {
    "source": "今日AI早报",
    "url": "http://jinri.ai/",
    "firstSeen": "2026-11-11",
-   "id": 127
+   "id": 134
   },
   {
    "cat": "AI行业",
@@ -1816,7 +1914,7 @@ window.BRIEFING = {
    "source": "中新经纬/网易",
    "url": "https://www.163.com/dy/article/LBCD4HLI0519C6T9.html",
    "firstSeen": "2026-11-10",
-   "id": 128
+   "id": 135
   },
   {
    "cat": "AI行业",
@@ -1830,7 +1928,7 @@ window.BRIEFING = {
    "source": "科技日报/网易",
    "url": "https://www.163.com/dy/article/LBC6FBE90514R9OJ.html",
    "firstSeen": "2026-11-10",
-   "id": 129
+   "id": 136
   },
   {
    "cat": "AI行业",
@@ -1844,7 +1942,7 @@ window.BRIEFING = {
    "source": "大河财立方/全球市场晨报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzcwMjUwNTc4Nw==&mid=2247483702&idx=1&sn=073305b570641ef704d02e5c1d87377e&chksm=f53ecd0172c52f82e1e46518bb90403722b94c3755e04354c93690978937a7def893b5401f1b#rd",
    "firstSeen": "2026-11-10",
-   "id": 130
+   "id": 137
   },
   {
    "cat": "AI行业",
@@ -1858,7 +1956,7 @@ window.BRIEFING = {
    "source": "微博",
    "url": "https://weibo.com/1764303661/5363585119158275",
    "firstSeen": "2026-11-10",
-   "id": 131
+   "id": 138
   },
   {
    "cat": "AI行业",
@@ -1872,7 +1970,7 @@ window.BRIEFING = {
    "source": "微博/财经早餐",
    "url": "https://weibo.com/1764303661/5363585119158275",
    "firstSeen": "2026-11-10",
-   "id": 132
+   "id": 139
   },
   {
    "cat": "AI行业",
@@ -1886,7 +1984,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐/金十数据",
    "url": "https://flash.jin10.com/detail/20261110063513378800",
    "firstSeen": "2026-11-10",
-   "id": 133
+   "id": 140
   },
   {
    "cat": "AI行业",
@@ -1900,7 +1998,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐/JustSayAI",
    "url": "https://www.justsayai.org/zh-hant",
    "firstSeen": "2026-11-10",
-   "id": 134
+   "id": 141
   },
   {
    "cat": "AI行业",
@@ -1914,7 +2012,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐/JustSayAI",
    "url": "https://www.justsayai.org/zh-hant",
    "firstSeen": "2026-11-10",
-   "id": 135
+   "id": 142
   },
   {
    "cat": "AI行业",
@@ -1928,7 +2026,7 @@ window.BRIEFING = {
    "source": "Precise Impact AI/加拿大总理府",
    "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-11-10",
    "firstSeen": "2026-11-10",
-   "id": 136
+   "id": 143
   },
   {
    "cat": "AI行业",
@@ -1942,7 +2040,7 @@ window.BRIEFING = {
    "source": "Precise Impact AI",
    "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-11-10",
    "firstSeen": "2026-11-10",
-   "id": 137
+   "id": 144
   },
   {
    "cat": "AI行业",
@@ -1956,7 +2054,7 @@ window.BRIEFING = {
    "source": "Precise Impact AI",
    "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-11-10",
    "firstSeen": "2026-11-10",
-   "id": 138
+   "id": 145
   },
   {
    "cat": "AI行业",
@@ -1970,7 +2068,7 @@ window.BRIEFING = {
    "source": "Precise Impact AI",
    "url": "https://www.preciseimpact.ai/briefing/ai-news-digest-2026-11-10",
    "firstSeen": "2026-11-10",
-   "id": 139
+   "id": 146
   },
   {
    "cat": "AI行业",
@@ -1984,7 +2082,7 @@ window.BRIEFING = {
    "source": "今日AI早报",
    "url": "http://jinri.ai/",
    "firstSeen": "2026-11-10",
-   "id": 140
+   "id": 147
   },
   {
    "cat": "AI行业",
@@ -1998,7 +2096,7 @@ window.BRIEFING = {
    "source": "今日AI早报",
    "url": "http://jinri.ai/",
    "firstSeen": "2026-11-10",
-   "id": 141
+   "id": 148
   },
   {
    "cat": "AI行业",
@@ -2012,7 +2110,7 @@ window.BRIEFING = {
    "source": "今日AI早报",
    "url": "http://jinri.ai/",
    "firstSeen": "2026-11-10",
-   "id": 142
+   "id": 149
   },
   {
    "cat": "AI行业",
@@ -2026,7 +2124,7 @@ window.BRIEFING = {
    "source": "四川省国资委/四川新闻联播",
    "url": "https://gzw.sc.gov.cn/scsgzw/CU231003/2026/11/10/27a54c2243954df3822aacf196913a13.shtml",
    "firstSeen": "2026-11-10",
-   "id": 143
+   "id": 150
   },
   {
    "cat": "AI行业",
@@ -2040,7 +2138,7 @@ window.BRIEFING = {
    "source": "财经早餐",
    "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODUxMjExMA==&mid=2650614808&idx=1&sn=17965eacdc1b32e48d63ebaa5c2936c7",
    "firstSeen": "2026-11-10",
-   "id": 144
+   "id": 151
   },
   {
    "cat": "AI行业",
@@ -2054,7 +2152,7 @@ window.BRIEFING = {
    "source": "微博",
    "url": "https://weibo.com/1764303661/5363585119158275",
    "firstSeen": "2026-11-10",
-   "id": 145
+   "id": 152
   },
   {
    "cat": "AI行业",
@@ -2068,7 +2166,7 @@ window.BRIEFING = {
    "source": "DEV Community",
    "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-10-2026-openai-buys-astral-nvidia-opens-gr00t-2-claude-fable-52-32p5",
    "firstSeen": "2026-11-10",
-   "id": 146
+   "id": 153
   },
   {
    "cat": "AI行业",
@@ -2082,7 +2180,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 147
+   "id": 154
   },
   {
    "cat": "AI行业",
@@ -2096,7 +2194,7 @@ window.BRIEFING = {
    "source": "微博",
    "url": "https://weibo.com/1764303661/5363585119158275",
    "firstSeen": "2026-11-10",
-   "id": 148
+   "id": 155
   },
   {
    "cat": "AI行业",
@@ -2110,7 +2208,7 @@ window.BRIEFING = {
    "source": "JustSayAI",
    "url": "https://www.justsayai.org/zh-hant",
    "firstSeen": "2026-11-10",
-   "id": 149
+   "id": 156
   },
   {
    "cat": "AI行业",
@@ -2124,7 +2222,7 @@ window.BRIEFING = {
    "source": "DEV Community",
    "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-10-2026-openai-buys-astral-nvidia-opens-gr00t-2-claude-fable-52-32p5",
    "firstSeen": "2026-11-10",
-   "id": 150
+   "id": 157
   },
   {
    "cat": "AI行业",
@@ -2138,7 +2236,7 @@ window.BRIEFING = {
    "source": "健康早闻/新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 151
+   "id": 158
   },
   {
    "cat": "AI行业",
@@ -2152,7 +2250,7 @@ window.BRIEFING = {
    "source": "健康早闻/新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 152
+   "id": 159
   },
   {
    "cat": "AI行业",
@@ -2166,7 +2264,7 @@ window.BRIEFING = {
    "source": "财经早餐",
    "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODUxMjExMA==&mid=2650614808&idx=1&sn=17965eacdc1b32e48d63ebaa5c2936c7",
    "firstSeen": "2026-11-10",
-   "id": 153
+   "id": 160
   },
   {
    "cat": "AI行业",
@@ -2180,7 +2278,7 @@ window.BRIEFING = {
    "source": "财经早餐",
    "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODUxMjExMA==&mid=2650614808&idx=1&sn=17965eacdc1b32e48d63ebaa5c2936c7",
    "firstSeen": "2026-11-10",
-   "id": 154
+   "id": 161
   },
   {
    "cat": "AI行业",
@@ -2194,7 +2292,7 @@ window.BRIEFING = {
    "source": "网易(前瞻)",
    "url": "https://www.163.com/dy/article/LB9K4FRU051480KF.html",
    "firstSeen": "2026-11-09",
-   "id": 155
+   "id": 162
   },
   {
    "cat": "AI行业",
@@ -2208,7 +2306,7 @@ window.BRIEFING = {
    "source": "每日经济新闻/网易",
    "url": "https://www.163.com/dy/article/LB9N1Q8A0512B07B.html",
    "firstSeen": "2026-11-09",
-   "id": 156
+   "id": 163
   },
   {
    "cat": "AI行业",
@@ -2222,7 +2320,7 @@ window.BRIEFING = {
    "source": "证券时报（网易）",
    "url": "https://www.163.com/dy/article/LB985D9S053469RG.html",
    "firstSeen": "2026-11-09",
-   "id": 157
+   "id": 164
   },
   {
    "cat": "AI行业",
@@ -2236,7 +2334,7 @@ window.BRIEFING = {
    "source": "网易(界面)",
    "url": "https://dy.163.com/article/LB4DBHSB05118DFD.html",
    "firstSeen": "2026-11-09",
-   "id": 158
+   "id": 165
   },
   {
    "cat": "AI行业",
@@ -2250,7 +2348,7 @@ window.BRIEFING = {
    "source": "DailyAI/财富晨报",
    "url": "https://dailyai.report/?utm_source=ai-bar.cn",
    "firstSeen": "2026-11-09",
-   "id": 159
+   "id": 166
   },
   {
    "cat": "AI行业",
@@ -2264,7 +2362,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://www.163.com/dy/article/LB9N1Q8A0512B07B.html",
    "firstSeen": "2026-11-09",
-   "id": 160
+   "id": 167
   },
   {
    "cat": "AI行业",
@@ -2278,7 +2376,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261109A06ASU00",
    "firstSeen": "2026-11-09",
-   "id": 161
+   "id": 168
   },
   {
    "cat": "AI行业",
@@ -2292,7 +2390,7 @@ window.BRIEFING = {
    "source": "证券时报",
    "url": "https://www.163.com/dy/article/LB985D9S053469RG.html",
    "firstSeen": "2026-11-09",
-   "id": 162
+   "id": 169
   },
   {
    "cat": "AI行业",
@@ -2306,7 +2404,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://www.sohu.com/a/1098875420_455313",
    "firstSeen": "2026-11-09",
-   "id": 163
+   "id": 170
   },
   {
    "cat": "AI行业",
@@ -2320,7 +2418,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261109A06ASU00",
    "firstSeen": "2026-11-09",
-   "id": 164
+   "id": 171
   },
   {
    "cat": "AI行业",
@@ -2334,7 +2432,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261109A06ASU00",
    "firstSeen": "2026-11-09",
-   "id": 165
+   "id": 172
   },
   {
    "cat": "AI行业",
@@ -2348,7 +2446,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "http://mp.weixin.qq.com/s?__biz=MzkwMDc0NjE1Ng==&mid=2247484801&idx=1&sn=c59f4904d309a03b84cf2638bc760e5b&chksm=c1a16812b174761a4f818abe21402d60598fa970670786ec1a540ed22b758388b0d2e52f873b",
    "firstSeen": "2026-11-09",
-   "id": 166
+   "id": 173
   },
   {
    "cat": "AI行业",
@@ -2362,7 +2460,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道",
    "url": "http://mp.weixin.qq.com/s?__biz=MzkwMDc0NjE1Ng==&mid=2247484801&idx=1&sn=c59f4904d309a03b84cf2638bc760e5b&chksm=c1a16812b174761a4f818abe21402d60598fa970670786ec1a540ed22b758388b0d2e52f873b",
    "firstSeen": "2026-11-09",
-   "id": 167
+   "id": 174
   },
   {
    "cat": "AI行业",
@@ -2376,7 +2474,7 @@ window.BRIEFING = {
    "source": "网易(新浪财经)",
    "url": "https://dy.163.com/article/LB4DBHSB05118DFD.html",
    "firstSeen": "2026-11-09",
-   "id": 168
+   "id": 175
   },
   {
    "cat": "AI行业",
@@ -2390,7 +2488,7 @@ window.BRIEFING = {
    "source": "快科技/每日资讯简报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 169
+   "id": 176
   },
   {
    "cat": "AI行业",
@@ -2404,7 +2502,7 @@ window.BRIEFING = {
    "source": "AIToolsRecap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 170
+   "id": 177
   },
   {
    "cat": "AI行业",
@@ -2418,7 +2516,7 @@ window.BRIEFING = {
    "source": "搜狐(腾讯研究院)",
    "url": "https://www.sohu.com/a/1098875420_455313",
    "firstSeen": "2026-11-09",
-   "id": 171
+   "id": 178
   },
   {
    "cat": "AI行业",
@@ -2432,7 +2530,7 @@ window.BRIEFING = {
    "source": "界面新闻",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyauwe3130605.shtml",
    "firstSeen": "2026-11-09",
-   "id": 172
+   "id": 179
   },
   {
    "cat": "AI行业",
@@ -2446,7 +2544,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261109A06ASU00",
    "firstSeen": "2026-11-09",
-   "id": 173
+   "id": 180
   },
   {
    "cat": "AI行业",
@@ -2460,7 +2558,7 @@ window.BRIEFING = {
    "source": "搜狐(腾讯研究院)",
    "url": "https://www.sohu.com/a/1098875420_455313",
    "firstSeen": "2026-11-09",
-   "id": 174
+   "id": 181
   },
   {
    "cat": "AI行业",
@@ -2474,7 +2572,7 @@ window.BRIEFING = {
    "source": "海外网",
    "url": "https://news.haiwainet.cn/n/2026/1109/c3541093-32996430.html",
    "firstSeen": "2026-11-09",
-   "id": 175
+   "id": 182
   },
   {
    "cat": "AI行业",
@@ -2488,7 +2586,7 @@ window.BRIEFING = {
    "source": "AIToolsRecap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 176
+   "id": 183
   },
   {
    "cat": "AI行业",
@@ -2502,7 +2600,7 @@ window.BRIEFING = {
    "source": "AIToolsRecap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 177
+   "id": 184
   },
   {
    "cat": "AI行业",
@@ -2516,7 +2614,7 @@ window.BRIEFING = {
    "source": "AIToolsRecap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 178
+   "id": 185
   },
   {
    "cat": "AI行业",
@@ -2530,7 +2628,7 @@ window.BRIEFING = {
    "source": "环球网（网易）",
    "url": "https://www.163.com/dy/article/LB9AKKR40514R9OJ.html",
    "firstSeen": "2026-11-09",
-   "id": 179
+   "id": 186
   },
   {
    "cat": "AI行业",
@@ -2544,7 +2642,7 @@ window.BRIEFING = {
    "source": "证券时报/网易",
    "url": "https://www.163.com/dy/article/LB985D9S053469RG.html",
    "firstSeen": "2026-11-09",
-   "id": 180
+   "id": 187
   },
   {
    "cat": "AI行业",
@@ -2558,7 +2656,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/LB6DUUEQ05561FZO.html",
    "firstSeen": "2026-11-09",
-   "id": 181
+   "id": 188
   },
   {
    "cat": "AI行业",
@@ -2572,7 +2670,7 @@ window.BRIEFING = {
    "source": "新华社/每日资讯简报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 182
+   "id": 189
   },
   {
    "cat": "AI行业",
@@ -2586,7 +2684,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://dy.163.com/article/LB4DBHSB05118DFD.html",
    "firstSeen": "2026-11-09",
-   "id": 183
+   "id": 190
   },
   {
    "cat": "AI行业",
@@ -2600,7 +2698,7 @@ window.BRIEFING = {
    "source": "上观新闻/每日资讯简报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 184
+   "id": 191
   },
   {
    "cat": "AI行业",
@@ -2614,7 +2712,7 @@ window.BRIEFING = {
    "source": "AIToolsRecap/Bloomberg",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 185
+   "id": 192
   },
   {
    "cat": "AI行业",
@@ -2628,7 +2726,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://www.163.com/dy/article/LB9N1Q8A0512B07B.html",
    "firstSeen": "2026-11-09",
-   "id": 186
+   "id": 193
   },
   {
    "cat": "AI行业",
@@ -2642,7 +2740,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261109A06ASU00",
    "firstSeen": "2026-11-09",
-   "id": 187
+   "id": 194
   },
   {
    "cat": "AI行业",
@@ -2656,7 +2754,7 @@ window.BRIEFING = {
    "source": "AIToolsRecap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 188
+   "id": 195
   },
   {
    "cat": "AI行业",
@@ -2670,7 +2768,7 @@ window.BRIEFING = {
    "source": "AIToolsRecap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 189
+   "id": 196
   },
   {
    "cat": "AI行业",
@@ -2684,7 +2782,7 @@ window.BRIEFING = {
    "source": "Bloomberg（AIToolsRecap）",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 190
+   "id": 197
   },
   {
    "cat": "AI行业",
@@ -2698,161 +2796,105 @@ window.BRIEFING = {
    "source": "AIToolsRecap",
    "url": "https://aitoolsrecap.com/Blog/ai-news-november-09-2026",
    "firstSeen": "2026-11-09",
-   "id": 191
-  },
-  {
-   "cat": "AI行业",
-   "time": "01:26",
-   "impact": "high",
-   "related": true,
-   "overseas": false,
-   "title": "Kimi开放K3.1 Pro权重(2.8万亿参数、百万上下文)并推出托管智能体",
-   "summary": "月之暗面在Hugging Face开放Kimi K3.1 Pro完整权重（约2.8万亿参数、百万Token上下文），登顶Agent Arena开放模型榜；同时发布Kimi Hosted Agents，将Agent运行环境做成7×24云端托管服务，提供140+Skills与30+插件。",
-   "decision": "国产开源模型补齐'权重+基础设施'双拼图，企业级智能体成本有望下降；招联×联通可评估引入托管智能体用于客服与风控长程任务。",
-   "source": "网易·前沿快讯",
-   "url": "https://www.163.com/dy/article/LB10AJO105569XIR.html",
-   "firstSeen": "2026-11-06",
-   "id": 192
-  },
-  {
-   "cat": "AI行业",
-   "time": "02:00",
-   "impact": "high",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] OpenAI发布GPT-6 Cyber专职安全模型 挖出Firefox 81个未知高危漏洞",
-   "summary": "OpenAI发布专为安全研究打造的GPT-6 Cyber，在ExploitGym基准得分48.5%（前代32.1%），在Firefox中发现81个未知高危漏洞，并对Linux内核复现948个可用提权利用，准备框架安全评级上调至'关键'。",
-   "decision": "AI从'写代码'迈向'守安全'标志性一步，攻防门槛同步抬高；招联×联通合作中涉及系统安全场景可关注此类专用模型的合规采购与红蓝对抗应用。",
-   "source": "DEV Community / OpenAI",
-   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-6-2026-openai-ships-gpt-6-cyber-meta-buys-conductor-anthropic-locks-1jij",
-   "firstSeen": "2026-11-06",
-   "id": 193
-  },
-  {
-   "cat": "AI行业",
-   "time": "07:00",
-   "impact": "mid",
-   "related": true,
-   "overseas": false,
-   "title": "华为、阿里等20家单位联合共建智能体互联基础设施",
-   "summary": "华为、阿里等20家单位联合共建智能体互联基础设施，加速智能体赋能千行百业，大模型从卷参数转向卷'基础设施'，被视为AI时代的'高速公路'。",
-   "decision": "智能体互联标准与基建成形，招联×联通合作可借势接入标准化智能体生态，降低自研互通成本，值得纳入技术路线评估。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 194
-  },
-  {
-   "cat": "AI行业",
-   "time": "06:30",
-   "impact": "mid",
-   "related": false,
-   "overseas": true,
-   "title": "OpenAI全量上线GPT-Image-2.6 原生直出GIF动图与SVG矢量图",
-   "summary": "OpenAI在ChatGPT、Codex及API全量上线图像引擎Images 2.6，整体生成时间缩短50%（最快6秒），首次一步原生生成GIF动图并支持导出SVG矢量图与圈选局部重绘。",
-   "decision": "AI图像从静态走向轻量动态，电商与营销素材生产成本进一步压缩，对招联数字营销素材生产提效有直接参考价值。",
-   "source": "腾讯研究院AI速递·搜狐",
-   "url": "https://www.sohu.com/a/1097767586_455313",
-   "firstSeen": "2026-11-06",
-   "id": 195
-  },
-  {
-   "cat": "AI行业",
-   "time": "06:30",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "百度开源ERNIE-5.5-Flash-Base 总参2800亿每Token仅激活140亿",
-   "summary": "百度开源ERNIE-5.5-Flash-Base预训练终点权重，稀疏MoE架构总参2800亿、每Token激活140亿，33.5T tokens从零预训练，上下文训练128K、推理支持1M，FP8与BF16权重已上架Hugging Face。",
-   "decision": "又一巨无霸级开源底座入场，国内大模型开源军备竞赛加速，利好招联等企业在合规可控前提下低成本微调自有风控与营销模型。",
-   "source": "硅基早安·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzcwMzQyNjQyMw==&mid=2247485326&idx=1&sn=963061225631717ce295f467bcada106&chksm=f5a16a498b73682bcce9ed160bd66da7e81781d0a116be75a1388a5ce896701b6507d25e4018",
-   "firstSeen": "2026-11-06",
-   "id": 196
-  },
-  {
-   "cat": "AI行业",
-   "time": "06:30",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "混元Hy4在WorkBuddy上线调用激增 推理集群紧急扩容十倍",
-   "summary": "混元Hy4于11月4日在WorkBuddy首发接入，凭Agent能力提升引发调用激增，团队已将推理集群紧急扩容十倍并提高免费体验额度，Hy3限免延长至11月15日。",
-   "decision": "国产Agent模型在中文工作场景快速落地，关注其对智能体办公与自动化流程的范式影响，可作为招联内部效率工具的参考。",
-   "source": "腾讯研究院AI速递·搜狐",
-   "url": "https://www.sohu.com/a/1097767586_455313",
-   "firstSeen": "2026-11-06",
-   "id": 197
-  },
-  {
-   "cat": "AI行业",
-   "time": "01:26",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "第九届进博会开幕 480件全球首发 人形机器人与前沿算力扎堆首秀",
-   "summary": "第九届进博会在上海开幕，480件全球首发新品集中亮相，人形机器人、前沿算力等硬核科技扎堆首秀；Kimi开放旗舰权重、OpenAI补齐动态生图能力等模型端进展同步兑现。",
-   "decision": "进博会成创新落地窗口，AI与具身智能产业化提速，关注其与招联智能客服、营销自动化等场景的结合机会。",
-   "source": "网易·前沿快讯",
-   "url": "https://www.163.com/dy/article/LB10AJO105569XIR.html",
-   "firstSeen": "2026-11-06",
    "id": 198
   },
   {
-   "cat": "AI行业",
-   "time": "06:30",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "谷歌发布Gemini Omni 1.2 Flash 主打更快推理与更长视频处理",
-   "summary": "谷歌推出Gemini Omni 1.2 Flash，主打更快推理与更长视频片段处理，通过OpenRouter与Google The Keyword同步放出，定位高性价比多模态模型。",
-   "decision": "多模态进入'快、省、长'性价比肉搏期，中小团队可选项增多，关注其在招联短视频营销与内容审核场景的替代成本。",
-   "source": "硅基早安·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzcwMzQyNjQyMw==&mid=2247485326&idx=1&sn=963061225631717ce295f467bcada106&chksm=f5a16a498b73682bcce9ed160bd66da7e81781d0a116be75a1388a5ce896701b6507d25e4018",
-   "firstSeen": "2026-11-06",
+   "cat": "母婴",
+   "time": "11:11",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "内蒙古十五五国民健康规划：落实育儿补贴 普惠托育生均补助",
+   "summary": "内蒙古印发十五五国民健康规划，提出落实育儿补贴政策，实施普惠托育服务机构生均定额补助项目，探索补贴补助标准动态调整机制；推进1+N托育服务体系建设，加大托育综合服务中心建设，到2030年实现盟市级托育综合服务中心全覆盖。",
+   "decision": "育儿补贴与普惠托育扩面，妻预产期后需尽早了解户籍地托育与补贴申领通道，做好育儿成本规划。",
+   "source": "内蒙古自治区政府",
+   "url": "https://www.nmg.gov.cn/zwgk/zfxxgk/zfxxgkml/ghxx/zxgh/202611/t20261111_2976128.html",
+   "firstSeen": "2026-11-12",
    "id": 199
   },
   {
-   "cat": "AI行业",
-   "time": "02:00",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] Meta收购智能体编排初创Conductor",
-   "summary": "Meta确认收购智能体编排初创Conductor，后者工具可在云端、本地、手机等工作空间并行运行多个AI智能体协作构建软件项目，创始人为Charlie Holtz。",
-   "decision": "头部厂商以收购补齐编程与代码能力短板，智能体工程化趋势明确，关注招联研发侧引入多智能体协作提效的可能性。",
-   "source": "DEV Community / TechCrunch",
-   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-6-2026-openai-ships-gpt-6-cyber-meta-buys-conductor-anthropic-locks-1jij",
-   "firstSeen": "2026-11-06",
+   "cat": "母婴",
+   "time": "10:00",
+   "impact": "high",
+   "related": true,
+   "overseas": false,
+   "title": "四川完善生育支持政策 生育医疗保障再升级",
+   "summary": "四川省医保局等四部门联合印发通知，11月1日起施行（有效期5年）：建立覆盖城乡产前检查费保障，职工最高1500元、居民最高1000元定额；住院分娩顺产最高5000元、剖宫产7000元限额内全额保障；男职工未就业配偶可按男职工参保地标准享受生育医疗费待遇，且不要求提供生育服务证、结婚证等不必要材料。",
+   "decision": "妻刘镜预产期临近，关注四川等地生育医疗保障落地，提前核对产检与分娩报销口径，降低家庭生育支出。",
+   "source": "四川省医保局等/什邡市政府",
+   "url": "https://www.shifang.gov.cn/gk/ggbw/shbj/ylbjbw/3023441.htm",
+   "firstSeen": "2026-11-12",
    "id": 200
   },
   {
-   "cat": "AI行业",
-   "time": "02:00",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] Anthropic发布Claude Enterprise企业级安全管控",
-   "summary": "Anthropic推出面向企业级的安全管控能力，强化Claude在企业数据隔离、权限与合规方面的控制，标志前沿模型加速向企业可信部署靠拢。",
-   "decision": "企业级AI安全管控成为竞争焦点，招联作为持牌消金在引入大模型时须重点评估数据合规与权限隔离方案。",
-   "source": "DEV Community",
-   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-6-2026-openai-ships-gpt-6-cyber-meta-buys-conductor-anthropic-locks-1jij",
-   "firstSeen": "2026-11-06",
+   "cat": "母婴",
+   "time": "10:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "杭州18岁少女一次性检出18种HPV亚型阳性",
+   "summary": "潮新闻报道，杭州市临平区妇幼保健院接诊一名18岁患者，一次性检出18种HPV亚型阳性，其中高危致癌型10种，属临床极少见的多重感染，正在治疗中；医生提示多数HPV感染可在1-2年内自行清除，高危型持续感染才可能导致病变。",
+   "decision": "女性健康与HPV防护关乎家庭，提醒家人包括孕产期配偶做好筛查与疫苗接种规划。",
+   "source": "潮新闻/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 201
   },
   {
-   "cat": "AI行业",
-   "time": "02:00",
-   "impact": "low",
-   "related": false,
+   "cat": "母婴",
+   "time": "09:00",
+   "impact": "mid",
+   "related": true,
    "overseas": true,
-   "title": "[海外] OpenAI推出国家社区契约与算力园区政策蓝图",
-   "summary": "OpenAI发布National Community Compact与Compute Campus Policy Blueprint，旨在保护当地资源、创造就业并引导负责任的AI基础设施发展。",
-   "decision": "全球AI基础设施布局进入政策化阶段，关注其对算力供给、能源约束与跨境AI合作的长期影响。",
-   "source": "OpenAI Blog / DEV Community",
-   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-6-2026-openai-ships-gpt-6-cyber-meta-buys-conductor-anthropic-locks-1jij",
-   "firstSeen": "2026-11-06",
+   "title": "[海外] 美国FDA警告GLP-1减重药或致罕见永久性视力丧失",
+   "summary": "美国食品和药物管理局发布通告，使用胰高血糖素样肽-1（GLP-1）受体激动剂类药物可能增加患一种较罕见但可能导致永久视力丧失的眼部疾病风险，涉及司美格鲁肽、利拉鲁肽和替尔泊肽等，要求所有相关药物上市申请持有者在说明书中增加风险警示。",
+   "decision": "备孕及孕期用药安全需谨慎，妻孕期前后避免自行使用减重类GLP-1药物，遵医嘱评估。",
+   "source": "美国FDA/央视",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 202
+  },
+  {
+   "cat": "母婴",
+   "time": "08:30",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "保险业协会发布医疗险示范条款和商保药品推荐清单",
+   "summary": "中国保险行业协会发布商业医疗保险示范条款和商业健康保险药品保障推荐清单（第一版），推动商业健康保险更好服务国家战略和民生保障，提升医保外用药与医疗可及性。",
+   "decision": "可关注商业医疗险对孕产及新生儿医疗的补充保障，提前配置家庭健康险。",
+   "source": "中国保险行业协会/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 203
+  },
+  {
+   "cat": "母婴",
+   "time": "08:00",
+   "impact": "mid",
+   "related": true,
+   "overseas": false,
+   "title": "全国最低工资标准均突破2000元 上海2740元居首",
+   "summary": "新华社报道，今年已有江苏、浙江、广东、山西、陕西、云南、新疆等地上调最低工资标准，最低涨100元、最高涨超200元；调整后全国各省区市第一档月最低工资均已超2000元，上海以2740元居首，关系家庭养育底线成本。",
+   "decision": "育儿家庭基础生活成本线抬升，结合预产期做好产后开支预算与现金流安排。",
+   "source": "新华社/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 204
+  },
+  {
+   "cat": "母婴",
+   "time": "08:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "十五五人社规划明确民生量化指标",
+   "summary": "人社部《人力资源和社会保障事业发展十五五规划》提出，十五五时期城镇失业人员再就业2500万人，城镇调查失业率控制在5.5%以内，基本养老保险参保率保持在95%以上，企业（职业）年金基金规模超9万亿元。",
+   "decision": "社保与年金指标关系家庭长期保障，结合育儿阶段统筹配偶与工作方保障衔接。",
+   "source": "人社部/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 205
   },
   {
    "cat": "母婴",
@@ -2866,7 +2908,7 @@ window.BRIEFING = {
    "source": "经济参考报",
    "url": "http://jjckb.xinhuanet.com/20261111/1b3e59c890b64153bf6f8721fb8374d6/c.html",
    "firstSeen": "2026-11-11",
-   "id": 203
+   "id": 206
   },
   {
    "cat": "母婴",
@@ -2880,7 +2922,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/沈阳日报",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 204
+   "id": 207
   },
   {
    "cat": "母婴",
@@ -2894,7 +2936,7 @@ window.BRIEFING = {
    "source": "福州市医疗保障局",
    "url": "https://ybj.fuzhou.gov.cn/zwgk/yfzzayfw/xwdt/202611/t20261111_5391966.htm",
    "firstSeen": "2026-11-11",
-   "id": 205
+   "id": 208
   },
   {
    "cat": "母婴",
@@ -2908,7 +2950,7 @@ window.BRIEFING = {
    "source": "新京报",
    "url": "https://www.bjnews.com.cn/detail/1794274887129996.html",
    "firstSeen": "2026-11-11",
-   "id": 206
+   "id": 209
   },
   {
    "cat": "母婴",
@@ -2922,7 +2964,7 @@ window.BRIEFING = {
    "source": "内蒙古自治区人民政府",
    "url": "https://www.nmg.gov.cn/zwgk/zfxxgk/zfxxgkml/ghxx/zxgh/202611/t20261111_2976128.html",
    "firstSeen": "2026-11-11",
-   "id": 207
+   "id": 210
   },
   {
    "cat": "母婴",
@@ -2936,7 +2978,7 @@ window.BRIEFING = {
    "source": "常州国家高新区管委会",
    "url": "https://www.cznd.gov.cn/html/cznd/2026/IHHHILLN_1111/580588.html",
    "firstSeen": "2026-11-11",
-   "id": 208
+   "id": 211
   },
   {
    "cat": "母婴",
@@ -2950,7 +2992,7 @@ window.BRIEFING = {
    "source": "陕西省人民政府",
    "url": "https://www.shaanxi.gov.cn/xw/sxyw/202611/t20261111_3723581.html",
    "firstSeen": "2026-11-11",
-   "id": 209
+   "id": 212
   },
   {
    "cat": "母婴",
@@ -2964,7 +3006,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A036I800",
    "firstSeen": "2026-11-11",
-   "id": 210
+   "id": 213
   },
   {
    "cat": "母婴",
@@ -2978,7 +3020,7 @@ window.BRIEFING = {
    "source": "沈阳日报",
    "url": "https://epaper.syd.com.cn/syrb/h5/html5/2026-11/11/content_121056_20013172.htm",
    "firstSeen": "2026-11-11",
-   "id": 211
+   "id": 214
   },
   {
    "cat": "母婴",
@@ -2992,7 +3034,7 @@ window.BRIEFING = {
    "source": "千龙网",
    "url": "https://china.qianlong.com/2026/1110/8749311.shtml",
    "firstSeen": "2026-11-11",
-   "id": 212
+   "id": 215
   },
   {
    "cat": "母婴",
@@ -3006,7 +3048,7 @@ window.BRIEFING = {
    "source": "上观新闻",
    "url": "https://news.qq.com/rain/a/20261111A036I800",
    "firstSeen": "2026-11-11",
-   "id": 213
+   "id": 216
   },
   {
    "cat": "母婴",
@@ -3020,7 +3062,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0374700",
    "firstSeen": "2026-11-11",
-   "id": 214
+   "id": 217
   },
   {
    "cat": "母婴",
@@ -3034,7 +3076,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A036I800",
    "firstSeen": "2026-11-11",
-   "id": 215
+   "id": 218
   },
   {
    "cat": "母婴",
@@ -3048,7 +3090,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0374700",
    "firstSeen": "2026-11-11",
-   "id": 216
+   "id": 219
   },
   {
    "cat": "母婴",
@@ -3062,7 +3104,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A034U100",
    "firstSeen": "2026-11-11",
-   "id": 217
+   "id": 220
   },
   {
    "cat": "母婴",
@@ -3076,7 +3118,7 @@ window.BRIEFING = {
    "source": "央视网/中国网",
    "url": "https://news.cctv.com/2026/11/10/ARTINU5rp4v6b9KzSKouL3Q3261110.shtml",
    "firstSeen": "2026-11-10",
-   "id": 218
+   "id": 221
   },
   {
    "cat": "母婴",
@@ -3090,7 +3132,7 @@ window.BRIEFING = {
    "source": "国家卫健委/中国政府网",
    "url": "https://www.nhc.gov.cn/wjw/mtbd/202607/b5577f24d3cb47ee8fb31eae631be006.shtml",
    "firstSeen": "2026-11-10",
-   "id": 219
+   "id": 222
   },
   {
    "cat": "母婴",
@@ -3104,7 +3146,7 @@ window.BRIEFING = {
    "source": "健康早闻/中疾控",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6666af24bc404452",
    "firstSeen": "2026-11-10",
-   "id": 220
+   "id": 223
   },
   {
    "cat": "母婴",
@@ -3118,7 +3160,7 @@ window.BRIEFING = {
    "source": "光明网/腾讯健康早闻",
    "url": "https://news.gmw.cn/2026-11/10/content_39093321.htm",
    "firstSeen": "2026-11-10",
-   "id": 221
+   "id": 224
   },
   {
    "cat": "母婴",
@@ -3132,7 +3174,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.com/2026/11/10/ARTINU5rp4v6b9KzSKouL3Q3261110.shtml",
    "firstSeen": "2026-11-10",
-   "id": 222
+   "id": 225
   },
   {
    "cat": "母婴",
@@ -3146,7 +3188,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.com/2026/11/10/ARTIcAcoWHILqeASS1zXfsYn261110.shtml",
    "firstSeen": "2026-11-10",
-   "id": 223
+   "id": 226
   },
   {
    "cat": "母婴",
@@ -3160,7 +3202,7 @@ window.BRIEFING = {
    "source": "晋城市政府",
    "url": "https://xxgk.jcgov.gov.cn/jcsrmzf/zc/jszf/202611/t20261110_2410451.shtml",
    "firstSeen": "2026-11-10",
-   "id": 224
+   "id": 227
   },
   {
    "cat": "母婴",
@@ -3174,7 +3216,7 @@ window.BRIEFING = {
    "source": "光明网",
    "url": "https://news.gmw.cn/2026-11/10/content_39093321.htm",
    "firstSeen": "2026-11-10",
-   "id": 225
+   "id": 228
   },
   {
    "cat": "母婴",
@@ -3188,7 +3230,7 @@ window.BRIEFING = {
    "source": "岳阳市君山区人民政府",
    "url": "https://www.junshan.gov.cn/32415/32463/39296/39687/74452/content_2421294.html",
    "firstSeen": "2026-11-10",
-   "id": 226
+   "id": 229
   },
   {
    "cat": "母婴",
@@ -3202,7 +3244,7 @@ window.BRIEFING = {
    "source": "中阳县人民政府",
    "url": "http://www.sxzhongyang.gov.cn/xxgk/zdlygk/shgysyjs/jbylws/202611/t20261109_2073608.shtml",
    "firstSeen": "2026-11-10",
-   "id": 227
+   "id": 230
   },
   {
    "cat": "母婴",
@@ -3216,7 +3258,7 @@ window.BRIEFING = {
    "source": "嘉荫县人民政府",
    "url": "https://www.jyx.gov.cn/jyxrmzf/c104060/202611/437670.shtml",
    "firstSeen": "2026-11-10",
-   "id": 228
+   "id": 231
   },
   {
    "cat": "母婴",
@@ -3230,7 +3272,7 @@ window.BRIEFING = {
    "source": "健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 229
+   "id": 232
   },
   {
    "cat": "母婴",
@@ -3244,7 +3286,7 @@ window.BRIEFING = {
    "source": "健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 230
+   "id": 233
   },
   {
    "cat": "母婴",
@@ -3258,7 +3300,7 @@ window.BRIEFING = {
    "source": "健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 231
+   "id": 234
   },
   {
    "cat": "母婴",
@@ -3272,7 +3314,7 @@ window.BRIEFING = {
    "source": "健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 232
+   "id": 235
   },
   {
    "cat": "母婴",
@@ -3286,7 +3328,7 @@ window.BRIEFING = {
    "source": "健康早闻/新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6666af24bc404452",
    "firstSeen": "2026-11-10",
-   "id": 233
+   "id": 236
   },
   {
    "cat": "母婴",
@@ -3300,7 +3342,7 @@ window.BRIEFING = {
    "source": "腾讯健康早闻",
    "url": "https://news.qq.com/rain/a/20261110A031IY00",
    "firstSeen": "2026-11-10",
-   "id": 234
+   "id": 237
   },
   {
    "cat": "母婴",
@@ -3314,7 +3356,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "http://btybj.xjbt.gov.cn/c/2026-11-09/8513691.shtml",
    "firstSeen": "2026-11-09",
-   "id": 235
+   "id": 238
   },
   {
    "cat": "母婴",
@@ -3328,7 +3370,7 @@ window.BRIEFING = {
    "source": "国家医保局/央广网",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 236
+   "id": 239
   },
   {
    "cat": "母婴",
@@ -3342,7 +3384,7 @@ window.BRIEFING = {
    "source": "四川新闻网",
    "url": "https://scnews.newssc.org/system/20261107/001653030.html",
    "firstSeen": "2026-11-09",
-   "id": 237
+   "id": 240
   },
   {
    "cat": "母婴",
@@ -3356,7 +3398,7 @@ window.BRIEFING = {
    "source": "平安广西网",
    "url": "https://www.pagx.cn/news.html?aid=475449",
    "firstSeen": "2026-11-09",
-   "id": 238
+   "id": 241
   },
   {
    "cat": "母婴",
@@ -3370,7 +3412,7 @@ window.BRIEFING = {
    "source": "看见0-3（善达舆情）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 239
+   "id": 242
   },
   {
    "cat": "母婴",
@@ -3384,7 +3426,7 @@ window.BRIEFING = {
    "source": "搜狐",
    "url": "https://www.sohu.com/a/1099048234_121106991",
    "firstSeen": "2026-11-09",
-   "id": 240
+   "id": 243
   },
   {
    "cat": "母婴",
@@ -3398,7 +3440,7 @@ window.BRIEFING = {
    "source": "同花顺(华源证券)",
    "url": "https://m.10jqka.com.cn/20261109/c681595847.shtml",
    "firstSeen": "2026-11-09",
-   "id": 241
+   "id": 244
   },
   {
    "cat": "母婴",
@@ -3412,7 +3454,7 @@ window.BRIEFING = {
    "source": "安徽省计划生育协会",
    "url": "http://www.ahsjsx.org.cn/newinfo/0eef6c7f-c55b-4dc6-95c2-548156cb230f.html",
    "firstSeen": "2026-11-09",
-   "id": 242
+   "id": 245
   },
   {
    "cat": "母婴",
@@ -3426,7 +3468,7 @@ window.BRIEFING = {
    "source": "红网(人民日报海外版)",
    "url": "https://health.rednet.cn/content/646055/99/16451016.html",
    "firstSeen": "2026-11-09",
-   "id": 243
+   "id": 246
   },
   {
    "cat": "母婴",
@@ -3440,7 +3482,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261109A070VE00",
    "firstSeen": "2026-11-09",
-   "id": 244
+   "id": 247
   },
   {
    "cat": "母婴",
@@ -3454,7 +3496,7 @@ window.BRIEFING = {
    "source": "母婴周报(看见0-3岁)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 245
+   "id": 248
   },
   {
    "cat": "母婴",
@@ -3468,7 +3510,7 @@ window.BRIEFING = {
    "source": "母婴周报(看见0-3岁)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 246
+   "id": 249
   },
   {
    "cat": "母婴",
@@ -3482,7 +3524,7 @@ window.BRIEFING = {
    "source": "母婴周报/什邡市政府",
    "url": "https://www.shifang.gov.cn/gk/ggbw/shbj/ylbjbw/3023441.htm?clientId=3&",
    "firstSeen": "2026-11-09",
-   "id": 247
+   "id": 250
   },
   {
    "cat": "母婴",
@@ -3496,7 +3538,7 @@ window.BRIEFING = {
    "source": "平安广西网",
    "url": "https://www.pagx.cn/news.html?aid=475449",
    "firstSeen": "2026-11-09",
-   "id": 248
+   "id": 251
   },
   {
    "cat": "母婴",
@@ -3510,7 +3552,7 @@ window.BRIEFING = {
    "source": "宝鸡市卫健委",
    "url": "https://wjw.baoji.gov.cn/col2222/col2261/202611/t20261109_1315508.html",
    "firstSeen": "2026-11-09",
-   "id": 249
+   "id": 252
   },
   {
    "cat": "母婴",
@@ -3524,7 +3566,7 @@ window.BRIEFING = {
    "source": "中国新闻周刊（网易）",
    "url": "https://m.163.com/baby/article/LB5OBQMM0514BE2Q.html",
    "firstSeen": "2026-11-09",
-   "id": 250
+   "id": 253
   },
   {
    "cat": "母婴",
@@ -3538,7 +3580,7 @@ window.BRIEFING = {
    "source": "看见0-3（善达舆情）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 251
+   "id": 254
   },
   {
    "cat": "母婴",
@@ -3552,7 +3594,7 @@ window.BRIEFING = {
    "source": "母婴周报(看见0-3岁)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 252
+   "id": 255
   },
   {
    "cat": "母婴",
@@ -3566,7 +3608,7 @@ window.BRIEFING = {
    "source": "母婴周报(看见0-3岁)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 253
+   "id": 256
   },
   {
    "cat": "母婴",
@@ -3580,7 +3622,7 @@ window.BRIEFING = {
    "source": "宜丰县人民政府",
    "url": "https://www.jxyf.gov.cn/yfxrmzf/zdwj/pc/content/2118622683037704192/content_2118622683037704192.html",
    "firstSeen": "2026-11-09",
-   "id": 254
+   "id": 257
   },
   {
    "cat": "母婴",
@@ -3594,105 +3636,105 @@ window.BRIEFING = {
    "source": "看见0-3（善达舆情）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTMyMzc1Mw==&mid=2247484336&idx=1&sn=38253b1de172460f479f4162efe52cd1&chksm=f5e6328e36faafdeabade0dea117515d685be0b09e3b564983770303fd924062131bf4ff7f75#rd",
    "firstSeen": "2026-11-09",
-   "id": 255
-  },
-  {
-   "cat": "母婴",
-   "time": "07:00",
-   "impact": "high",
-   "related": true,
-   "overseas": false,
-   "title": "'十五五'健康中国规划强化全生命周期健康服务 孕产保健儿童管护列重点",
-   "summary": "《国民健康'十五五'规划》作出'加强基层医疗卫生机构建设''完善全生命周期健康服务'部署，推动孕产保健、儿童管护、慢病管理、老年照护等服务让群众就近获得系统连续保障。",
-   "decision": "妻预产期临近，'十五五'将孕产保健与儿童管护列为重点，意味着产检、新生儿照护、疫苗接种等基层服务将更可及，可提前规划建档与社区母婴服务。",
-   "source": "人民网·沈阳日报",
-   "url": "https://epaper.syd.com.cn/syrb/h5/html5/2026-11/06/content_121061_20001314.htm",
-   "firstSeen": "2026-11-06",
-   "id": 256
-  },
-  {
-   "cat": "母婴",
-   "time": "07:00",
-   "impact": "high",
-   "related": true,
-   "overseas": false,
-   "title": "儿童用品首个全品类强制性国标《儿童用品通用安全要求》11月1日实施",
-   "summary": "我国首个儿童用品全品类强制性国家标准《儿童用品通用安全要求》11月1日起实施，覆盖14周岁以下儿童使用、玩耍、穿戴产品，对可迁移重金属、增塑剂、甲醛等7大类有害物质设限量，带刺鼻异味产品禁售。",
-   "decision": "宝宝即将出生，采购婴儿用品须认准新国标，重点看可迁移重金属与增塑剂限量，避开无标识、有异味产品，优先选通过强制认证的品类。",
-   "source": "遂宁日报",
-   "url": "https://snrb.snxw.com/html/2026-11/06/content_99156_20000929.htm",
-   "firstSeen": "2026-11-06",
-   "id": 257
-  },
-  {
-   "cat": "母婴",
-   "time": "07:00",
-   "impact": "mid",
-   "related": true,
-   "overseas": false,
-   "title": "四川生育支持：住院分娩政策范围内限额内全额保障 逐步实现'无自付'",
-   "summary": "四川省《关于完善生育支持政策加强制度保障功能的通知》11月1日起实施，对参加基本医保人员住院分娩或终止妊娠使用的政策范围内药品、医疗服务项目和医用耗材不设起付标准、限额内全额保障，逐步实现政策范围内住院分娩'无自付'。",
-   "decision": "生育保障地方加码，若在川参保可享住院分娩低自付；结合妻预产期，提前确认参保地生育医疗费用与生育津贴报销细则，做好费用预算。",
-   "source": "遂宁日报",
-   "url": "https://snrb.snxw.com/html/2026-11/06/content_99156_20000929.htm",
-   "firstSeen": "2026-11-06",
    "id": 258
   },
   {
-   "cat": "母婴",
-   "time": "07:00",
+   "cat": "政治/政策",
+   "time": "08:00",
    "impact": "mid",
-   "related": true,
+   "related": false,
    "overseas": false,
-   "title": "陕西汉中灵活就业人员参加生育保险可享生育津贴 10月22日起",
-   "summary": "陕西汉中市医保局等联合印发通知，明确自2026年10月22日起，参加职工基本医保并足额缴费的灵活就业人员、农民工、新就业形态人员，在享生育医疗费用报销基础上符合条件可申领生育津贴。",
-   "decision": "生育津贴覆盖向灵活就业群体扩围，若家庭任一方属灵活就业参保，可对照汉中/所在地新规确认生育津贴申领资格，避免漏享。",
-   "source": "腾讯新闻·健康早闻",
-   "url": "https://news.qq.com/rain/a/20261106A031Y100",
-   "firstSeen": "2026-11-06",
+   "title": "7部门联合印发《工程技术人员继续教育规定》 2027年1月1日起施行",
+   "summary": "人社部、工信部、自然资源部、生态环境部、住建部、交通部、国家网信办等7部门联合印发规定，全文6章29条，对工程技术人员继续教育的总体原则、组织管理、内容方式和机构、学时管理、考核监督作出规范。",
+   "decision": "工程技术人才继续教育规范化，关联招联科技人才梯队建设与培训体系。",
+   "source": "人社部/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 259
   },
   {
-   "cat": "母婴",
-   "time": "07:00",
+   "cat": "政治/政策",
+   "time": "08:00",
    "impact": "mid",
-   "related": true,
+   "related": false,
    "overseas": false,
-   "title": "新生儿出生'一件事'政务集成：户口、疫苗、生育津贴一次办",
-   "summary": "新生儿出生'一件事'政务服务集成办理出生登记、预防接种证、生育津贴申领等事项；按法规婴儿出生后一个月内须申报出生登记，儿童出生后一个月内须办理预防接种证。",
-   "decision": "宝宝出生后须在一个月内完成户口登记与疫苗接种证办理，建议提前了解参保地'出生一件事'线上入口，备齐材料一次性办理，省时省心。",
-   "source": "广西数字政务一体化平台",
-   "url": "https://zwfw.gxzf.gov.cn/eportal/ui?itemDetailId=54a6462e-2e83-4d35-860b-1bde63c4baf9&pageId=d0349fe94d1c4d139b006db643fb9e52",
-   "firstSeen": "2026-11-06",
+   "title": "王毅同美国国务卿鲁比奥通电话 就中美关系及元首互动交换意见",
+   "summary": "11月11日，中共中央政治局委员、外交部长王毅同美国国务卿鲁比奥通电话，双方就中美关系及两国元首互动深入交换意见，通话是积极和建设性的。",
+   "decision": "中美高层沟通缓和外部不确定性，关注其对市场情绪与招联海外合作环境的边际影响。",
+   "source": "外交部/央视",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
    "id": 260
   },
   {
-   "cat": "母婴",
-   "time": "07:00",
-   "impact": "low",
-   "related": true,
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "mid",
+   "related": false,
    "overseas": false,
-   "title": "《残疾预防和残疾人康复条例》等14部行政法规修改 涉一老一小保障",
-   "summary": "国务院修改和废止部分行政法规，其中《残疾预防和残疾人康复条例》明确县级以上政府合理布局康复机构并纳入基本公共服务体系规划，强化'一老一小'等重点人群服务保障。",
-   "decision": "条例强化康复机构布局与重点人群保障，与母婴、儿童健康服务网络衔接，可作为未来宝宝及家人康复资源的政策依据。",
-   "source": "腾讯新闻·健康早闻",
-   "url": "https://news.qq.com/rain/a/20261106A031Y100",
-   "firstSeen": "2026-11-06",
+   "title": "最高检公安部联合发布依法惩治洗钱犯罪典型案例5件",
+   "summary": "11月11日，最高人民检察院、公安部联合发布依法惩治洗钱犯罪典型案例5件，涉及金融情报运用、单独起诉洗钱犯罪、惩治单位洗钱犯罪、打击地下钱庄、打击治理利用空壳公司洗钱犯罪等多个领域。",
+   "decision": "反洗钱监管持续高压，招联需强化可疑交易监测与商户准入尽调，守住合规底线。",
+   "source": "最高检/公安部/央视",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
    "id": 261
   },
   {
-   "cat": "母婴",
-   "time": "07:00",
+   "cat": "政治/政策",
+   "time": "05:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "人民日报评论：营造科技创新与产业创新深度融合生态",
+   "summary": "人民日报评论指出，《中共中央国务院关于发展新质生产力的意见》提出营造有利于科技创新和产业创新深度融合的良好生态；江苏昆山设场景办开放真实场景，深圳龙岗建设人工智能与机器人应用改革试验区，各地加强探索。",
+   "decision": "科技创新政策红利持续释放，招联可关注AI与产业融合场景中的金融配套机会。",
+   "source": "人民日报/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A02YK000",
+   "firstSeen": "2026-11-12",
+   "id": 262
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
    "impact": "low",
    "related": false,
    "overseas": false,
-   "title": "健康中国：研究发现调节脂肪酸代谢或有助清除衰老细胞",
-   "summary": "东芬兰大学参与的国际研究发现，部分脂肪酸的代谢水平可能影响受损细胞进入衰老状态并持续存活，还是通过细胞死亡被清除，调节该代谢或为探索衰老相关疾病新疗法提供线索。",
-   "decision": "母婴家庭关注父母与长辈健康，衰老细胞研究属前沿方向，可作为家庭健康科普的长期关注点，暂无直接育儿决策影响。",
-   "source": "新华社·腾讯新闻",
-   "url": "https://news.qq.com/rain/a/20261106A031Y100",
-   "firstSeen": "2026-11-06",
-   "id": 262
+   "title": "2026年APEC领导人会议周新闻中心在深圳启用",
+   "summary": "11月11日，2026年APEC领导人会议周新闻中心在深圳启用并投入运行，总面积1.5万平方米，将为近5000名中外注册记者提供新闻服务保障。",
+   "decision": "APEC主场外交利好区域经贸预期，关注其对跨境业务与人民币汇率的影响。",
+   "source": "央视/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
+   "id": 263
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "low",
+   "related": false,
+   "overseas": false,
+   "title": "检察机关依法对海南省人大常委会原副主任肖杰涉嫌受贿案提起公诉",
+   "summary": "检察机关依法对海南省人大常委会原党组成员、副主任肖杰涉嫌受贿案提起公诉，反腐持续深入。",
+   "decision": "反腐常态化，关注公职人员廉洁风险对合作方背景核查的启示。",
+   "source": "央视/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
+   "id": 264
+  },
+  {
+   "cat": "政治/政策",
+   "time": "08:00",
+   "impact": "low",
+   "related": false,
+   "overseas": false,
+   "title": "第24届中国国际人才交流大会在上海举行",
+   "summary": "第24届中国国际人才交流大会在上海举行，谌贻琴出席开幕式并讲话，聚焦国际人才交流与创新发展。",
+   "decision": "人才强国战略推进，关注AI与金融科技高端人才供给对行业用工成本的影响。",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 265
   },
   {
    "cat": "政治/政策",
@@ -3706,7 +3748,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "http://ipaper.ce.cn/pad/content/202611/11/content_341692.html",
    "firstSeen": "2026-11-11",
-   "id": 263
+   "id": 266
   },
   {
    "cat": "政治/政策",
@@ -3720,7 +3762,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0370Q00",
    "firstSeen": "2026-11-11",
-   "id": 264
+   "id": 267
   },
   {
    "cat": "政治/政策",
@@ -3734,7 +3776,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0370Q00",
    "firstSeen": "2026-11-11",
-   "id": 265
+   "id": 268
   },
   {
    "cat": "政治/政策",
@@ -3748,7 +3790,7 @@ window.BRIEFING = {
    "source": "中国经济网",
    "url": "http://ipaper.ce.cn/pad/content/202611/11/content_341692.html",
    "firstSeen": "2026-11-11",
-   "id": 266
+   "id": 269
   },
   {
    "cat": "政治/政策",
@@ -3762,7 +3804,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 267
+   "id": 270
   },
   {
    "cat": "政治/政策",
@@ -3776,7 +3818,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 268
+   "id": 271
   },
   {
    "cat": "政治/政策",
@@ -3790,7 +3832,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0370Q00",
    "firstSeen": "2026-11-11",
-   "id": 269
+   "id": 272
   },
   {
    "cat": "政治/政策",
@@ -3804,7 +3846,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0370Q00",
    "firstSeen": "2026-11-11",
-   "id": 270
+   "id": 273
   },
   {
    "cat": "政治/政策",
@@ -3818,7 +3860,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0370Q00",
    "firstSeen": "2026-11-11",
-   "id": 271
+   "id": 274
   },
   {
    "cat": "政治/政策",
@@ -3832,7 +3874,7 @@ window.BRIEFING = {
    "source": "商务部官网",
    "url": "https://www.mofcom.gov.cn/szyw/index.html",
    "firstSeen": "2026-11-11",
-   "id": 272
+   "id": 275
   },
   {
    "cat": "政治/政策",
@@ -3846,7 +3888,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 273
+   "id": 276
   },
   {
    "cat": "政治/政策",
@@ -3860,7 +3902,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261111A0373A00",
    "firstSeen": "2026-11-11",
-   "id": 274
+   "id": 277
   },
   {
    "cat": "政治/政策",
@@ -3874,7 +3916,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 275
+   "id": 278
   },
   {
    "cat": "政治/政策",
@@ -3888,7 +3930,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 276
+   "id": 279
   },
   {
    "cat": "政治/政策",
@@ -3902,7 +3944,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 277
+   "id": 280
   },
   {
    "cat": "政治/政策",
@@ -3916,7 +3958,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 278
+   "id": 281
   },
   {
    "cat": "政治/政策",
@@ -3930,7 +3972,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 279
+   "id": 282
   },
   {
    "cat": "政治/政策",
@@ -3944,7 +3986,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 280
+   "id": 283
   },
   {
    "cat": "政治/政策",
@@ -3958,7 +4000,7 @@ window.BRIEFING = {
    "source": "新华社/西安报业",
    "url": "https://xafbapp.xiancn.com/newxawb/pc/pic/202511/11/7a8af002-6b2d-43d4-bb54-01eba070b134.pdf",
    "firstSeen": "2026-11-10",
-   "id": 281
+   "id": 284
   },
   {
    "cat": "政治/政策",
@@ -3972,7 +4014,7 @@ window.BRIEFING = {
    "source": "新华财经早报/今日头条",
    "url": "https://www.cnfin.com/hb-lb/detail/20261110/4493224_1.html",
    "firstSeen": "2026-11-10",
-   "id": 282
+   "id": 285
   },
   {
    "cat": "政治/政策",
@@ -3986,7 +4028,7 @@ window.BRIEFING = {
    "source": "央视网/国务院关税税则委员会",
    "url": "https://news.cctv.cn/2026/11/09/ARTIBuHgSlq2t6FF1oJj0rDb261109.shtml",
    "firstSeen": "2026-11-10",
-   "id": 283
+   "id": 286
   },
   {
    "cat": "政治/政策",
@@ -4000,7 +4042,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/外交部",
    "url": "https://new.qq.com/rain/a/20261110A035H000",
    "firstSeen": "2026-11-10",
-   "id": 284
+   "id": 287
   },
   {
    "cat": "政治/政策",
@@ -4014,7 +4056,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/头条",
    "url": "https://news.qq.com/rain/a/20261110A039EM00",
    "firstSeen": "2026-11-10",
-   "id": 285
+   "id": 288
   },
   {
    "cat": "政治/政策",
@@ -4028,7 +4070,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 286
+   "id": 289
   },
   {
    "cat": "政治/政策",
@@ -4042,7 +4084,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 287
+   "id": 290
   },
   {
    "cat": "政治/政策",
@@ -4056,7 +4098,7 @@ window.BRIEFING = {
    "source": "外交部/新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 288
+   "id": 291
   },
   {
    "cat": "政治/政策",
@@ -4070,7 +4112,7 @@ window.BRIEFING = {
    "source": "新浪财经/新华社",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 289
+   "id": 292
   },
   {
    "cat": "政治/政策",
@@ -4084,7 +4126,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 290
+   "id": 293
   },
   {
    "cat": "政治/政策",
@@ -4098,7 +4140,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 291
+   "id": 294
   },
   {
    "cat": "政治/政策",
@@ -4112,7 +4154,7 @@ window.BRIEFING = {
    "source": "新华财经早报",
    "url": "https://www.cnfin.com/hb-lb/detail/20261110/4493224_1.html",
    "firstSeen": "2026-11-10",
-   "id": 292
+   "id": 295
   },
   {
    "cat": "政治/政策",
@@ -4126,7 +4168,7 @@ window.BRIEFING = {
    "source": "新华每日重点信息",
    "url": "https://thinktank.cnfin.com/yxyyj-lb/detail/20261110/4493240_1.html",
    "firstSeen": "2026-11-10",
-   "id": 293
+   "id": 296
   },
   {
    "cat": "政治/政策",
@@ -4140,7 +4182,7 @@ window.BRIEFING = {
    "source": "头条",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 294
+   "id": 297
   },
   {
    "cat": "政治/政策",
@@ -4154,7 +4196,7 @@ window.BRIEFING = {
    "source": "头条/每经",
    "url": "https://m.nbd.com.cn/articles/2026-11-09/4643026.html",
    "firstSeen": "2026-11-10",
-   "id": 295
+   "id": 298
   },
   {
    "cat": "政治/政策",
@@ -4168,7 +4210,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/每经",
    "url": "https://m.nbd.com.cn/articles/2026-11-09/4643026.html",
    "firstSeen": "2026-11-10",
-   "id": 296
+   "id": 299
   },
   {
    "cat": "政治/政策",
@@ -4182,7 +4224,7 @@ window.BRIEFING = {
    "source": "中国经济网/新华社",
    "url": "http://ipaper.ce.cn/pad/content/202611/10/content_341640.html",
    "firstSeen": "2026-11-10",
-   "id": 297
+   "id": 300
   },
   {
    "cat": "政治/政策",
@@ -4196,7 +4238,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 298
+   "id": 301
   },
   {
    "cat": "政治/政策",
@@ -4210,7 +4252,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 299
+   "id": 302
   },
   {
    "cat": "政治/政策",
@@ -4224,7 +4266,7 @@ window.BRIEFING = {
    "source": "金十数据",
    "url": "https://flash.jin10.com/detail/20261110063513378800",
    "firstSeen": "2026-11-10",
-   "id": 300
+   "id": 303
   },
   {
    "cat": "政治/政策",
@@ -4238,7 +4280,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261110A0360Q00",
    "firstSeen": "2026-11-10",
-   "id": 301
+   "id": 304
   },
   {
    "cat": "政治/政策",
@@ -4252,7 +4294,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/人民网",
    "url": "https://new.qq.com/rain/a/20261110A0360Q00",
    "firstSeen": "2026-11-10",
-   "id": 302
+   "id": 305
   },
   {
    "cat": "政治/政策",
@@ -4266,7 +4308,7 @@ window.BRIEFING = {
    "source": "头条/腾讯",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 303
+   "id": 306
   },
   {
    "cat": "政治/政策",
@@ -4280,7 +4322,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "http://fcqjw.gov.cn/show/5251",
    "firstSeen": "2026-11-09",
-   "id": 304
+   "id": 307
   },
   {
    "cat": "政治/政策",
@@ -4294,7 +4336,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/LBA0UA8T0551NDLG.html",
    "firstSeen": "2026-11-09",
-   "id": 305
+   "id": 308
   },
   {
    "cat": "政治/政策",
@@ -4308,7 +4350,7 @@ window.BRIEFING = {
    "source": "环球网",
    "url": "https://3w.huanqiu.com/a/c36dc8/4TxLR37A3pz?agt=23",
    "firstSeen": "2026-11-09",
-   "id": 306
+   "id": 309
   },
   {
    "cat": "政治/政策",
@@ -4322,7 +4364,7 @@ window.BRIEFING = {
    "source": "新华社/天津市工信局",
    "url": "https://gyxxh.tj.gov.cn/glllm/gabsycs/gwyxxgh/index.html",
    "firstSeen": "2026-11-09",
-   "id": 307
+   "id": 310
   },
   {
    "cat": "政治/政策",
@@ -4336,7 +4378,7 @@ window.BRIEFING = {
    "source": "天津工信（国务院信息）",
    "url": "https://gyxxh.tj.gov.cn/glllm/gabsycs/gwyxxgh/index.html",
    "firstSeen": "2026-11-09",
-   "id": 308
+   "id": 311
   },
   {
    "cat": "政治/政策",
@@ -4350,7 +4392,7 @@ window.BRIEFING = {
    "source": "光明网（央视）",
    "url": "https://m.gmw.cn/2026-11/09/content_1304584164.htm",
    "firstSeen": "2026-11-09",
-   "id": 309
+   "id": 312
   },
   {
    "cat": "政治/政策",
@@ -4364,7 +4406,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://www.163.com/dy/article/LB9LNE0P0514R9OJ.html",
    "firstSeen": "2026-11-09",
-   "id": 310
+   "id": 313
   },
   {
    "cat": "政治/政策",
@@ -4378,7 +4420,7 @@ window.BRIEFING = {
    "source": "微信(电商研报)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzkyMDIwMjgyOQ==&mid=2247492719&idx=1&sn=b2f7fe6fc0b27797d164e06fa2be0ba5&chksm=c0052ede2ee64bacbdd08d9526de3a0c53de2a4916a60657d1debb7580922aab026caaa199ad",
    "firstSeen": "2026-11-09",
-   "id": 311
+   "id": 314
   },
   {
    "cat": "政治/政策",
@@ -4392,7 +4434,7 @@ window.BRIEFING = {
    "source": "外交部/驻贝宁使馆",
    "url": "https://bj.china-embassy.gov.cn/fyrth/202611/t20261109_12056081.htm",
    "firstSeen": "2026-11-09",
-   "id": 312
+   "id": 315
   },
   {
    "cat": "政治/政策",
@@ -4406,7 +4448,7 @@ window.BRIEFING = {
    "source": "新华网",
    "url": "https://news.yunnan.cn/system/2026/11/09/034191969.shtml",
    "firstSeen": "2026-11-09",
-   "id": 313
+   "id": 316
   },
   {
    "cat": "政治/政策",
@@ -4420,7 +4462,7 @@ window.BRIEFING = {
    "source": "新华网（云南网）",
    "url": "https://news.yunnan.cn/system/2026/11/09/034191969.shtml",
    "firstSeen": "2026-11-09",
-   "id": 314
+   "id": 317
   },
   {
    "cat": "政治/政策",
@@ -4434,7 +4476,7 @@ window.BRIEFING = {
    "source": "金十数据",
    "url": "https://flash.jin10.com/detail/20261109070701433800",
    "firstSeen": "2026-11-09",
-   "id": 315
+   "id": 318
   },
   {
    "cat": "政治/政策",
@@ -4448,7 +4490,7 @@ window.BRIEFING = {
    "source": "人民网",
    "url": "http://m2.people.cn/news/default.html?s=MV8xXzQwODMwMDcyXzEwMDFfMTc5NDE3NTE1Ng==&from=tencent",
    "firstSeen": "2026-11-09",
-   "id": 316
+   "id": 319
   },
   {
    "cat": "政治/政策",
@@ -4462,7 +4504,7 @@ window.BRIEFING = {
    "source": "中国共产党新闻网",
    "url": "https://cpc.people.com.cn/BIG5/n1/2026/1109/c64094-40830273.html",
    "firstSeen": "2026-11-09",
-   "id": 317
+   "id": 320
   },
   {
    "cat": "政治/政策",
@@ -4476,7 +4518,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://www.cnr.cn/china/news/sz/20261109/t20261109_527867051.shtml",
    "firstSeen": "2026-11-09",
-   "id": 318
+   "id": 321
   },
   {
    "cat": "政治/政策",
@@ -4490,7 +4532,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261109A02W7J00",
    "firstSeen": "2026-11-09",
-   "id": 319
+   "id": 322
   },
   {
    "cat": "政治/政策",
@@ -4504,105 +4546,91 @@ window.BRIEFING = {
    "source": "中国人大网",
    "url": "http://www.npc.gov.cn/npc/c2/c10134/",
    "firstSeen": "2026-11-09",
-   "id": 320
-  },
-  {
-   "cat": "政治/政策",
-   "time": "07:00",
-   "impact": "high",
-   "related": false,
-   "overseas": false,
-   "title": "国务院办公厅公布2027年部分节假日安排 春节连休9天、端午中秋不调休",
-   "summary": "国务院办公厅发布2027年放假安排：春节2月5日至13日放假调休共9天，元旦3天、清明3天、劳动节5天、国庆7天；端午（6月9日）、中秋（9月15日）各放假1天不调休，2027年成近年调休天数最少年份。",
-   "decision": "假期安排直接影响出行与消费节奏，春节9天+错峰休假导向利好家庭团聚与文旅消费，可提前规划预产期前后的陪护与出行安排。",
-   "source": "新华社·沈阳日报",
-   "url": "https://epaper.syd.com.cn/syrb/h5/html5/2026-11/06/content_121061_20001311.htm",
-   "firstSeen": "2026-11-06",
-   "id": 321
-  },
-  {
-   "cat": "政治/政策",
-   "time": "02:00",
-   "impact": "high",
-   "related": false,
-   "overseas": false,
-   "title": "李强签署国务院令 修改废止18部行政法规（14部修改、4部废止）",
-   "summary": "国务院总理李强签署国务院令公布《关于修改和废止部分行政法规的决定》，对14部行政法规部分条款予以修改、4部予以废止，落实整治形式主义为基层减负、衔接机构改革精神，自公布之日起施行。",
-   "decision": "行政法规批量'瘦身'为基层减负，涉及河道、地震监测、自然灾难救助等多领域，关注其对地方执行口径与营商环境的边际改善。",
-   "source": "人民日报·光明日报",
-   "url": "https://paper.people.com.cn/rmrb/pc/content/202611/06/content_30189710.html",
-   "firstSeen": "2026-11-06",
-   "id": 322
-  },
-  {
-   "cat": "政治/政策",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "五部门印发全面节约战略行动方案 工业建筑交通推进节能改造",
-   "summary": "五部门印发全面节约战略行动方案，在工业、建筑、交通领域推进节能改造，严控高耗能项目盲目上马，把节约理念融入生产与生活各环节。",
-   "decision": "节能降耗政策加码，关注其对高耗能行业成本与绿色金融、绿色消费信贷需求的带动，与招联绿色消费场景可衔接。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
    "id": 323
   },
   {
-   "cat": "政治/政策",
-   "time": "07:00",
-   "impact": "mid",
+   "cat": "军事/地缘",
+   "time": "08:00",
+   "impact": "high",
    "related": false,
-   "overseas": false,
-   "title": "福建为'晋江经验'立法 以法治固化民营经济发展保障机制",
-   "summary": "福建为'晋江经验'立法，以法治固化民营经济发展保障机制，护航县域实体经济持续发展，给民营经济吃下法治定心丸。",
-   "decision": "民营经济法治保障强化，利好中小民企融资与经营预期，与消费金融服务的客群（中小代理商、民营商户）稳定性正相关。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] 伊朗：两艘油轮未经授权航线驶出霍尔木兹海峡触雷爆炸",
+   "summary": "伊朗伊斯兰革命卫队海军表示，11月10日晚两艘油轮试图通过一条未经伊朗授权的航线秘密驶出霍尔木兹海峡，触碰水雷引发剧烈爆炸，地缘与能源通道风险升温。",
+   "decision": "霍尔木兹海峡是全球能源咽喉，关注油价与航运扰动对国内通胀及消费预期的传导。",
+   "source": "总台/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
    "id": 324
   },
   {
-   "cat": "政治/政策",
-   "time": "07:00",
-   "impact": "mid",
+   "cat": "军事/地缘",
+   "time": "06:39",
+   "impact": "high",
    "related": false,
-   "overseas": false,
-   "title": "国务院台办就'两制'台湾方案表态 欢迎两岸同胞建言献策",
-   "summary": "国务院台办就'两制'台湾方案表态，欢迎两岸同胞建言献策。相关表述坚持一个中国原则，强调在'一国'基础上探索两岸制度性安排。",
-   "decision": "涉台政策表述须严格遵循一个中国原则，关注其对两岸经贸交流与闽台合作环境的长期影响，本台相关报道须规范使用'中国台湾'称谓。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] 俄美乌阿布扎比会谈达成大规模换俘协议 重大分歧仍存",
+   "summary": "为期两天的俄美乌三方会谈11日在阿布扎比结束，系自今年2月以来首次恢复面对面谈判；各方就大规模交换被俘人员达成协议，俄乌可能各自移交超1000人，但在结束冲突、领土争议、乌安全保障及欧洲安全架构等关键问题上仍存重大分歧。美方代表库什纳与威特科夫12日将赴莫斯科会见普京。",
+   "decision": "地缘风险高位但人道进展边际缓和，关注能源与大宗波动对招联资产端与消费信贷的间接影响。",
+   "source": "央视/新华社",
+   "url": "https://news.cctv.cn/2026/11/12/ARTIUHFBtPrB9U5VB1vMaWOz261112.shtml",
+   "firstSeen": "2026-11-12",
    "id": 325
   },
   {
-   "cat": "政治/政策",
-   "time": "07:00",
+   "cat": "军事/地缘",
+   "time": "09:00",
    "impact": "mid",
    "related": false,
-   "overseas": false,
-   "title": "检察机关对哈电集团原纪委书记杨宏勇涉嫌受贿等提起公诉",
-   "summary": "检察机关依法对哈尔滨电气集团原党委常委、纪委书记杨宏勇涉嫌受贿、利用影响力受贿案提起公诉，系又一起国企纪检'内鬼'案件。",
-   "decision": "国企反腐持续深化，'灯下黑'治理强化，关注国资监管与合规环境变化对国企客户合作的风险评估意义。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] 巴基斯坦警察车队遇袭 10名警察死亡",
+   "summary": "巴基斯坦警方消息人士11日说，该国西北部开伯尔-普什图省科哈特地区一警方车队当天遭遇恐怖袭击，10名警察死亡，安全形势再度紧张。",
+   "decision": "南亚安全风险外溢，关注中巴经济走廊与出海业务的安全保障预案。",
+   "source": "腾讯/央视",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 326
   },
   {
-   "cat": "政治/政策",
-   "time": "07:00",
-   "impact": "low",
+   "cat": "军事/地缘",
+   "time": "09:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] 韩国京畿道城南公交连撞30余车 48人受伤",
+   "summary": "韩国京畿道城南市早高峰时段，一辆公交车连续撞击30多辆等候信号灯的车辆，造成包括司机在内48人受伤，其中6人重伤，警方正在调查事故原因。",
+   "decision": "关注海外出行与差旅安全，完善员工境外出差风险提醒机制。",
+   "source": "腾讯/央视",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 327
+  },
+  {
+   "cat": "军事/地缘",
+   "time": "08:00",
+   "impact": "mid",
    "related": false,
    "overseas": false,
-   "title": "2027年军队文职公开招考启动 11月5日至10日报名",
-   "summary": "2027年军队文职人员公开招考启动，11月5日8时至10日18时考生可登录军队人才网报名，招考窗口仅5天。",
-   "decision": "军队文职招考属常规年度安排，关注其对就业市场与青年择业导向的影响，与消费金融年轻客群就业稳定性间接相关。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 327
+   "title": "我国轻骑兵中小型太阳能无人机成功首飞",
+   "summary": "我国自主研发的轻骑兵中小型太阳能无人机成功首飞，机型长3.2米、翼展8米，最大设计续航可达30小时，是一款以太阳能为唯一动力源的纯电飞行器，拓展长航时侦察与通信能力。",
+   "decision": "长航时无人平台能力提升，关注低空经济与应急通信在金融押运、灾备场景的潜在应用。",
+   "source": "总台/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
+   "id": 328
+  },
+  {
+   "cat": "军事/地缘",
+   "time": "08:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] 欧盟理事会与欧洲议会就2027年欧盟预算达成协议",
+   "summary": "欧盟理事会11日发布公报说，欧盟理事会与欧洲议会已就2027年欧盟年度预算达成协议，拟支付拨款总额为2115亿欧元，反映欧洲财政优先级与产业支持方向。",
+   "decision": "欧盟财政走向影响外部需求与汇率，关注对出口导向型产业链的连带影响。",
+   "source": "欧盟理事会/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
+   "id": 329
   },
   {
    "cat": "军事/地缘",
@@ -4616,7 +4644,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 328
+   "id": 330
   },
   {
    "cat": "军事/地缘",
@@ -4630,7 +4658,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 329
+   "id": 331
   },
   {
    "cat": "军事/地缘",
@@ -4644,7 +4672,7 @@ window.BRIEFING = {
    "source": "参考消息",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 330
+   "id": 332
   },
   {
    "cat": "军事/地缘",
@@ -4658,7 +4686,7 @@ window.BRIEFING = {
    "source": "浙江日报/新华社",
    "url": "https://zjrb.zjol.com.cn/html/2026-11/11/content_3945587.htm?div=-1",
    "firstSeen": "2026-11-11",
-   "id": 331
+   "id": 333
   },
   {
    "cat": "军事/地缘",
@@ -4672,7 +4700,7 @@ window.BRIEFING = {
    "source": "金十数据/陆家嘴早餐",
    "url": "https://flash.jin10.com/detail/20261111063029341800",
    "firstSeen": "2026-11-11",
-   "id": 332
+   "id": 334
   },
   {
    "cat": "军事/地缘",
@@ -4686,7 +4714,7 @@ window.BRIEFING = {
    "source": "凤凰卫视资讯台",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 333
+   "id": 335
   },
   {
    "cat": "军事/地缘",
@@ -4700,7 +4728,7 @@ window.BRIEFING = {
    "source": "新华网",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 334
+   "id": 336
   },
   {
    "cat": "军事/地缘",
@@ -4714,7 +4742,7 @@ window.BRIEFING = {
    "source": "环球网",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 335
+   "id": 337
   },
   {
    "cat": "军事/地缘",
@@ -4728,7 +4756,7 @@ window.BRIEFING = {
    "source": "环球网",
    "url": "https://news.qq.com/rain/a/20261111A0AJ9P00",
    "firstSeen": "2026-11-11",
-   "id": 336
+   "id": 338
   },
   {
    "cat": "军事/地缘",
@@ -4742,7 +4770,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 337
+   "id": 339
   },
   {
    "cat": "军事/地缘",
@@ -4756,7 +4784,7 @@ window.BRIEFING = {
    "source": "央视新闻",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 338
+   "id": 340
   },
   {
    "cat": "军事/地缘",
@@ -4770,7 +4798,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 339
+   "id": 341
   },
   {
    "cat": "军事/地缘",
@@ -4784,7 +4812,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 340
+   "id": 342
   },
   {
    "cat": "军事/地缘",
@@ -4798,7 +4826,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 341
+   "id": 343
   },
   {
    "cat": "军事/地缘",
@@ -4812,7 +4840,7 @@ window.BRIEFING = {
    "source": "金十数据",
    "url": "https://flash.jin10.com/detail/20261111063029341800",
    "firstSeen": "2026-11-11",
-   "id": 342
+   "id": 344
   },
   {
    "cat": "军事/地缘",
@@ -4826,7 +4854,7 @@ window.BRIEFING = {
    "source": "新华社/腾讯",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0826af3a0b054652",
    "firstSeen": "2026-11-11",
-   "id": 343
+   "id": 345
   },
   {
    "cat": "军事/地缘",
@@ -4840,7 +4868,7 @@ window.BRIEFING = {
    "source": "腾讯新闻/陆家嘴早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 344
+   "id": 346
   },
   {
    "cat": "军事/地缘",
@@ -4854,7 +4882,7 @@ window.BRIEFING = {
    "source": "网易/新浪财经",
    "url": "https://www.163.com/dy/article/LBDOHVN505568W0A.html",
    "firstSeen": "2026-11-11",
-   "id": 345
+   "id": 347
   },
   {
    "cat": "军事/地缘",
@@ -4868,7 +4896,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 346
+   "id": 348
   },
   {
    "cat": "军事/地缘",
@@ -4882,7 +4910,7 @@ window.BRIEFING = {
    "source": "新华社",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 347
+   "id": 349
   },
   {
    "cat": "军事/地缘",
@@ -4896,7 +4924,7 @@ window.BRIEFING = {
    "source": "环球网",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 348
+   "id": 350
   },
   {
    "cat": "军事/地缘",
@@ -4910,7 +4938,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 349
+   "id": 351
   },
   {
    "cat": "军事/地缘",
@@ -4924,7 +4952,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_0826af3a0b054652",
    "firstSeen": "2026-11-11",
-   "id": 350
+   "id": 352
   },
   {
    "cat": "军事/地缘",
@@ -4938,7 +4966,7 @@ window.BRIEFING = {
    "source": "新浪财经/央视",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 351
+   "id": 353
   },
   {
    "cat": "军事/地缘",
@@ -4952,7 +4980,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 352
+   "id": 354
   },
   {
    "cat": "军事/地缘",
@@ -4966,7 +4994,7 @@ window.BRIEFING = {
    "source": "央广网/腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A05DO700",
    "firstSeen": "2026-11-10",
-   "id": 353
+   "id": 355
   },
   {
    "cat": "军事/地缘",
@@ -4980,7 +5008,7 @@ window.BRIEFING = {
    "source": "中国经济网/网易",
    "url": "https://www.163.com/dy/article/LBC5JHIQ0514CQIE.html",
    "firstSeen": "2026-11-10",
-   "id": 354
+   "id": 356
   },
   {
    "cat": "军事/地缘",
@@ -4994,7 +5022,7 @@ window.BRIEFING = {
    "source": "金十数据/央视",
    "url": "https://xnews.jin10.com/details/234687",
    "firstSeen": "2026-11-10",
-   "id": 355
+   "id": 357
   },
   {
    "cat": "军事/地缘",
@@ -5008,7 +5036,7 @@ window.BRIEFING = {
    "source": "中金/智通/全球市场晨报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzcwMjUwNTc4Nw==&mid=2247483702&idx=1&sn=073305b570641ef704d02e5c1d87377e&chksm=f53ecd0172c52f82e1e46518bb90403722b94c3755e04354c93690978937a7def893b5401f1b#rd",
    "firstSeen": "2026-11-10",
-   "id": 356
+   "id": 358
   },
   {
    "cat": "军事/地缘",
@@ -5022,7 +5050,7 @@ window.BRIEFING = {
    "source": "中评社/新华社",
    "url": "https://hk.crntt.com/doc/7_0_107253957_1_1110001320.html",
    "firstSeen": "2026-11-10",
-   "id": 357
+   "id": 359
   },
   {
    "cat": "军事/地缘",
@@ -5036,7 +5064,7 @@ window.BRIEFING = {
    "source": "金十数据/陆家嘴早餐",
    "url": "https://flash.jin10.com/detail/20261110063513378800",
    "firstSeen": "2026-11-10",
-   "id": 358
+   "id": 360
   },
   {
    "cat": "军事/地缘",
@@ -5050,7 +5078,7 @@ window.BRIEFING = {
    "source": "总台记者观察/腾讯",
    "url": "https://news.qq.com/rain/a/20261110A01VJV00",
    "firstSeen": "2026-11-10",
-   "id": 359
+   "id": 361
   },
   {
    "cat": "军事/地缘",
@@ -5064,7 +5092,7 @@ window.BRIEFING = {
    "source": "央广军事",
    "url": "https://military.cnr.cn/gj/",
    "firstSeen": "2026-11-10",
-   "id": 360
+   "id": 362
   },
   {
    "cat": "军事/地缘",
@@ -5078,7 +5106,7 @@ window.BRIEFING = {
    "source": "央广军事",
    "url": "https://military.cnr.cn/gj/",
    "firstSeen": "2026-11-10",
-   "id": 361
+   "id": 363
   },
   {
    "cat": "军事/地缘",
@@ -5092,7 +5120,7 @@ window.BRIEFING = {
    "source": "央广军事",
    "url": "https://military.cnr.cn/gj/",
    "firstSeen": "2026-11-10",
-   "id": 362
+   "id": 364
   },
   {
    "cat": "军事/地缘",
@@ -5106,7 +5134,7 @@ window.BRIEFING = {
    "source": "央广军事",
    "url": "https://military.cnr.cn/gj/",
    "firstSeen": "2026-11-10",
-   "id": 363
+   "id": 365
   },
   {
    "cat": "军事/地缘",
@@ -5120,7 +5148,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261110A0BEBH00",
    "firstSeen": "2026-11-10",
-   "id": 364
+   "id": 366
   },
   {
    "cat": "军事/地缘",
@@ -5134,7 +5162,7 @@ window.BRIEFING = {
    "source": "央视新闻/新浪财经",
    "url": "https://finance.sina.com.cn/money/forex/hbfx/2026-11-10/doc-iniyexvh6075480.shtml",
    "firstSeen": "2026-11-10",
-   "id": 365
+   "id": 367
   },
   {
    "cat": "军事/地缘",
@@ -5148,7 +5176,7 @@ window.BRIEFING = {
    "source": "央广网/腾讯",
    "url": "https://news.qq.com/rain/a/20261110A05DO700",
    "firstSeen": "2026-11-10",
-   "id": 366
+   "id": 368
   },
   {
    "cat": "军事/地缘",
@@ -5162,7 +5190,7 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://mil.youth.cn/",
    "firstSeen": "2026-11-10",
-   "id": 367
+   "id": 369
   },
   {
    "cat": "军事/地缘",
@@ -5176,7 +5204,7 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://mil.youth.cn/",
    "firstSeen": "2026-11-10",
-   "id": 368
+   "id": 370
   },
   {
    "cat": "军事/地缘",
@@ -5190,7 +5218,7 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://mil.youth.cn/",
    "firstSeen": "2026-11-10",
-   "id": 369
+   "id": 371
   },
   {
    "cat": "军事/地缘",
@@ -5204,7 +5232,7 @@ window.BRIEFING = {
    "source": "统帅内参/新华社",
    "url": "http://mp.weixin.qq.com/s?__biz=MzIzNzkwOTA0Ng==&mid=2247485064&idx=1&sn=492749ef04cef4dcc7840598403ddb74",
    "firstSeen": "2026-11-10",
-   "id": 370
+   "id": 372
   },
   {
    "cat": "军事/地缘",
@@ -5218,7 +5246,7 @@ window.BRIEFING = {
    "source": "每经/央视",
    "url": "https://m.nbd.com.cn/articles/2026-11-09/4643026.html",
    "firstSeen": "2026-11-10",
-   "id": 371
+   "id": 373
   },
   {
    "cat": "军事/地缘",
@@ -5232,7 +5260,7 @@ window.BRIEFING = {
    "source": "统帅内参/央视",
    "url": "http://mp.weixin.qq.com/s?__biz=MzIzNzkwOTA0Ng==&mid=2247485064&idx=1&sn=492749ef04cef4dcc7840598403ddb74",
    "firstSeen": "2026-11-10",
-   "id": 372
+   "id": 374
   },
   {
    "cat": "军事/地缘",
@@ -5246,7 +5274,7 @@ window.BRIEFING = {
    "source": "金十数据/统帅内参",
    "url": "https://flash.jin10.com/detail/20261110063513378800",
    "firstSeen": "2026-11-10",
-   "id": 373
+   "id": 375
   },
   {
    "cat": "军事/地缘",
@@ -5260,7 +5288,7 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://mil.youth.cn/",
    "firstSeen": "2026-11-10",
-   "id": 374
+   "id": 376
   },
   {
    "cat": "军事/地缘",
@@ -5274,7 +5302,7 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://mil.youth.cn/",
    "firstSeen": "2026-11-10",
-   "id": 375
+   "id": 377
   },
   {
    "cat": "军事/地缘",
@@ -5288,7 +5316,7 @@ window.BRIEFING = {
    "source": "腾讯看世界",
    "url": "https://new.qq.com/rain/a/20261110A035H000",
    "firstSeen": "2026-11-10",
-   "id": 376
+   "id": 378
   },
   {
    "cat": "军事/地缘",
@@ -5302,7 +5330,7 @@ window.BRIEFING = {
    "source": "统帅内参/央视",
    "url": "http://mp.weixin.qq.com/s?__biz=MzIzNzkwOTA0Ng==&mid=2247485064&idx=1&sn=492749ef04cef4dcc7840598403ddb74",
    "firstSeen": "2026-11-10",
-   "id": 377
+   "id": 379
   },
   {
    "cat": "军事/地缘",
@@ -5316,7 +5344,7 @@ window.BRIEFING = {
    "source": "央广网军事",
    "url": "https://military.cnr.cn/zcff/",
    "firstSeen": "2026-11-09",
-   "id": 378
+   "id": 380
   },
   {
    "cat": "军事/地缘",
@@ -5330,7 +5358,7 @@ window.BRIEFING = {
    "source": "网易/央广网",
    "url": "https://www.163.com/dy/article/LB9L1D4H0556FBNJ.html",
    "firstSeen": "2026-11-09",
-   "id": 379
+   "id": 381
   },
   {
    "cat": "军事/地缘",
@@ -5344,7 +5372,7 @@ window.BRIEFING = {
    "source": "环球时报（网易）",
    "url": "https://www.163.com/dy/article/LB9HJA6I05504DOQ.html",
    "firstSeen": "2026-11-09",
-   "id": 380
+   "id": 382
   },
   {
    "cat": "军事/地缘",
@@ -5358,7 +5386,7 @@ window.BRIEFING = {
    "source": "华尔街见闻",
    "url": "https://www.163.com/dy/article/LB9AMK6505198NMR.html",
    "firstSeen": "2026-11-09",
-   "id": 381
+   "id": 383
   },
   {
    "cat": "军事/地缘",
@@ -5372,7 +5400,7 @@ window.BRIEFING = {
    "source": "今日热点（多源）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 382
+   "id": 384
   },
   {
    "cat": "军事/地缘",
@@ -5386,7 +5414,7 @@ window.BRIEFING = {
    "source": "华尔街见闻",
    "url": "https://www.163.com/dy/article/LB9AMK6505198NMR.html",
    "firstSeen": "2026-11-09",
-   "id": 383
+   "id": 385
   },
   {
    "cat": "军事/地缘",
@@ -5400,7 +5428,7 @@ window.BRIEFING = {
    "source": "今日热点（多源）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 384
+   "id": 386
   },
   {
    "cat": "军事/地缘",
@@ -5414,7 +5442,7 @@ window.BRIEFING = {
    "source": "澎湃新闻（网易）",
    "url": "https://www.163.com/dy/article/LB9CA4050514R9P4.html",
    "firstSeen": "2026-11-09",
-   "id": 385
+   "id": 387
   },
   {
    "cat": "军事/地缘",
@@ -5428,7 +5456,7 @@ window.BRIEFING = {
    "source": "央视网（新华网）",
    "url": "https://news.cctv.com/2026/11/09/ARTINmNxo9JLUn7AnmCkGezd261109.shtml",
    "firstSeen": "2026-11-09",
-   "id": 386
+   "id": 388
   },
   {
    "cat": "军事/地缘",
@@ -5442,7 +5470,7 @@ window.BRIEFING = {
    "source": "新华财经",
    "url": "https://www.cnfin.com/hb-lb/detail/20261109/4492657_1.html",
    "firstSeen": "2026-11-09",
-   "id": 387
+   "id": 389
   },
   {
    "cat": "军事/地缘",
@@ -5456,7 +5484,7 @@ window.BRIEFING = {
    "source": "华尔街见闻/网易",
    "url": "https://www.toutiao.com/article/7705939599192769043/",
    "firstSeen": "2026-11-09",
-   "id": 388
+   "id": 390
   },
   {
    "cat": "军事/地缘",
@@ -5470,7 +5498,7 @@ window.BRIEFING = {
    "source": "腾讯新闻（央视）",
    "url": "https://news.qq.com/rain/a/20261109A09N0Y00",
    "firstSeen": "2026-11-09",
-   "id": 389
+   "id": 391
   },
   {
    "cat": "军事/地缘",
@@ -5484,7 +5512,7 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 390
+   "id": 392
   },
   {
    "cat": "军事/地缘",
@@ -5498,7 +5526,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261108A0CCKE00",
    "firstSeen": "2026-11-09",
-   "id": 391
+   "id": 393
   },
   {
    "cat": "军事/地缘",
@@ -5512,7 +5540,7 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 392
+   "id": 394
   },
   {
    "cat": "军事/地缘",
@@ -5526,7 +5554,7 @@ window.BRIEFING = {
    "source": "联合早报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 393
+   "id": 395
   },
   {
    "cat": "军事/地缘",
@@ -5540,7 +5568,7 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 394
+   "id": 396
   },
   {
    "cat": "军事/地缘",
@@ -5554,7 +5582,7 @@ window.BRIEFING = {
    "source": "环球时报",
    "url": "https://www.163.com/dy/article/LB9HJA6I05504DOQ.html",
    "firstSeen": "2026-11-09",
-   "id": 395
+   "id": 397
   },
   {
    "cat": "军事/地缘",
@@ -5568,7 +5596,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261108A0CCKE00",
    "firstSeen": "2026-11-09",
-   "id": 396
+   "id": 398
   },
   {
    "cat": "军事/地缘",
@@ -5582,7 +5610,7 @@ window.BRIEFING = {
    "source": "今日热点（多源）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 397
+   "id": 399
   },
   {
    "cat": "军事/地缘",
@@ -5596,7 +5624,7 @@ window.BRIEFING = {
    "source": "今日热点（多源）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 398
+   "id": 400
   },
   {
    "cat": "军事/地缘",
@@ -5610,7 +5638,7 @@ window.BRIEFING = {
    "source": "央广网军事",
    "url": "https://military.cnr.cn/gj/",
    "firstSeen": "2026-11-09",
-   "id": 399
+   "id": 401
   },
   {
    "cat": "军事/地缘",
@@ -5624,7 +5652,7 @@ window.BRIEFING = {
    "source": "央广网军事",
    "url": "https://military.cnr.cn/gj/",
    "firstSeen": "2026-11-09",
-   "id": 400
+   "id": 402
   },
   {
    "cat": "军事/地缘",
@@ -5638,7 +5666,7 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 401
+   "id": 403
   },
   {
    "cat": "军事/地缘",
@@ -5652,7 +5680,7 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 402
+   "id": 404
   },
   {
    "cat": "军事/地缘",
@@ -5666,7 +5694,7 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 403
+   "id": 405
   },
   {
    "cat": "军事/地缘",
@@ -5680,7 +5708,7 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 404
+   "id": 406
   },
   {
    "cat": "军事/地缘",
@@ -5694,118 +5722,90 @@ window.BRIEFING = {
    "source": "微信(空天防务)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY4NjQxNTEyNg==&mid=2247484631&idx=1&sn=e4db97741d0f6b868a4339e6157677a2&chksm=f22295d736f93ae731fd0b7dd8f95d86637e5987b7edca24c8377c916add71d28e23c753834f",
    "firstSeen": "2026-11-09",
-   "id": 405
-  },
-  {
-   "cat": "军事/地缘",
-   "time": "05:54",
-   "impact": "high",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 中东局势跟踪：胡塞称24h空袭也门61次 伊朗称霍尔木兹两油轮触雷",
-   "summary": "金十整理中东局势：胡塞武装称过去24小时沙特联军空袭也门61次；伊朗革命卫队称霍尔木兹海峡两油轮触雷起火、缴获两架美军无人机；纽约时报称美军数千空军海军人员待命、对伊军事行动计划就绪。",
-   "decision": "霍尔木兹海峡是全球能源咽喉，油轮遇袭与美军待命令油价与航运风险骤升，直接关系国内能源进口成本与通胀预期。",
-   "source": "金十数据",
-   "url": "https://flash.jin10.com/detail/20261106055406272800",
-   "firstSeen": "2026-11-06",
-   "id": 406
-  },
-  {
-   "cat": "军事/地缘",
-   "time": "04:00",
-   "impact": "high",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 俄被曝向伊朗供应90套导弹发射装置 射程14.5公里 俄乌战场已使用",
-   "summary": "媒体披露俄罗斯向伊朗供应90套APU-L导弹发射装置（配LMUR直升机对地导弹，射程14.5公里），称已在俄乌战场使用；11月5日普京在莫斯科会见伊朗最高国家安全委员会秘书雷扎伊，俄否认向伊朗提供用于当前冲突的装备。",
-   "decision": "俄伊军事技术合作深化叠加美伊战事，地缘风险溢价或推升能源与黄金价格，关注对国内输入性通胀与避险资产的传导。",
-   "source": "网易·路透社",
-   "url": "https://www.163.com/dy/article/LB0RBLQK05528J01.html",
-   "firstSeen": "2026-11-06",
    "id": 407
   },
   {
-   "cat": "军事/地缘",
-   "time": "07:00",
-   "impact": "mid",
+   "cat": "经济",
+   "time": "11:11",
+   "impact": "high",
    "related": false,
-   "overseas": true,
-   "title": "[海外] 美众议院最早下周投票弹劾国防部长赫格塞思",
-   "summary": "受中期选举民主党重夺参众两院影响，美国众议院最早可能于下周投票弹劾国防部长赫格塞思，多名共和党议员将中期选举惨败部分归咎于伊朗战事。",
-   "decision": "美国国防高层政治不确定性上升，叠加中期选举'蓝色浪潮'，关注其对外交军事决策与全球风险偏好的扰动。",
-   "source": "今日新闻速览·网易",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "overseas": false,
+   "title": "10月汽车产销双双超300万辆 新能源汽车销量占比64.3%",
+   "summary": "中汽协11月11日数据：10月汽车产销分别完成306.3万辆和301.6万辆，环比增长2.5%和2%；新能源汽车产销201.7万辆和194万辆，同比增13.8%和13.1%，月度新车销量占比64.3%；前10月新能源累计占比54.8%。10月汽车出口106.6万辆同比增60.2%，其中新能源出口60.6万辆同比增1.4倍。",
+   "decision": "新能源渗透率创新高，关注汽车消费与招联汽车分期、3C分期场景的景气联动。",
+   "source": "中汽协/央视",
+   "url": "https://news.cctv.com/2026/11/11/ARTIfgLkoGZV7AHZb47skhDb261111.shtml",
+   "firstSeen": "2026-11-12",
    "id": 408
   },
   {
-   "cat": "军事/地缘",
-   "time": "06:00",
+   "cat": "经济",
+   "time": "06:17",
    "impact": "mid",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 俄国防部：黑海摧毁一艘载乌军军用物资的干货运输船",
-   "summary": "俄罗斯国防部通报，俄军使用无人机在黑海敖德萨西南方向107公里处发动打击，击中一艘向乌克兰运送军用物资和军民两用货物的干货运输船。",
-   "decision": "俄乌黑海航运打击持续，粮食与能源运输扰动未消，关注全球供应链与大宗商品价格波动对国内物价的传导。",
-   "source": "俄罗斯卫星通讯社",
-   "url": "https://sputniknews.cn/20261106/1073970196.html",
-   "firstSeen": "2026-11-06",
+   "related": true,
+   "overseas": false,
+   "title": "央行Q3报告披露存款结构：非银存款增长快 居民企业存款定期化",
+   "summary": "央行第三季度货币政策执行报告分析存款结构：非银行业金融机构存款增长较快、占比明显抬升；居民和企业存款呈现一定程度定期化特征，反映理财回流与风险偏好变化。",
+   "decision": "存款定期化与理财回流影响居民可用消费资金，招联需动态评估消费信贷需求与还款能力。",
+   "source": "央行/网易",
+   "url": "https://www.163.com/dy/article/LBGVBJBV053469RG.html",
+   "firstSeen": "2026-11-12",
    "id": 409
   },
   {
-   "cat": "军事/地缘",
-   "time": "03:56",
+   "cat": "经济",
+   "time": "15:07",
    "impact": "mid",
    "related": false,
-   "overseas": true,
-   "title": "[海外] 伊朗最高领袖穆杰塔巴对美不抱幻想 特朗普不后悔对伊开战",
-   "summary": "伊朗最高领袖穆杰塔巴表示不因美国中期选举结果对美改变敌意抱希望，称若侵略重演回应规模将大幅扩大；特朗普称不后悔对伊朗开战，美伊仍通过调解人谈判。",
-   "decision": "美伊'边谈边放狠话'格局延续，霍尔木兹与油价风险难消，关注其对企业海外业务与跨境成本的潜在扰动。",
-   "source": "网易·文汇报",
-   "url": "https://www.163.com/dy/article/LB18U1BH05506BEH.html",
-   "firstSeen": "2026-11-06",
+   "overseas": false,
+   "title": "国家能源局：到2030年新能源集成融合发展成为重要方式",
+   "summary": "国家能源局11月12日发布关于促进新能源集成融合发展的指导意见，提出到2030年集成融合发展成为新能源发展的重要方式，新能源可靠替代水平明显增强，市场竞争力显著提升，支撑经济社会全面绿色转型。",
+   "decision": "新能源融合发展为招联绿色信贷与ESG产品提供新场景，关注相关业务机会。",
+   "source": "国家能源局/每日经济新闻",
+   "url": "https://m.nbd.com.cn/web_app/column/375?max_pos=4140038",
+   "firstSeen": "2026-11-12",
    "id": 410
   },
   {
-   "cat": "军事/地缘",
-   "time": "03:00",
+   "cat": "经济",
+   "time": "11:00",
    "impact": "mid",
    "related": false,
-   "overseas": true,
-   "title": "[海外] 伊朗将基辅、利沃夫、敖德萨列为潜在打击目标 称摧毁美及其盟友",
-   "summary": "伊朗媒体画面将乌克兰首都基辅、利沃夫、敖德萨及波兰热舒夫列为潜在打击目标，并称'将摧毁美国帝国主义者及其盟友'，乌方与波方随后否认或评估其威慑意图。",
-   "decision": "伊朗威胁范围外溢至东欧与北约边界，地缘不确定性上升，关注其对欧洲安全、能源与全球风险偏好的影响。",
-   "source": "腾讯新闻",
-   "url": "https://news.qq.com/rain/a/20261106A02YT500",
-   "firstSeen": "2026-11-06",
+   "overseas": false,
+   "title": "国内成品油12日24时调价窗口 预计下调440元/吨",
+   "summary": "机构测算，11月12日24时国内成品油调价窗口开启，预计汽柴油每吨下调440元左右，折合每升下调0.33至0.40元，为8月下旬以来首次下调，按50升油箱计算加满约省16元。",
+   "decision": "油价下调缓解居民出行与物流成本，对消费情绪与通胀预期有正向作用。",
+   "source": "机构测算/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 411
   },
   {
-   "cat": "军事/地缘",
-   "time": "07:00",
-   "impact": "low",
+   "cat": "经济",
+   "time": "08:00",
+   "impact": "mid",
    "related": false,
    "overseas": true,
-   "title": "[海外] 以军与辛贝特：加沙空袭打死哈马斯军事情报行动负责人",
-   "summary": "以色列国防军与辛贝特（Shin Bet）联合声明称，11月在对加沙城的空袭中打死哈马斯军事情报部门行动负责人阿布·赛义德，系针对哈马斯指挥链的斩首行动。",
-   "decision": "巴以冲突低烈度持续，加沙人道与地区安全局势反复，关注其对中东能源通道与全球避险情绪的边际影响。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "title": "[海外] 特斯拉启动100亿美元休斯敦太阳能制造工厂 Project Crystal Sun",
+   "summary": "特斯拉正式启动位于美国得州休斯敦附近的大型太阳能制造工厂建设，项目名Project Crystal Sun，投资规模高达100亿美元，预计2028年完工、2029年一季度投运；马斯克称SpaceX已向德国Singulus订购年产能100GW的HJT太阳能电池设备用于Starmind项目。",
+   "decision": "全球清洁能源制造扩张，关注光伏产业链价格与招联绿色资产布局的联动。",
+   "source": "陆家嘴财经早餐/网易",
+   "url": "https://www.163.com/dy/article/LBH1S98F05198RSU.html",
+   "firstSeen": "2026-11-12",
    "id": 412
   },
   {
-   "cat": "军事/地缘",
-   "time": "07:00",
+   "cat": "经济",
+   "time": "08:00",
    "impact": "low",
    "related": false,
-   "overseas": true,
-   "title": "[海外] 欧洲多架客机收到炸弹威胁 航空安全警报再拉响",
-   "summary": "欧洲多架客机收到炸弹威胁，安全警报再次拉响，航空安全正从'偶发'走向'常态焦虑'，多国加强机场与航班安保排查。",
-   "decision": "欧洲航空安全威胁常态化，关注其对中欧航线、出境游与跨境商务出行的间接影响，必要时调整出行安排。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "overseas": false,
+   "title": "第二个2万亿地级市将至 无锡提出2030年GDP破2万亿",
+   "summary": "无锡提出到2030年GDP总量突破2万亿元，成为第二个2万亿地级市的有力竞争者，将以产业升级、科技创新和高端服务业发展为抓手，滨湖区成为重要增长极。",
+   "decision": "区域经济重心向长三角集聚，关注招联在长三角消费金融渗透的结构性机会。",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 413
   },
   {
@@ -6733,144 +6733,102 @@ window.BRIEFING = {
    "id": 479
   },
   {
-   "cat": "经济",
-   "time": "07:00",
+   "cat": "科技",
+   "time": "11:10",
    "impact": "high",
    "related": false,
-   "overseas": false,
-   "title": "前三季度GDP同比增长4.6% 新动能对经济增长贡献率超40%",
-   "summary": "数据显示前三季度国内生产总值同比增长4.6%，高端制造、智能经济、现代服务等新动能对经济增长贡献率超过40%；9月底系列增量政策出台，有望稳定四季度运行、助推全年增长目标。",
-   "decision": "经济顶压前行、动能向新，利好居民消费信心与信贷需求，对招联消费金融主业景气度有正向支撑。",
-   "source": "中国证券报",
-   "url": "https://epaper.cs.com.cn/zgzqb/html/2026-11/06/nw.D110000zgzqb_20261106_1-A01.htm",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] 全球首台硅基量子计算机落地商用数据中心",
+   "summary": "澳大利亚量子计算公司Diraq宣布完成全球首台硅自旋量子计算机的实地安装与运行，部署在数字基础设施巨头Equinix位于悉尼的商用数据中心内；当前8个量子比特、功耗低于20千瓦，计划未来一年升级至256量子比特，2029年部署15万量子比特。",
+   "decision": "硅自旋路线复用成熟CMOS产业链，量子计算商业化拐点临近，关注其对密码学与金融安全的远期挑战。",
+   "source": "腾讯新闻/Diraq",
+   "url": "https://news.qq.com/rain/a/20261110A0CVNM00",
+   "firstSeen": "2026-11-12",
    "id": 480
   },
   {
-   "cat": "经济",
-   "time": "07:00",
+   "cat": "科技",
+   "time": "11:12",
    "impact": "mid",
-   "related": true,
+   "related": false,
    "overseas": false,
-   "title": "前三季度社会消费品零售总额同比增2.6% 服务零售增5.0%",
-   "summary": "前三季度社会消费商品和服务零售总额同比增长2.6%，其中服务零售额增长5.0%，消费总体延续恢复态势但国内需求潜力仍有进一步释放空间。",
-   "decision": "消费修复偏慢、服务消费相对强韧，招联消费贷需求与资产质量或随消费回暖边际改善，关注以旧换新等政策延续性。",
-   "source": "同花顺·光明时评",
-   "url": "https://m.10jqka.com.cn/20261106/c681525382.shtml",
-   "firstSeen": "2026-11-06",
+   "title": "太空算力硬件成本降至几百元 全国产化太空服务器亮相",
+   "summary": "新质生产力发展大会——太空算力产业在北京举行，一家企业展示自主研发的航天级算力专用GPU芯片，把太空算力硬件成本从数万元降至几千元甚至几百元；现场亮相全国产化太空服务器，搭载双内核星载操作系统，遭遇高能粒子干扰可毫秒级切换备用内核。",
+   "decision": "太空算力破解地面能耗与散热瓶颈，长期看或重塑算力供给格局，影响AI训练成本。",
+   "source": "腾讯证券",
+   "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026081313152194d58e84",
+   "firstSeen": "2026-11-12",
    "id": 481
   },
   {
-   "cat": "经济",
-   "time": "07:00",
+   "cat": "科技",
+   "time": "11:12",
    "impact": "mid",
-   "related": true,
-   "overseas": false,
-   "title": "多家机构预判银行贷款利率存下调空间 降低实体融资成本",
-   "summary": "多家机构预判后续银行贷款利率存在下调空间，以持续降低实体经济融资成本，配合宏观政策挖掘内需潜力、完善中长期制度。",
-   "decision": "贷款端利率下行将压低消费金融资金成本，同时加剧行业价格竞争，招联须在获客成本与定价上保持合规与可持续性平衡。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] 费城半导体指数涨幅扩大至7% 报10699点",
+   "summary": "财联社11月12日电，费城半导体指数涨幅扩大至7%，报10699.14点，半导体板块强势，反映AI算力需求带动的产业链景气。",
+   "decision": "半导体景气与AI资本开支强相关，关注其对科技股与风险偏好的传导。",
+   "source": "财联社/腾讯",
+   "url": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20261112004459a6f8cd78",
+   "firstSeen": "2026-11-12",
    "id": 482
   },
   {
-   "cat": "经济",
-   "time": "07:00",
+   "cat": "科技",
+   "time": "11:10",
    "impact": "mid",
    "related": false,
    "overseas": false,
-   "title": "第140届广交会闭幕 219国35.2万境外采购商 增12.2%创历史新高",
-   "summary": "第140届广交会闭幕，来自219个国家和地区的35.2万境外采购商到会，较上届增长12.2%，创历史新高，全球贸易保护主义论调下外贸韧性凸显。",
-   "decision": "外贸人气创新高反映外需仍有支撑，利好出口型中小民企经营，与招联服务的中小代理商客群还款能力正相关。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "title": "全球企业端量子计算支出首超学术政府总和",
+   "summary": "Diraq发布《Quantum at Work》行业报告，波士顿咨询指出2025年全球企业端在量子计算领域支出首次跨越临界点，超过学术界和政府资金总和；测算2030年商业化拐点后成熟量子技术有望再释放3.5万亿美元经济增量。",
+   "decision": "量子计算从科研走向产业，关注其对金融加密与风控体系的远期颠覆风险。",
+   "source": "BCG/Diraq",
+   "url": "https://news.qq.com/rain/a/20261110A0CVNM00",
+   "firstSeen": "2026-11-12",
    "id": 483
   },
   {
-   "cat": "经济",
-   "time": "07:00",
+   "cat": "科技",
+   "time": "11:00",
    "impact": "mid",
    "related": false,
-   "overseas": false,
-   "title": "国家发改委等五部门加快布局稀贵金属资源循环利用项目",
-   "summary": "国家发改委等五部门加快布局一批稀贵金属资源循环利用项目，稀贵金属被称为芯片和新能源的'维生素'，回收利用既是环保也是供应链安全的硬账。",
-   "decision": "稀贵金属循环关乎芯片与新能源供应链安全，关注其对上游成本与绿色产业投资的带动，与绿色金融场景可衔接。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] 谷歌一年内第四款TPU v8tx/v8iMax登场 机密计算+超大规模训练",
+   "summary": "谷歌发布两款新一代自研TPU芯片TPU v8tx（面向机密计算）与TPU v8iMax（超大规模训练专用双芯封装），系一年内第四款AI芯片，构建芯片-云-模型全栈闭环对抗英伟达通用算力生态。",
+   "decision": "云厂商自研芯片加速，关注其对AI算力价格与招联模型部署成本的中长期影响。",
+   "source": "谷歌/网易",
+   "url": "https://www.163.com/dy/article/LBGEO79505569XIR.html",
+   "firstSeen": "2026-11-12",
    "id": 484
   },
   {
-   "cat": "经济",
-   "time": "07:00",
+   "cat": "科技",
+   "time": "08:00",
    "impact": "mid",
    "related": false,
-   "overseas": false,
-   "title": "商务部回应欧盟对低价值跨境商品叠加征税 呼吁兼顾中小从业者权益",
-   "summary": "商务部回应欧盟对低价值跨境商品叠加征税事宜，呼吁兼顾跨境电商中小从业者合理权益，平衡贸易规则与中小企业生存空间。",
-   "decision": "海外关税门槛抬高挤压跨境小包生意，关注其对出口型小微商户营收与还款能力的潜在影响，风控需留意相关客群。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "overseas": true,
+   "title": "[海外] SpaceX自研AI算力机架Kessel 跳过英伟达L6计算板",
+   "summary": "半导体研究机构SemiAnalysis披露，SpaceX正保留英伟达芯片但自研机架（内部代号Kessel），直接向英伟达采购芯片封装、其余部件自行采购，从而跳过英伟达的L6计算板，构建自有AI算力底座。",
+   "decision": "头部企业自研算力基础设施成趋势，关注AI算力供给格局变化对云服务定价的影响。",
+   "source": "SemiAnalysis/陆家嘴财经早餐",
+   "url": "https://www.163.com/dy/article/LBH1S98F05198RSU.html",
+   "firstSeen": "2026-11-12",
    "id": 485
   },
   {
-   "cat": "经济",
-   "time": "06:00",
+   "cat": "科技",
+   "time": "08:00",
    "impact": "low",
    "related": false,
    "overseas": false,
-   "title": "珠海华发1.81亿收储闲置土地 国资委已落地支持资金超400亿",
-   "summary": "珠海市自然资源局公示拟以约1.81亿元收回收购华发海岛投资持有的闲置土地，事件发生于华发集团流动性引发关注背景下，珠海国资委称已落地支持资金超400亿元。",
-   "decision": "房企流动性纾困持续推进，土地收储与国资支持缓解局部风险，关注房地产链对居民财富与消费信贷质量的滞后影响。",
-   "source": "澎湃新闻·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
+   "title": "比亚迪就大唐轮辋装配问题发布声明并致歉",
+   "summary": "陆家嘴财经早餐提及，比亚迪就大唐轮辋装配问题发布声明并致歉，反映车企质量与供应链管控受到关注。",
+   "decision": "制造业质量事件影响品牌与供应链，关注其对相关产业链金融风险的传导。",
+   "source": "网易/陆家嘴财经早餐",
+   "url": "https://www.163.com/dy/article/LBH1S98F05198RSU.html",
+   "firstSeen": "2026-11-12",
    "id": 486
-  },
-  {
-   "cat": "经济",
-   "time": "06:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "华润置地、招商蛇口获批公司债注册 拟募366亿按'项目融资'逻辑",
-   "summary": "华润置地、招商蛇口近日取得公司债券注册批复，拟募集资金合计366亿元，系证监会支持房地产发展新模式意见后按'项目融资'逻辑落地的最新实践，融资逻辑从'主体信用'转向'项目信用'。",
-   "decision": "房地产融资转向项目信用，行业风险定价更精细，关注其对居民购房信心与按揭需求的边际修复作用。",
-   "source": "证券日报·财经早班车",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzA4NTEwMDgzOA==&mid=2649740175&idx=1&sn=9d93325cf84f39cc763d2a61c0935ef9&chksm=8652453a21b40f80cbc4219819c0303ee3a7a0af203d4674c2009c103bdf92a13a12d365f8ed",
-   "firstSeen": "2026-11-06",
-   "id": 487
-  },
-  {
-   "cat": "经济",
-   "time": "03:00",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 印尼预计2026年GDP增长5.4%-5.5% 目标8%仍受质疑",
-   "summary": "印尼财政部长预计2026年GDP增长5.4%-5.5%，符合国家预算计划；政府维持任期末8%增长目标，但专家与评级机构认为缺乏清晰增长驱动，Fitch上月预测今年增速5.2%。",
-   "decision": "新兴市场经济分化加剧，关注东盟产业链与出口需求变化对国内制造业与外贸的连带影响。",
-   "source": "The Star（马来西亚）",
-   "url": "https://www.thestar.com.my/business/business-news/2026/11/06/jakarta-forecasts-gdp-growth-at-54-for-2026",
-   "firstSeen": "2026-11-06",
-   "id": 488
-  },
-  {
-   "cat": "经济",
-   "time": "03:00",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 美国10月非农等数据11月6日公布 预期非农新增65K",
-   "summary": "美国11月6日公布10月非农就业、失业率（预期4.2%）与平均时薪等数据，为美联储政策关键参考；多位联储官员当日讲话或释放货币政策信号。",
-   "decision": "美国就业数据影响联储路径与美元利率，关注其对全球资金面与中资离岸融资成本的传导，间接关系消费金融资金窗口。",
-   "source": "Finwire",
-   "url": "https://finwire.io/news/stock-markets-news/jobs-report-unemployment-rate-and-earnings-among-economic-data-due-friday",
-   "firstSeen": "2026-11-06",
-   "id": 489
   },
   {
    "cat": "科技",
@@ -6884,7 +6842,7 @@ window.BRIEFING = {
    "source": "网易/快科技",
    "url": "https://www.163.com/dy/article/LBFJN7I80511CPVM.html",
    "firstSeen": "2026-11-11",
-   "id": 490
+   "id": 487
   },
   {
    "cat": "科技",
@@ -6898,7 +6856,7 @@ window.BRIEFING = {
    "source": "凤凰网",
    "url": "https://feng.ifeng.com/c/8xxbJKskkuV",
    "firstSeen": "2026-11-11",
-   "id": 491
+   "id": 488
   },
   {
    "cat": "科技",
@@ -6912,7 +6870,7 @@ window.BRIEFING = {
    "source": "网易/IT之家",
    "url": "https://www.163.com/dy/article/LBF6CI2L0519QIKK.html",
    "firstSeen": "2026-11-11",
-   "id": 492
+   "id": 489
   },
   {
    "cat": "科技",
@@ -6926,7 +6884,7 @@ window.BRIEFING = {
    "source": "证券时报/网易",
    "url": "https://www.163.com/dy/article/LBECURRL053469RG.html",
    "firstSeen": "2026-11-11",
-   "id": 493
+   "id": 490
   },
   {
    "cat": "科技",
@@ -6940,7 +6898,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0COYG00",
    "firstSeen": "2026-11-11",
-   "id": 494
+   "id": 491
   },
   {
    "cat": "科技",
@@ -6954,7 +6912,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://www.nbd.com.cn/articles/2026-11-10/4644083.html",
    "firstSeen": "2026-11-11",
-   "id": 495
+   "id": 492
   },
   {
    "cat": "科技",
@@ -6968,7 +6926,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://www.nbd.com.cn/articles/2026-11-10/4644083.html",
    "firstSeen": "2026-11-11",
-   "id": 496
+   "id": 493
   },
   {
    "cat": "科技",
@@ -6982,7 +6940,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://www.nbd.com.cn/articles/2026-11-10/4644083.html",
    "firstSeen": "2026-11-11",
-   "id": 497
+   "id": 494
   },
   {
    "cat": "科技",
@@ -6996,7 +6954,7 @@ window.BRIEFING = {
    "source": "21世纪经济报道/网易",
    "url": "https://www.163.com/dy/article/LBEEFB9905199O55.html",
    "firstSeen": "2026-11-11",
-   "id": 498
+   "id": 495
   },
   {
    "cat": "科技",
@@ -7010,7 +6968,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 499
+   "id": 496
   },
   {
    "cat": "科技",
@@ -7024,7 +6982,7 @@ window.BRIEFING = {
    "source": "科技日报",
    "url": "https://news.qq.com/rain/a/20261111A0A81D00",
    "firstSeen": "2026-11-11",
-   "id": 500
+   "id": 497
   },
   {
    "cat": "科技",
@@ -7038,7 +6996,7 @@ window.BRIEFING = {
    "source": "新华社/每日经济新闻",
    "url": "https://m.nbd.com.cn/articles/2026-11-10/4644207.html",
    "firstSeen": "2026-11-11",
-   "id": 501
+   "id": 498
   },
   {
    "cat": "科技",
@@ -7052,7 +7010,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 502
+   "id": 499
   },
   {
    "cat": "科技",
@@ -7066,7 +7024,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 503
+   "id": 500
   },
   {
    "cat": "科技",
@@ -7080,7 +7038,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 504
+   "id": 501
   },
   {
    "cat": "科技",
@@ -7094,7 +7052,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 505
+   "id": 502
   },
   {
    "cat": "科技",
@@ -7108,7 +7066,7 @@ window.BRIEFING = {
    "source": "炫芯微电子",
    "url": "http://www.dc-micro.com/index.php?m=content&c=index&a=show&catid=17&id=513",
    "firstSeen": "2026-11-11",
-   "id": 506
+   "id": 503
   },
   {
    "cat": "科技",
@@ -7122,7 +7080,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "https://m.nbd.com.cn/articles/2026-11-10/4644207.html",
    "firstSeen": "2026-11-11",
-   "id": 507
+   "id": 504
   },
   {
    "cat": "科技",
@@ -7136,7 +7094,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261111A038A300",
    "firstSeen": "2026-11-11",
-   "id": 508
+   "id": 505
   },
   {
    "cat": "科技",
@@ -7150,7 +7108,7 @@ window.BRIEFING = {
    "source": "观网/东方财富",
    "url": "https://finance.eastmoney.com/a/202611103926891948.html",
    "firstSeen": "2026-11-10",
-   "id": 509
+   "id": 506
   },
   {
    "cat": "科技",
@@ -7164,7 +7122,7 @@ window.BRIEFING = {
    "source": "财经早餐/陆家嘴",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 510
+   "id": 507
   },
   {
    "cat": "科技",
@@ -7178,7 +7136,7 @@ window.BRIEFING = {
    "source": "财经早报/微信",
    "url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODQ3MzI2Mw==&mid=2247484826&idx=1&sn=29ca3055b68f1f68ef83397530c71e26&chksm=c431ab133c672767105b222e412713761c2a2647494ec0369f90a5cdf8493f36250dc60129cb#rd",
    "firstSeen": "2026-11-10",
-   "id": 511
+   "id": 508
   },
   {
    "cat": "科技",
@@ -7192,7 +7150,7 @@ window.BRIEFING = {
    "source": "央视/腾讯/新浪",
    "url": "https://news.qq.com/rain/a/20261110A037UQ00",
    "firstSeen": "2026-11-10",
-   "id": 512
+   "id": 509
   },
   {
    "cat": "科技",
@@ -7206,7 +7164,7 @@ window.BRIEFING = {
    "source": "中青在线",
    "url": "https://news.cyol.com/gb/keji/articles/2026-11/10/content_MbJ6VqUNga.html",
    "firstSeen": "2026-11-10",
-   "id": 513
+   "id": 510
   },
   {
    "cat": "科技",
@@ -7220,7 +7178,7 @@ window.BRIEFING = {
    "source": "东方财富/航天",
    "url": "https://finance.eastmoney.com/a/202611103926891948.html",
    "firstSeen": "2026-11-10",
-   "id": 514
+   "id": 511
   },
   {
    "cat": "科技",
@@ -7234,7 +7192,7 @@ window.BRIEFING = {
    "source": "中青在线",
    "url": "https://news.cyol.com/gb/keji/articles/2026-11/10/content_MbJ6VqUNga.html",
    "firstSeen": "2026-11-10",
-   "id": 515
+   "id": 512
   },
   {
    "cat": "科技",
@@ -7248,7 +7206,7 @@ window.BRIEFING = {
    "source": "中青在线",
    "url": "https://news.cyol.com/gb/keji/articles/2026-11/10/content_MbJ6VqUNga.html",
    "firstSeen": "2026-11-10",
-   "id": 516
+   "id": 513
   },
   {
    "cat": "科技",
@@ -7262,7 +7220,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 517
+   "id": 514
   },
   {
    "cat": "科技",
@@ -7276,7 +7234,7 @@ window.BRIEFING = {
    "source": "东方财富",
    "url": "https://finance.eastmoney.com/a/202611103926891948.html",
    "firstSeen": "2026-11-10",
-   "id": 518
+   "id": 515
   },
   {
    "cat": "科技",
@@ -7290,7 +7248,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 519
+   "id": 516
   },
   {
    "cat": "科技",
@@ -7304,7 +7262,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 520
+   "id": 517
   },
   {
    "cat": "科技",
@@ -7318,7 +7276,7 @@ window.BRIEFING = {
    "source": "上海证券报/新浪",
    "url": "https://finance.sina.com.cn/stock/hyyj/2026-11-10/doc-iniyexvh6057939.shtml",
    "firstSeen": "2026-11-10",
-   "id": 521
+   "id": 518
   },
   {
    "cat": "科技",
@@ -7332,7 +7290,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 522
+   "id": 519
   },
   {
    "cat": "科技",
@@ -7346,7 +7304,7 @@ window.BRIEFING = {
    "source": "财经早报/微信",
    "url": "http://mp.weixin.qq.com/s?__biz=Mzk4ODQ3MzI2Mw==&mid=2247484826&idx=1&sn=29ca3055b68f1f68ef83397530c71e26&chksm=c431ab133c672767105b222e412713761c2a2647494ec0369f90a5cdf8493f36250dc60129cb#rd",
    "firstSeen": "2026-11-10",
-   "id": 523
+   "id": 520
   },
   {
    "cat": "科技",
@@ -7360,7 +7318,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 524
+   "id": 521
   },
   {
    "cat": "科技",
@@ -7374,7 +7332,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐/财经早餐",
    "url": "http://mp.weixin.qq.com/s?__biz=MjM5ODUxMjExMA==&mid=2650614808&idx=1&sn=17965eacdc1b32e48d63ebaa5c2936c7",
    "firstSeen": "2026-11-10",
-   "id": 525
+   "id": 522
   },
   {
    "cat": "科技",
@@ -7388,7 +7346,7 @@ window.BRIEFING = {
    "source": "腾讯/财经早餐",
    "url": "https://news.qq.com/rain/a/20261110A03A4800",
    "firstSeen": "2026-11-10",
-   "id": 526
+   "id": 523
   },
   {
    "cat": "科技",
@@ -7402,7 +7360,7 @@ window.BRIEFING = {
    "source": "腾讯",
    "url": "https://news.qq.com/rain/a/20261110A03A4800",
    "firstSeen": "2026-11-10",
-   "id": 527
+   "id": 524
   },
   {
    "cat": "科技",
@@ -7416,7 +7374,7 @@ window.BRIEFING = {
    "source": "腾讯",
    "url": "https://new.qq.com/rain/a/20261110A037UQ00",
    "firstSeen": "2026-11-10",
-   "id": 528
+   "id": 525
   },
   {
    "cat": "科技",
@@ -7430,7 +7388,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐/头条",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 529
+   "id": 526
   },
   {
    "cat": "科技",
@@ -7444,7 +7402,7 @@ window.BRIEFING = {
    "source": "腾讯/光明网",
    "url": "https://new.qq.com/rain/a/20261110A0360Q00",
    "firstSeen": "2026-11-10",
-   "id": 530
+   "id": 527
   },
   {
    "cat": "科技",
@@ -7458,7 +7416,7 @@ window.BRIEFING = {
    "source": "中青在线",
    "url": "https://news.cyol.com/gb/keji/articles/2026-11/10/content_MbJ6VqUNga.html",
    "firstSeen": "2026-11-10",
-   "id": 531
+   "id": 528
   },
   {
    "cat": "科技",
@@ -7472,7 +7430,7 @@ window.BRIEFING = {
    "source": "东方财富",
    "url": "https://finance.eastmoney.com/a/202611103926891948.html",
    "firstSeen": "2026-11-10",
-   "id": 532
+   "id": 529
   },
   {
    "cat": "科技",
@@ -7486,7 +7444,7 @@ window.BRIEFING = {
    "source": "东方财富",
    "url": "https://finance.eastmoney.com/a/202611103926891948.html",
    "firstSeen": "2026-11-10",
-   "id": 533
+   "id": 530
   },
   {
    "cat": "科技",
@@ -7500,7 +7458,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://news.qq.com/rain/a/20261110A037NX00",
    "firstSeen": "2026-11-10",
-   "id": 534
+   "id": 531
   },
   {
    "cat": "科技",
@@ -7514,7 +7472,7 @@ window.BRIEFING = {
    "source": "证券日报",
    "url": "http://epaper.zqrb.cn/html/2026-11/10/node_1215.htm",
    "firstSeen": "2026-11-10",
-   "id": 535
+   "id": 532
   },
   {
    "cat": "科技",
@@ -7528,7 +7486,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐/日经",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 536
+   "id": 533
   },
   {
    "cat": "科技",
@@ -7542,7 +7500,7 @@ window.BRIEFING = {
    "source": "陆家嘴财经早餐",
    "url": "https://www.163.com/dy/article/LBBSAJO005198RSU.html",
    "firstSeen": "2026-11-10",
-   "id": 537
+   "id": 534
   },
   {
    "cat": "科技",
@@ -7556,7 +7514,7 @@ window.BRIEFING = {
    "source": "今日热点（网易科技）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 538
+   "id": 535
   },
   {
    "cat": "科技",
@@ -7570,7 +7528,7 @@ window.BRIEFING = {
    "source": "虎嗅",
    "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-11-09.html?visit_source=1",
    "firstSeen": "2026-11-09",
-   "id": 539
+   "id": 536
   },
   {
    "cat": "科技",
@@ -7584,7 +7542,7 @@ window.BRIEFING = {
    "source": "微信(空天智界)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzU4OTQ5MzY2OQ==&mid=2247488374&idx=1&sn=90e4bcbe026e7a468ba56874ec3cdf95&chksm=fc3995618d0c6acc6e53e0b1be1b91750d7c538b1a60d40f00712eb355afe0bec8f6370e3142",
    "firstSeen": "2026-11-09",
-   "id": 540
+   "id": 537
   },
   {
    "cat": "科技",
@@ -7598,7 +7556,7 @@ window.BRIEFING = {
    "source": "今日热点（多源）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 541
+   "id": 538
   },
   {
    "cat": "科技",
@@ -7612,7 +7570,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261109A03Z0900",
    "firstSeen": "2026-11-09",
-   "id": 542
+   "id": 539
   },
   {
    "cat": "科技",
@@ -7626,7 +7584,7 @@ window.BRIEFING = {
    "source": "网易(前瞻)",
    "url": "https://www.163.com/dy/article/LB9K4FRU051480KF.html",
    "firstSeen": "2026-11-09",
-   "id": 543
+   "id": 540
   },
   {
    "cat": "科技",
@@ -7640,7 +7598,7 @@ window.BRIEFING = {
    "source": "央视/网易",
    "url": "https://www.163.com/dy/article/LB9K4FRU051480KF.html",
    "firstSeen": "2026-11-09",
-   "id": 544
+   "id": 541
   },
   {
    "cat": "科技",
@@ -7654,7 +7612,7 @@ window.BRIEFING = {
    "source": "中财网",
    "url": "https://www.cfi.cn/p20261109000447.html",
    "firstSeen": "2026-11-09",
-   "id": 545
+   "id": 542
   },
   {
    "cat": "科技",
@@ -7668,7 +7626,7 @@ window.BRIEFING = {
    "source": "界面新闻",
    "url": "https://dy.163.com/article/LB9QM47T0534A4SC.html",
    "firstSeen": "2026-11-09",
-   "id": 546
+   "id": 543
   },
   {
    "cat": "科技",
@@ -7682,7 +7640,7 @@ window.BRIEFING = {
    "source": "财联社/网易",
    "url": "https://www.163.com/dy/article/LB9K4FRU051480KF.html",
    "firstSeen": "2026-11-09",
-   "id": 547
+   "id": 544
   },
   {
    "cat": "科技",
@@ -7696,7 +7654,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261109A03Z0900",
    "firstSeen": "2026-11-09",
-   "id": 548
+   "id": 545
   },
   {
    "cat": "科技",
@@ -7710,7 +7668,7 @@ window.BRIEFING = {
    "source": "央视/科创板日报",
    "url": "https://www.163.com/dy/article/LBAALVA00550B1DU.html",
    "firstSeen": "2026-11-09",
-   "id": 549
+   "id": 546
   },
   {
    "cat": "科技",
@@ -7724,7 +7682,7 @@ window.BRIEFING = {
    "source": "焦点/专精特新",
    "url": "http://mp.weixin.qq.com/s?__biz=MzI0NDIwNjkyMA==&mid=2651905769&idx=1&sn=bc8c3ede020c3b862d958d92f860ca6b&chksm=f3d2b1f88480c150d21a0256a99c86e163cf0604a2820039e292170dd383571488d0f72c7172#rd",
    "firstSeen": "2026-11-09",
-   "id": 550
+   "id": 547
   },
   {
    "cat": "科技",
@@ -7738,7 +7696,7 @@ window.BRIEFING = {
    "source": "界面新闻",
    "url": "https://dy.163.com/article/LB9QM47T0534A4SC.html",
    "firstSeen": "2026-11-09",
-   "id": 551
+   "id": 548
   },
   {
    "cat": "科技",
@@ -7752,7 +7710,7 @@ window.BRIEFING = {
    "source": "界面新闻",
    "url": "https://dy.163.com/article/LB9QM47T0534A4SC.html",
    "firstSeen": "2026-11-09",
-   "id": 552
+   "id": 549
   },
   {
    "cat": "科技",
@@ -7766,7 +7724,7 @@ window.BRIEFING = {
    "source": "虎嗅",
    "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-11-09.html?visit_source=1",
    "firstSeen": "2026-11-09",
-   "id": 553
+   "id": 550
   },
   {
    "cat": "科技",
@@ -7780,7 +7738,7 @@ window.BRIEFING = {
    "source": "微信(空天智界)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzU4OTQ5MzY2OQ==&mid=2247488374&idx=1&sn=90e4bcbe026e7a468ba56874ec3cdf95&chksm=fc3995618d0c6acc6e53e0b1be1b91750d7c538b1a60d40f00712eb355afe0bec8f6370e3142",
    "firstSeen": "2026-11-09",
-   "id": 554
+   "id": 551
   },
   {
    "cat": "科技",
@@ -7794,7 +7752,7 @@ window.BRIEFING = {
    "source": "网易/前瞻网",
    "url": "https://www.163.com/dy/article/LB9K4FRU051480KF.html",
    "firstSeen": "2026-11-09",
-   "id": 555
+   "id": 552
   },
   {
    "cat": "科技",
@@ -7808,7 +7766,7 @@ window.BRIEFING = {
    "source": "集微网/专精特新",
    "url": "http://mp.weixin.qq.com/s?__biz=MzI0NDIwNjkyMA==&mid=2651905769&idx=1&sn=bc8c3ede020c3b862d958d92f860ca6b&chksm=f3d2b1f88480c150d21a0256a99c86e163cf0604a2820039e292170dd383571488d0f72c7172#rd",
    "firstSeen": "2026-11-09",
-   "id": 556
+   "id": 553
   },
   {
    "cat": "科技",
@@ -7822,7 +7780,7 @@ window.BRIEFING = {
    "source": "澎湃/腾讯/每日资讯简报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 557
+   "id": 554
   },
   {
    "cat": "科技",
@@ -7836,7 +7794,7 @@ window.BRIEFING = {
    "source": "虎嗅",
    "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-11-09.html?visit_source=1",
    "firstSeen": "2026-11-09",
-   "id": 558
+   "id": 555
   },
   {
    "cat": "科技",
@@ -7850,7 +7808,7 @@ window.BRIEFING = {
    "source": "界面新闻",
    "url": "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyauwe3130605.shtml",
    "firstSeen": "2026-11-09",
-   "id": 559
+   "id": 556
   },
   {
    "cat": "科技",
@@ -7864,7 +7822,7 @@ window.BRIEFING = {
    "source": "健康早闻/新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6666af24bc404452",
    "firstSeen": "2026-11-09",
-   "id": 560
+   "id": 557
   },
   {
    "cat": "科技",
@@ -7878,7 +7836,7 @@ window.BRIEFING = {
    "source": "今日热点（格隆汇）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 561
+   "id": 558
   },
   {
    "cat": "科技",
@@ -7892,7 +7850,7 @@ window.BRIEFING = {
    "source": "东方财富（财富号）",
    "url": "https://caifuhao.eastmoney.com/news/20261109090420511682160?from=guba&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCwwMDIwODYuaHRtbA%3D%3D&name=5Lic5pa55rW35rSL5ZCn",
    "firstSeen": "2026-11-09",
-   "id": 562
+   "id": 559
   },
   {
    "cat": "科技",
@@ -7906,7 +7864,7 @@ window.BRIEFING = {
    "source": "微信(空天智界)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzU4OTQ5MzY2OQ==&mid=2247488374&idx=1&sn=90e4bcbe026e7a468ba56874ec3cdf95&chksm=fc3995618d0c6acc6e53e0b1be1b91750d7c538b1a60d40f00712eb355afe0bec8f6370e3142",
    "firstSeen": "2026-11-09",
-   "id": 563
+   "id": 560
   },
   {
    "cat": "科技",
@@ -7920,7 +7878,7 @@ window.BRIEFING = {
    "source": "虎嗅",
    "url": "https://xiuxiu.huxiu.com/hxgpt_agent/morning_daily/2026-11-09.html?visit_source=1",
    "firstSeen": "2026-11-09",
-   "id": 564
+   "id": 561
   },
   {
    "cat": "科技",
@@ -7934,7 +7892,7 @@ window.BRIEFING = {
    "source": "C114/专精特新",
    "url": "http://mp.weixin.qq.com/s?__biz=MzI0NDIwNjkyMA==&mid=2651905769&idx=1&sn=bc8c3ede020c3b862d958d92f860ca6b&chksm=f3d2b1f88480c150d21a0256a99c86e163cf0604a2820039e292170dd383571488d0f72c7172#rd",
    "firstSeen": "2026-11-09",
-   "id": 565
+   "id": 562
   },
   {
    "cat": "科技",
@@ -7948,7 +7906,7 @@ window.BRIEFING = {
    "source": "东方财富（财富号）",
    "url": "https://caifuhao.eastmoney.com/news/20261109090420511682160?from=guba&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCwwMDIwODYuaHRtbA%3D%3D&name=5Lic5pa55rW35rSL5ZCn",
    "firstSeen": "2026-11-09",
-   "id": 566
+   "id": 563
   },
   {
    "cat": "科技",
@@ -7962,7 +7920,7 @@ window.BRIEFING = {
    "source": "东方财富（财富号）",
    "url": "https://caifuhao.eastmoney.com/news/20261109090420511682160?from=guba&gubaurl=aHR0cHM6Ly9ndWJhLmVhc3Rtb25leS5jb20vbGlzdCwwMDIwODYuaHRtbA%3D%3D&name=5Lic5pa55rW35rSL5ZCn",
    "firstSeen": "2026-11-09",
-   "id": 567
+   "id": 564
   },
   {
    "cat": "科技",
@@ -7976,133 +7934,119 @@ window.BRIEFING = {
    "source": "今日热点（凤凰网）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
+   "id": 565
+  },
+  {
+   "cat": "社会/生活",
+   "time": "11:11",
+   "impact": "mid",
+   "related": false,
+   "overseas": true,
+   "title": "[海外] 葡萄牙风暴查尔斯全国停课并叫停网络峰会",
+   "summary": "为应对即将登陆的风暴查尔斯，葡萄牙政府宣布11日全国停课，并取消正在里斯本举办的2026年网络峰会当天日程；风暴预计风速达每小时140公里，8个地区进入最高等级红色预警，已部署1100名国民警卫队员。",
+   "decision": "极端天气事件频发，关注海外差旅与供应链的气候风险预案。",
+   "source": "人民网/新华社",
+   "url": "https://world.people.com.cn/n1/2026/1111/c1002-40832199.html",
+   "firstSeen": "2026-11-12",
+   "id": 566
+  },
+  {
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "央视曝光MCN摆拍 宜宾成立联合调查组",
+   "summary": "针对总台日前曝光四川时舟文化传媒有限公司批量炮制取消外卖、关闭直播等虚假摆拍视频借流量牟利，宜宾市委网信办、市公安局、市市场监管局11日成立联合调查组，已要求涉案公司停止违法违规行为，正对相关负责人开展调查。",
+   "decision": "内容生态治理趋严，招联在自媒体引流与品牌合作中需加强合作方资质与内容合规审核。",
+   "source": "央视/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 567
+  },
+  {
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "mid",
+   "related": false,
+   "overseas": false,
+   "title": "净水器骗局收割养老钱 三人获刑",
+   "summary": "央视报道，一团伙非法获取200万余条公民个人信息，筛选60至80岁老人上门推销，将进价不足千元的净水器以3980元至4680元售出并谎称能治三高，销售金额900余万元；今年10月浙江永嘉法院数罪并罚，判处三名被告人有期徒刑三年二个月至五年。",
+   "decision": "养老诈骗高发，提醒家中长辈防范上门推销，招联亦可加强适老客群反诈提示。",
+   "source": "央视/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 568
   },
   {
-   "cat": "科技",
-   "time": "06:39",
-   "impact": "high",
+   "cat": "社会/生活",
+   "time": "11:11",
+   "impact": "low",
    "related": false,
    "overseas": false,
-   "title": "中国空间站制备出已知最冷物质 铷原子云降至9.7皮开尔文刷新纪录",
-   "summary": "中科院依托梦天舱超冷原子物理实验柜，利用全光阱冷却将铷原子云等效温度降至9.7皮开尔文（比室温低14个数量级），稳定观测7秒，刷新此前38皮开尔文的纪录，诞生人类已知最冷人造物质。",
-   "decision": "空间科学重大突破，标志我国微重力前沿实验能力领先，关注其对量子科技与精密测量等下游产业的长期牵引。",
-   "source": "新华社·IT之家",
-   "url": "https://www.163.com/dy/article/LB1I7MQ50511B8LM.html",
-   "firstSeen": "2026-11-06",
+   "title": "我国新增3处世界地质遗产地 入选总数增至13处",
+   "summary": "国际地质科学联合会公布第三批100个世界地质遗产地名录，我国鲜水河断裂、云阳中侏罗世恐龙化石群和大别山三叠纪超高压变质带三处上榜，至此我国入选世界地质遗产地名录的地质遗产地增至13处。",
+   "decision": "地质遗产保护提升文旅价值，关注相关区域文旅消费与本地生活机会。",
+   "source": "国际地质科学联合会/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030VE00",
+   "firstSeen": "2026-11-12",
    "id": 569
   },
   {
-   "cat": "科技",
-   "time": "07:00",
-   "impact": "mid",
-   "related": true,
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "low",
+   "related": false,
    "overseas": false,
-   "title": "中国移动2026移动网络大会11月6日广州开幕 算力与智能体集中发布",
-   "summary": "中国移动2026移动网络大会11月6日在广州开幕，设116个展项、21场发布，重心压在算力、人工智能、自智网络、智能体与卫星低空；咪咕系占八场发布。",
-   "decision": "招联股东中国联通的同业（移动）加速算力与智能体布局，关注运营商在AI基础设施的竞合，对招联×联通合作的算力侧协同具参考意义。",
-   "source": "网易",
-   "url": "https://dy.163.com/article/LB0UDP2D0511NEUN.html",
-   "firstSeen": "2026-11-06",
+   "title": "上海优化道路停车收费 15分钟内限次免费",
+   "summary": "上海市发改委、交通委、财政局11日对外发布通知，优化后道路停车收费规定单台机动车单次停放15分钟（含）以内限次免收道路停车费，自11月18日起施行，解决停几分钟交全额的困扰。",
+   "decision": "城市治理精细化，关注本地生活与出行成本变化对居民消费的影响。",
+   "source": "上海市发改委等/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 570
   },
   {
-   "cat": "科技",
-   "time": "07:00",
-   "impact": "mid",
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "low",
    "related": false,
    "overseas": false,
-   "title": "全球首款低空飞行时空大模型'伏羲天问'发布 地球划分50万亿网格",
-   "summary": "全球首款面向低空飞行的时空大模型'伏羲天问'发布，将地球空间划分为50万亿个网格并打上空间标签，为低空飞行器装上'空间大脑'，定位低空版'高德地图'。",
-   "decision": "低空经济基础设施成形，关注其与物流、应急、文旅等场景的融合，或为招联物流金融与场景化服务打开新触角。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "title": "康师傅回应一包泡面近20元 山姆限定款潮卤牛三宝",
+   "summary": "山姆现20元一包泡面话题冲上热搜，涉及康师傅山姆渠道限定款潮卤牛三宝牛肉面，一箱4包售价79.9元、单包约19.98元；康师傅回应称该产品为季节限定煮面，内含超60克卤制牛三宝，并非传统泡面。",
+   "decision": "留意快消品涨价与渠道溢价，结合家庭育儿开支做好日常消费规划。",
+   "source": "康师傅/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 571
   },
   {
-   "cat": "科技",
-   "time": "07:00",
-   "impact": "mid",
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "low",
    "related": false,
    "overseas": false,
-   "title": "脑机接口技术标准与产业应用参考规范正式发布",
-   "summary": "脑机接口领域的技术标准与产业应用参考规范正式发布，标志该领域从实验室走向产线，第一步是把'接口'与'安全'的标准先写清楚。",
-   "decision": "脑机接口标准化提速，医疗与交互场景落地可期，关注其与金融科技身份核验、无障碍服务的远期结合可能。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "title": "微信官方揭秘拍一拍设计初衷 拍错两分钟可撤回",
+   "summary": "微信官方公众号微信派发文解释拍一拍的设计初衷：灵感来自蚂蚁碰触角，提供比文字和语音更轻松的打招呼方式；拍一拍不弹通知、无未读红点，拍错人两分钟内可撤回。",
+   "decision": "轻量社交功能迭代，关注用户交互习惯变化对招联私域运营触达方式的启发。",
+   "source": "微信派/腾讯",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 572
   },
   {
-   "cat": "科技",
-   "time": "07:00",
-   "impact": "mid",
+   "cat": "社会/生活",
+   "time": "08:00",
+   "impact": "low",
    "related": false,
    "overseas": false,
-   "title": "国产具身智能产业报告：去年国内市场规模接近9150亿元",
-   "summary": "国产具身智能产业报告显示，去年国内具身智能市场规模接近9150亿元，多场景落地提速，从工厂到家庭智能硬件逐步走进日常。",
-   "decision": "具身智能规模化在即，机器人产业链机会明确，关注其与智慧网点、客服自动化等金融场景的结合潜力。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
+   "title": "嘀嗒司机甩客辱骂乘客被永久封号",
+   "summary": "媒体报道，一男子因亲人病危乘嘀嗒顺风车从上海赶回江苏沭阳，距目的地约20公里被司机甩客，投诉后收到司机嘲讽短信；平台核实订单存在人车不符、未送达等问题，已永久封禁涉事车主账号并为订单全额免单。",
+   "decision": "平台安全责任强化，关注共享出行与到家服务场景的用户权益保障机制。",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
    "id": 573
-  },
-  {
-   "cat": "科技",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "新基讯荣获'中国芯'优秀技术创新产品奖 端侧AI+空天地一体通信SoC",
-   "summary": "在2026'中国芯'集成电路产业促进大会上，新基讯凭借端侧AI与空天地一体全域融合通信技术及通算一体SoC芯片获'优秀技术创新产品'奖，可应用于具身智能、无人机、卫星通信等。",
-   "decision": "国产芯片在端侧AI与卫星通信融合上突破，利好智能终端与物联网，关注其对招联移动端风控与离线服务能力的支撑。",
-   "source": "同花顺财经",
-   "url": "https://m.10jqka.com.cn/20261106/c681524881.shtml",
-   "firstSeen": "2026-11-06",
-   "id": 574
-  },
-  {
-   "cat": "科技",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "中科星云太空智能科技（合肥）成立 注册资本15亿 中科星图等持股",
-   "summary": "中科星云太空智能科技（合肥）有限公司成立，注册资本15亿元，由中科星图、海光信息、中科曙光等共同持股，被称'太空AI公司'，标志算力从地面卷向太空。",
-   "decision": "国家队下场布局太空算力，关注空天信息与AI算力的产业协同，对卫星通信、遥感等场景的长期价值。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 575
-  },
-  {
-   "cat": "科技",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "宇树科技创始人王兴兴：明年将是机器人行业关键临界点",
-   "summary": "宇树科技创始人王兴兴判断，明年将是机器人行业的关键临界点，行业'卷'到今天，明年要么出爆款、要么出泡沫，既是判断也是给自己的deadline。",
-   "decision": "机器人产业化进入验证期，关注其成本下探对家庭服务与商用场景的渗透节奏，与母婴家庭智能化需求可衔接。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 576
-  },
-  {
-   "cat": "科技",
-   "time": "06:00",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 英国航天局8100万美元研制航天器清除失效卫星 2029年发射",
-   "summary": "英国航天局计划研制航天器主动清除失效卫星，项目合同金额8100万美元，由'太空清洁'公司实施，计划2029年发射，清除两颗英国注册失效卫星。",
-   "decision": "太空垃圾治理进入付费清理阶段，反映在轨资产安全重要性上升，关注卫星通信与低轨星座的长期运营成本。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 577
   },
   {
    "cat": "社会/生活",
@@ -8116,7 +8060,7 @@ window.BRIEFING = {
    "source": "中国青年报",
    "url": "https://zqb.cyol.com/pad/content/202611/11/content_432841.html",
    "firstSeen": "2026-11-11",
-   "id": 578
+   "id": 574
   },
   {
    "cat": "社会/生活",
@@ -8130,7 +8074,7 @@ window.BRIEFING = {
    "source": "网易/沧州热点",
    "url": "https://www.163.com/dy/article/LBDPNA9A0514GIAJ.html",
    "firstSeen": "2026-11-11",
-   "id": 579
+   "id": 575
   },
   {
    "cat": "社会/生活",
@@ -8144,7 +8088,7 @@ window.BRIEFING = {
    "source": "光明网",
    "url": "https://news.gmw.cn/2026-11/11/content_39095281.htm",
    "firstSeen": "2026-11-11",
-   "id": 580
+   "id": 576
   },
   {
    "cat": "社会/生活",
@@ -8158,7 +8102,7 @@ window.BRIEFING = {
    "source": "北京市人民政府",
    "url": "https://www.beijing.gov.cn/fuwu/bmfw/sy/jrts/202611/t20261111_4941499.html",
    "firstSeen": "2026-11-11",
-   "id": 581
+   "id": 577
   },
   {
    "cat": "社会/生活",
@@ -8172,7 +8116,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261111A0373A00",
    "firstSeen": "2026-11-11",
-   "id": 582
+   "id": 578
   },
   {
    "cat": "社会/生活",
@@ -8186,7 +8130,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0374700",
    "firstSeen": "2026-11-11",
-   "id": 583
+   "id": 579
   },
   {
    "cat": "社会/生活",
@@ -8200,7 +8144,7 @@ window.BRIEFING = {
    "source": "上海市文旅局/微报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzUyMzM4MjcwMw==&mid=2247484213&idx=1&sn=a9ddee9559469e5aebbd04b15e92f213",
    "firstSeen": "2026-11-11",
-   "id": 584
+   "id": 580
   },
   {
    "cat": "社会/生活",
@@ -8214,7 +8158,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261111A0373A00",
    "firstSeen": "2026-11-11",
-   "id": 585
+   "id": 581
   },
   {
    "cat": "社会/生活",
@@ -8228,7 +8172,7 @@ window.BRIEFING = {
    "source": "腾讯搜索",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_1736af3b20033152",
    "firstSeen": "2026-11-11",
-   "id": 586
+   "id": 582
   },
   {
    "cat": "社会/生活",
@@ -8242,7 +8186,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0374700",
    "firstSeen": "2026-11-11",
-   "id": 587
+   "id": 583
   },
   {
    "cat": "社会/生活",
@@ -8256,7 +8200,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0374700",
    "firstSeen": "2026-11-11",
-   "id": 588
+   "id": 584
   },
   {
    "cat": "社会/生活",
@@ -8270,7 +8214,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 589
+   "id": 585
   },
   {
    "cat": "社会/生活",
@@ -8284,7 +8228,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A03AQT00",
    "firstSeen": "2026-11-11",
-   "id": 590
+   "id": 586
   },
   {
    "cat": "社会/生活",
@@ -8298,7 +8242,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261111A0373A00",
    "firstSeen": "2026-11-11",
-   "id": 591
+   "id": 587
   },
   {
    "cat": "社会/生活",
@@ -8312,7 +8256,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261111A0373A00",
    "firstSeen": "2026-11-11",
-   "id": 592
+   "id": 588
   },
   {
    "cat": "社会/生活",
@@ -8326,7 +8270,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261111A0373A00",
    "firstSeen": "2026-11-11",
-   "id": 593
+   "id": 589
   },
   {
    "cat": "社会/生活",
@@ -8340,7 +8284,7 @@ window.BRIEFING = {
    "source": "网易/珠海发布",
    "url": "https://www.163.com/dy/article/LBEHM23J0514CCTO.html",
    "firstSeen": "2026-11-11",
-   "id": 594
+   "id": 590
   },
   {
    "cat": "社会/生活",
@@ -8354,7 +8298,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 595
+   "id": 591
   },
   {
    "cat": "社会/生活",
@@ -8368,7 +8312,7 @@ window.BRIEFING = {
    "source": "央视网/中国网",
    "url": "https://news.cctv.com/2026/11/10/ARTINU5rp4v6b9KzSKouL3Q3261110.shtml",
    "firstSeen": "2026-11-10",
-   "id": 596
+   "id": 592
   },
   {
    "cat": "社会/生活",
@@ -8382,7 +8326,7 @@ window.BRIEFING = {
    "source": "新华社/新浪",
    "url": "https://k.sina.com.cn/article_1699432410_654b47da02001xuf4.html?subch=onews",
    "firstSeen": "2026-11-10",
-   "id": 597
+   "id": 593
   },
   {
    "cat": "社会/生活",
@@ -8396,7 +8340,7 @@ window.BRIEFING = {
    "source": "头条/每经",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 598
+   "id": 594
   },
   {
    "cat": "社会/生活",
@@ -8410,7 +8354,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.com/2026/11/10/ARTIcAcoWHILqeASS1zXfsYn261110.shtml",
    "firstSeen": "2026-11-10",
-   "id": 599
+   "id": 595
   },
   {
    "cat": "社会/生活",
@@ -8424,7 +8368,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 600
+   "id": 596
   },
   {
    "cat": "社会/生活",
@@ -8438,7 +8382,7 @@ window.BRIEFING = {
    "source": "新华日报",
    "url": "https://xh.xhby.net/pad/con/202611/10/content_1604631.html",
    "firstSeen": "2026-11-10",
-   "id": 601
+   "id": 597
   },
   {
    "cat": "社会/生活",
@@ -8452,7 +8396,7 @@ window.BRIEFING = {
    "source": "健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 602
+   "id": 598
   },
   {
    "cat": "社会/生活",
@@ -8466,7 +8410,7 @@ window.BRIEFING = {
    "source": "腾讯健康早闻",
    "url": "https://news.qq.com/rain/a/20261110A031IY00",
    "firstSeen": "2026-11-10",
-   "id": 603
+   "id": 599
   },
   {
    "cat": "社会/生活",
@@ -8480,7 +8424,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 604
+   "id": 600
   },
   {
    "cat": "社会/生活",
@@ -8494,7 +8438,7 @@ window.BRIEFING = {
    "source": "新华社/西安报业",
    "url": "https://xafbapp.xiancn.com/newxawb/pc/pic/202511/11/7a8af002-6b2d-43d4-bb54-01eba070b134.pdf",
    "firstSeen": "2026-11-10",
-   "id": 605
+   "id": 601
   },
   {
    "cat": "社会/生活",
@@ -8508,7 +8452,7 @@ window.BRIEFING = {
    "source": "今日头条/新闻来了",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 606
+   "id": 602
   },
   {
    "cat": "社会/生活",
@@ -8522,7 +8466,7 @@ window.BRIEFING = {
    "source": "健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_6666af24bc404452",
    "firstSeen": "2026-11-10",
-   "id": 607
+   "id": 603
   },
   {
    "cat": "社会/生活",
@@ -8536,7 +8480,7 @@ window.BRIEFING = {
    "source": "健康早闻",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 608
+   "id": 604
   },
   {
    "cat": "社会/生活",
@@ -8550,7 +8494,7 @@ window.BRIEFING = {
    "source": "健康早闻/新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 609
+   "id": 605
   },
   {
    "cat": "社会/生活",
@@ -8564,7 +8508,7 @@ window.BRIEFING = {
    "source": "健康早闻/新华社",
    "url": "https://so.html5.qq.com/page/real/search_news?docid=70000021_2546af2446939052",
    "firstSeen": "2026-11-10",
-   "id": 610
+   "id": 606
   },
   {
    "cat": "社会/生活",
@@ -8578,7 +8522,7 @@ window.BRIEFING = {
    "source": "头条",
    "url": "https://www.toutiao.com/article/7706306659873751602/",
    "firstSeen": "2026-11-10",
-   "id": 611
+   "id": 607
   },
   {
    "cat": "社会/生活",
@@ -8592,7 +8536,7 @@ window.BRIEFING = {
    "source": "中工网",
    "url": "https://www.workercn.cn/papers/grrb/2026/11/10/5/news-8.html",
    "firstSeen": "2026-11-10",
-   "id": 612
+   "id": 608
   },
   {
    "cat": "社会/生活",
@@ -8606,7 +8550,7 @@ window.BRIEFING = {
    "source": "光明网",
    "url": "https://news.gmw.cn/2026-11/10/content_39093293.htm",
    "firstSeen": "2026-11-10",
-   "id": 613
+   "id": 609
   },
   {
    "cat": "社会/生活",
@@ -8620,7 +8564,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261110A0360Q00",
    "firstSeen": "2026-11-10",
-   "id": 614
+   "id": 610
   },
   {
    "cat": "社会/生活",
@@ -8634,7 +8578,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261110A0360Q00",
    "firstSeen": "2026-11-10",
-   "id": 615
+   "id": 611
   },
   {
    "cat": "社会/生活",
@@ -8648,7 +8592,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://new.qq.com/rain/a/20261110A0360Q00",
    "firstSeen": "2026-11-10",
-   "id": 616
+   "id": 612
   },
   {
    "cat": "社会/生活",
@@ -8662,7 +8606,7 @@ window.BRIEFING = {
    "source": "新华社/迎泽发布",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 617
+   "id": 613
   },
   {
    "cat": "社会/生活",
@@ -8676,7 +8620,7 @@ window.BRIEFING = {
    "source": "环球网",
    "url": "https://www.163.com/dy/article/LB89PGT80514R9OJ.html",
    "firstSeen": "2026-11-09",
-   "id": 618
+   "id": 614
   },
   {
    "cat": "社会/生活",
@@ -8690,7 +8634,7 @@ window.BRIEFING = {
    "source": "今日热点（腾讯/太原应急）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 619
+   "id": 615
   },
   {
    "cat": "社会/生活",
@@ -8704,7 +8648,7 @@ window.BRIEFING = {
    "source": "齐鲁壹点",
    "url": "https://www.163.com/dy/article/LB4PI30P0530WJIN.html",
    "firstSeen": "2026-11-09",
-   "id": 620
+   "id": 616
   },
   {
    "cat": "社会/生活",
@@ -8718,7 +8662,7 @@ window.BRIEFING = {
    "source": "国家医保局/腾讯新闻",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 621
+   "id": 617
   },
   {
    "cat": "社会/生活",
@@ -8732,7 +8676,7 @@ window.BRIEFING = {
    "source": "环球网（央广网）",
    "url": "https://www.163.com/dy/article/LB9LNE0P0514R9OJ.html",
    "firstSeen": "2026-11-09",
-   "id": 622
+   "id": 618
   },
   {
    "cat": "社会/生活",
@@ -8746,7 +8690,7 @@ window.BRIEFING = {
    "source": "今日热点（澎湃/赣南日报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 623
+   "id": 619
   },
   {
    "cat": "社会/生活",
@@ -8760,7 +8704,7 @@ window.BRIEFING = {
    "source": "中央气象台/中国网",
    "url": "https://big5.china.com.cn/gate/big5/guoqing.china.com.cn/2026-11/09/content_118766877.shtml",
    "firstSeen": "2026-11-09",
-   "id": 624
+   "id": 620
   },
   {
    "cat": "社会/生活",
@@ -8774,7 +8718,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.cn/2026/11/09/ARTIiOqaOXuyY4qMIn52iqHl261109.shtml",
    "firstSeen": "2026-11-09",
-   "id": 625
+   "id": 621
   },
   {
    "cat": "社会/生活",
@@ -8788,7 +8732,7 @@ window.BRIEFING = {
    "source": "今日热点（央视新闻联播）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 626
+   "id": 622
   },
   {
    "cat": "社会/生活",
@@ -8802,7 +8746,7 @@ window.BRIEFING = {
    "source": "央广网",
    "url": "https://www.163.com/dy/article/LB9LNE0P0514R9OJ.html",
    "firstSeen": "2026-11-09",
-   "id": 627
+   "id": 623
   },
   {
    "cat": "社会/生活",
@@ -8816,7 +8760,7 @@ window.BRIEFING = {
    "source": "央视网",
    "url": "https://news.cctv.com/2026/11/09/ARTIiGOBHnyRxKeUJmRdijor261109.shtml",
    "firstSeen": "2026-11-09",
-   "id": 628
+   "id": 624
   },
   {
    "cat": "社会/生活",
@@ -8830,7 +8774,7 @@ window.BRIEFING = {
    "source": "人民日报/澎湃",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 629
+   "id": 625
   },
   {
    "cat": "社会/生活",
@@ -8844,7 +8788,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261109A02W7J00",
    "firstSeen": "2026-11-09",
-   "id": 630
+   "id": 626
   },
   {
    "cat": "社会/生活",
@@ -8858,7 +8802,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261109A02W7J00",
    "firstSeen": "2026-11-09",
-   "id": 631
+   "id": 627
   },
   {
    "cat": "社会/生活",
@@ -8872,7 +8816,7 @@ window.BRIEFING = {
    "source": "人民日报（中国城市报）",
    "url": "https://paper.people.com.cn/zgcsb/pc/content/202611/09/content_30190326.html",
    "firstSeen": "2026-11-09",
-   "id": 632
+   "id": 628
   },
   {
    "cat": "社会/生活",
@@ -8886,7 +8830,7 @@ window.BRIEFING = {
    "source": "央视/澎湃",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 633
+   "id": 629
   },
   {
    "cat": "社会/生活",
@@ -8900,7 +8844,7 @@ window.BRIEFING = {
    "source": "中国记协/新华社",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 634
+   "id": 630
   },
   {
    "cat": "社会/生活",
@@ -8914,7 +8858,7 @@ window.BRIEFING = {
    "source": "广电主管部门/每日资讯简报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 635
+   "id": 631
   },
   {
    "cat": "社会/生活",
@@ -8928,7 +8872,7 @@ window.BRIEFING = {
    "source": "行业资讯/每日资讯简报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 636
+   "id": 632
   },
   {
    "cat": "社会/生活",
@@ -8942,7 +8886,7 @@ window.BRIEFING = {
    "source": "今日热点（央视新闻联播）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 637
+   "id": 633
   },
   {
    "cat": "社会/生活",
@@ -8956,7 +8900,7 @@ window.BRIEFING = {
    "source": "澎湃新闻",
    "url": "https://m.thepaper.cn/newsDetail_forward_34436999",
    "firstSeen": "2026-11-09",
-   "id": 638
+   "id": 634
   },
   {
    "cat": "社会/生活",
@@ -8970,7 +8914,7 @@ window.BRIEFING = {
    "source": "新华日报",
    "url": "https://xh.xhby.net/pad/con/202611/09/content_1604311.html",
    "firstSeen": "2026-11-09",
-   "id": 639
+   "id": 635
   },
   {
    "cat": "社会/生活",
@@ -8984,147 +8928,77 @@ window.BRIEFING = {
    "source": "光明日报",
    "url": "https://news.gmw.cn/2026-11/09/content_39091264.htm",
    "firstSeen": "2026-11-09",
+   "id": 636
+  },
+  {
+   "cat": "娱乐/文娱",
+   "time": "16:01",
+   "impact": "low",
+   "related": false,
+   "overseas": false,
+   "title": "电影第四幕11月12日香港上映 尔冬昇监制冯德伦胡杏儿",
+   "summary": "由香港特别行政区政府文创产业发展处及香港电影发展局资助、尔冬昇监制、新锐导演王德健自编自导的电影第四幕（Afterpiece）11月12日在香港上映，冯德伦、袁澧林、胡杏儿、周秀娜领衔主演；袁澧林凭此片获纽约亚洲电影节亚洲新星奖。",
+   "decision": "香港电影薪火相传计划推进，关注大湾区文化消费与影视宣发联动。",
+   "source": "明報/星島头条",
+   "url": "https://ol.mingpao.com/ldy/showbiz/latest/20260929/1790667072379/",
+   "firstSeen": "2026-11-12",
+   "id": 637
+  },
+  {
+   "cat": "娱乐/文娱",
+   "time": "08:00",
+   "impact": "low",
+   "related": false,
+   "overseas": false,
+   "title": "冬奥冠军韩聪官宣结婚",
+   "summary": "11月11日，34岁花样滑冰冬奥冠军韩聪在社交平台晒出婚纱照宣布结婚，妻子为圈外人士；韩聪与隋文静搭档15年，夺得2022年北京冬奥会双人滑金牌，今年米兰冬奥会复出获第五名。",
+   "decision": "体育明星婚讯带动话题热度，关注体育IP与品牌营销的借势机会。",
+   "source": "腾讯/潮新闻",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 638
+  },
+  {
+   "cat": "娱乐/文娱",
+   "time": "08:00",
+   "impact": "low",
+   "related": false,
+   "overseas": false,
+   "title": "网传50岁女子1分钟喝完大半瓶42度白酒过安检 当事人否认摆拍",
+   "summary": "安徽临泉高铁站11日回应，网传50岁女子为过安检1分钟喝完大半瓶42度白酒，当事人否认摆拍，称喝的是矿泉水，相关视频已下架，提示公共场所安检与舆情边界。",
+   "decision": "公共场域舆情易发酵，关注企业对外发声与危机应对的节奏把握。",
+   "source": "腾讯新闻",
+   "url": "https://news.qq.com/rain/a/20261112A030YW00",
+   "firstSeen": "2026-11-12",
+   "id": 639
+  },
+  {
+   "cat": "娱乐/文娱",
+   "time": "05:32",
+   "impact": "low",
+   "related": false,
+   "overseas": false,
+   "title": "长春净月潭滑雪场11月18日启动试滑 雪季预售套票上线",
+   "summary": "长春净月潭滑雪场11月18日启动试滑，超值早鸟预售套票已上线，成人78元、学生68元；国铁沈阳局在东北环线继续推出雪具便利行服务，乘高铁去滑雪更加便捷，冰雪文旅消费升温。",
+   "decision": "冰雪游进入旺季，关注冬季本地生活与文旅消费分期场景的机会。",
+   "source": "中国吉林网/网易",
+   "url": "https://www.163.com/dy/article/LBGSP5VC05149AGP.html",
+   "firstSeen": "2026-11-12",
    "id": 640
   },
   {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "mid",
-   "related": true,
+   "cat": "娱乐/文娱",
+   "time": "02:06",
+   "impact": "low",
+   "related": false,
    "overseas": false,
-   "title": "公积金灵活就业新政落地 骑手等群体可自主缴存 获开户补贴",
-   "summary": "住房公积金新政全面落地，取消'一次性缴存'整合为'自主缴存'与'按月扣划缴存'，骑手等收入波动群体可灵活缴存，部分城市对新开户灵活就业人员给予一次性补贴。",
-   "decision": "灵活就业群体纳入公积金制度红利，利好新市民安居与消费能力，与招联服务的新市民、年轻家庭客群稳定性正相关。",
-   "source": "人民日报",
-   "url": "https://news.qq.com/rain/a/20261106A034SA00",
-   "firstSeen": "2026-11-06",
+   "title": "天猫双11疯狂好六夜收视热度双登顶",
+   "summary": "湖南卫视携手天猫推出的天猫双11疯狂好六夜昨晚落幕，以爱你小己为主题，8小时沉浸式直播，斩获中国视听大数据、CSM全国网等四网第一，全网话题阅读量67亿+、热搜超1557个，芒果TV站内观看人数较去年涨33.5%。",
+   "decision": "双11内容化营销升温，关注消费金融在场景分期与品牌联名中的渗透机会。",
+   "source": "湖南卫视/网易",
+   "url": "https://www.163.com/dy/article/LBGH0FN30517BTJ6.html",
+   "firstSeen": "2026-11-12",
    "id": 641
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "前三季度结婚登记464.8万对 同比减少50.4万对",
-   "summary": "民政部公布数据：2026年前三季度全国结婚登记464.8万对，同比减少50.4万对；离婚登记208.2万对，同比增加0.5万对；婚姻登记全国通办累计办理101.4万对。",
-   "decision": "结婚登记持续走低折射人口与家庭结构变化，与母婴、住房、消费长期趋势相关，可结合家庭规划理解社会服务需求转向。",
-   "source": "腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261106A035UQ00",
-   "firstSeen": "2026-11-06",
-   "id": 642
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "国家卫健委通报第六批'论文工厂'科研失信 多名医生买论文伪造数据",
-   "summary": "国家卫健委通报第六批涉'论文工厂'科研失信案件，涉及多家医院及医学院校，多名医生被查出购买论文、伪造实验数据、委托代写代投，部分责任人被禁参与科研项目长达10年。",
-   "decision": "科研诚信治理加码，医疗系统整肃利于规范就医环境与医保基金安全，间接关系家庭医疗消费的可靠性。",
-   "source": "腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261106A035UQ00",
-   "firstSeen": "2026-11-06",
-   "id": 643
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "黑龙江发放1亿元冰雪消费券 11月8日至2月28日百日行动",
-   "summary": "黑龙江省举行冬季冰雪旅游'百日行动'新闻发布会，行动将于2026年11月8日至2027年2月28日开展，期间发放1亿元冰雪消费券。",
-   "decision": "地方促消费加码，冰雪文旅有望带动区域消费与就业，关注其与消费金融场景分期、区域性获客的结合机会。",
-   "source": "腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261106A035UQ00",
-   "firstSeen": "2026-11-06",
-   "id": 644
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "安徽明光殡仪馆骨灰错发 馆长免职 涉事人员停职审查",
-   "summary": "安徽明光市通报，殡仪馆骨灰错发系工作人员未认真核对导致，馆长被免职、涉事人员停职审查，已与家属达成赔偿协议。",
-   "decision": "公共服务失误引发信任危机，提示各类服务机构须强化流程核验，对金融机构客户身份与资料核对亦有警示意义。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 645
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "low",
-   "related": true,
-   "overseas": false,
-   "title": "司机避让突然冲出幼童紧急变道 车辆受损网友点赞护娃",
-   "summary": "一司机为避让突然冲出的幼童紧急变道导致车辆受损，网友纷纷点赞其优先护娃的选择，事件体现公共空间中儿童安全的优先共识。",
-   "decision": "儿童出行安全是家庭高频关切，结合妻预产期临近，提前关注社区与道路儿童安全环境，做好宝宝外出防护规划。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 646
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "国家5A级景区拟上新17家",
-   "summary": "文化和旅游部发布公示，17家旅游景区达到国家5A级旅游景区标准要求，拟正式确定为国家5A级旅游景区。",
-   "decision": "文旅供给提质，关注节假日出行与亲子游目的地选择，结合2027假期安排提前规划家庭出游。",
-   "source": "腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261106A035UQ00",
-   "firstSeen": "2026-11-06",
-   "id": 647
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "董宇辉自有新品牌'禾与春时'一天涨粉超60万",
-   "summary": "截至11月5日10时，董宇辉官宣的自有品牌'禾与春时'抖音账号粉丝量已破63万，单日涨粉超60万，知识主播转型自有品牌受市场热捧。",
-   "decision": "内容电商与主播个人品牌化提速，关注其对传统电商与消费品牌的渠道冲击，对招联合作商户的线上经营有参考。",
-   "source": "腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261106A035UQ00",
-   "firstSeen": "2026-11-06",
-   "id": 648
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "金山新建标准化停车棚 解决电动车停放充电与飞线隐患",
-   "summary": "上海金山枫泾镇兴塔居民区新建2座标准化非机动车停车棚，单座可容纳30辆电动自行车并配充电接口，支持扫码与投币，精准补齐无棚楼栋缺口，预计年底投用。",
-   "decision": "社区治理从小切口改善民生与安全，关注老旧小区改造与充电基础设施对居民生活成本与安全的实质提升。",
-   "source": "上观新闻·网易",
-   "url": "https://www.163.com/dy/article/LB1HS3VP05568W0A.html",
-   "firstSeen": "2026-11-06",
-   "id": 649
-  },
-  {
-   "cat": "社会/生活",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "独生子女不一定能继承父母全部遗产 须关注祖辈继承",
-   "summary": "独生子女继承父母遗产引发关注，法律规定父母去世时其配偶、父母也属第一顺序继承人，祖辈继承的遗产还可能由叔伯姑舅等亲属继承，过户可能需公证或法院判决。",
-   "decision": "家庭财富传承认知误区普遍，提示提前规划遗嘱与继承安排，避免亲属纠纷，对家庭资产配置有现实提醒意义。",
-   "source": "腾讯新闻",
-   "url": "https://new.qq.com/rain/a/20261106A035UQ00",
-   "firstSeen": "2026-11-06",
-   "id": 650
   },
   {
    "cat": "娱乐/文娱",
@@ -9138,7 +9012,7 @@ window.BRIEFING = {
    "source": "中国网/新华社",
    "url": "https://news.china.com.cn/2026-11/11/content_118769706.shtml",
    "firstSeen": "2026-11-11",
-   "id": 651
+   "id": 642
   },
   {
    "cat": "娱乐/文娱",
@@ -9152,7 +9026,7 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://fun.youth.cn/gnzx/202611/t20261111_16960522.htm",
    "firstSeen": "2026-11-11",
-   "id": 652
+   "id": 643
   },
   {
    "cat": "娱乐/文娱",
@@ -9166,7 +9040,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/cul/2026/11-11/10730019.shtml",
    "firstSeen": "2026-11-11",
-   "id": 653
+   "id": 644
   },
   {
    "cat": "娱乐/文娱",
@@ -9180,7 +9054,7 @@ window.BRIEFING = {
    "source": "中国新闻网",
    "url": "https://www.chinanews.com/cul/2026/11-11/10730019.shtml",
    "firstSeen": "2026-11-11",
-   "id": 654
+   "id": 645
   },
   {
    "cat": "娱乐/文娱",
@@ -9194,7 +9068,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261111A0BLPN00",
    "firstSeen": "2026-11-11",
-   "id": 655
+   "id": 646
   },
   {
    "cat": "娱乐/文娱",
@@ -9208,7 +9082,7 @@ window.BRIEFING = {
    "source": "文汇报/网易",
    "url": "https://www.163.com/dy/article/LBDOKVC205506BEH.html",
    "firstSeen": "2026-11-11",
-   "id": 656
+   "id": 647
   },
   {
    "cat": "娱乐/文娱",
@@ -9222,7 +9096,7 @@ window.BRIEFING = {
    "source": "网易/中国电影报",
    "url": "https://www.163.com/dy/article/LBDU2MU60517DKB7.html",
    "firstSeen": "2026-11-11",
-   "id": 657
+   "id": 648
   },
   {
    "cat": "娱乐/文娱",
@@ -9236,7 +9110,7 @@ window.BRIEFING = {
    "source": "明报",
    "url": "https://ol.mingpao.com/php/pastarticle1.php?issue=20170902",
    "firstSeen": "2026-11-11",
-   "id": 658
+   "id": 649
   },
   {
    "cat": "娱乐/文娱",
@@ -9250,7 +9124,7 @@ window.BRIEFING = {
    "source": "中国青年网",
    "url": "https://fun.youth.cn/gnzx/202611/t20261111_16960522.htm",
    "firstSeen": "2026-11-11",
-   "id": 659
+   "id": 650
   },
   {
    "cat": "娱乐/文娱",
@@ -9264,7 +9138,7 @@ window.BRIEFING = {
    "source": "福建省人民政府",
    "url": "https://fj.gov.cn/xwdt/fjyw/202611/t20261111_7247915.htm",
    "firstSeen": "2026-11-11",
-   "id": 660
+   "id": 651
   },
   {
    "cat": "娱乐/文娱",
@@ -9278,7 +9152,7 @@ window.BRIEFING = {
    "source": "海西晨报",
    "url": "https://dzb.sunnews.cn/html/2026-11/11/content_843020.htm?div=-1",
    "firstSeen": "2026-11-11",
-   "id": 661
+   "id": 652
   },
   {
    "cat": "娱乐/文娱",
@@ -9292,7 +9166,7 @@ window.BRIEFING = {
    "source": "中国网",
    "url": "https://news.china.com.cn/2026-11/11/content_118769706.shtml",
    "firstSeen": "2026-11-11",
-   "id": 662
+   "id": 653
   },
   {
    "cat": "娱乐/文娱",
@@ -9306,7 +9180,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/LBDP84IU05561FZ0.html",
    "firstSeen": "2026-11-11",
-   "id": 663
+   "id": 654
   },
   {
    "cat": "娱乐/文娱",
@@ -9320,7 +9194,7 @@ window.BRIEFING = {
    "source": "国际在线文娱",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 664
+   "id": 655
   },
   {
    "cat": "娱乐/文娱",
@@ -9334,7 +9208,7 @@ window.BRIEFING = {
    "source": "新浪财经/大象新闻",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 665
+   "id": 656
   },
   {
    "cat": "娱乐/文娱",
@@ -9348,7 +9222,7 @@ window.BRIEFING = {
    "source": "新浪娱乐",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 666
+   "id": 657
   },
   {
    "cat": "娱乐/文娱",
@@ -9362,7 +9236,7 @@ window.BRIEFING = {
    "source": "新浪财经",
    "url": "https://finance.sina.cn/2026-11-10/detail-iniyetpp2929275.d.html",
    "firstSeen": "2026-11-10",
-   "id": 667
+   "id": 658
   },
   {
    "cat": "娱乐/文娱",
@@ -9376,7 +9250,7 @@ window.BRIEFING = {
    "source": "中国电影报/网易",
    "url": "https://www.163.com/dy/article/LBB6OGUH0517DKB7.html",
    "firstSeen": "2026-11-10",
-   "id": 668
+   "id": 659
   },
   {
    "cat": "娱乐/文娱",
@@ -9390,7 +9264,7 @@ window.BRIEFING = {
    "source": "海西晨报",
    "url": "https://dzb.sunnews.cn/html/2026-11/10/content_843004.htm?div=-1",
    "firstSeen": "2026-11-10",
-   "id": 669
+   "id": 660
   },
   {
    "cat": "娱乐/文娱",
@@ -9404,7 +9278,7 @@ window.BRIEFING = {
    "source": "综合报道",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 670
+   "id": 661
   },
   {
    "cat": "娱乐/文娱",
@@ -9418,7 +9292,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐",
    "url": "https://yule.sohu.com/a/1099484740_121979149",
    "firstSeen": "2026-11-10",
-   "id": 671
+   "id": 662
   },
   {
    "cat": "娱乐/文娱",
@@ -9432,7 +9306,7 @@ window.BRIEFING = {
    "source": "明报",
    "url": "https://ol.mingpao.com/ldy/pastarticle1.php?issue=20250331",
    "firstSeen": "2026-11-10",
-   "id": 672
+   "id": 663
   },
   {
    "cat": "娱乐/文娱",
@@ -9446,7 +9320,7 @@ window.BRIEFING = {
    "source": "新浪娱乐",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 673
+   "id": 664
   },
   {
    "cat": "娱乐/文娱",
@@ -9460,7 +9334,7 @@ window.BRIEFING = {
    "source": "明报",
    "url": "https://ol.mingpao.com/ldy/pastarticle1.php?issue=20250331",
    "firstSeen": "2026-11-10",
-   "id": 674
+   "id": 665
   },
   {
    "cat": "娱乐/文娱",
@@ -9474,7 +9348,7 @@ window.BRIEFING = {
    "source": "明报",
    "url": "https://ol.mingpao.com/ldy/pastarticle1.php?issue=20250331",
    "firstSeen": "2026-11-10",
-   "id": 675
+   "id": 666
   },
   {
    "cat": "娱乐/文娱",
@@ -9488,7 +9362,7 @@ window.BRIEFING = {
    "source": "极目新闻/网易",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 676
+   "id": 667
   },
   {
    "cat": "娱乐/文娱",
@@ -9502,7 +9376,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 677
+   "id": 668
   },
   {
    "cat": "娱乐/文娱",
@@ -9516,7 +9390,7 @@ window.BRIEFING = {
    "source": "新浪娱乐/腾讯新闻",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 678
+   "id": 669
   },
   {
    "cat": "娱乐/文娱",
@@ -9530,7 +9404,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐",
    "url": "https://yule.sohu.com/a/1099484740_121979149",
    "firstSeen": "2026-11-10",
-   "id": 679
+   "id": 670
   },
   {
    "cat": "娱乐/文娱",
@@ -9544,7 +9418,7 @@ window.BRIEFING = {
    "source": "网易/TVB剧评社",
    "url": "https://www.163.com/dy/article/LBB7MEMM0517SNLE.html",
    "firstSeen": "2026-11-10",
-   "id": 680
+   "id": 671
   },
   {
    "cat": "娱乐/文娱",
@@ -9558,7 +9432,7 @@ window.BRIEFING = {
    "source": "人民日报/新浪财经",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 681
+   "id": 672
   },
   {
    "cat": "娱乐/文娱",
@@ -9572,7 +9446,7 @@ window.BRIEFING = {
    "source": "新浪娱乐",
    "url": "https://ent.sina.cn/2026-11-10/detail-iniyepfr3038633.d.html",
    "firstSeen": "2026-11-10",
-   "id": 682
+   "id": 673
   },
   {
    "cat": "娱乐/文娱",
@@ -9586,7 +9460,7 @@ window.BRIEFING = {
    "source": "中国电影报/网易",
    "url": "https://www.163.com/dy/article/LBB6OI0D0517DKB7.html",
    "firstSeen": "2026-11-10",
-   "id": 683
+   "id": 674
   },
   {
    "cat": "娱乐/文娱",
@@ -9600,7 +9474,7 @@ window.BRIEFING = {
    "source": "中国电影报/网易",
    "url": "https://www.163.com/dy/article/LBB6OGUH0517DKB7.html",
    "firstSeen": "2026-11-10",
-   "id": 684
+   "id": 675
   },
   {
    "cat": "娱乐/文娱",
@@ -9614,7 +9488,7 @@ window.BRIEFING = {
    "source": "网易/央视",
    "url": "https://www.163.com/dy/article/LBB6OGUH0517DKB7.html",
    "firstSeen": "2026-11-10",
-   "id": 685
+   "id": 676
   },
   {
    "cat": "娱乐/文娱",
@@ -9628,7 +9502,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐/每日娱乐播报",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483992&idx=2&sn=042b44038ec2fd18cfd46be45a20a7de&chksm=f5367d9b97a7abeb953c77c255216f63b860d861164f68a702bd809bd7da7d90ae81c49aa8a7#rd",
    "firstSeen": "2026-11-10",
-   "id": 686
+   "id": 677
   },
   {
    "cat": "娱乐/文娱",
@@ -9642,7 +9516,7 @@ window.BRIEFING = {
    "source": "今日热点（新华社/环球时报）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 687
+   "id": 678
   },
   {
    "cat": "娱乐/文娱",
@@ -9656,7 +9530,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "https://news.qq.com/rain/a/20261109A05K9B00",
    "firstSeen": "2026-11-09",
-   "id": 688
+   "id": 679
   },
   {
    "cat": "娱乐/文娱",
@@ -9670,7 +9544,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐",
    "url": "https://yule.sohu.com/a/1099045918_123035703",
    "firstSeen": "2026-11-09",
-   "id": 689
+   "id": 680
   },
   {
    "cat": "娱乐/文娱",
@@ -9684,7 +9558,7 @@ window.BRIEFING = {
    "source": "微信(海言周讯)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzkwMDc0NjE1Ng==&mid=2247484801&idx=1&sn=c59f4904d309a03b84cf2638bc760e5b&chksm=c1a16812b174761a4f818abe21402d60598fa970670786ec1a540ed22b758388b0d2e52f873b",
    "firstSeen": "2026-11-09",
-   "id": 690
+   "id": 681
   },
   {
    "cat": "娱乐/文娱",
@@ -9698,7 +9572,7 @@ window.BRIEFING = {
    "source": "每日经济新闻",
    "url": "http://mp.weixin.qq.com/s?__biz=MzkwMDc0NjE1Ng==&mid=2247484801&idx=1&sn=c59f4904d309a03b84cf2638bc760e5b&chksm=c1a16812b174761a4f818abe21402d60598fa970670786ec1a540ed22b758388b0d2e52f873b",
    "firstSeen": "2026-11-09",
-   "id": 691
+   "id": 682
   },
   {
    "cat": "娱乐/文娱",
@@ -9712,7 +9586,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐",
    "url": "https://yule.sohu.com/a/1099045918_123035703",
    "firstSeen": "2026-11-09",
-   "id": 692
+   "id": 683
   },
   {
    "cat": "娱乐/文娱",
@@ -9726,7 +9600,7 @@ window.BRIEFING = {
    "source": "微博/新浪娱乐",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483985&idx=2&sn=6559106c78b4ebd89638718f275cd87a&chksm=f5509f9a2a9c80ad67b9593ee0f07e1454a8b5858a65e5399d5b1ccf39449c4da122acd5190f#rd",
    "firstSeen": "2026-11-09",
-   "id": 693
+   "id": 684
   },
   {
    "cat": "娱乐/文娱",
@@ -9740,7 +9614,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/LB9QACUN0556NAUX.html",
    "firstSeen": "2026-11-09",
-   "id": 694
+   "id": 685
   },
   {
    "cat": "娱乐/文娱",
@@ -9754,7 +9628,7 @@ window.BRIEFING = {
    "source": "网易(ETtoday)",
    "url": "https://www.163.com/dy/article/LB9PT2SQ05528K16.html",
    "firstSeen": "2026-11-09",
-   "id": 695
+   "id": 686
   },
   {
    "cat": "娱乐/文娱",
@@ -9768,7 +9642,7 @@ window.BRIEFING = {
    "source": "ETtoday星光云（网易）",
    "url": "https://www.163.com/dy/article/LB9PT2SQ05528K16.html",
    "firstSeen": "2026-11-09",
-   "id": 696
+   "id": 687
   },
   {
    "cat": "娱乐/文娱",
@@ -9782,7 +9656,7 @@ window.BRIEFING = {
    "source": "微信(海言周讯)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzkwMDc0NjE1Ng==&mid=2247484801&idx=1&sn=c59f4904d309a03b84cf2638bc760e5b&chksm=c1a16812b174761a4f818abe21402d60598fa970670786ec1a540ed22b758388b0d2e52f873b",
    "firstSeen": "2026-11-09",
-   "id": 697
+   "id": 688
   },
   {
    "cat": "娱乐/文娱",
@@ -9796,7 +9670,7 @@ window.BRIEFING = {
    "source": "微信(海言周讯)",
    "url": "http://mp.weixin.qq.com/s?__biz=MzkwMDc0NjE1Ng==&mid=2247484801&idx=1&sn=c59f4904d309a03b84cf2638bc760e5b&chksm=c1a16812b174761a4f818abe21402d60598fa970670786ec1a540ed22b758388b0d2e52f873b",
    "firstSeen": "2026-11-09",
-   "id": 698
+   "id": 689
   },
   {
    "cat": "娱乐/文娱",
@@ -9810,7 +9684,7 @@ window.BRIEFING = {
    "source": "新浪娱乐",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5NzE2NDA5OA==&mid=2247484267&idx=1&sn=fea027162bc93928deff2aef341f14ee&chksm=f524c9081914f323d4b7da1c734fa9dc17b262934c56dcc350ca5f36a01ee274087fcba1909b#rd",
    "firstSeen": "2026-11-09",
-   "id": 699
+   "id": 690
   },
   {
    "cat": "娱乐/文娱",
@@ -9824,7 +9698,7 @@ window.BRIEFING = {
    "source": "网易娱乐",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483985&idx=2&sn=6559106c78b4ebd89638718f275cd87a&chksm=f5509f9a2a9c80ad67b9593ee0f07e1454a8b5858a65e5399d5b1ccf39449c4da122acd5190f#rd",
    "firstSeen": "2026-11-09",
-   "id": 700
+   "id": 691
   },
   {
    "cat": "娱乐/文娱",
@@ -9838,7 +9712,7 @@ window.BRIEFING = {
    "source": "搜狐娱乐/微博",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483985&idx=2&sn=6559106c78b4ebd89638718f275cd87a&chksm=f5509f9a2a9c80ad67b9593ee0f07e1454a8b5858a65e5399d5b1ccf39449c4da122acd5190f#rd",
    "firstSeen": "2026-11-09",
-   "id": 701
+   "id": 692
   },
   {
    "cat": "娱乐/文娱",
@@ -9852,7 +9726,7 @@ window.BRIEFING = {
    "source": "腾讯新闻",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483985&idx=2&sn=6559106c78b4ebd89638718f275cd87a&chksm=f5509f9a2a9c80ad67b9593ee0f07e1454a8b5858a65e5399d5b1ccf39449c4da122acd5190f#rd",
    "firstSeen": "2026-11-09",
-   "id": 702
+   "id": 693
   },
   {
    "cat": "娱乐/文娱",
@@ -9866,7 +9740,7 @@ window.BRIEFING = {
    "source": "新浪娱乐",
    "url": "http://mp.weixin.qq.com/s?__biz=MzY5MzQ4MjcwMQ==&mid=2247483985&idx=2&sn=6559106c78b4ebd89638718f275cd87a&chksm=f5509f9a2a9c80ad67b9593ee0f07e1454a8b5858a65e5399d5b1ccf39449c4da122acd5190f#rd",
    "firstSeen": "2026-11-09",
-   "id": 703
+   "id": 694
   },
   {
    "cat": "娱乐/文娱",
@@ -9880,7 +9754,7 @@ window.BRIEFING = {
    "source": "香港01",
    "url": "https://www.hk01.com/%E8%97%9D%E6%96%87/60407948/11%E6%9C%88%E8%97%9D%E6%96%87%E6%B4%BB%E5%8B%95-%E7%8E%8B%E7%BE%BD%E4%BD%B3%E9%87%8D%E8%BF%94%E9%A6%99%E6%B8%AF-hangover-festival-joji%E9%96%8B%E9%A8%B7",
    "firstSeen": "2026-11-09",
-   "id": 704
+   "id": 695
   },
   {
    "cat": "娱乐/文娱",
@@ -9894,7 +9768,7 @@ window.BRIEFING = {
    "source": "今日热点（多源）",
    "url": "http://mp.weixin.qq.com/s?__biz=MzYyMTU4MTg2Mg==&mid=2247484254&idx=1&sn=074b98243132f78d40ff7b47dedaa1b9&chksm=fe333e5400c13956c6f72654eeb86e7bc2241822eaa7cfd9c3b906647fba9e9c353707135fe1#rd",
    "firstSeen": "2026-11-09",
-   "id": 705
+   "id": 696
   },
   {
    "cat": "娱乐/文娱",
@@ -9908,7 +9782,7 @@ window.BRIEFING = {
    "source": "北方网",
    "url": "http://ent.enorth.com.cn/system/2026/11/09/059978619.shtml",
    "firstSeen": "2026-11-09",
-   "id": 706
+   "id": 697
   },
   {
    "cat": "娱乐/文娱",
@@ -9922,91 +9796,7 @@ window.BRIEFING = {
    "source": "网易",
    "url": "https://www.163.com/dy/article/LB91EU5D05561FZ0.html",
    "firstSeen": "2026-11-09",
-   "id": 707
-  },
-  {
-   "cat": "娱乐/文娱",
-   "time": "07:00",
-   "impact": "high",
-   "related": false,
-   "overseas": false,
-   "title": "第39届金鸡奖11月6日厦门启幕 金鸡直播间13:30开播 11月10日颁奖",
-   "summary": "第39届金鸡奖11月6日在厦门举行，电影频道融媒体中心13:30开启'金鸡直播间'五日全景直播，开幕式20:20同步CCTV-6；赵丽颖、黄晓明、周迅等亮相，赵丽颖任创投主评审。",
-   "decision": "国内电影盛事带动影视消费与城市文旅热度，关注其对文化消费与品牌营销场景的短期拉动。",
-   "source": "新浪娱乐",
-   "url": "https://ent.sina.cn/2026-11-06/detail-inixtnvn9131763.d.html",
-   "firstSeen": "2026-11-06",
-   "id": 708
-  },
-  {
-   "cat": "娱乐/文娱",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "金鸡奖提名：《南京照相馆》《镖人》各获7项领跑 最佳男主五人首提",
-   "summary": "第39届金鸡奖提名名单出炉，《南京照相馆》《镖人：风起大漠》各获7项提名领跑，《给阿嬷的情书》6项、《震耳欲聋》5项；最佳男主角五位提名人选均为首次提名金鸡奖。",
-   "decision": "头部影片竞争白热化，关注国庆档后电影市场热度延续与院线消费，对文化消费信贷场景有间接参考。",
-   "source": "微博·金鸡奖",
-   "url": "https://weibo.com/5603187499/5362044971781359",
-   "firstSeen": "2026-11-06",
-   "id": 709
-  },
-  {
-   "cat": "娱乐/文娱",
-   "time": "07:00",
-   "impact": "mid",
-   "related": false,
-   "overseas": false,
-   "title": "2026金鸡百花电影节厦门活动：白鹭洲公园电影生活季11月6-10日",
-   "summary": "金鸡百花电影节期间，白鹭洲公园主会场11月6日至10日举办露天展映、落日音乐会、创意市集与明星惊喜见面会，陈都灵以厦门推介人身份亮相开幕式。",
-   "decision": "电影节'生活季'强化文旅融合，普通观众易参与，关注其对举办城市消费与品牌曝光的拉动效应。",
-   "source": "新浪娱乐",
-   "url": "https://ent.sina.cn/2026-11-06/detail-inixtnvn9131763.d.html",
-   "firstSeen": "2026-11-06",
-   "id": 710
-  },
-  {
-   "cat": "娱乐/文娱",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": false,
-   "title": "猫眼想看榜：复仇者联盟5、流浪地球3、沙丘3领跑多片定档",
-   "summary": "猫眼电影11月6日更新想看榜，《复仇者联盟5》（12月16日）、《流浪地球3》（2027年2月6日）、《沙丘3》（12月31日）领跑，《我们仅有一次的人生》《心迷宫之三重罪》等11月新片定档。",
-   "decision": "强片定档密集，年末院线消费可期，关注其带动的文旅与本地生活消费，对消费金融场景分期有参考。",
-   "source": "猫眼电影",
-   "url": "https://www.maoyan.com/board/6?timeStamp=1705915541968",
-   "firstSeen": "2026-11-06",
-   "id": 711
-  },
-  {
-   "cat": "娱乐/文娱",
-   "time": "07:00",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] NBA文班亚马狂砍52分24板8帽 马刺险胜独行侠六连胜",
-   "summary": "NBA常规赛，文班亚马砍下52分24篮板8盖帽，马刺112-111险胜独行侠，豪取六连胜，其天赋持续兑现引发联盟关注。",
-   "decision": "体育赛事热度带动观赛消费与体育营销，关注其与品牌联动及本地生活消费的关联，属轻量文娱参考。",
-   "source": "今日新闻速览·微信公众号",
-   "url": "http://mp.weixin.qq.com/s?__biz=MzY5OTQ1MTg1MQ==&mid=2247484725&idx=1&sn=e8d9ce781399565dcbf14d139affb89b&chksm=f51e705f818869111e46c495cbbae21dc5cce32b9475a7e4bba2e65e551d8ffcb93061157ca4",
-   "firstSeen": "2026-11-06",
-   "id": 712
-  },
-  {
-   "cat": "娱乐/文娱",
-   "time": "03:58",
-   "impact": "low",
-   "related": false,
-   "overseas": true,
-   "title": "[海外] 电影《罗摩衍那：传奇崛起》今日上映 兰比尔·卡普尔等主创亲签海报",
-   "summary": "改编自上古史诗的印度电影《罗摩衍那：传奇崛起》（Ramayana: Rise of a Legend）今日上映，主演兰比尔·卡普尔、亚什与导演尼特什·蒂瓦里等推出全球签名海报活动，配乐由汉斯·季默与A.R.拉赫曼操刀。",
-   "decision": "进口大片持续密集上映，关注国内影院消费复苏节奏，对文化消费与周末亲子/情侣出行的带动。",
-   "source": "网易·娱圈观察员",
-   "url": "https://www.163.com/dy/article/LB1910BA05561FZ0.html",
-   "firstSeen": "2026-11-06",
-   "id": 713
+   "id": 698
   }
  ]
 };
